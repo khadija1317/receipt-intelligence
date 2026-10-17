@@ -235,3 +235,5 @@ data/own_receipts/*
 *.pt
 *.pth
 *.safetensors
+
+results/inspect/
