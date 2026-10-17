@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+data/own_receipts/*
+!data/own_receipts/.gitkeep
+!data/own_receipts/labels.json
+
+# model weights / big downloads
+*.pt
+*.pth
+*.safetensors
