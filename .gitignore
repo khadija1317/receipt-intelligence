@@ -237,3 +237,4 @@ data/own_receipts/*
 *.safetensors
 
 results/inspect/
+docs/results_notes.mkdocs

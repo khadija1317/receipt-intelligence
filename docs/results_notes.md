@@ -1,1 +1,5 @@
 Day 2. Raw total-visible rate (EasyOCR, whole piece or any word, no merging): test 53/95 = 55.8% (strict rate identical), validation 61/98 = 62.2%. Median 9.1 s/image on test. Pre-committed rule: if the MERGED rate (measured end of Day 3) is below ~80%, try a second engine on the same cache; otherwise keep EasyOCR.
+
+Day 3. MERGED total-visible rate (row tol 0.5, JOIN_GAP 1.0, repair A: zero-like letters + separator + stray quote; IDR): validation k/98 = x% (optimistic: rules tuned on validation); TEST k/95 = x% (stop-rule number). Rule: test < ~80% -> try a second engine on the same cache.
+
+Day 3. DEVIATION from the pre-committed rule: merged TEST rate 72/95 = 75.8% < ~80%, so the rule said to try a second engine. Decided NOT to: the shortfall is 4 receipts (within sampling noise at n=95) and the trial costs about half a day for an uncertain gain. Consequence: EasyOCR stays unbenchmarked against alternatives (README limitation). Remaining errors (digit misreads, garbage OCR) are exactly what the validator is for.
