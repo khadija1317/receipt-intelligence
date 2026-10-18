@@ -1,0 +1,87 @@
+{
+ "menu": [
+  {
+   "nm": "(TA) NASI RG TERI",
+   "cnt": null,
+   "price": {
+    "value": "165460",
+    "raw": "165,460",
+    "status": "ok",
+    "conf": 0.8804,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "(TA) BIHUN GORENG",
+   "cnt": null,
+   "price": {
+    "value": "40456",
+    "raw": "40,456",
+    "status": "ok",
+    "conf": 0.9803,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "(TA) KWETIAW SEAFOOD",
+   "cnt": null,
+   "price": {
+    "value": "42274",
+    "raw": "42,274",
+    "status": "ok",
+    "conf": 0.6158,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "(TA} NASI GORENG",
+   "cnt": null,
+   "price": {
+    "value": "55456",
+    "raw": "55,456",
+    "status": "ok",
+    "conf": 0.6641,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "L 1 10%",
+   "cnt": null,
+   "price": {
+    "value": "30365",
+    "raw": "30.365",
+    "status": "ok",
+    "conf": 0.4514,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Rrvinding",
+   "cnt": null,
+   "price": {
+    "value": "334011",
+    "raw": "334,011",
+    "status": "ok",
+    "conf": 0.856,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "334000",
+  "raw": "334,000",
+  "status": "ok",
+  "conf": 0.9335,
+  "low_trust": false,
+  "line": "Total 334,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 51
+}

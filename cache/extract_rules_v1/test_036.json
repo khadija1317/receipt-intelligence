@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "XXL Grispy Chicken",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,DOO",
+    "status": "repaired",
+    "conf": 0.5105,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "40000",
+  "raw": "40,0do",
+  "status": "repaired",
+  "conf": 0.3085,
+  "low_trust": false,
+  "line": "Total 40,0do",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": null,
+  "raw": ".60,000",
+  "status": "review",
+  "conf": 0.4093,
+  "low_trust": false,
+  "line": "Pay Cash 100,000 Charge .60,000",
+  "n_candidates": 1
+ },
+ "index": 36
+}

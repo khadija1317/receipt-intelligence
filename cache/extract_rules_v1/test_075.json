@@ -1,0 +1,103 @@
+{
+ "menu": [
+  {
+   "nm": "choco PUFF",
+   "cnt": null,
+   "price": {
+    "value": "29091",
+    "raw": "29,091",
+    "status": "ok",
+    "conf": 0.8857,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CREAMY BEEF CLS FTC",
+   "cnt": null,
+   "price": {
+    "value": "42727",
+    "raw": "42,727",
+    "status": "ok",
+    "conf": 0.5822,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NEW URIENTAL CKk RICE",
+   "cnt": null,
+   "price": {
+    "value": "34545",
+    "raw": "34,545",
+    "status": "ok",
+    "conf": 0.9655,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LIPTON PITCHER",
+   "cnt": null,
+   "price": {
+    "value": "54545",
+    "raw": "54,545",
+    "status": "ok",
+    "conf": 0.9503,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SC/P SUPER SUPRENE",
+   "cnt": null,
+   "price": {
+    "value": "47273",
+    "raw": "47,273",
+    "status": "ok",
+    "conf": 0.9848,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CBZP BLACK PEPP BEEF",
+   "cnt": null,
+   "price": {
+    "value": "48182",
+    "raw": "48182",
+    "status": "ok",
+    "conf": 0.7712,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "256363",
+  "raw": "256,363",
+  "status": "ok",
+  "conf": 0.732,
+  "low_trust": false,
+  "line": "SUBTOTAL 256,363",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "282000",
+  "raw": "282Doo",
+  "status": "repaired",
+  "conf": 0.5364,
+  "low_trust": false,
+  "line": "TOTAL 282Doo",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "254637",
+  "raw": "254637",
+  "status": "ok",
+  "conf": 0.8861,
+  "low_trust": false,
+  "line": "Tax 254637",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 75
+}

@@ -1,0 +1,84 @@
+{
+ "menu": [
+  {
+   "nm": "Se' I Sapi Samba] Matah R )",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.6823,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Se ?-pi Lada Hitam (J)",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "35. 000",
+    "status": "ok",
+    "conf": 0.5835,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Masi Putih",
+   "cnt": "2",
+   "price": {
+    "value": "10000",
+    "raw": "10.00O",
+    "status": "repaired",
+    "conf": 0.1792,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MiIk Shake Coklat",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16, 000",
+    "status": "ok",
+    "conf": 0.2815,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Subtota]",
+   "cnt": null,
+   "price": {
+    "value": "81000",
+    "raw": "81 , 000",
+    "status": "ok",
+    "conf": 0.5511,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "89100",
+  "raw": "89. 100",
+  "status": "ok",
+  "conf": 0.8446,
+  "low_trust": false,
+  "line": "Total 89. 100",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "8100",
+  "raw": "8 ,100",
+  "status": "ok",
+  "conf": 0.6117,
+  "low_trust": false,
+  "line": "PB 10x 8 ,100",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 11
+}

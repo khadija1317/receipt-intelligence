@@ -1,0 +1,103 @@
+{
+ "menu": [
+  {
+   "nm": "JINT",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.4607,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "To",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26 ,000",
+    "status": "ok",
+    "conf": 0.9935,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PKT NGLop PerkeaEL",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": 0.6846,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PARU",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SBL  GR ATI/AMPLA",
+   "cnt": null,
+   "price": {
+    "value": "3",
+    "raw": "3",
+    "status": "ok",
+    "conf": 0.2339,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NESTLE 330 ML",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8 ,000",
+    "status": "ok",
+    "conf": 0.689,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "89000",
+  "raw": "89000",
+  "status": "ok",
+  "conf": 0.6803,
+  "low_trust": false,
+  "line": "SUBTOTAL 89000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "97900",
+  "raw": "97,900",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 97,900",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "8900",
+  "raw": "8,900",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAX 10X 8,900",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 39
+}

@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "Nas| Cap Cay Porsi",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.7264,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "A.ouu UqO",
+   "cnt": null,
+   "price": {
+    "value": "2",
+    "raw": "2",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "138000",
+  "raw": "Rp 138,000",
+  "status": "ok",
+  "conf": 0.5336,
+  "low_trust": false,
+  "line": "Subtotal Rp 138,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "138000",
+  "raw": "Rp 138.000",
+  "status": "ok",
+  "conf": 0.8927,
+  "low_trust": false,
+  "line": "Total Rp 138.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 26
+}

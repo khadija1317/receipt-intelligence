@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Lemon Tea (L) _",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28. 000",
+    "status": "ok",
+    "conf": 0.5764,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mike & Ike Or iginal",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28.000",
+    "status": "ok",
+    "conf": 0.6073,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mike & Berry",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7. 000",
+    "status": "ok",
+    "conf": 0.8068,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "0",
+  "raw": "O00",
+  "status": "repaired",
+  "conf": 0.1197,
+  "low_trust": false,
+  "line": "TOTAL B8, O00",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 45
+}

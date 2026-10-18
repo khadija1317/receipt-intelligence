@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "BUBUR GO",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": 0.7496,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PUYUh GO",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": 0.7292,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SATEZATIcGO",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 0.98,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "55000",
+  "raw": "55. 000",
+  "status": "ok",
+  "conf": 0.6378,
+  "low_trust": false,
+  "line": "TOTAL 55. 000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 97
+}

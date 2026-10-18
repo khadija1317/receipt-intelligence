@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "POTATO SAUSAGE BREAD",
+   "cnt": null,
+   "price": {
+    "value": "19000",
+    "raw": "19,000",
+    "status": "ok",
+    "conf": 0.6113,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "OREO   GREEN TEA SPREAD",
+   "cnt": null,
+   "price": {
+    "value": "52000",
+    "raw": "'52,000",
+    "status": "repaired",
+    "conf": 0.4469,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "WHITE CHOCO BANANA   SPREAD",
+   "cnt": null,
+   "price": {
+    "value": "62000",
+    "raw": "62,0Q0",
+    "status": "repaired",
+    "conf": 0.4409,
+    "low_trust": true
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "123200",
+  "raw": "123,200",
+  "status": "ok",
+  "conf": 0.3545,
+  "low_trust": false,
+  "line": "TOTAL 123,200",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 6
+}

@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "Presental",
+   "cnt": null,
+   "price": {
+    "value": "79000",
+    "raw": "79,0oQ",
+    "status": "repaired",
+    "conf": 0.1158,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "Taste/Rai BLACK PEPPER MEATBALL PAS",
+   "cnt": null,
+   "price": {
+    "value": "77000",
+    "raw": "77,OOQ",
+    "status": "repaired",
+    "conf": 0.2774,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "TRUFFLE CREAM",
+   "cnt": null,
+   "price": {
+    "value": "59000",
+    "raw": "59,000",
+    "status": "ok",
+    "conf": 0.3571,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax",
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": {
+  "value": "22790",
+  "raw": "22 ,790",
+  "status": "ok",
+  "conf": 0.6281,
+  "low_trust": false,
+  "line": "Friendlin Service Charge 6% 22 ,790",
+  "n_candidates": 2
+ },
+ "index": 98
+}

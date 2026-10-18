@@ -1,0 +1,45 @@
+{
+ "menu": [
+  {
+   "nm": "0571-1854 BLUS ManITA",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Q00",
+    "status": "repaired",
+    "conf": 0.3812,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "2120, Q0U 120=",
+   "cnt": null,
+   "price": {
+    "value": "2",
+    "raw": "02",
+    "status": "ok",
+    "conf": 0.207,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "120000",
+  "raw": "120, Qo0",
+  "status": "repaired",
+  "conf": 0.2208,
+  "low_trust": true,
+  "line": "TOTAl (2 icer) 120, Qo0",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 12
+}

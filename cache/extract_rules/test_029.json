@@ -1,0 +1,97 @@
+{
+ "menu": [
+  {
+   "nm": "COLD OCHA",
+   "cnt": "1",
+   "price": {
+    "value": "10909",
+    "raw": "10,909",
+    "status": "ok",
+    "conf": 0.7968,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BCA PROMO",
+   "cnt": null,
+   "price": {
+    "value": "54455",
+    "raw": "54,455",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ABURA UDON SPICY",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "'-KAKE UDON",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SKEWERED TOFUROLL",
+   "cnt": "1",
+   "price": {
+    "value": "12727",
+    "raw": "12,727",
+    "status": "ok",
+    "conf": 0.9851,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KITSUNE UDON (KIDS}",
+   "cnt": null,
+   "price": {
+    "value": "28182",
+    "raw": "28,182",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "132636",
+  "raw": "132,636",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUB, TOTAL 132,636",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "13264",
+  "raw": "13,264",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "RESTAURANT TAX 13,264",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 29
+}

@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "FL-Xmas 30 Off",
+   "cnt": null,
+   "price": {
+    "value": "68180",
+    "raw": "68,180",
+    "status": "ok",
+    "conf": 0.9695,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "68180",
+  "raw": "68,180",
+  "status": "ok",
+  "conf": 0.8776,
+  "low_trust": false,
+  "line": "SUBTOTAL 68,180",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "75000",
+  "raw": "75,000",
+  "status": "ok",
+  "conf": 0.7267,
+  "low_trust": false,
+  "line": "TOTAL 75,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "6818",
+  "raw": "6,818",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "PAJAK PPN 10 % 6,818",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 99
+}

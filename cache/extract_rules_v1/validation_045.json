@@ -1,0 +1,81 @@
+{
+ "menu": [
+  {
+   "nm": "AUP Seafood",
+   "cnt": "1",
+   "price": {
+    "value": "85000",
+    "raw": "85.Doo",
+    "status": "repaired",
+    "conf": 0.1558,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Omurice Katsu Curry",
+   "cnt": null,
+   "price": {
+    "value": "10",
+    "raw": "O1o",
+    "status": "repaired",
+    "conf": 0.1994,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Earl Gray Tea Oop",
+   "cnt": "1",
+   "price": {
+    "value": "3",
+    "raw": "3",
+    "status": "ok",
+    "conf": 0.4441,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Hot Tea QuD",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "240000",
+  "raw": "240Qoo",
+  "status": "repaired",
+  "conf": 0.3704,
+  "low_trust": true,
+  "line": "SUBTOTAL 240Qoo",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "287760",
+  "raw": "287,760",
+  "status": "ok",
+  "conf": 0.7509,
+  "low_trust": false,
+  "line": "TOTAL 287,760",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "21600",
+  "raw": "21600",
+  "status": "ok",
+  "conf": 0.3293,
+  "low_trust": false,
+  "line": "Service 21600",
+  "n_candidates": 1
+ },
+ "index": 45
+}

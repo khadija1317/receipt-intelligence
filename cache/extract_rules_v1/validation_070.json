@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Kara buurryTeishoku",
+   "cnt": null,
+   "price": {
+    "value": "67000",
+    "raw": "67Ooo",
+    "status": "repaired",
+    "conf": 0.1547,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Letn Plate",
+   "cnt": null,
+   "price": {
+    "value": "19000",
+    "raw": "19 00d",
+    "status": "repaired",
+    "conf": 0.1505,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Icna Hot",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15.0o0",
+    "status": "repaired",
+    "conf": 0.1466,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "3",
+  "raw": "3",
+  "status": "ok",
+  "conf": 0.8658,
+  "low_trust": false,
+  "line": "Total itea 3 fotal Qt; 3",
+  "n_candidates": 3
+ },
+ "tax": null,
+ "service": null,
+ "index": 70
+}

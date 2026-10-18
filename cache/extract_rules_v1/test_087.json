@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "CHIN",
+   "cnt": null,
+   "price": {
+    "value": "36500",
+    "raw": "36,500",
+    "status": "ok",
+    "conf": 0.4765,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 7
+ },
+ "subtotal": {
+  "value": "36500",
+  "raw": "36500",
+  "status": "ok",
+  "conf": 0.555,
+  "low_trust": false,
+  "line": "Sub Total 36500",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": null,
+  "raw": "40,4150",
+  "status": "review",
+  "conf": 0.4118,
+  "low_trust": false,
+  "line": "Gand Total 40,4150",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "2",
+  "raw": "2",
+  "status": "ok",
+  "conf": 0.1832,
+  "low_trust": false,
+  "line": "PBi 10086 3,50 2",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 87
+}

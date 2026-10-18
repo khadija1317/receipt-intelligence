@@ -1,0 +1,73 @@
+{
+ "menu": [
+  {
+   "nm": "doblina Maer",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 0.9966,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mozaralla Hot",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 0.9056,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chlli Papper",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chedao",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.9443,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "91000",
+  "raw": "91,000",
+  "status": "ok",
+  "conf": 0.9937,
+  "low_trust": false,
+  "line": "Subtotal 91,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "91000",
+  "raw": "Rp. 91,000",
+  "status": "ok",
+  "conf": 0.7941,
+  "low_trust": false,
+  "line": "TOTAL Rp. 91,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 17
+}

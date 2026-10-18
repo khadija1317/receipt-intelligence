@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "Sliders Set",
+   "cnt": null,
+   "price": {
+    "value": "113636",
+    "raw": "Rp113,636",
+    "status": "ok",
+    "conf": 0.8236,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chicken Vege Rice Bow]",
+   "cnt": null,
+   "price": {
+    "value": "86363",
+    "raw": "Rp86,363",
+    "status": "ok",
+    "conf": 0.5876,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "908",
+  "raw": "908",
+  "status": "ok",
+  "conf": 0.9835,
+  "low_trust": false,
+  "line": "TOTAL: Rp2z4 908",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "20446",
+  "raw": "Rp2o ,446",
+  "status": "repaired",
+  "conf": 0.7581,
+  "low_trust": false,
+  "line": "TAX Rp2o ,446",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 21
+}

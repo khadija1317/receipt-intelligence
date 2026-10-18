@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "Lemon Tea (L)",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25. 000",
+    "status": "ok",
+    "conf": 0.8751,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Carame] Sma /",
+   "cnt": "1",
+   "price": {
+    "value": "38000",
+    "raw": "38. 000",
+    "status": "ok",
+    "conf": 0.8131,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "63000",
+  "raw": "63,Q00",
+  "status": "repaired",
+  "conf": 0.1678,
+  "low_trust": true,
+  "line": "TOTAL 63,Q00",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 15
+}

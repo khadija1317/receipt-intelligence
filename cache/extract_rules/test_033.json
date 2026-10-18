@@ -1,0 +1,87 @@
+{
+ "menu": [
+  {
+   "nm": "GRILLED BABY POTATO (R",
+   "cnt": null,
+   "price": {
+    "value": "50500",
+    "raw": "50 , 500",
+    "status": "ok",
+    "conf": 0.5323,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "HOT   TUNA",
+   "cnt": null,
+   "price": {
+    "value": "67000",
+    "raw": "67 , 000",
+    "status": "ok",
+    "conf": 0.8079,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Hot   TUNA",
+   "cnt": null,
+   "price": {
+    "value": "67000",
+    "raw": "67 , 000",
+    "status": "ok",
+    "conf": 0.9007,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "117500",
+    "raw": "117,500",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SVC CHG 6X",
+   "cnt": null,
+   "price": {
+    "value": "11070",
+    "raw": "11,070",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PBT 10X",
+   "cnt": null,
+   "price": {
+    "value": "19557",
+    "raw": "19,557",
+    "status": "ok",
+    "conf": 0.9434,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "148127",
+  "raw": "148127",
+  "status": "ok",
+  "conf": 0.9042,
+  "low_trust": false,
+  "line": "TOTAL 148127",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 33
+}

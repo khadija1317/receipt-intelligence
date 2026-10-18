@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "Enting2 Dua Banderg Ori",
+   "cnt": null,
+   "price": {
+    "value": "31000",
+    "raw": "31 . Q00",
+    "status": "repaired",
+    "conf": 0.505,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "TaHU BAKSO Grg Ayam VC [biji",
+   "cnt": null,
+   "price": {
+    "value": "68000",
+    "raw": "68 . 00O",
+    "status": "repaired",
+    "conf": 0.2899,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TQTAL",
+   "cnt": null,
+   "price": {
+    "value": "99000",
+    "raw": "99.000",
+    "status": "ok",
+    "conf": 0.7231,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KARTU",
+   "cnt": null,
+   "price": {
+    "value": "99000",
+    "raw": "99.000",
+    "status": "ok",
+    "conf": 0.9455,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 76
+}

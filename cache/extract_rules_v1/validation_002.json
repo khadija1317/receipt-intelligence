@@ -1,0 +1,22 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 4
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "18181",
+  "raw": "18 , 181",
+  "status": "ok",
+  "conf": 0.8646,
+  "low_trust": false,
+  "line": "PBI 18 , 181",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 2
+}

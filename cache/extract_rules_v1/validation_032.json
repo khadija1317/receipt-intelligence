@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "Nasi (MLY)",
+   "cnt": "1",
+   "price": {
+    "value": "6000",
+    "raw": "6 , 00O",
+    "status": "repaired",
+    "conf": 0.4739,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "6000",
+  "raw": "6 , 0OO",
+  "status": "repaired",
+  "conf": 0.1889,
+  "low_trust": false,
+  "line": "Subtotal 6 , 0OO",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 32
+}

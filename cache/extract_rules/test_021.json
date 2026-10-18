@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "Rr3 .",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "000",
+    "status": "ok",
+    "conf": 0.6489,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "0",
+  "raw": "Oo0",
+  "status": "repaired",
+  "conf": 0.0901,
+  "low_trust": false,
+  "line": "#**TOTAL Rp38 Oo0",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 21
+}

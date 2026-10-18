@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "BB0  Chicken",
+   "cnt": null,
+   "price": {
+    "value": "41000",
+    "raw": "41,000",
+    "status": "ok",
+    "conf": 0.8789,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "41000",
+  "raw": "41,000",
+  "status": "ok",
+  "conf": 0.9695,
+  "low_trust": false,
+  "line": "Total: 50.Ooo 41,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 4
+}

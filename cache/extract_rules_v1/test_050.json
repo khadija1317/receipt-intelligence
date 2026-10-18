@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "SpFrile Cduvurfy",
+   "cnt": "1",
+   "price": {
+    "value": "17727",
+    "raw": "17,727",
+    "status": "ok",
+    "conf": 0.9306,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Juviuiaia",
+   "cnt": null,
+   "price": {
+    "value": "17727",
+    "raw": "17,727",
+    "status": "ok",
+    "conf": 0.8808,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Foi:",
+   "cnt": null,
+   "price": {
+    "value": "1773",
+    "raw": "1,773",
+    "status": "ok",
+    "conf": 0.7982,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Cfiariye:",
+   "cnt": null,
+   "price": {
+    "value": "68508",
+    "raw": "68 , 508",
+    "status": "ok",
+    "conf": 0.2502,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 50
+}

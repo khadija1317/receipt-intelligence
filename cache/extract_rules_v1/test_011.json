@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "BANAbeRRY  FRESH CREAM CAK",
+   "cnt": null,
+   "price": {
+    "value": "230000",
+    "raw": "230 ,000",
+    "status": "ok",
+    "conf": 0.3531,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "230000",
+  "raw": "230,Q00",
+  "status": "repaired",
+  "conf": 0.5808,
+  "low_trust": true,
+  "line": "TOTAL 230,Q00",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 11
+}

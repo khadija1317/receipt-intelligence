@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "TALAH UNGU",
+   "cnt": null,
+   "price": {
+    "value": "500",
+    "raw": "50u",
+    "status": "repaired",
+    "conf": 0.1705,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "24500",
+  "raw": "24,5uu",
+  "status": "repaired",
+  "conf": 0.3465,
+  "low_trust": false,
+  "line": "Total 24,5uu",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 61
+}

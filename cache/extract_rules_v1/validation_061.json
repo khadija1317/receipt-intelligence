@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "Sub Tota|",
+   "cnt": null,
+   "price": {
+    "value": "7500",
+    "raw": "7,500",
+    "status": "ok",
+    "conf": 0.7382,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "750",
+  "raw": "750",
+  "status": "ok",
+  "conf": 0.9919,
+  "low_trust": false,
+  "line": "Pajak Resto ( IOS) 750",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 61
+}

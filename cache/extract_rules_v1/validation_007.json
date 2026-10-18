@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "Cnoco Devil",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "63.6361",
+    "status": "review",
+    "conf": 0.1913,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "63636",
+  "raw": "63,636",
+  "status": "ok",
+  "conf": 0.8586,
+  "low_trust": false,
+  "line": "SubTotal: 63,636",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": null,
+  "raw": "59,5005",
+  "status": "review",
+  "conf": 0.2466,
+  "low_trust": false,
+  "line": "Total:  59,5005",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5409",
+  "raw": "5,409",
+  "status": "ok",
+  "conf": 0.7902,
+  "low_trust": false,
+  "line": "PBi: 5,409",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 7
+}

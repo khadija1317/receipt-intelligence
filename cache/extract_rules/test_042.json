@@ -1,0 +1,26 @@
+{
+ "menu": [
+  {
+   "nm": "Lnicken HCC _ ipcs",
+   "cnt": null,
+   "price": {
+    "value": "15666",
+    "raw": "15 . 666",
+    "status": "ok",
+    "conf": 0.2056,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 42
+}

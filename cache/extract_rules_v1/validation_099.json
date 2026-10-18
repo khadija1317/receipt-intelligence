@@ -1,0 +1,73 @@
+{
+ "menu": [
+  {
+   "nm": "Giant Squid x1",
+   "cnt": null,
+   "price": {
+    "value": "39000",
+    "raw": "Rp. 39.000",
+    "status": "ok",
+    "conf": 0.6159,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "C Finishing - Cut Rp.",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.8155,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "B.Spicy Level Extreme Hot Rp.",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9578,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "A Flavour Salt & Pepper Rp.",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9537,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "39000",
+  "raw": "Rp. 39.000",
+  "status": "ok",
+  "conf": 0.7312,
+  "low_trust": false,
+  "line": "Subtotal Rp. 39.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "39000",
+  "raw": "Rp. 39.000",
+  "status": "ok",
+  "conf": 0.6656,
+  "low_trust": false,
+  "line": "Total Rp. 39.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 99
+}

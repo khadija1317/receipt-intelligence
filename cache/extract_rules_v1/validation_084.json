@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "x HAZELNUT  CHOCO MT R )",
+   "cnt": "1",
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": 0.9797,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PEARL R )",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": 0.9973,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "X HAZELNUT ChOcO MT R )",
+   "cnt": "1",
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "52000",
+  "raw": "52,000",
+  "status": "ok",
+  "conf": 0.9943,
+  "low_trust": false,
+  "line": "SUB   TOTAL 52,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "52000",
+  "raw": "52,000",
+  "status": "ok",
+  "conf": 0.9764,
+  "low_trust": false,
+  "line": "TOTAL  SALES 52,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 84
+}

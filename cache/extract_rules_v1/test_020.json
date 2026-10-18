@@ -1,0 +1,89 @@
+{
+ "menu": [
+  {
+   "nm": "garlic pepper beef",
+   "cnt": "1",
+   "price": {
+    "value": "7500",
+    "raw": "7500",
+    "status": "ok",
+    "conf": 0.8501,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "red Curry beef",
+   "cnt": "1",
+   "price": {
+    "value": "9500",
+    "raw": "9500",
+    "status": "ok",
+    "conf": 0.257,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 phad thai",
+   "cnt": null,
+   "price": {
+    "value": "42500",
+    "raw": "42500",
+    "status": "ok",
+    "conf": 0.4968,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "steamed riCe",
+   "cnt": "4",
+   "price": {
+    "value": "600",
+    "raw": "600",
+    "status": "ok",
+    "conf": 0.4044,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "325600",
+  "raw": "325600",
+  "status": "ok",
+  "conf": 0.5418,
+  "low_trust": false,
+  "line": "SUBTOTAL 325600",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "377859",
+  "raw": "377,859",
+  "status": "ok",
+  "conf": 0.6705,
+  "low_trust": false,
+  "line": "TOTAL 377,859",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "34351",
+  "raw": "34,351",
+  "status": "ok",
+  "conf": 0.7157,
+  "low_trust": false,
+  "line": "107 PBi 34,351",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "17909",
+  "raw": "17.909",
+  "status": "ok",
+  "conf": 0.7653,
+  "low_trust": false,
+  "line": "Service chrg 17.909",
+  "n_candidates": 1
+ },
+ "index": 20
+}

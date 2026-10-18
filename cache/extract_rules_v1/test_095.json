@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "RASO TAHU 434-",
+   "cnt": "1",
+   "price": {
+    "value": "43184",
+    "raw": "43.184",
+    "status": "ok",
+    "conf": 0.7647,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "3",
+  "raw": "3",
+  "status": "ok",
+  "conf": 0.1275,
+  "low_trust": false,
+  "line": "TAX 10.00 % 5.618 3",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 95
+}

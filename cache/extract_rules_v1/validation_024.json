@@ -1,0 +1,76 @@
+{
+ "menu": [
+  {
+   "nm": "PAin AU CHOCOLATE",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,Ooo",
+    "status": "repaired",
+    "conf": 0.6505,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHGco CUSTARD PASTRY",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 0.7755,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MILK PASTRY ROLL",
+   "cnt": null,
+   "price": {
+    "value": "13500",
+    "raw": "13,500",
+    "status": "ok",
+    "conf": 0.9675,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "REAL CHEESE INSIDE BREAD",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,,0o0",
+    "status": "repaired",
+    "conf": 0.2457,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SAUSAGE  BREAD",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20 ,000",
+    "status": "ok",
+    "conf": 0.5558,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "100000",
+  "raw": "'100 ,00o",
+  "status": "repaired",
+  "conf": 0.3363,
+  "low_trust": false,
+  "line": "TOTAL 3 '100 ,00o",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 24
+}

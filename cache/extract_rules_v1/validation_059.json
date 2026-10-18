@@ -1,0 +1,114 @@
+{
+ "menu": [
+  {
+   "nm": "XLD Org Park i0r",
+   "cnt": null,
+   "price": {
+    "value": "78000",
+    "raw": "78,000",
+    "status": "ok",
+    "conf": 0.8134,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Sicita Babi",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65,QOQ",
+    "status": "repaired",
+    "conf": 0.1926,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "Hatplate Tahu",
+   "cnt": null,
+   "price": {
+    "value": "58000",
+    "raw": "58,000",
+    "status": "ok",
+    "conf": 0.9656,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DF Fish Fillet Garlc",
+   "cnt": null,
+   "price": {
+    "value": "108000",
+    "raw": "108,000",
+    "status": "ok",
+    "conf": 0.9828,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Siewora Belly",
+   "cnt": "1",
+   "price": {
+    "value": "38800",
+    "raw": "38,800",
+    "status": "ok",
+    "conf": 0.7945,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Herbal Jellv",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 0.7764,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Onde-Onde",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 0.6779,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "664329",
+  "raw": "664,329",
+  "status": "ok",
+  "conf": 0.9812,
+  "low_trust": false,
+  "line": "Total #0*ee0er0 664,329",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "60394",
+  "raw": "60,394",
+  "status": "ok",
+  "conf": 0.9927,
+  "low_trust": false,
+  "line": "PBI 60,394",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "42135",
+  "raw": "42,135",
+  "status": "ok",
+  "conf": 0.9962,
+  "low_trust": false,
+  "line": "Service charge 42,135",
+  "n_candidates": 1
+ },
+ "index": 59
+}

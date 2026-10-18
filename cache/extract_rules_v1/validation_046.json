@@ -1,0 +1,20 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "22000",
+  "raw": "22,00o",
+  "status": "repaired",
+  "conf": 0.3896,
+  "low_trust": false,
+  "line": "TOTAL 22,00o",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 46
+}

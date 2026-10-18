@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "COPIA /GB",
+   "cnt": null,
+   "price": {
+    "value": "45000.00",
+    "raw": "45 ,000 . 00",
+    "status": "ok",
+    "conf": 0.5186,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLASTIC BAG RED CENTRAL  SI",
+   "cnt": null,
+   "price": {
+    "value": "0.00",
+    "raw": "0. O0",
+    "status": "repaired",
+    "conf": 0.2201,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "COPIA /GB",
+   "cnt": null,
+   "price": {
+    "value": "18000.00",
+    "raw": "18,000. O0",
+    "status": "repaired",
+    "conf": 0.3724,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": null,
+ "total": {
+  "value": "3",
+  "raw": "3",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Total quantity 3",
+  "n_candidates": 2
+ },
+ "tax": null,
+ "service": null,
+ "index": 47
+}

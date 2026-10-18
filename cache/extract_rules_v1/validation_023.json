@@ -1,0 +1,30 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "1818",
+  "raw": "1,818",
+  "status": "ok",
+  "conf": 0.5886,
+  "low_trust": false,
+  "line": "Total 1,818",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "18182",
+  "raw": "18,182",
+  "status": "ok",
+  "conf": 0.9931,
+  "low_trust": false,
+  "line": "PAJAK 1ox 18,182",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 23
+}

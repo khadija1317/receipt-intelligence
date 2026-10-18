@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "RedVelvet Nutella",
+   "cnt": null,
+   "price": {
+    "value": "280000",
+    "raw": "280, Cod",
+    "status": "repaired",
+    "conf": 0.2235,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "280000",
+  "raw": "280 , DOQ",
+  "status": "repaired",
+  "conf": 0.178,
+  "low_trust": true,
+  "line": "SubtotaL 280 , DOQ",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "308000",
+  "raw": "308'OCD",
+  "status": "repaired",
+  "conf": 0.6633,
+  "low_trust": false,
+  "line": "TOTAL 308'OCD",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "28000",
+  "raw": "28 ; COC",
+  "status": "repaired",
+  "conf": 0.3498,
+  "low_trust": false,
+  "line": "PBi 28 ; COC",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 22
+}

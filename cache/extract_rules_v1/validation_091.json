@@ -1,0 +1,45 @@
+{
+ "menu": [
+  {
+   "nm": "K7 J9,091",
+   "cnt": null,
+   "price": {
+    "value": "1217",
+    "raw": "1217",
+    "status": "ok",
+    "conf": 0.3852,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AoD CKICKEN BOX",
+   "cnt": null,
+   "price": {
+    "value": "907",
+    "raw": "907",
+    "status": "ok",
+    "conf": 0.6828,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "44000",
+  "raw": "44,Coo",
+  "status": "repaired",
+  "conf": 0.1159,
+  "low_trust": false,
+  "line": "Total 44,Coo",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 91
+}

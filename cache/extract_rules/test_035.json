@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "TWIST  DONUT",
+   "cnt": "2",
+   "price": {
+    "value": "18000",
+    "raw": "18 ,000",
+    "status": "ok",
+    "conf": 0.8089,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BANANA  DONUT",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": 0.8563,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CREAMCHEESE BREAD",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": 0.9987,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "FRANKFRUT SAUSAGE ROLL",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": 0.9942,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "52000",
+  "raw": "520oo",
+  "status": "repaired",
+  "conf": 0.3979,
+  "low_trust": false,
+  "line": "TOTAL 520oo",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 35
+}

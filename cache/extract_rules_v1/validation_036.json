@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Soft Ori 1 Too",
+   "cnt": null,
+   "price": {
+    "value": "8",
+    "raw": "8",
+    "status": "ok",
+    "conf": 0.0229,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Top Ored",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.4314,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SubTatali",
+   "cnt": null,
+   "price": {
+    "value": "6",
+    "raw": "6",
+    "status": "ok",
+    "conf": 0.7154,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "4",
+  "raw": "4",
+  "status": "ok",
+  "conf": 0.1937,
+  "low_trust": false,
+  "line": "Totali 4",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 36
+}

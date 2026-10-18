@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "COCKIES AnD CREAM",
+   "cnt": null,
+   "price": {
+    "value": "20909",
+    "raw": "20,909",
+    "status": "ok",
+    "conf": 0.8553,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "23000",
+  "raw": "23,000",
+  "status": "ok",
+  "conf": 0.5712,
+  "low_trust": false,
+  "line": "Total 23,000",
+  "n_candidates": 2
+ },
+ "tax": null,
+ "service": null,
+ "index": 83
+}

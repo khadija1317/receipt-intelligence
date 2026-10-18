@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "Cuka Apel Tefes",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.5127,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TS8000",
+   "cnt": null,
+   "price": {
+    "value": "198000",
+    "raw": "198000",
+    "status": "ok",
+    "conf": 0.9017,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tunai",
+   "cnt": null,
+   "price": {
+    "value": "200200",
+    "raw": "200200",
+    "status": "ok",
+    "conf": 0.9887,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Korribalian",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22000",
+    "status": "ok",
+    "conf": 0.9974,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 71
+}

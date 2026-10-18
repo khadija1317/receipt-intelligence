@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "-TICKET Cp",
+   "cnt": null,
+   "price": {
+    "value": "901016",
+    "raw": "901016",
+    "status": "ok",
+    "conf": 0.9983,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "EO,Q0O",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60,00o",
+    "status": "repaired",
+    "conf": 0.3525,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "60000",
+  "raw": "60000",
+  "status": "ok",
+  "conf": 0.3673,
+  "low_trust": false,
+  "line": "ToTaL (Oty 00 60000",
+  "n_candidates": 2
+ },
+ "tax": null,
+ "service": null,
+ "index": 0
+}

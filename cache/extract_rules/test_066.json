@@ -1,0 +1,90 @@
+{
+ "menu": [
+  {
+   "nm": "PILLZ SURIA",
+   "cnt": null,
+   "price": {
+    "value": "362364",
+    "raw": "362364",
+    "status": "ok",
+    "conf": 0.6074,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLRSTIK",
+   "cnt": null,
+   "price": {
+    "value": "35",
+    "raw": "35",
+    "status": "ok",
+    "conf": 0.1803,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTOTRL",
+   "cnt": null,
+   "price": {
+    "value": "36364",
+    "raw": "36,364",
+    "status": "ok",
+    "conf": 0.7333,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PBL",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "10,0042",
+    "status": "review",
+    "conf": 0.3088,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TDTAL",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "40,",
+    "status": "review",
+    "conf": 0.1396,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CAs",
+   "cnt": null,
+   "price": {
+    "value": "50",
+    "raw": "50",
+    "status": "ok",
+    "conf": 0.8625,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHZ",
+   "cnt": null,
+   "price": {
+    "value": "102",
+    "raw": "102",
+    "status": "ok",
+    "conf": 0.2499,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 66
+}

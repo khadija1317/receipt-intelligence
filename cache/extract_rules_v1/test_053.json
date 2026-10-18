@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "Pecel Kompl it Nasi",
+   "cnt": "42",
+   "price": {
+    "value": "0",
+    "raw": "00",
+    "status": "ok",
+    "conf": 0.5607,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Soto KUDUS",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "420oQ",
+    "status": "repaired",
+    "conf": 0.2496,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "Mineral Water",
+   "cnt": "2",
+   "price": {
+    "value": "18000",
+    "raw": "180oo",
+    "status": "repaired",
+    "conf": 0.6528,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "107000",
+  "raw": "1070oo",
+  "status": "repaired",
+  "conf": 0.7518,
+  "low_trust": false,
+  "line": "SUbtotal 1070oo",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "123585",
+  "raw": "123.585",
+  "status": "ok",
+  "conf": 0.9747,
+  "low_trust": false,
+  "line": "Total 123.585",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "235",
+  "raw": "235",
+  "status": "ok",
+  "conf": 0.551,
+  "low_trust": false,
+  "line": "Pajak Rest 10/ 1 235",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "5350",
+  "raw": "5350",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Seru i Char ge 5/ 5350",
+  "n_candidates": 1
+ },
+ "index": 53
+}

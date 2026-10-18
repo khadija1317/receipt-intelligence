@@ -1,0 +1,100 @@
+{
+ "menu": [
+  {
+   "nm": "1 RedVelvel Cheesk SJc",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Qo0",
+    "status": "repaired",
+    "conf": 0.2631,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "Chicken Baked Rile Odo",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9906,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Fish n Chips @Oo",
+   "cnt": null,
+   "price": {
+    "value": "8",
+    "raw": "8",
+    "status": "ok",
+    "conf": 0.4191,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chamomile @oo",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.94,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Iced Tea Z0, OCo",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9955,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": {
+  "value": "238000",
+  "raw": "238 , Q0o",
+  "status": "repaired",
+  "conf": 0.4355,
+  "low_trust": true,
+  "line": "SubtotAL 238 , Q0o",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "281435",
+  "raw": "281,435",
+  "status": "ok",
+  "conf": 0.6443,
+  "low_trust": false,
+  "line": "TOTAL 281,435",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "25585",
+  "raw": "25585",
+  "status": "ok",
+  "conf": 0.9896,
+  "low_trust": false,
+  "line": "Pbi 25585",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "17850",
+  "raw": "17,850",
+  "status": "ok",
+  "conf": 0.9979,
+  "low_trust": false,
+  "line": "Service 17,850",
+  "n_candidates": 1
+ },
+ "index": 14
+}

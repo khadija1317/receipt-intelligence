@@ -1,0 +1,37 @@
+{
+ "menu": [
+  {
+   "nm": "Ptgs Fggtart",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17,QOo",
+    "status": "repaired",
+    "conf": 0.1797,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "Choco Neli",
+   "cnt": null,
+   "price": {
+    "value": "4600",
+    "raw": "04,6oo",
+    "status": "repaired",
+    "conf": 0.1121,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 49
+}

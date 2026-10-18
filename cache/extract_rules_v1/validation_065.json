@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "BASD TAHU",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.1372,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI PUTIX 6-000",
+   "cnt": "1",
+   "price": {
+    "value": "6000",
+    "raw": "6.000",
+    "status": "ok",
+    "conf": 0.4541,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": null,
+ "total": {
+  "value": "54600",
+  "raw": "54.600",
+  "status": "ok",
+  "conf": 0.3761,
+  "low_trust": false,
+  "line": "GRAND TOTAL 54.600",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "4964",
+  "raw": "4,964",
+  "status": "ok",
+  "conf": 0.663,
+  "low_trust": false,
+  "line": "TAX 10.02 % 4,964",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 65
+}

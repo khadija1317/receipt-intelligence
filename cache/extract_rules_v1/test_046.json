@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "IX S-Bubble Milk Tea @20",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "IX S-Caramel Milk Tea @20 ,",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.941,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "40000",
+  "raw": "40 ,000",
+  "status": "ok",
+  "conf": 0.9019,
+  "low_trust": false,
+  "line": "Total: 40 ,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 46
+}

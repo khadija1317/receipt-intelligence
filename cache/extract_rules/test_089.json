@@ -1,0 +1,35 @@
+{
+ "menu": [
+  {
+   "nm": "KL Cnspy Chcken",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,DOO",
+    "status": "repaired",
+    "conf": 0.2132,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tuta",
+   "cnt": null,
+   "price": {
+    "value": "808",
+    "raw": "808",
+    "status": "ok",
+    "conf": 0.8309,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 89
+}

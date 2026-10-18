@@ -1,0 +1,35 @@
+{
+ "menu": [
+  {
+   "nm": "BAKSO; BNGKS",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16.0dQ",
+    "status": "repaired",
+    "conf": 0.1142,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "Gash",
+   "cnt": null,
+   "price": {
+    "value": "80000",
+    "raw": "80.000",
+    "status": "ok",
+    "conf": 0.5093,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 91
+}

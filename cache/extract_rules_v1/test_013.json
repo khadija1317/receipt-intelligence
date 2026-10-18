@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "A.MINERA CEAS 3-0)",
+   "cnt": "1",
+   "price": {
+    "value": "4",
+    "raw": "4",
+    "status": "ok",
+    "conf": 0.192,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "46.63",
+  "raw": "46,63",
+  "status": "ok",
+  "conf": 0.6217,
+  "low_trust": false,
+  "line": "TOTAL 46,63",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 13
+}

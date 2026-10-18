@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "GADO-GADD",
+   "cnt": null,
+   "price": {
+    "value": "34500",
+    "raw": "34.500",
+    "status": "ok",
+    "conf": 0.8147,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SOTO BETRWI NASI",
+   "cnt": null,
+   "price": {
+    "value": "57500",
+    "raw": "57.500",
+    "status": "ok",
+    "conf": 0.9921,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "151500",
+  "raw": "151.500",
+  "status": "ok",
+  "conf": 0.585,
+  "low_trust": false,
+  "line": "Subtotal 151.500",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "15908",
+  "raw": "15.908",
+  "status": "ok",
+  "conf": 0.9982,
+  "low_trust": false,
+  "line": "Pajak RESTO 10/ 15.908",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "7575",
+  "raw": "7.575",
+  "status": "ok",
+  "conf": 0.9258,
+  "low_trust": false,
+  "line": "SerVice Charge 5 7.575",
+  "n_candidates": 1
+ },
+ "index": 69
+}

@@ -1,0 +1,24 @@
+{
+ "menu": [
+  {
+   "nm": "TEMS",
+   "cnt": null,
+   "price": {
+    "value": "54",
+    "raw": "54",
+    "status": "ok",
+    "conf": 0.4548,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 76
+}

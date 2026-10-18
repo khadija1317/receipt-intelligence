@@ -1,0 +1,114 @@
+{
+ "menu": [
+  {
+   "nm": "BLACKCURRANT",
+   "cnt": "1",
+   "price": {
+    "value": "32000",
+    "raw": "32000",
+    "status": "ok",
+    "conf": 0.2574,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SPRITE",
+   "cnt": "1",
+   "price": {
+    "value": "32000",
+    "raw": "32 , 000",
+    "status": "ok",
+    "conf": 0.5184,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "** BEVERAGE",
+   "cnt": null,
+   "price": {
+    "value": "64000",
+    "raw": "64QOo",
+    "status": "repaired",
+    "conf": 0.192,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "GRILLED CALAMARI",
+   "cnt": null,
+   "price": {
+    "value": "85000",
+    "raw": "8500o",
+    "status": "repaired",
+    "conf": 0.3418,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DINE FCR",
+   "cnt": "1",
+   "price": {
+    "value": "129000",
+    "raw": "129Ooo",
+    "status": "repaired",
+    "conf": 0.245,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "#* FOOD",
+   "cnt": null,
+   "price": {
+    "value": "214000",
+    "raw": "214,000",
+    "status": "ok",
+    "conf": 0.7451,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "278000",
+    "raw": "278 , 000",
+    "status": "ok",
+    "conf": 0.6319,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": null,
+ "total": {
+  "value": "330264",
+  "raw": "330264",
+  "status": "ok",
+  "conf": 0.7135,
+  "low_trust": false,
+  "line": "TOTAL 330264",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "30024",
+  "raw": "30 ,024",
+  "status": "ok",
+  "conf": 0.5643,
+  "low_trust": false,
+  "line": "TAX 30 ,024",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "22240",
+  "raw": "22_240",
+  "status": "repaired",
+  "conf": 0.6582,
+  "low_trust": false,
+  "line": "Service Charge 22_240",
+  "n_candidates": 1
+ },
+ "index": 74
+}

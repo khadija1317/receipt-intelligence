@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "[MD]   SoFT  MORNING ROLL",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "1800o",
+    "status": "repaired",
+    "conf": 0.5067,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PEAL HONEY PANCAKE BREAD",
+   "cnt": "2",
+   "price": {
+    "value": "20000",
+    "raw": "20OOo",
+    "status": "repaired",
+    "conf": 0.1317,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "4  ~USTARD BRIOCHE",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "3600o",
+    "status": "repaired",
+    "conf": 0.2846,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "74000",
+  "raw": "74,000",
+  "status": "ok",
+  "conf": 0.7268,
+  "low_trust": false,
+  "line": "TOTAL 74,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 69
+}

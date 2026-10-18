@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "Y.B .BaT",
+   "cnt": null,
+   "price": {
+    "value": "46000",
+    "raw": "460u0",
+    "status": "repaired",
+    "conf": 0.2892,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Y.Basu Proh",
+   "cnt": null,
+   "price": {
+    "value": "27300",
+    "raw": "27300",
+    "status": "ok",
+    "conf": 0.3622,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "T 0 TAL",
+   "cnt": null,
+   "price": {
+    "value": "91000",
+    "raw": "9 1 0 0 0",
+    "status": "ok",
+    "conf": 0.6902,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "C AsSh",
+   "cnt": null,
+   "price": {
+    "value": "91000",
+    "raw": "9 1 00 0",
+    "status": "ok",
+    "conf": 0.6339,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 1
+}

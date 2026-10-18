@@ -1,0 +1,26 @@
+{
+ "menu": [
+  {
+   "nm": "Hulk Topper Package",
+   "cnt": null,
+   "price": {
+    "value": "100000",
+    "raw": "100 . O00",
+    "status": "repaired",
+    "conf": 0.5767,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 98
+}

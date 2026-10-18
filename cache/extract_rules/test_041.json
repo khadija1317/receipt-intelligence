@@ -1,0 +1,95 @@
+{
+ "menu": [
+  {
+   "nm": "Naga Lychee Juice",
+   "cnt": null,
+   "price": {
+    "value": "34632",
+    "raw": "34632",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Cafe Latte",
+   "cnt": null,
+   "price": {
+    "value": "30303.00",
+    "raw": "30303. 00",
+    "status": "ok",
+    "conf": 0.776,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Minera Hater",
+   "cnt": null,
+   "price": {
+    "value": "12987.00",
+    "raw": "12987 ,00",
+    "status": "ok",
+    "conf": 0.434,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Lychee /Peach /Lemon/Mango",
+   "cnt": null,
+   "price": {
+    "value": "25474.00",
+    "raw": "25474.00",
+    "status": "ok",
+    "conf": 0.7903,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chicken Mary land",
+   "cnt": null,
+   "price": {
+    "value": "47619.00",
+    "raw": "47619,00",
+    "status": "ok",
+    "conf": 0.7258,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Subtota]",
+   "cnt": null,
+   "price": {
+    "value": "316017.00",
+    "raw": "316017,00",
+    "status": "ok",
+    "conf": 0.7608,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "365000.00",
+  "raw": "365000,00",
+  "status": "ok",
+  "conf": 0.3216,
+  "low_trust": false,
+  "line": "TOTAL 365000,00",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "48982.68",
+  "raw": "48982 .68",
+  "status": "ok",
+  "conf": 0.4883,
+  "low_trust": false,
+  "line": "Service Charge 5x 48982 .68",
+  "n_candidates": 1
+ },
+ "index": 41
+}

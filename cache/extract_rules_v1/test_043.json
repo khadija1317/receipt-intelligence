@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "Pcs Cheese Tart",
+   "cnt": null,
+   "price": {
+    "value": "165000.60",
+    "raw": "165o00 , 6o",
+    "status": "repaired",
+    "conf": 0.1613,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Bor ok",
+   "cnt": null,
+   "price": {
+    "value": "6",
+    "raw": "6",
+    "status": "ok",
+    "conf": 0.9989,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Subtota]: Rp16s000",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ",00",
+    "status": "review",
+    "conf": 0.1094,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tota] Tar Ircluded:",
+   "cnt": null,
+   "price": {
+    "value": "15000.00",
+    "raw": "Rp15OOO, O0",
+    "status": "repaired",
+    "conf": 0.1106,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "165000.00",
+  "raw": "Rp16500o . oo",
+  "status": "repaired",
+  "conf": 0.2817,
+  "low_trust": false,
+  "line": "Total; Rp16500o . oo",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 43
+}

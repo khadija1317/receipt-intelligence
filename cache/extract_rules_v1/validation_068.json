@@ -1,0 +1,46 @@
+{
+ "menu": [
+  {
+   "nm": "2X",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": 0.5402,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Honey Manaa|",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26 , 00o",
+    "status": "repaired",
+    "conf": 0.5536,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "10 |AL",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26000",
+    "status": "ok",
+    "conf": 0.4626,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 68
+}

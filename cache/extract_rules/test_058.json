@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "PK TAT",
+   "cnt": "33",
+   "price": {
+    "value": "55000",
+    "raw": "55.0od",
+    "status": "repaired",
+    "conf": 0.0794,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "55307",
+  "raw": "55,307",
+  "status": "ok",
+  "conf": 0.1335,
+  "low_trust": false,
+  "line": "Sub Total: 55,307",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "5530",
+  "raw": "5,530",
+  "status": "ok",
+  "conf": 0.2562,
+  "low_trust": false,
+  "line": "PBi 5,530",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 58
+}

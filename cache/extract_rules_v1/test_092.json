@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "TICKET CP",
+   "cnt": null,
+   "price": {
+    "value": "901016",
+    "raw": "901016",
+    "status": "ok",
+    "conf": 0.9894,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "00)240.000",
+  "status": "review",
+  "conf": 0.943,
+  "low_trust": false,
+  "line": "TotaL (Qtv=4 00)240.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 92
+}

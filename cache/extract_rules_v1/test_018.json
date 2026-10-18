@@ -1,0 +1,46 @@
+{
+ "menu": [
+  {
+   "nm": "Sub Toial",
+   "cnt": null,
+   "price": {
+    "value": "156000",
+    "raw": "156000",
+    "status": "ok",
+    "conf": 0.8568,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tunai",
+   "cnt": null,
+   "price": {
+    "value": "156000",
+    "raw": "156000",
+    "status": "ok",
+    "conf": 0.9638,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Kembalian",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Rp. 0",
+    "status": "ok",
+    "conf": 0.9043,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 18
+}

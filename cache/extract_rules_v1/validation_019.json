@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "FUTAMI 17 GREEN TEA (CLAS",
+   "cnt": null,
+   "price": {
+    "value": "12500",
+    "raw": "12,500",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "EgG TART",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": 0.9528,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GRAIN CROQUE  MONSIEUR",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17_,000",
+    "status": "repaired",
+    "conf": 0.9741,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "42500",
+  "raw": "42_500",
+  "status": "repaired",
+  "conf": 0.8091,
+  "low_trust": false,
+  "line": "TOTAL 42_500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 19
+}
