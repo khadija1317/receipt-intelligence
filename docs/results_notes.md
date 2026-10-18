@@ -1,0 +1,1 @@
+Day 2. Raw total-visible rate (EasyOCR, whole piece or any word, no merging): test 53/95 = 55.8% (strict rate identical), validation 61/98 = 62.2%. Median 9.1 s/image on test. Pre-committed rule: if the MERGED rate (measured end of Day 3) is below ~80%, try a second engine on the same cache; otherwise keep EasyOCR.
