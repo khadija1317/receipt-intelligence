@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "ES KOPI   SUSU",
+   "cnt": null,
+   "price": {
+    "value": "72000",
+    "raw": "72.000",
+    "status": "ok",
+    "conf": 0.7436,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "72000",
+  "raw": "72.000",
+  "status": "ok",
+  "conf": 0.9956,
+  "low_trust": false,
+  "line": "Total 72.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 12
+}

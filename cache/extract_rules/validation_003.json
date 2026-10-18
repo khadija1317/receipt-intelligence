@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "1X M-Carame] Black Tea @28",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28Ooo",
+    "status": "repaired",
+    "conf": 0.2593,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "28000",
+  "raw": "2800o",
+  "status": "repaired",
+  "conf": 0.2282,
+  "low_trust": false,
+  "line": "Subtotal: 2800o",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "28000",
+  "raw": "2800o",
+  "status": "repaired",
+  "conf": 0.1365,
+  "low_trust": false,
+  "line": "Total: 2800o",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 3
+}

@@ -1,0 +1,36 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "54000",
+  "raw": "Rp 54.000",
+  "status": "ok",
+  "conf": 0.9364,
+  "low_trust": false,
+  "line": "Subtotal Rp 54.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "59400",
+  "raw": "Rp 59.400",
+  "status": "ok",
+  "conf": 0.9581,
+  "low_trust": false,
+  "line": "Total Rp 59.400",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5400",
+  "raw": "Rp 5.400",
+  "status": "ok",
+  "conf": 0.659,
+  "low_trust": false,
+  "line": "Tax (10 .0%) Rp 5.400",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 15
+}

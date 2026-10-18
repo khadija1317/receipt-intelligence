@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "Kopi Susu Kolone]",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23 . Qou",
+    "status": "repaired",
+    "conf": 0.1035,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "Tota]",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23.O00",
+    "status": "repaired",
+    "conf": 0.1693,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tunai",
+   "cnt": null,
+   "price": {
+    "value": "50000",
+    "raw": "50 . 00o",
+    "status": "repaired",
+    "conf": 0.2076,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Kemba |",
+   "cnt": "1",
+   "price": {
+    "value": "27000",
+    "raw": "27.0ou",
+    "status": "repaired",
+    "conf": 0.106,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 1
+}

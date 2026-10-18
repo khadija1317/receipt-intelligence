@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "TALAH UNGU",
+   "cnt": null,
+   "price": {
+    "value": "19500",
+    "raw": "19,500",
+    "status": "ok",
+    "conf": 0.9172,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AHOUNT",
+   "cnt": null,
+   "price": {
+    "value": "800",
+    "raw": "800",
+    "status": "ok",
+    "conf": 0.992,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "11700",
+  "raw": "11,700",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "SUB TOTAL 11,700",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "11700",
+  "raw": "11,700",
+  "status": "ok",
+  "conf": 0.9831,
+  "low_trust": false,
+  "line": "TotaL 11,700",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 8
+}

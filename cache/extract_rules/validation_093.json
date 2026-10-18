@@ -1,0 +1,92 @@
+{
+ "menu": [
+  {
+   "nm": "BREAD N CHEESE DEL",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9977,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LINE SQuASH DEL",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.1871,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PP BEEF CORN",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9972,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LIPTON ICE TEA DEL",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9879,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHICKEN ROYAL",
+   "cnt": null,
+   "price": {
+    "value": "19182",
+    "raw": "19182",
+    "status": "ok",
+    "conf": 0.2554,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "156364",
+  "raw": "156,364",
+  "status": "ok",
+  "conf": 0.8476,
+  "low_trust": false,
+  "line": "SUBTOTAL 156,364",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "172000",
+  "raw": "172,000",
+  "status": "ok",
+  "conf": 0.9851,
+  "low_trust": false,
+  "line": "TOTAL 172,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "15636",
+  "raw": "15,636",
+  "status": "ok",
+  "conf": 0.19,
+  "low_trust": false,
+  "line": "Tax 15,636",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 93
+}

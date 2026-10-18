@@ -1,0 +1,79 @@
+{
+ "menu": [
+  {
+   "nm": "1x",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": 0.9194,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2x4000",
+   "cnt": null,
+   "price": {
+    "value": "800",
+    "raw": "800",
+    "status": "ok",
+    "conf": 0.5217,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1x",
+   "cnt": null,
+   "price": {
+    "value": "2000",
+    "raw": "2000",
+    "status": "ok",
+    "conf": 0.9885,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ix",
+   "cnt": null,
+   "price": {
+    "value": "1400",
+    "raw": "1400",
+    "status": "ok",
+    "conf": 0.9782,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ix",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": 0.4919,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tota",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "Rp. 35.000",
+    "status": "ok",
+    "conf": 0.7147,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 26
+}

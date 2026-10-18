@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1X K-Passion Fruit Vac €29,000",
+   "cnt": null,
+   "price": {
+    "value": "29.00",
+    "raw": "29,0o",
+    "status": "repaired",
+    "conf": 0.2342,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Suztcreal",
+   "cnt": null,
+   "price": {
+    "value": "2.0",
+    "raw": "2,0",
+    "status": "ok",
+    "conf": 0.421,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tctal:",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "2,",
+    "status": "review",
+    "conf": 0.6281,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "service"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 87
+}

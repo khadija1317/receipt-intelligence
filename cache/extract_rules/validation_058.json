@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "Viet Milk Coffee",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 0.995,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "25000",
+  "raw": "25 . 000",
+  "status": "ok",
+  "conf": 0.4683,
+  "low_trust": false,
+  "line": "Subtotal 25 . 000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "25000",
+  "raw": "25, 000",
+  "status": "ok",
+  "conf": 0.8895,
+  "low_trust": false,
+  "line": "Total 25, 000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 58
+}

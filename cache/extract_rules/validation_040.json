@@ -1,0 +1,72 @@
+{
+ "menu": [
+  {
+   "nm": "Gojek Chicken",
+   "cnt": null,
+   "price": {
+    "value": "95000",
+    "raw": "95,000",
+    "status": "ok",
+    "conf": 0.7812,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Gojek Chicken",
+   "cnt": null,
+   "price": {
+    "value": "180000",
+    "raw": "180,000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Gojek French",
+   "cnt": null,
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": 0.9741,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "service"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "345.00",
+  "raw": "345,00",
+  "status": "ok",
+  "conf": 0.9913,
+  "low_trust": false,
+  "line": "Sub Total 345,00",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "379500",
+  "raw": "379,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 379,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "34500",
+  "raw": "34,500",
+  "status": "ok",
+  "conf": 0.9099,
+  "low_trust": false,
+  "line": "Tax 34,500",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 40
+}

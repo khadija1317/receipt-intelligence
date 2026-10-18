@@ -1,0 +1,28 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "20000",
+  "raw": "20 OCD",
+  "status": "repaired",
+  "conf": 0.5169,
+  "low_trust": false,
+  "line": "SUB TOTAL 20 OCD",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "20000",
+  "raw": "20 OC0",
+  "status": "repaired",
+  "conf": 0.2798,
+  "low_trust": false,
+  "line": "GRAND TOTAL 20 OC0",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 17
+}

@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "Choco Cheese",
+   "cnt": null,
+   "price": {
+    "value": "-2045",
+    "raw": "-2.045",
+    "status": "ok",
+    "conf": 0.1331,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": null,
+ "total": {
+  "value": "12750",
+  "raw": "12,750",
+  "status": "ok",
+  "conf": 0.1949,
+  "low_trust": false,
+  "line": "Total; 12,750",
+  "n_candidates": 2
+ },
+ "tax": null,
+ "service": null,
+ "index": 96
+}

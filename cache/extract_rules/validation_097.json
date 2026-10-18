@@ -1,0 +1,26 @@
+{
+ "menu": [
+  {
+   "nm": "Lemion Tea (L)",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25 . 0O0",
+    "status": "repaired",
+    "conf": 0.4029,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 97
+}

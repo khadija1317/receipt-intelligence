@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "Sate Padang",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25)0oo",
+    "status": "repaired",
+    "conf": 0.3712,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "25000",
+  "raw": "25.OOO",
+  "status": "repaired",
+  "conf": 0.5922,
+  "low_trust": false,
+  "line": "1 Total 25.OOO",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 80
+}

@@ -1,0 +1,91 @@
+{
+ "menu": [
+  {
+   "nm": "iPrs Sop Sui Jiao",
+   "cnt": null,
+   "price": {
+    "value": "33000",
+    "raw": "33,Ooo",
+    "status": "repaired",
+    "conf": 0.3152,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "iPrs Ha Kaou Udng",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28,dod",
+    "status": "repaired",
+    "conf": 0.5497,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1Prs Si0 Nay Kpting",
+   "cnt": null,
+   "price": {
+    "value": "23500",
+    "raw": "23,500",
+    "status": "ok",
+    "conf": 0.9648,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "iPrs Siomay Kmbinasi",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,DD0",
+    "status": "repaired",
+    "conf": 0.3213,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1Prs mie Kgkung Trsi",
+   "cnt": null,
+   "price": {
+    "value": "35500",
+    "raw": "35,500",
+    "status": "ok",
+    "conf": 0.7388,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ten Tawar",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7, Ooo",
+    "status": "repaired",
+    "conf": 0.1489,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal",
+   "service",
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "207900",
+  "raw": "207,900",
+  "status": "ok",
+  "conf": 0.4823,
+  "low_trust": false,
+  "line": "Total 207,900",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 25
+}

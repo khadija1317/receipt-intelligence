@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "ROTI UNYIL",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "d00",
+    "status": "repaired",
+    "conf": 0.2939,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "171",
+  "raw": "171",
+  "status": "ok",
+  "conf": 0.9737,
+  "low_trust": false,
+  "line": "Total @ty: 171",
+  "n_candidates": 2
+ },
+ "tax": null,
+ "service": null,
+ "index": 43
+}

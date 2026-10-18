@@ -1,0 +1,81 @@
+{
+ "menu": [
+  {
+   "nm": "KFC Hinger HC",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40 , 000",
+    "status": "ok",
+    "conf": 0.7507,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Or i Bento",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mango Float",
+   "cnt": null,
+   "price": {
+    "value": "5909",
+    "raw": "5,,909",
+    "status": "repaired",
+    "conf": 0.8658,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "F.Wngr GES-HC",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "60454",
+  "raw": "60 , 454",
+  "status": "ok",
+  "conf": 0.7296,
+  "low_trust": false,
+  "line": "Sub Total 60 , 454",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "66500",
+  "raw": "66,500",
+  "status": "ok",
+  "conf": 0.9882,
+  "low_trust": false,
+  "line": "Total 66,500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "909",
+  "raw": "909",
+  "status": "ok",
+  "conf": 0.9971,
+  "low_trust": false,
+  "line": "CHARGE  TA 909",
+  "n_candidates": 1
+ },
+ "index": 75
+}

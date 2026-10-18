@@ -1,0 +1,90 @@
+{
+ "menu": [
+  {
+   "nm": "PEARL: Chocq TEA",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17,000",
+    "status": "ok",
+    "conf": 0.8532,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GREEN TEA LYCHEE",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10 , Q00",
+    "status": "repaired",
+    "conf": 0.4043,
+    "low_trust": true
+   }
+  },
+  {
+   "nm": "2 CUP 14",
+   "cnt": null,
+   "price": {
+    "value": "2",
+    "raw": "02",
+    "status": "ok",
+    "conf": 0.2013,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NET Sales",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "35. 000",
+    "status": "ok",
+    "conf": 0.3015,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "6 Tota E",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "35,000",
+    "status": "ok",
+    "conf": 0.1627,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Beyar",
+   "cnt": null,
+   "price": {
+    "value": "100000",
+    "raw": "100. 000",
+    "status": "ok",
+    "conf": 0.1743,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Kemba | ",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65,Quu",
+    "status": "repaired",
+    "conf": 0.1664,
+    "low_trust": true
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 82
+}

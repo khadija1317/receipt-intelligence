@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "Ice",
+   "cnt": null,
+   "price": {
+    "value": "1000",
+    "raw": "1,00o",
+    "status": "repaired",
+    "conf": 0.6906,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Subtota]",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "''0,00o",
+    "status": "repaired",
+    "conf": 0.2831,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "20000",
+  "raw": "'20 , 000",
+  "status": "repaired",
+  "conf": 0.4178,
+  "low_trust": false,
+  "line": "TOTAL '20 , 000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 71
+}

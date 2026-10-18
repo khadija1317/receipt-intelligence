@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "e2s25=2 E I",
+   "cnt": null,
+   "price": {
+    "value": "72",
+    "raw": "72",
+    "status": "ok",
+    "conf": 0.218,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Large",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11000",
+    "status": "ok",
+    "conf": 0.1777,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Pastry Keju",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "200Oo",
+    "status": "repaired",
+    "conf": 0.1267,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "31000",
+  "raw": "31,O00",
+  "status": "repaired",
+  "conf": 0.6728,
+  "low_trust": false,
+  "line": "4 Total 31,O00",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 53
+}

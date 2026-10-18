@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Ix 52.",
+   "cnt": null,
+   "price": {
+    "value": "52000",
+    "raw": "52. 000",
+    "status": "ok",
+    "conf": 0.79,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ix 22.",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22. 000",
+    "status": "ok",
+    "conf": 0.7213,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SubTTI",
+   "cnt": null,
+   "price": {
+    "value": "74000",
+    "raw": "74.000",
+    "status": "ok",
+    "conf": 0.9922,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "7400",
+  "raw": "7..400",
+  "status": "repaired",
+  "conf": 0.4827,
+  "low_trust": false,
+  "line": "TaX 7..400",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 49
+}
