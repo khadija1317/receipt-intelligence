@@ -32,21 +32,12 @@
     "conf": 0.7982,
     "low_trust": false
    }
-  },
-  {
-   "nm": "Cfiariye:",
-   "cnt": null,
-   "price": {
-    "value": "68508",
-    "raw": "68 , 508",
-    "status": "ok",
-    "conf": 0.2502,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
-  "keyword_without_amount": [],
+  "keyword_without_amount": [
+   "total"
+  ],
   "orphan_amount_lines": 0
  },
  "subtotal": null,

@@ -21,24 +21,21 @@
     "conf": 0.9758,
     "low_trust": false
    }
-  },
-  {
-   "nm": "Subtota]",
-   "cnt": null,
-   "price": {
-    "value": "57000",
-    "raw": "57 ,O00",
-    "status": "repaired",
-    "conf": 0.3224,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
   "keyword_without_amount": [],
   "orphan_amount_lines": 0
  },
- "subtotal": null,
+ "subtotal": {
+  "value": "57000",
+  "raw": "57 ,O00",
+  "status": "repaired",
+  "conf": 0.3224,
+  "low_trust": false,
+  "line": "Subtota] 57 ,O00",
+  "n_candidates": 1
+ },
  "total": {
   "value": "57000",
   "raw": "57. 000",

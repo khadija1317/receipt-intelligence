@@ -7,12 +7,12 @@
  "subtotal": null,
  "total": {
   "value": "13000",
-  "raw": "13.000",
+  "raw": "13,000",
   "status": "ok",
-  "conf": 0.7536,
+  "conf": 0.4787,
   "low_trust": false,
-  "line": "Jubtotal 13.000",
-  "n_candidates": 1
+  "line": "'otal 13,000",
+  "n_candidates": 2
  },
  "tax": null,
  "service": null,

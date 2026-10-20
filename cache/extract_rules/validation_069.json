@@ -36,7 +36,15 @@
   "line": "Subtotal 151.500",
   "n_candidates": 1
  },
- "total": null,
+ "total": {
+  "value": "174983",
+  "raw": "174.983",
+  "status": "ok",
+  "conf": 0.8484,
+  "low_trust": false,
+  "line": "3T0TAL 174.983",
+  "n_candidates": 1
+ },
  "tax": {
   "value": "15908",
   "raw": "15.908",

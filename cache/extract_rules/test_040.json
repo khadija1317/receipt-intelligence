@@ -1,30 +1,9 @@
 {
- "menu": [
-  {
-   "nm": "39Sy",
-   "cnt": null,
-   "price": {
-    "value": null,
-    "raw": ";3,32",
-    "status": "review",
-    "conf": 0.0442,
-    "low_trust": false
-   }
-  },
-  {
-   "nm": "~HSGE",
-   "cnt": null,
-   "price": {
-    "value": "30",
-    "raw": "3C",
-    "status": "repaired",
-    "conf": 0.2941,
-    "low_trust": false
-   }
-  }
- ],
+ "menu": [],
  "notes": {
-  "keyword_without_amount": [],
+  "keyword_without_amount": [
+   "total"
+  ],
   "orphan_amount_lines": 2
  },
  "subtotal": null,

@@ -27,6 +27,38 @@ def classify(label):
         return "service"
     return None
 
+def _edit_distance(a, b):
+    """How many single-letter edits turn a into b (add, remove or change a letter)."""
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1,                 # remove a letter
+                           cur[j - 1] + 1,              # add a letter
+                           prev[j - 1] + (ca != cb)))   # change a letter
+        prev = cur
+    return prev[-1]
+
+
+def classify_fuzzy(label):
+    """Second chance for lines classify() missed: 'Tota]' -> 'total'.
+    One edit allowed, words of 4+ letters only, digit 0 read as the letter o."""
+    full = _norm(label)
+    for word in label.split():
+        w = re.sub(r"[^a-z0-9]", "", word.lower().replace("0", "o"))
+        if len(w) < 4:
+            continue
+        if _edit_distance(w, "subtotal") <= 1:
+            return "subtotal"
+        if _edit_distance(w, "total") <= 1 and not any(x in full for x in TOTAL_EXCLUDE):
+            return "total"
+    return None
+
+
+def classify_any(label):
+    """v1 rule first. The fuzzy rule only runs when v1 found nothing."""
+    return classify(label) or classify_fuzzy(label)
+
 
 def line_parts(line, currency):
     """One merged line -> (label text, list of amount results, left to right)."""
@@ -58,11 +90,12 @@ def field_of(result):
     }
 
 
-def extract_receipt(pieces, currency="IDR"):
+def extract_receipt(pieces, currency="IDR", fuzzy=True):
     parsed = []
     for line in merge_receipt(pieces):
         label, amounts = line_parts(line, currency)
-        parsed.append({"label": label, "kind": classify(label),
+        parsed.append({"label": label,
+                       "kind": classify_any(label) if fuzzy else classify(label),
                        "amounts": amounts, "text": line["text"]})
 
     notes = {"keyword_without_amount": [], "orphan_amount_lines": 0}

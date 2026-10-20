@@ -3,7 +3,8 @@
  "notes": {
   "keyword_without_amount": [
    "subtotal",
-   "tax"
+   "tax",
+   "total"
   ],
   "orphan_amount_lines": 1
  },

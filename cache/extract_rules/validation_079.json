@@ -54,24 +54,21 @@
     "conf": 0.9233,
     "low_trust": false
    }
-  },
-  {
-   "nm": "Subtota]",
-   "cnt": null,
-   "price": {
-    "value": "72000",
-    "raw": "72.000",
-    "status": "ok",
-    "conf": 0.7599,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
   "keyword_without_amount": [],
   "orphan_amount_lines": 2
  },
- "subtotal": null,
+ "subtotal": {
+  "value": "72000",
+  "raw": "72.000",
+  "status": "ok",
+  "conf": 0.7599,
+  "low_trust": false,
+  "line": "Subtota] 72.000",
+  "n_candidates": 1
+ },
  "total": {
   "value": "72000",
   "raw": "72,000",

@@ -58,7 +58,15 @@
   "line": "Subtotal 15400o",
   "n_candidates": 1
  },
- "total": null,
+ "total": {
+  "value": "177870",
+  "raw": "177.870",
+  "status": "ok",
+  "conf": 0.6311,
+  "low_trust": false,
+  "line": "6 Tatal 177.870",
+  "n_candidates": 1
+ },
  "tax": {
   "value": "16170",
   "raw": "16170",

@@ -21,35 +21,21 @@
     "conf": 0.9989,
     "low_trust": false
    }
-  },
-  {
-   "nm": "Subtota]: Rp16s000",
-   "cnt": null,
-   "price": {
-    "value": null,
-    "raw": ",00",
-    "status": "review",
-    "conf": 0.1094,
-    "low_trust": false
-   }
-  },
-  {
-   "nm": "Tota] Tar Ircluded:",
-   "cnt": null,
-   "price": {
-    "value": "15000.00",
-    "raw": "Rp15OOO, O0",
-    "status": "repaired",
-    "conf": 0.1106,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
   "keyword_without_amount": [],
   "orphan_amount_lines": 0
  },
- "subtotal": null,
+ "subtotal": {
+  "value": null,
+  "raw": ",00",
+  "status": "review",
+  "conf": 0.1094,
+  "low_trust": false,
+  "line": "Subtota]: Rp16s000 ,00",
+  "n_candidates": 1
+ },
  "total": {
   "value": "165000.00",
   "raw": "Rp16500o . oo",
@@ -57,7 +43,7 @@
   "conf": 0.2817,
   "low_trust": false,
   "line": "Total; Rp16500o . oo",
-  "n_candidates": 1
+  "n_candidates": 2
  },
  "tax": null,
  "service": null,

@@ -25,7 +25,15 @@
   "line": "Subtotal 22 ,728",
   "n_candidates": 1
  },
- "total": null,
+ "total": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": 0.9878,
+  "low_trust": false,
+  "line": "Tota] 25,000",
+  "n_candidates": 1
+ },
  "tax": {
   "value": "2272",
   "raw": "2,272",

@@ -71,6 +71,7 @@
   "keyword_without_amount": [
    "subtotal",
    "service",
+   "total",
    "total"
   ],
   "orphan_amount_lines": 0

@@ -43,39 +43,6 @@
     "conf": 0.3015,
     "low_trust": false
    }
-  },
-  {
-   "nm": "6 Tota E",
-   "cnt": null,
-   "price": {
-    "value": "35000",
-    "raw": "35,000",
-    "status": "ok",
-    "conf": 0.1627,
-    "low_trust": false
-   }
-  },
-  {
-   "nm": "Beyar",
-   "cnt": null,
-   "price": {
-    "value": "100000",
-    "raw": "100. 000",
-    "status": "ok",
-    "conf": 0.1743,
-    "low_trust": false
-   }
-  },
-  {
-   "nm": "Kemba | ",
-   "cnt": null,
-   "price": {
-    "value": "65000",
-    "raw": "65,Quu",
-    "status": "repaired",
-    "conf": 0.1664,
-    "low_trust": true
-   }
   }
  ],
  "notes": {
@@ -83,7 +50,15 @@
   "orphan_amount_lines": 0
  },
  "subtotal": null,
- "total": null,
+ "total": {
+  "value": "35000",
+  "raw": "35,000",
+  "status": "ok",
+  "conf": 0.1627,
+  "low_trust": false,
+  "line": "6 Tota E 35,000",
+  "n_candidates": 1
+ },
  "tax": null,
  "service": null,
  "index": 82

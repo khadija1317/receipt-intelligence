@@ -24,7 +24,9 @@
   }
  ],
  "notes": {
-  "keyword_without_amount": [],
+  "keyword_without_amount": [
+   "total"
+  ],
   "orphan_amount_lines": 0
  },
  "subtotal": null,

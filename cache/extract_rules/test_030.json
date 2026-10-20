@@ -25,7 +25,15 @@
   "line": "Subtotal 28,636",
   "n_candidates": 1
  },
- "total": null,
+ "total": {
+  "value": "31500",
+  "raw": "31,500",
+  "status": "ok",
+  "conf": 0.9636,
+  "low_trust": false,
+  "line": "Dine In Tatal 31,500",
+  "n_candidates": 1
+ },
  "tax": {
   "value": "2864",
   "raw": "2,864",

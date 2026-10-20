@@ -21,17 +21,6 @@
     "conf": 0.421,
     "low_trust": false
    }
-  },
-  {
-   "nm": "Tctal:",
-   "cnt": null,
-   "price": {
-    "value": null,
-    "raw": "2,",
-    "status": "review",
-    "conf": 0.6281,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
@@ -41,7 +30,15 @@
   "orphan_amount_lines": 0
  },
  "subtotal": null,
- "total": null,
+ "total": {
+  "value": null,
+  "raw": "2,",
+  "status": "review",
+  "conf": 0.6281,
+  "low_trust": false,
+  "line": "Tctal: 2,",
+  "n_candidates": 1
+ },
  "tax": null,
  "service": null,
  "index": 87

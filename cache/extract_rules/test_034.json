@@ -10,33 +10,13 @@
     "conf": 0.1211,
     "low_trust": false
    }
-  },
-  {
-   "nm": "Tuna !",
-   "cnt": null,
-   "price": {
-    "value": "1004000",
-    "raw": "10040od",
-    "status": "repaired",
-    "conf": 0.0219,
-    "low_trust": false
-   }
-  },
-  {
-   "nm": "Kerbal1",
-   "cnt": null,
-   "price": {
-    "value": "6500",
-    "raw": "6,500",
-    "status": "ok",
-    "conf": 0.5108,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
-  "keyword_without_amount": [],
-  "orphan_amount_lines": 1
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
  },
  "subtotal": null,
  "total": null,

@@ -14,7 +14,8 @@
  ],
  "notes": {
   "keyword_without_amount": [
-   "tax"
+   "tax",
+   "total"
   ],
   "orphan_amount_lines": 2
  },

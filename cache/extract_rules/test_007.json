@@ -10,35 +10,21 @@
     "conf": 0.8589,
     "low_trust": false
    }
-  },
-  {
-   "nm": "Subiotal",
-   "cnt": null,
-   "price": {
-    "value": "100209",
-    "raw": "100,209",
-    "status": "ok",
-    "conf": 0.4625,
-    "low_trust": false
-   }
-  },
-  {
-   "nm": "PDi",
-   "cnt": null,
-   "price": {
-    "value": "10021",
-    "raw": "10,021",
-    "status": "ok",
-    "conf": 0.6526,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
   "keyword_without_amount": [],
   "orphan_amount_lines": 0
  },
- "subtotal": null,
+ "subtotal": {
+  "value": "100209",
+  "raw": "100,209",
+  "status": "ok",
+  "conf": 0.4625,
+  "low_trust": false,
+  "line": "Subiotal 100,209",
+  "n_candidates": 1
+ },
  "total": {
   "value": "114000",
   "raw": "114,O00",

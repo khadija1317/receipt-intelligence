@@ -21,28 +21,6 @@
     "conf": 0.2899,
     "low_trust": false
    }
-  },
-  {
-   "nm": "TQTAL",
-   "cnt": null,
-   "price": {
-    "value": "99000",
-    "raw": "99.000",
-    "status": "ok",
-    "conf": 0.7231,
-    "low_trust": false
-   }
-  },
-  {
-   "nm": "KARTU",
-   "cnt": null,
-   "price": {
-    "value": "99000",
-    "raw": "99.000",
-    "status": "ok",
-    "conf": 0.9455,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
@@ -50,7 +28,15 @@
   "orphan_amount_lines": 2
  },
  "subtotal": null,
- "total": null,
+ "total": {
+  "value": "99000",
+  "raw": "99.000",
+  "status": "ok",
+  "conf": 0.7231,
+  "low_trust": false,
+  "line": "TQTAL 99.000",
+  "n_candidates": 1
+ },
  "tax": null,
  "service": null,
  "index": 76

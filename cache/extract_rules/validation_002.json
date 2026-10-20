@@ -6,8 +6,24 @@
   ],
   "orphan_amount_lines": 4
  },
- "subtotal": null,
- "total": null,
+ "subtotal": {
+  "value": "20000",
+  "raw": "20,000",
+  "status": "ok",
+  "conf": 0.9971,
+  "low_trust": false,
+  "line": "Subtota] 20,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "100000",
+  "raw": "100,000",
+  "status": "ok",
+  "conf": 0.835,
+  "low_trust": false,
+  "line": "Tota] 100,000",
+  "n_candidates": 1
+ },
  "tax": {
   "value": "18181",
   "raw": "18 , 181",

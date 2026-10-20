@@ -27,7 +27,15 @@
   "keyword_without_amount": [],
   "orphan_amount_lines": 0
  },
- "subtotal": null,
+ "subtotal": {
+  "value": "60000",
+  "raw": "6O,000",
+  "status": "repaired",
+  "conf": 0.3977,
+  "low_trust": false,
+  "line": "Subtota] 6O,000",
+  "n_candidates": 1
+ },
  "total": {
   "value": "60000",
   "raw": "60000",

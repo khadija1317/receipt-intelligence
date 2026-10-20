@@ -21,17 +21,6 @@
     "conf": 0.1713,
     "low_trust": false
    }
-  },
-  {
-   "nm": "TOTA",
-   "cnt": null,
-   "price": {
-    "value": "51636",
-    "raw": "51.636",
-    "status": "ok",
-    "conf": 0.8279,
-    "low_trust": false
-   }
   }
  ],
  "notes": {
@@ -46,7 +35,7 @@
   "conf": 0.2268,
   "low_trust": false,
   "line": "GRAND TOTAL 56,800 >",
-  "n_candidates": 1
+  "n_candidates": 2
  },
  "tax": {
   "value": "5.18",
