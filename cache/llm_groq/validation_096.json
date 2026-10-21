@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Choco Cheese",
+   "cnt": null,
+   "price": {
+    "value": "-2045",
+    "raw": "-2.045",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 96,
+ "subtotal": null,
+ "total": {
+  "value": "12750",
+  "raw": "12,750",
+  "status": "ok",
+  "conf": null,
+  "line": "Total;  12,750"
+ },
+ "tax": null,
+ "service": null
+}

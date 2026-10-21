@@ -1,0 +1,17 @@
+{
+ "index": 46,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2\nIX S-Bubble Milk Tea  @20  ,000  20,000\n100x\nIX S-Caramel Milk Tea  @20 ,  000  20,000\n1OOX\nTotal:  40 ,000\nCash:  40 , 000\nCHANCF",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"IX S-Bubble Milk Tea\",\n      \"cnt\": null,\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"IX S-Caramel Milk Tea\",\n      \"cnt\": null,\n      \"price\": \"20,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"40 ,000\",\n    \"evidence\": \"Total:  40 ,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 848,
+  "completion": 368,
+  "total": 1216,
+  "reasoning": 195
+ },
+ "seconds": 1.1405701637268066,
+ "error": null
+}

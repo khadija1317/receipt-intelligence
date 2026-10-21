@@ -1,0 +1,17 @@
+{
+ "index": 13,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "BOrNGA\n4n\n1  MINERAL 600 ML  7727\n1 BULGOGI RICE R  33,636\nSubtotal  41,364\nTax  4,136\nTotal  45,500\nCASH  50,000\nCash CHANGE  -4,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"MINERAL 600 ML\",\n      \"cnt\": \"1\",\n      \"price\": \"7727\"\n    },\n    {\n      \"nm\": \"BULGOGI RICE R\",\n      \"cnt\": \"1\",\n      \"price\": \"33,636\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"41,364\",\n    \"evidence\": \"Subtotal  41,364\"\n  },\n  \"tax\": {\n    \"amount\": \"4,136\",\n    \"evidence\": \"Tax  4,136\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"45,500\",\n    \"evidence\": \"Total  45,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 908,
+  "completion": 366,
+  "total": 1274,
+  "reasoning": 174
+ },
+ "seconds": 1.0234332084655762,
+ "error": null
+}

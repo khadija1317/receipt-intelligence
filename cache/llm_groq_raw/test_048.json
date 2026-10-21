@@ -1,0 +1,17 @@
+{
+ "index": 48,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "IX S-HazeInut KOI Cafe @25,000  25,000\n258\nLess   Ice\nPBI  2,272\nSubtotal  22 ,728\nTota]  25,000\nCash:  100,000\nCHANGE:  75,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"IX S-HazeInut KOI Cafe @25,000\",\n      \"cnt\": null,\n      \"price\": \"25,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"22 ,728\",\n    \"evidence\": \"Subtotal  22 ,728\"\n  },\n  \"total\": {\n    \"amount\": \"25,000\",\n    \"evidence\": \"Tota]  25,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 847,
+  "completion": 290,
+  "total": 1137,
+  "reasoning": 131
+ },
+ "seconds": 1.078646183013916,
+ "error": null
+}

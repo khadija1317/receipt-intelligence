@@ -1,0 +1,16 @@
+{
+ "index": 44,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "THAI ICED TEA (L)\n16,363  16,263\nJunlah  Iter\nSub Total  161367\nPajak Resto  1  1634\nGrand Total  17,938",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"THAI ICED TEA (L)\",\n      \"cnt\": null,\n      \"price\": \"16,363  16,263\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"161367\",\n    \"evidence\": \"Sub Total  161367\"\n  },\n  \"tax\": {\n    \"amount\": \"1634\",\n    \"evidence\": \"Pajak Resto  1  1634\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"17,938\",\n    \"evidence\": \"Grand Total  17,938\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 832,
+  "completion": 387,
+  "total": 1219,
+  "reasoning": 217
+ },
+ "seconds": 1.0381600856781006
+}

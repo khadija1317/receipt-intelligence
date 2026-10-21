@@ -1,0 +1,17 @@
+{
+ "index": 96,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "BBQ Chicken  41,008\nTidak Pedas\nITEMS :1  41,808\nPay  Tetal.  \"Cash\" 50,000   Change  :9,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BBQ Chicken\",\n      \"cnt\": null,\n      \"price\": \"41,008\"\n    },\n    {\n      \"nm\": \"ITEMS\",\n      \"cnt\": \"1\",\n      \"price\": \"41,808\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 826,
+  "completion": 470,
+  "total": 1296,
+  "reasoning": 313
+ },
+ "seconds": 1.5028934478759766,
+ "error": null
+}

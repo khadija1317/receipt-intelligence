@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "J.STE Ffomo",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "I7300",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Y.B .BaT",
+   "cnt": null,
+   "price": {
+    "value": "46000",
+    "raw": "46000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Y.Basu Proh",
+   "cnt": null,
+   "price": {
+    "value": "27300",
+    "raw": "27300",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "T 0 TAL",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "C AsSh",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 1,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

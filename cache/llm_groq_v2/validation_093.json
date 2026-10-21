@@ -1,0 +1,120 @@
+{
+ "menu": [
+  {
+   "nm": "BREAD N CHEESE DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CRARSTICK FUSILLI DEL",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LINE SQuASH DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "P/p SPICY TUNA DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "P/p Thudsand ISL DEL",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PP BEEF CORN",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SUNRISE ITALIAN SoDA",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LIPTON ICE TEA DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CHICKEN ROYAL",
+   "cnt": "507",
+   "price": {
+    "value": "19182",
+    "raw": "19182",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 93,
+ "subtotal": {
+  "value": "156364",
+  "raw": "156,364",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  156,364"
+ },
+ "total": {
+  "value": "172000",
+  "raw": "172,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  172,000"
+ },
+ "tax": {
+  "value": "15636",
+  "raw": "15,636",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  15,636"
+ },
+ "service": null
+}

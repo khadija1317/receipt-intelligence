@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "CINNAMON SUGAR",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "17,000  17,000",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 10,
+ "subtotal": {
+  "value": "17000",
+  "raw": "17,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB TOTAL  17,000"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

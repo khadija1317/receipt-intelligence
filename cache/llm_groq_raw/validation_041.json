@@ -1,0 +1,16 @@
+{
+ "index": 41,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "021-5780773\nsir\nable\nSOGOGI JAPCHAE  150 @00\nGONG GIBAB  105, 000\nCHULPAN CHEESE  230000\nDAK GALBI\nCREAM TEOK PO KI  95000\nEL KEUN  120,000\nHWANGTAE\nSUNDUBU(TUKBEGI)\nCHAM KKOT SAL  620000\nU AM GYEOP  290,000\nU SEOLF  'GYEoBN] AAir  390000\nU SAM\nICEICOFFE MIX\nICEIBLACK CQFFE ' 0iM\nSub Total  2,000, 000\nService  140,000\nTax  212 460\nDiscount\n2,352,460\nTOTAL\nCard  2,352,460\nCHANGE\n))",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SOGOGI JAPCHAE\",\n      \"cnt\": null,\n      \"price\": \"150 @00\"\n    },\n    {\n      \"nm\": \"GONG GIBAB\",\n      \"cnt\": null,\n      \"price\": \"105, 000\"\n    },\n    {\n      \"nm\": \"CHULPAN CHEESE\",\n      \"cnt\": null,\n      \"price\": \"230000\"\n    },\n    {\n      \"nm\": \"CREAM TEOK PO KI\",\n      \"cnt\": null,\n      \"price\": \"95000\"\n    },\n    {\n      \"nm\": \"EL KEUN\",\n      \"cnt\": null,\n      \"price\": \"120,000\"\n    },\n    {\n      \"nm\": \"CHAM KKOT SAL\",\n      \"cnt\": null,\n      \"price\": \"620000\"\n    },\n    {\n      \"nm\": \"U AM GYEOP\",\n      \"cnt\": null,\n      \"price\": \"290,000\"\n    },\n    {\n      \"nm\": \"U SEOLF  'GYEoBN] AAir\",\n      \"cnt\": null,\n      \"price\": \"390000\"\n    },\n    {\n      \"nm\": \"ICEIBLACK CQFFE '\",\n      \"cnt\": null,\n      \"price\": \"0iM\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"2,000, 000\",\n    \"evidence\": \"Sub Total  2,000, 000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"212 460\",\n    \"evidence\": \"Tax  212 460\"\n  },\n  \"service\": {\n    \"amount\": \"140,000\",\n    \"evidence\": \"Service  140,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 973,
+  "completion": 999,
+  "total": 1972,
+  "reasoning": 586
+ },
+ "seconds": 3.6536407470703125
+}

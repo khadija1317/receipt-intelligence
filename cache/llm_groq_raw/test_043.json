@@ -1,0 +1,17 @@
+{
+ "index": 43,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "R\nPcs  Cheese Tart  165000.60\nBor ok  6\nPP Larr ier\nSubtota]:  Rp16s000  ,00\nTota] Tar Ircluded:  15000.00\nTotal;  165000.00\nGuslomer  Paid Cash:  Rpzooooo , OO\nCustomer  Criange ;  35000.00\n6\n6\n2  2\nW\n8",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Pcs  Cheese Tart\",\n      \"cnt\": null,\n      \"price\": \"165000.60\"\n    },\n    {\n      \"nm\": \"Bor ok\",\n      \"cnt\": null,\n      \"price\": \"6\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"Rp16s000  ,00\",\n    \"evidence\": \"Subtota]:  Rp16s000  ,00\"\n  },\n  \"total\": {\n    \"amount\": \"165000.00\",\n    \"evidence\": \"Total;  165000.00\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 883,
+  "completion": 600,
+  "total": 1483,
+  "reasoning": 412
+ },
+ "seconds": 1.556154489517212,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 91,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "BAKSO; BNGKS  16000\nGurengan  6, @pd\n21  000\nGash  80.000\n6  000\nerhaeecaSte",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BAKSO; BNGKS\",\n      \"cnt\": null,\n      \"price\": \"16000\"\n    },\n    {\n      \"nm\": \"Gash\",\n      \"cnt\": null,\n      \"price\": \"80.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 828,
+  "completion": 332,
+  "total": 1160,
+  "reasoning": 173
+ },
+ "seconds": 1.2319636344909668,
+ "error": null
+}

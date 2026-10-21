@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "ROTI UNYIL",
+   "cnt": "170",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PAPER BAG BESAR",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 43,
+ "subtotal": null,
+ "total": {
+  "value": "278000",
+  "raw": "278 . 000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  278 . 000"
+ },
+ "tax": null,
+ "service": null
+}

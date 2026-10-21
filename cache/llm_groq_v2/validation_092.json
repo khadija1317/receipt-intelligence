@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "<FC Hinger HC",
+   "cnt": null,
+   "price": {
+    "value": "20",
+    "raw": "20",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ZHARGE Tn",
+   "cnt": null,
+   "price": {
+    "value": "909",
+    "raw": "909",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "P,Fest",
+   "cnt": "10",
+   "price": {
+    "value": "2091",
+    "raw": "2,091",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Lash",
+   "cnt": null,
+   "price": {
+    "value": "25",
+    "raw": "25",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Kemca]",
+   "cnt": null,
+   "price": {
+    "value": "2",
+    "raw": "2",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 92,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

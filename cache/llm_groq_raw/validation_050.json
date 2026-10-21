@@ -1,0 +1,16 @@
+{
+ "index": 50,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "CHOCOLATE ECLAIR  26000\nTOTAL  26000\nCASH  26,000\nCHANGE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"CHOCOLATE ECLAIR\",\n      \"cnt\": null,\n      \"price\": \"26000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"26000\",\n    \"evidence\": \"TOTAL  26000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1066,
+  "completion": 215,
+  "total": 1281,
+  "reasoning": 76
+ },
+ "seconds": 1.4388141632080078
+}

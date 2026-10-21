@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "RedVelvet Nutella",
+   "cnt": null,
+   "price": {
+    "value": "280000",
+    "raw": "280000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Free nini Candle",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Large RCX",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 22,
+ "subtotal": {
+  "value": "280000",
+  "raw": "280000",
+  "status": "ok",
+  "conf": null,
+  "line": "SubtotaL  280000"
+ },
+ "total": {
+  "value": "308000",
+  "raw": "308000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  308000"
+ },
+ "tax": {
+  "value": "28000",
+  "raw": "28000",
+  "status": "ok",
+  "conf": null,
+  "line": "PBi  28000"
+ },
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 85,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "0\n3\nGca\ntene\n1  Peanut  8 Cheese  13,636\nFe LA Ee nt eran t\nSubTotal:  13,636\nPBi:  1,364  1\nTotal:  15,000\ncash:  20,Oon\nChange:  5000\nEZEZEZEZ=  =ESEEEEE=",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1  Peanut  8 Cheese\",\n      \"cnt\": \"1\",\n      \"price\": \"13,636\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"13,636\",\n    \"evidence\": \"SubTotal:  13,636\"\n  },\n  \"tax\": {\n    \"amount\": \"1,364\",\n    \"evidence\": \"PBi:  1,364  1\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"15,000\",\n    \"evidence\": \"Total:  15,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 923,
+  "completion": 363,
+  "total": 1286,
+  "reasoning": 194
+ },
+ "seconds": 1.8420169353485107,
+ "error": null
+}

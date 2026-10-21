@@ -1,0 +1,16 @@
+{
+ "index": 89,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "At\n1023-Chocochip  Valnut\ndod  22000\n'GDOi-Plastic Daj Cuall\nTotal Item:\nTotal:  29000\nCash \nTenderedi  '190.doq\nChangzi  71000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"dod\",\n      \"cnt\": null,\n      \"price\": \"22000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"29000\",\n    \"evidence\": \"Total:  29000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 838,
+  "completion": 360,
+  "total": 1198,
+  "reasoning": 226
+ },
+ "seconds": 1.2399275302886963
+}

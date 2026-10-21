@@ -1,0 +1,80 @@
+{
+ "menu": [
+  {
+   "nm": "SURIKI",
+   "cnt": null,
+   "price": {
+    "value": "29091",
+    "raw": "29,091",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CREANY CHk CLS FTC",
+   "cnt": "4",
+   "price": {
+    "value": "42727",
+    "raw": "42,727",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MIX 4Fun CHOCOLATE",
+   "cnt": "4",
+   "price": {
+    "value": "19091",
+    "raw": "19,091",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GREEN ItsodA PITCHER",
+   "cnt": "1",
+   "price": {
+    "value": "60309",
+    "raw": "60,309",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SC/R GRILLED STEAK",
+   "cnt": "1",
+   "price": {
+    "value": "99091",
+    "raw": "99,091",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 81,
+ "subtotal": {
+  "value": "250909",
+  "raw": "250909",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  250909"
+ },
+ "total": {
+  "value": "276000",
+  "raw": "276000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  276000"
+ },
+ "tax": {
+  "value": "25091",
+  "raw": "25,091",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  25,091"
+ },
+ "service": null
+}

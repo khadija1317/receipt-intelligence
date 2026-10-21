@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "PREMIUM TOAST PAN BREAD",
+   "cnt": null,
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 31,
+ "subtotal": null,
+ "total": {
+  "value": "24000",
+  "raw": "24,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  24,000"
+ },
+ "tax": null,
+ "service": null
+}

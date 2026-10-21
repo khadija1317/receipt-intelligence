@@ -1,0 +1,16 @@
+{
+ "index": 95,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SaYap  3 , 636\nPaha BaWAH  3 , 638\nSublota  22,708\nResto  10/\n2 Total  30000\nTendered  50000\nKembal  20000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SaYap\",\n      \"cnt\": \"3\",\n      \"price\": \", 636\"\n    },\n    {\n      \"nm\": \"Paha BaWAH\",\n      \"cnt\": \"3\",\n      \"price\": \", 638\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"22,708\",\n    \"evidence\": \"Sublota  22,708\"\n  },\n  \"total\": {\n    \"amount\": \"30000\",\n    \"evidence\": \"2 Total  30000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 841,
+  "completion": 427,
+  "total": 1268,
+  "reasoning": 249
+ },
+ "seconds": 1.3920183181762695
+}

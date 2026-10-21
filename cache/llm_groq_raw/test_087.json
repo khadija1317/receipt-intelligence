@@ -1,0 +1,17 @@
+{
+ "index": 87,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2\n:\n4\n2\n;  2\n0\n5\n@\n2\nCHIN  36,500\nPhotAl\nSub  Total  36500\nPBi  10086  3,50  2\nGand  Total  40,4150\nCARD  40,50\n51832301O REDIT  :\nW\n# =9-\n#4#0\nW",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"CHIN\",\n      \"cnt\": null,\n      \"price\": \"36,500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"36500\",\n    \"evidence\": \"Sub  Total  36500\"\n  },\n  \"total\": {\n    \"amount\": \"40,4150\",\n    \"evidence\": \"Gand  Total  40,4150\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 874,
+  "completion": 430,
+  "total": 1304,
+  "reasoning": 279
+ },
+ "seconds": 1.4404451847076416,
+ "error": null
+}

@@ -1,0 +1,66 @@
+{
+ "menu": [
+  {
+   "nm": "SOTO MEDAN+NASI",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "59.S00",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GADO-GADD",
+   "cnt": null,
+   "price": {
+    "value": "34500",
+    "raw": "34.500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SOTO BETRWI NASI",
+   "cnt": null,
+   "price": {
+    "value": "57500",
+    "raw": "57.500",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 69,
+ "subtotal": {
+  "value": "151500",
+  "raw": "151.500",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  151.500"
+ },
+ "total": {
+  "value": "174983",
+  "raw": "174.983",
+  "status": "ok",
+  "conf": null,
+  "line": "3T0TAL  174.983"
+ },
+ "tax": {
+  "value": "15908",
+  "raw": "15.908",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak RESTO 10/  15.908"
+ },
+ "service": {
+  "value": "57575",
+  "raw": "5  7.575",
+  "status": "ok",
+  "conf": null,
+  "line": "SerVice Charge  5  7.575"
+ }
+}

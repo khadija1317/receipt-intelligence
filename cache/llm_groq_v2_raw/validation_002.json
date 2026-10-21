@@ -1,0 +1,17 @@
+{
+ "index": 2,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "1\n0\n\"20  ,000  20,000\nS-Ova Itine\ns0x\n1,818\nPBI  18 , 181\nSubtota]  20,000\nTota]  100,000\nCash:\nCHANGE :  80 ,000\nTOX Tax Included",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PBI\",\n      \"cnt\": null,\n      \"price\": \"18 , 181\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"20,000\",\n    \"evidence\": \"Subtota]  20,000\"\n  },\n  \"total\": {\n    \"amount\": \"100,000\",\n    \"evidence\": \"Tota]  100,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 909,
+  "completion": 501,
+  "total": 1410,
+  "reasoning": 349
+ },
+ "seconds": 1.4696223735809326,
+ "error": null
+}

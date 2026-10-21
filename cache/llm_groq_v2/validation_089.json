@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "dod",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 89,
+ "subtotal": null,
+ "total": {
+  "value": "29000",
+  "raw": "29000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  29000"
+ },
+ "tax": null,
+ "service": null
+}

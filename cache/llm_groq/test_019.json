@@ -1,0 +1,17 @@
+{
+ "menu": [],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 19,
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": null,
+  "raw": "~</.",
+  "status": "review",
+  "conf": null,
+  "line": "Tax  ~</."
+ },
+ "service": null
+}

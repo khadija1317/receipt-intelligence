@@ -1,0 +1,17 @@
+{
+ "index": 18,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Propolis Cair  TS600o\n150000\nSub Toial  156000\nTunai  156000\nKembalian  Rp. 0",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 817,
+  "completion": 300,
+  "total": 1117,
+  "reasoning": 201
+ },
+ "seconds": 0.9636032581329346,
+ "error": null
+}

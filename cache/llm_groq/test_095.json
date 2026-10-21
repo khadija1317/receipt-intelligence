@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "RASO TAHU",
+   "cnt": "1",
+   "price": {
+    "value": "43184",
+    "raw": "43.184",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "G4d TOIr",
+   "cnt": null,
+   "price": {
+    "value": "62.6",
+    "raw": "62,6",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 95,
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "5618",
+  "raw": "5.618",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10.00 %  5.618  3"
+ },
+ "service": null
+}

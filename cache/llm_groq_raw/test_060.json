@@ -1,0 +1,17 @@
+{
+ "index": 60,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Topping Mi lo Sparkle (untuk  Po\nrsi)\nIx  250  250\nBola Ubi Mini  Origina !  (14 Pcs\n1\nZx  12.500  25,000\nSubtotal  26 .250\nPajak\nTotal  26,250\nPembayaran  Go-Pay",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Ix\",\n      \"cnt\": null,\n      \"price\": \"250\"\n    },\n    {\n      \"nm\": \"Zx\",\n      \"cnt\": null,\n      \"price\": \"25,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"26 .250\",\n    \"evidence\": \"Subtotal  26 .250\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"26,250\",\n    \"evidence\": \"Total  26,250\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 859,
+  "completion": 490,
+  "total": 1349,
+  "reasoning": 320
+ },
+ "seconds": 1.401599645614624,
+ "error": null
+}

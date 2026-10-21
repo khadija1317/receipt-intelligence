@@ -1,0 +1,17 @@
+{
+ "index": 49,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "Ix 52.  000  52. 000\nNasi Cainput Bal i\nIx 22.  000  22. 000\nLemion\nSubTTI  74.000\nTaX  7400\nASH  81400",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Ix\",\n      \"cnt\": null,\n      \"price\": \"52. 000\"\n    },\n    {\n      \"nm\": \"Nasi Cainput Bal i\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"Ix\",\n      \"cnt\": null,\n      \"price\": \"22. 000\"\n    },\n    {\n      \"nm\": \"Lemion\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"74.000\",\n    \"evidence\": \"SubTTI  74.000\"\n  },\n  \"tax\": {\n    \"amount\": \"7400\",\n    \"evidence\": \"TaX  7400\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 898,
+  "completion": 563,
+  "total": 1461,
+  "reasoning": 336
+ },
+ "seconds": 1.5382301807403564,
+ "error": null
+}

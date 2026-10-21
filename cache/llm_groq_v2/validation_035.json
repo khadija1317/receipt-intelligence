@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "BLACK PEPPER MEATBALL",
+   "cnt": null,
+   "price": {
+    "value": "76500",
+    "raw": "76,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "QUARTO FORMANGGI PASTa",
+   "cnt": null,
+   "price": {
+    "value": "82500",
+    "raw": "82 ,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GREEN TEA WiTH CRUMBLE",
+   "cnt": null,
+   "price": {
+    "value": "56000",
+    "raw": "56,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ORIGINAL BREWED TEA",
+   "cnt": "2",
+   "price": {
+    "value": "46000",
+    "raw": "46,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 35,
+ "subtotal": null,
+ "total": {
+  "value": "304326",
+  "raw": "304326",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  304326"
+ },
+ "tax": {
+  "value": "27666",
+  "raw": "27,666",
+  "status": "ok",
+  "conf": null,
+  "line": "PBI  10X  27,666"
+ },
+ "service": {
+  "value": "15660",
+  "raw": "15,660",
+  "status": "ok",
+  "conf": null,
+  "line": "SVC CHG &x  15,660"
+ }
+}

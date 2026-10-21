@@ -1,0 +1,68 @@
+{
+ "menu": [
+  {
+   "nm": "NASI MERAHRUTTH",
+   "cnt": "1",
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SAYR",
+   "cnt": "2",
+   "price": {
+    "value": "800",
+    "raw": "800",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KERUPUKISAMBEL",
+   "cnt": "1",
+   "price": {
+    "value": "2000",
+    "raw": "2000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AYAM",
+   "cnt": null,
+   "price": {
+    "value": "1400",
+    "raw": "1400",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MINUMAN KEMASANREFILL",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 26,
+ "subtotal": null,
+ "total": {
+  "value": "35000",
+  "raw": "35.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Tota  Rp. 35.000"
+ },
+ "tax": null,
+ "service": null
+}

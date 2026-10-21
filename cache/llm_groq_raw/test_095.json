@@ -1,0 +1,17 @@
+{
+ "index": 95,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "' { ~\nRASO  TAHU  1  434-  181  43.184\n1  13.000  13000\nES JERUK\n56.181\nTOTAL\nTAX 10.00 %  5.618  3\n61.Tn\nG4d TOIr  62,6\nTAI\nAFBLI\nenier",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RASO  TAHU\",\n      \"cnt\": \"1\",\n      \"price\": \"43.184\"\n    },\n    {\n      \"nm\": \"G4d TOIr\",\n      \"cnt\": null,\n      \"price\": \"62,6\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"5.618\",\n    \"evidence\": \"TAX 10.00 %  5.618  3\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 871,
+  "completion": 605,
+  "total": 1476,
+  "reasoning": 424
+ },
+ "seconds": 1.7078442573547363,
+ "error": null
+}

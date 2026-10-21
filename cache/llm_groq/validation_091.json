@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "K7",
+   "cnt": "1217",
+   "price": {
+    "value": null,
+    "raw": "J9,091",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AoD CKICKEN BOX",
+   "cnt": null,
+   "price": {
+    "value": "907",
+    "raw": "907",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 91,
+ "subtotal": null,
+ "total": {
+  "value": "44000",
+  "raw": "44000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  44000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,64 @@
+{
+ "menu": [
+  {
+   "nm": "Giant Squid",
+   "cnt": "1",
+   "price": {
+    "value": "39000",
+    "raw": "Rp.  39.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "C Finishing - Cut",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Rp.  0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "B.Spicy Level Extreme Hot",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Rp.  0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "A Flavour Salt & Pepper",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Rp.  0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 99,
+ "subtotal": {
+  "value": "39000",
+  "raw": "Rp. 39.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  Rp. 39.000"
+ },
+ "total": {
+  "value": "39000",
+  "raw": "Rp. 39.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  Rp. 39.000"
+ },
+ "tax": null,
+ "service": null
+}

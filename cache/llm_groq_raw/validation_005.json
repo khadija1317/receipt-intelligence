@@ -1,0 +1,16 @@
+{
+ "index": 5,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "LE ATNERAL  G,bp8\nNETI RHT  7,273\nTAk ANT  727\nTOTAL  8,030\nLACH",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"NETI RHT\",\n      \"cnt\": null,\n      \"price\": \"7,273\"\n    },\n    {\n      \"nm\": \"TAk ANT\",\n      \"cnt\": null,\n      \"price\": \"727\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"8,030\",\n    \"evidence\": \"TOTAL  8,030\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 819,
+  "completion": 307,
+  "total": 1126,
+  "reasoning": 142
+ },
+ "seconds": 3.4953041076660156
+}

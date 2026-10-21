@@ -1,0 +1,29 @@
+{
+ "menu": [],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 30,
+ "subtotal": {
+  "value": "28636",
+  "raw": "28,636",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  28,636"
+ },
+ "total": {
+  "value": "31500",
+  "raw": "31,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Dine In Tatal  31,500"
+ },
+ "tax": {
+  "value": "2864",
+  "raw": "2,864",
+  "status": "ok",
+  "conf": null,
+  "line": "PBi (107)  2,864"
+ },
+ "service": null
+}

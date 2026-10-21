@@ -1,0 +1,16 @@
+{
+ "index": 30,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "REDBEAN BREP D  9,000\nFRANKFPUT S/ USA GE ROLL  12000\nTOTAL  21,000\nCASH  50,0(0\nCHANGE  29,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"REDBEAN BREP D\",\n      \"cnt\": null,\n      \"price\": \"9,000\"\n    },\n    {\n      \"nm\": \"FRANKFPUT S/ USA GE ROLL\",\n      \"cnt\": null,\n      \"price\": \"12000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"21,000\",\n    \"evidence\": \"TOTAL  21,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 833,
+  "completion": 291,
+  "total": 1124,
+  "reasoning": 116
+ },
+ "seconds": 0.9475324153900146
+}

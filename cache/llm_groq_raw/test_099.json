@@ -1,0 +1,17 @@
+{
+ "index": 99,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "FL-Xmas 30 Off  68,180\nPAKET SLICES\nFL Cake  French:\nVanila SLC\nPAKET SLICES\nFL Cake  Green\nTea SLC\nPAKET SLICES\nFL Cake  Belgium\nChoco SLC\nSUBTOTAL  68,180\nDISKON\nBIAYA TAMBAHAN\nPAJAK PPN 10 %  6,818\nPAJAK  0 %\nBIAYA CC\nPEMBULATAN  2\nTOTAL  75,000\nTUNAI\nNON TUNAI  75,000\nKEMBALI",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"FL-Xmas 30 Off\",\n      \"cnt\": null,\n      \"price\": \"68,180\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"68,180\",\n    \"evidence\": \"SUBTOTAL  68,180\"\n  },\n  \"tax\": {\n    \"amount\": \"6,818\",\n    \"evidence\": \"PAJAK PPN 10 %  6,818\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"75,000\",\n    \"evidence\": \"TOTAL  75,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 922,
+  "completion": 331,
+  "total": 1253,
+  "reasoning": 164
+ },
+ "seconds": 1.1951329708099365,
+ "error": null
+}

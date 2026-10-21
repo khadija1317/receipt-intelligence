@@ -13,3 +13,19 @@ Day 4, v2 fix 7 (fuzzy total/subtotal keyword, one edit allowed, 4+ letters, run
 Day 4, v2 zero diagnosis (validation): 11 zero-price items in 9 receipts; the label itself has price-0 items in 6 receipts (plastic bags, cup lid), so 0 is a review signal, not an error. Stray-0 fix reaches 1 receipt (val 47), modifier fix 1 (val 99): both skipped under rule A2. Zero-flagging and the 5 repaired all-letter zeros (digits lost) go to the Day 7 validator. Val 47 is the confident-and-wrong story (conf 1.00); val 99's fake modifier items add 0 to the item sum, so the arithmetic check cannot see them.
 Day 4, v2 on TEST (scored once, after all validation work): total precision 79.4%, recall 56.8% (54 correct, 14 wrong, 27 no answer, of 95); subtotal 95.0% / 59.4%; tax and service unchanged (68.2% / 37.5%, 80.0% / 66.7%). Items precision 62.8%, recall 60.7%. Exact match 18 -> 21. Total recall gain: +3.1 points on test vs +9.1 on validation (validation optimistic, rule built from its misspellings). Costs: subtotal wrong 1 -> 2, items matched 148 -> 147, both unexplained (no test indices browsed).
 Day 4 CLOSED: scorer and extractor v2 frozen. Not done under rule A2 or moved: neighbouring row (2 receipts), exclusion-word spelling Aty/itea/@ty (2), payment-row total (would break decision 2A), zero items (1 each), discount sign, x1 count. Day 7: zero flags, tiny totals, cash/change extraction.
+
+## Day 5: LLM arm (Arm 2), prompt v1 frozen
+
+Design: merged + repaired lines (same text as the rules arm), no OCR confidence shown to the LLM, strict JSON schema with null allowed, amounts copied as printed and converted by parse_amount, evidence line required for each summary field, total only from a TOTAL line (no fallback to the largest number). Model openai/gpt-oss-120b via Groq, temperature 0, reasoning_effort low. Only OCR text leaves the machine.
+
+Tokens: about 1,300 per call (validation 100 receipts about 128K tokens). One of the first 100 validation attempts failed schema validation (400: model returned menu as an object); the retry passed, so the failure is not deterministic at temperature 0. Connection errors on receipts 70-99 were network failures, resumed from the cache.
+
+Validation (v1): total 65/13/20 (prec 83.3%, recall 66.3%), subtotal 40/8/19, tax 27/6/14, service 7/3/3, items matched 150, exact 24/100. Rules v2 on validation: total 66/16/16.
+Overlap of the two arms on total (validation): 61 both right, 10 both wrong, 14 both no answer; LLM right and rules wrong 2 (+2 on rules no answer), rules right and LLM wrong 3 (+2 on LLM no answer).
+Val 94 was a false hit in v1 (evidence line was an e-gift payment row, number equalled the label).
+
+Prompt v2 (rule 5a, pre-committed: keep only if validation total correct >= 68): rule 2 extended to GRAND TOTAL, lowest total line, rightmost amount. Result 67 correct (+4 fixed: 4, 63, 74, 86; -2 broken: 70, 94). NOT adopted; v1 is final. Subtotal and tax moved by 1-2 receipts under a change that does not touch them, so a +2 is inside run-to-run noise. Files kept in cache/llm_groq_v2.
+
+Test (v1, run once, counts only): total 54/11/30 (prec 83.1%, recall 56.8%, 1 extra), subtotal 39/2/23, tax 17/6/17, service 9/3/0, items matched 151 of 242 label items, exact 23/100. Rules v2 on test: total 54/14/27, exact 21/100. Both arms stay 18 receipts below the readable ceiling (72).
+Day 7 notes: only 11 (LLM) and 14 (rules) wrong totals on test, so report counts, not only percentages. Add a check that the evidence line contains a total word (catches false hits like val 94).
+Day 5 CLOSED.

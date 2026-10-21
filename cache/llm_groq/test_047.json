@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "COPIA /GB",
+   "cnt": null,
+   "price": {
+    "value": "45000.00",
+    "raw": "45 ,000 . 00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "2100252000358",
+   "cnt": null,
+   "price": {
+    "value": "45000.00",
+    "raw": "45,000 . 00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PLASTIC BAG RED CENTRAL SI",
+   "cnt": null,
+   "price": {
+    "value": "0.00",
+    "raw": "0.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "9100544260074",
+   "cnt": null,
+   "price": {
+    "value": "0.00",
+    "raw": "0.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "COPIA /GB",
+   "cnt": null,
+   "price": {
+    "value": "18000.00",
+    "raw": "18000.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "2100252000358",
+   "cnt": null,
+   "price": {
+    "value": "18000.00",
+    "raw": "18,000 . 00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 47,
+ "subtotal": null,
+ "total": {
+  "value": "63000.00",
+  "raw": "63,000 . 00",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  63,000 . 00"
+ },
+ "tax": null,
+ "service": null
+}

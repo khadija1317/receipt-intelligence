@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "PAKET BERZ",
+   "cnt": "1",
+   "price": {
+    "value": "69091",
+    "raw": "69,091",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 67,
+ "subtotal": {
+  "value": "69091",
+  "raw": "69,091",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  69,091"
+ },
+ "total": {
+  "value": null,
+  "raw": "@0O",
+  "status": "review",
+  "conf": null,
+  "line": "TOTAL  76, @0O"
+ },
+ "tax": {
+  "value": "909",
+  "raw": "909",
+  "status": "ok",
+  "conf": null,
+  "line": "TaX  909"
+ },
+ "service": null
+}

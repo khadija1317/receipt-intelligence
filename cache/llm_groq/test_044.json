@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Combo",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30, 000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 44,
+ "subtotal": null,
+ "total": {
+  "value": "30000",
+  "raw": "30,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  30,000"
+ },
+ "tax": null,
+ "service": null
+}

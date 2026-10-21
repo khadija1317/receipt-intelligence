@@ -1,0 +1,16 @@
+{
+ "index": 68,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2X  13,000\nHoney  Manaa|  26000\n10 |AL  26000\nCaSH  30 , 000\nCHANGE  4000\n32322",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"2X\",\n      \"cnt\": null,\n      \"price\": \"13,000\"\n    },\n    {\n      \"nm\": \"Honey  Manaa|\",\n      \"cnt\": null,\n      \"price\": \"26000\"\n    },\n    {\n      \"nm\": \"10 |AL\",\n      \"cnt\": null,\n      \"price\": \"26000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 826,
+  "completion": 360,
+  "total": 1186,
+  "reasoning": 176
+ },
+ "seconds": 1.012007713317871
+}

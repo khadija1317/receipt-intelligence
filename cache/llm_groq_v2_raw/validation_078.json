@@ -1,0 +1,17 @@
+{
+ "index": 78,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "Joriegi\n2  Nineral  Water  8000\nTeh  Tawaf  Dingin  0\n2  Soto  Betaw1  16000\nNAS  PUTIH  9000\nSubtotal  154000\nSeru  Charse  700\nPajak  Res  10 /  16170\n6 Tatal  177.870",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Nineral Water\",\n      \"cnt\": \"2\",\n      \"price\": \"8000\"\n    },\n    {\n      \"nm\": \"Teh Tawaf Dingin\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"Soto Betaw1\",\n      \"cnt\": \"2\",\n      \"price\": \"16000\"\n    },\n    {\n      \"nm\": \"NAS PUTIH\",\n      \"cnt\": null,\n      \"price\": \"9000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"154000\",\n    \"evidence\": \"Subtotal  154000\"\n  },\n  \"total\": {\n    \"amount\": \"177.870\",\n    \"evidence\": \"6 Tatal  177.870\"\n  },\n  \"tax\": {\n    \"amount\": \"16170\",\n    \"evidence\": \"Pajak  Res  10 /  16170\"\n  },\n  \"service\": {\n    \"amount\": \"700\",\n    \"evidence\": \"Seru  Charse  700\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 923,
+  "completion": 623,
+  "total": 1546,
+  "reasoning": 366
+ },
+ "seconds": 1.7327017784118652,
+ "error": null
+}

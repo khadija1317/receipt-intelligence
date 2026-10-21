@@ -1,0 +1,16 @@
+{
+ "index": 87,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1X K-Passion Fruit Vac €29,000  29.00\n25X\nLess Ice\n73i :\nSuztcreal  2,0\nTctal:  2,\nCasn:  Z,Ooo\nCHARGE :  1,ccD",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"K-Passion Fruit Vac\",\n      \"cnt\": \"1\",\n      \"price\": \"29.00\"\n    },\n    {\n      \"nm\": \"Suztcreal\",\n      \"cnt\": null,\n      \"price\": \"2,0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"1,ccD\",\n    \"evidence\": \"CHARGE :  1,ccD\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 843,
+  "completion": 421,
+  "total": 1264,
+  "reasoning": 247
+ },
+ "seconds": 1.6773860454559326
+}

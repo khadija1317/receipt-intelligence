@@ -1,0 +1,17 @@
+{
+ "index": 11,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "Se' I  Sapi Samba] Matah  R )  20,000\nSe  ?-pi Lada Hitam (J)  35. 000\nMasi Putih  2  10000\nMiIk Shake Coklat  16, 000\nSubtota]  81 , 000\nPB  10x  8 ,100\nTotal  89. 100\nKartu  89. 100\nKemba ]i  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Se' I  Sapi Samba] Matah  R )\",\n      \"cnt\": null,\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"Masi Putih\",\n      \"cnt\": \"2\",\n      \"price\": \"10000\"\n    },\n    {\n      \"nm\": \"MiIk Shake Coklat\",\n      \"cnt\": null,\n      \"price\": \"16, 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"81 , 000\",\n    \"evidence\": \"Subtota]  81 , 000\"\n  },\n  \"tax\": {\n    \"amount\": \"8 ,100\",\n    \"evidence\": \"PB  10x  8 ,100\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"89. 100\",\n    \"evidence\": \"Total  89. 100\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 947,
+  "completion": 592,
+  "total": 1539,
+  "reasoning": 354
+ },
+ "seconds": 1.4916646480560303,
+ "error": null
+}

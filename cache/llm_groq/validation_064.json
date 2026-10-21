@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Rhole RheaT Pax brerd",
+   "cnt": null,
+   "price": {
+    "value": "0.00",
+    "raw": "0.00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 64,
+ "subtotal": null,
+ "total": {
+  "value": "20000",
+  "raw": "20,000",
+  "status": "ok",
+  "conf": null,
+  "line": "toTAL  20,000"
+ },
+ "tax": null,
+ "service": null
+}

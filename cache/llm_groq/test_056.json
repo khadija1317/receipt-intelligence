@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "AIR MINERAL",
+   "cnt": null,
+   "price": {
+    "value": "8181",
+    "raw": "8 , 18 1",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 56,
+ "subtotal": {
+  "value": "8181",
+  "raw": "8181",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  8181"
+ },
+ "total": null,
+ "tax": {
+  "value": "818",
+  "raw": "8 18",
+  "status": "ok",
+  "conf": null,
+  "line": "TaX  8 18"
+ },
+ "service": null
+}

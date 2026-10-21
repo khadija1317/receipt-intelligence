@@ -1,0 +1,17 @@
+{
+ "index": 20,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Cashew nuts chkn  S0Q\n1  garlic pepper beef  7500\n1  red Curry beef  9500\n1 phad thai  42500\n4  steamed riCe  600\nSUBTOTAL  325600\nService chrg  17.909\n107 PBi  34,351\nTOTAL  377,859",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Cashew nuts chkn\",\n      \"cnt\": null,\n      \"price\": \"S0Q\"\n    },\n    {\n      \"nm\": \"garlic pepper beef\",\n      \"cnt\": \"1\",\n      \"price\": \"7500\"\n    },\n    {\n      \"nm\": \"red Curry beef\",\n      \"cnt\": \"1\",\n      \"price\": \"9500\"\n    },\n    {\n      \"nm\": \"phad thai\",\n      \"cnt\": \"1\",\n      \"price\": \"42500\"\n    },\n    {\n      \"nm\": \"steamed riCe\",\n      \"cnt\": \"4\",\n      \"price\": \"600\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"325600\",\n    \"evidence\": \"SUBTOTAL  325600\"\n  },\n  \"tax\": {\n    \"amount\": \"34,351\",\n    \"evidence\": \"107 PBi  34,351\"\n  },\n  \"service\": {\n    \"amount\": \"17.909\",\n    \"evidence\": \"Service chrg  17.909\"\n  },\n  \"total\": {\n    \"amount\": \"377,859\",\n    \"evidence\": \"TOTAL  377,859\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 862,
+  "completion": 526,
+  "total": 1388,
+  "reasoning": 243
+ },
+ "seconds": 1.3132355213165283,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 19,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "~~Lon WBL CnS  QuQuu\n~AhquSn CnS  Jun _INu\nNET SALES  ~7\nTax  ~</.\n~~Jnt DUe  {o",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"~</.\",\n    \"evidence\": \"Tax  ~</.\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 827,
+  "completion": 235,
+  "total": 1062,
+  "reasoning": 131
+ },
+ "seconds": 1.038827657699585,
+ "error": null
+}

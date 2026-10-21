@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "1X S-Milk tea Ooo OOO",
+   "cnt": "1X",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1oox",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 83,
+ "subtotal": {
+  "value": "17000",
+  "raw": "17,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  17,000"
+ },
+ "total": {
+  "value": "17000",
+  "raw": "17,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Tota]  17,000"
+ },
+ "tax": null,
+ "service": null
+}

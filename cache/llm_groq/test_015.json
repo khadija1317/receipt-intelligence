@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Lemon Tea (L)",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25. 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Carame] Sma /",
+   "cnt": "1",
+   "price": {
+    "value": "38000",
+    "raw": "38. 000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 15,
+ "subtotal": null,
+ "total": {
+  "value": "63000",
+  "raw": "63000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  63000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 90,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "~iFVo{x\naxi\nGnE3~x\nREGULAR  Et>  235000.00  70000.00\nCN:  Total  Due  70000 , 00\nOFFL INE  PRCMO  70000 . 00\nCiNr\nChange  CINEMAXX  0. 00\nNeMA -\nCINERAAYX",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"REGULAR  Et>\",\n      \"cnt\": null,\n      \"price\": \"70000.00\"\n    },\n    {\n      \"nm\": \"OFFL INE  PRCMO\",\n      \"cnt\": null,\n      \"price\": \"70000 . 00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"70000 , 00\",\n    \"evidence\": \"CN:  Total  Due  70000 , 00\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 924,
+  "completion": 590,
+  "total": 1514,
+  "reasoning": 406
+ },
+ "seconds": 1.3716802597045898,
+ "error": null
+}

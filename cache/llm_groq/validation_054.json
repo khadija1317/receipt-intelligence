@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "4003-Blueberry Fuji",
+   "cnt": null,
+   "price": {
+    "value": "4000040000",
+    "raw": "40000  40000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 54,
+ "subtotal": null,
+ "total": {
+  "value": "40000",
+  "raw": "40000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  40000"
+ },
+ "tax": null,
+ "service": null
+}

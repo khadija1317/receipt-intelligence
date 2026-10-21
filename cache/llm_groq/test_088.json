@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "STIX ECLAIRS",
+   "cnt": null,
+   "price": {
+    "value": "19000",
+    "raw": "19,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ALMOND CREAM CHEESE",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 88,
+ "subtotal": {
+  "value": "47000",
+  "raw": "47,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB TOTAL  47,000"
+ },
+ "total": {
+  "value": "47000",
+  "raw": "47,000",
+  "status": "ok",
+  "conf": null,
+  "line": "GRAND TOTAL  47,000"
+ },
+ "tax": null,
+ "service": null
+}

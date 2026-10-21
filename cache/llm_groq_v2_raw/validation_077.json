@@ -1,0 +1,17 @@
+{
+ "index": 77,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "BAKE\n5\nCheese Tart  Rp3arOd.Q\nBag-$\nPS Carr ler\nSubtotal:  RI @\nTota /  Tax  Inc uded :  Ri7d\nTota  :  Nra @\nCustomer Paid Casn:  Roln Q\nCustomer  Change :  R m",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Cheese Tart\",\n      \"cnt\": null,\n      \"price\": \"Rp3arOd.Q\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"RI @\",\n    \"evidence\": \"Subtotal:  RI @\"\n  },\n  \"total\": {\n    \"amount\": \"Nra @\",\n    \"evidence\": \"Tota  :  Nra @\"\n  },\n  \"tax\": {\n    \"amount\": \"Ri7d\",\n    \"evidence\": \"Tota /  Tax  Inc uded :  Ri7d\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 907,
+  "completion": 392,
+  "total": 1299,
+  "reasoning": 226
+ },
+ "seconds": 1.4327411651611328,
+ "error": null
+}

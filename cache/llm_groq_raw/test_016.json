@@ -1,0 +1,17 @@
+{
+ "index": 16,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "[LG] BLACK SAKURA  59,091\nLONGAN\nROASTED ALMOND\nNANGGO\nNINERAL WATER (bundling) 5k  4,545\nSub Total  63,636\nPBI (10%)  6,364\nRounding\nTotal  70,000\nCash Payment  100,000\nChange  30,000\n4*X",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"[LG] BLACK SAKURA\",\n      \"cnt\": null,\n      \"price\": \"59,091\"\n    },\n    {\n      \"nm\": \"LONGAN\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"ROASTED ALMOND\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"NANGGO\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"NINERAL WATER (bundling) 5k\",\n      \"cnt\": null,\n      \"price\": \"4,545\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"63,636\",\n    \"evidence\": \"Sub Total  63,636\"\n  },\n  \"tax\": {\n    \"amount\": \"6,364\",\n    \"evidence\": \"PBI (10%)  6,364\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"70,000\",\n    \"evidence\": \"Total  70,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 874,
+  "completion": 456,
+  "total": 1330,
+  "reasoning": 179
+ },
+ "seconds": 1.2125399112701416,
+ "error": null
+}

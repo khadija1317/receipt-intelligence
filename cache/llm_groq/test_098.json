@@ -1,0 +1,80 @@
+{
+ "menu": [
+  {
+   "nm": "Presental",
+   "cnt": null,
+   "price": {
+    "value": "79000",
+    "raw": "79000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BLACK PEPPER MEATBALL PAS",
+   "cnt": null,
+   "price": {
+    "value": "77000",
+    "raw": "77000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TRUFFLE CREAM",
+   "cnt": null,
+   "price": {
+    "value": "59000",
+    "raw": "59,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SERVICE EARL' GREY MILK TEA",
+   "cnt": null,
+   "price": {
+    "value": "215000",
+    "raw": "215,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Attentive",
+   "cnt": null,
+   "price": {
+    "value": "250690",
+    "raw": "250690",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 98,
+ "subtotal": {
+  "value": "12900",
+  "raw": "12,900",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTTL  12,900"
+ },
+ "total": null,
+ "tax": {
+  "value": null,
+  "raw": "10}",
+  "status": "review",
+  "conf": null,
+  "line": "Promptn  TAX 10}"
+ },
+ "service": {
+  "value": "22790",
+  "raw": "22 ,790",
+  "status": "ok",
+  "conf": null,
+  "line": "Friendlin  Service Charge 6%  22 ,790"
+ }
+}

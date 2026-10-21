@@ -1,0 +1,17 @@
+{
+ "index": 34,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Ashi Cnick Carba  Vatah  75.010\nJacur Gorenz  10,Gn\nSubiota]  05,0q0\nFalak (IOF)  B.500\nTota |  93-500\nTuna !  1004000\nKerbal1  6,500\n06\ndjisolk",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Ashi Cnick Carba  Vatah\",\n      \"cnt\": null,\n      \"price\": \"75.010\"\n    },\n    {\n      \"nm\": \"Jacur Gorenz\",\n      \"cnt\": null,\n      \"price\": \"10,Gn\"\n    },\n    {\n      \"nm\": \"Subiota]\",\n      \"cnt\": null,\n      \"price\": \"05,0q0\"\n    },\n    {\n      \"nm\": \"Falak (IOF)\",\n      \"cnt\": null,\n      \"price\": \"B.500\"\n    },\n    {\n      \"nm\": \"Tuna !\",\n      \"cnt\": null,\n      \"price\": \"1004000\"\n    },\n    {\n      \"nm\": \"Kerbal1\",\n      \"cnt\": null,\n      \"price\": \"6,500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"93-500\",\n    \"evidence\": \"Tota |  93-500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 863,
+  "completion": 585,
+  "total": 1448,
+  "reasoning": 294
+ },
+ "seconds": 1.4082667827606201,
+ "error": null
+}

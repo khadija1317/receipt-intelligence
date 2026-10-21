@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "S0oi-Corn Flakes Codkies",
+   "cnt": null,
+   "price": {
+    "value": "256000",
+    "raw": "256000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SDDj-Chokoreto Cockies",
+   "cnt": null,
+   "price": {
+    "value": "62000",
+    "raw": "62000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LDOz-Plastic Bag Medium",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Rp.0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 24,
+ "subtotal": null,
+ "total": {
+  "value": "418000",
+  "raw": "418000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  418000"
+ },
+ "tax": null,
+ "service": null
+}

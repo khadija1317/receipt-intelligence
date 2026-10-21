@@ -1,0 +1,17 @@
+{
+ "menu": [],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 92,
+ "subtotal": null,
+ "total": {
+  "value": "240000",
+  "raw": "240.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TotaL  (Qtv=4  00)240.000"
+ },
+ "tax": null,
+ "service": null
+}

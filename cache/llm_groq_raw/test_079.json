@@ -1,0 +1,17 @@
+{
+ "index": 79,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1001-Choco  Bun\n22.000  xl  22.000\n6001-Plastic  Bag  Small\nxi\nTotal Item:\notal.  22000\nash\nndered:\n22.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1001-Choco  Bun\",\n      \"cnt\": null,\n      \"price\": \"22.000\"\n    },\n    {\n      \"nm\": \"6001-Plastic  Bag  Small\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"22000\",\n    \"evidence\": \"otal.  22000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 830,
+  "completion": 327,
+  "total": 1157,
+  "reasoning": 157
+ },
+ "seconds": 1.089097499847412,
+ "error": null
+}

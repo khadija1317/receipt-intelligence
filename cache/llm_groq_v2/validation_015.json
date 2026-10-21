@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Arem Arem",
+   "cnt": "2",
+   "price": {
+    "value": "24000",
+    "raw": "24.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Pepenero Pastel",
+   "cnt": "2",
+   "price": {
+    "value": "30000",
+    "raw": "30 .000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 15,
+ "subtotal": {
+  "value": "54000",
+  "raw": "54.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  Rp 54.000"
+ },
+ "total": {
+  "value": "59400",
+  "raw": "59.400",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  Rp 59.400"
+ },
+ "tax": {
+  "value": "5400",
+  "raw": "5.400",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax (10 .0%)  Rp 5.400"
+ },
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 94,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "66\n69.000\nShru  imp Scampi\nEmily\nFettucine\n69.000\nSUB  TOTAL\nDISCOUNT  3.795\nSERVICE  7.280\nOTHERS  25\nROUNDING\n80.100\nGRAND TOTAL\nTADA EGIFT  80.100\n0\nCHANGES\nLeT",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"7.280\",\n    \"evidence\": \"SERVICE  7.280\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 915,
+  "completion": 502,
+  "total": 1417,
+  "reasoning": 394
+ },
+ "seconds": 1.5614330768585205,
+ "error": null
+}

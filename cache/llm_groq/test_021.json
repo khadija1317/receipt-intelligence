@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "1",
+   "cnt": "1",
+   "price": {
+    "value": "35000",
+    "raw": "Rp35. 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": "Rr3 .  000",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 21,
+ "subtotal": null,
+ "total": {
+  "value": "380",
+  "raw": "Rp38  0",
+  "status": "ok",
+  "conf": null,
+  "line": "#**TOTAL  Rp38  0"
+ },
+ "tax": null,
+ "service": null
+}

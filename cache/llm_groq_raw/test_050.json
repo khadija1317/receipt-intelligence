@@ -1,0 +1,17 @@
+{
+ "index": 50,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1  SpFrile Cduvurfy  17,727\nJuviuiaia  17,727\nFT\nFoi:  1,773\nTotai:  j9;jp\n'asn;  106, 68R\nCfiariye:  68 , 508",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SpFrile Cduvurfy\",\n      \"cnt\": \"1\",\n      \"price\": \"17,727\"\n    },\n    {\n      \"nm\": \"Juviuiaia\",\n      \"cnt\": null,\n      \"price\": \"17,727\"\n    },\n    {\n      \"nm\": \"Foi:\",\n      \"cnt\": null,\n      \"price\": \"1,773\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"j9;jp\",\n    \"evidence\": \"Totai:  j9;jp\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 848,
+  "completion": 555,
+  "total": 1403,
+  "reasoning": 354
+ },
+ "seconds": 1.782212734222412,
+ "error": null
+}

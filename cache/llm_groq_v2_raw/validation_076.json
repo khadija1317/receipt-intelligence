@@ -1,0 +1,17 @@
+{
+ "index": 76,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "T  HE\nEnting2 Dua Banderg Ori  31000\n01069  1  31000\nTaHU BAKSO  Grg  Ayam VC [biji  68000\n07165  10  6.800\nQTY  11  ITEKS  2\nTQTAL  99.000\nKARTU  99.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Enting2 Dua Banderg Ori\",\n      \"cnt\": null,\n      \"price\": \"31000\"\n    },\n    {\n      \"nm\": \"01069\",\n      \"cnt\": \"1\",\n      \"price\": \"31000\"\n    },\n    {\n      \"nm\": \"TaHU BAKSO  Grg  Ayam VC [biji\",\n      \"cnt\": null,\n      \"price\": \"68000\"\n    },\n    {\n      \"nm\": \"07165\",\n      \"cnt\": \"10\",\n      \"price\": \"6.800\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"99.000\",\n    \"evidence\": \"TQTAL  99.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 925,
+  "completion": 596,
+  "total": 1521,
+  "reasoning": 359
+ },
+ "seconds": 1.421588659286499,
+ "error": null
+}

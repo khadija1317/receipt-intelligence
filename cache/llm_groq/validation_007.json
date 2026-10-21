@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Cnoco Devil",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "63.6361",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CP 360 Clud Card",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "~9.545",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 7,
+ "subtotal": {
+  "value": "63636",
+  "raw": "63,636",
+  "status": "ok",
+  "conf": null,
+  "line": "SubTotal:  63,636"
+ },
+ "total": {
+  "value": null,
+  "raw": "59,5005",
+  "status": "review",
+  "conf": null,
+  "line": "Total:   59,5005"
+ },
+ "tax": {
+  "value": "5409",
+  "raw": "5,409",
+  "status": "ok",
+  "conf": null,
+  "line": "PBi:  5,409"
+ },
+ "service": null
+}

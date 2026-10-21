@@ -1,0 +1,17 @@
+{
+ "index": 28,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SAMGYOPSAL  2  194,000\nSUL LUNG TANG  7  75,000\nMAKOLI  100,000\nSub Total  369,000\nService  18,450\nVAT  38,745\nDiscount\nTOTAL  426,195",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SAMGYOPSAL\",\n      \"cnt\": \"2\",\n      \"price\": \"194,000\"\n    },\n    {\n      \"nm\": \"SUL LUNG TANG\",\n      \"cnt\": \"7\",\n      \"price\": \"75,000\"\n    },\n    {\n      \"nm\": \"MAKOLI\",\n      \"cnt\": null,\n      \"price\": \"100,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"369,000\",\n    \"evidence\": \"Sub Total  369,000\"\n  },\n  \"total\": {\n    \"amount\": \"426,195\",\n    \"evidence\": \"TOTAL  426,195\"\n  },\n  \"tax\": {\n    \"amount\": \"38,745\",\n    \"evidence\": \"VAT  38,745\"\n  },\n  \"service\": {\n    \"amount\": \"18,450\",\n    \"evidence\": \"Service  18,450\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 851,
+  "completion": 458,
+  "total": 1309,
+  "reasoning": 229
+ },
+ "seconds": 1.270364761352539,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 7,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "1\nCnoco Devil  63.6361\nCP 360 Clud Card  ~9.545\nSubTotal:  63,636\nDisccunt:  -9.545\nPBi:  5,409\nTotal:   59,5005\nCash:  100,jonf\n40,500\nChange:",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Cnoco Devil\",\n      \"cnt\": null,\n      \"price\": \"63.6361\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"63,636\",\n    \"evidence\": \"SubTotal:  63,636\"\n  },\n  \"tax\": {\n    \"amount\": \"5,409\",\n    \"evidence\": \"PBi:  5,409\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"59,5005\",\n    \"evidence\": \"Total:   59,5005\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 914,
+  "completion": 419,
+  "total": 1333,
+  "reasoning": 255
+ },
+ "seconds": 1.336972951889038,
+ "error": null
+}

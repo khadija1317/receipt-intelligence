@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "LEMONADE22OZ",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ovo0176",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 86,
+ "subtotal": {
+  "value": "26000",
+  "raw": "26,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB TOTAL  26,000"
+ },
+ "total": {
+  "value": "26000",
+  "raw": "26,000",
+  "status": "ok",
+  "conf": null,
+  "line": "GRAND TOTAL  26,000"
+ },
+ "tax": null,
+ "service": null
+}

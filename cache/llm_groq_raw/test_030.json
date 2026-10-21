@@ -1,0 +1,17 @@
+{
+ "index": 30,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kupon  J  28,636\nSubtotal  28,636\nPBi (107)  2,864\nDine In Tatal  31,500\nCash  50000\nChange  18500",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"28,636\",\n    \"evidence\": \"Subtotal  28,636\"\n  },\n  \"tax\": {\n    \"amount\": \"2,864\",\n    \"evidence\": \"PBi (107)  2,864\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"31,500\",\n    \"evidence\": \"Dine In Tatal  31,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 833,
+  "completion": 222,
+  "total": 1055,
+  "reasoning": 88
+ },
+ "seconds": 0.8496458530426025,
+ "error": null
+}

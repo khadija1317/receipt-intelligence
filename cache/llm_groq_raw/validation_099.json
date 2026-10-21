@@ -1,0 +1,16 @@
+{
+ "index": 99,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Giant Squid  x1  Rp. 39.000\nC Finishing -  Cut Rp.  0\nB.Spicy Level  Extreme Hot Rp.  0\nA Flavour  Salt &  Pepper Rp.  0\nSubtotal  Rp. 39.000\nTotal  Rp. 39.000\nCash  Rp. 50.000\nChange  Rp:  11.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Giant Squid\",\n      \"cnt\": \"1\",\n      \"price\": \"Rp.  39.000\"\n    },\n    {\n      \"nm\": \"C Finishing -  Cut\",\n      \"cnt\": null,\n      \"price\": \"Rp.  0\"\n    },\n    {\n      \"nm\": \"B.Spicy Level  Extreme Hot\",\n      \"cnt\": null,\n      \"price\": \"Rp.  0\"\n    },\n    {\n      \"nm\": \"A Flavour  Salt &  Pepper\",\n      \"cnt\": null,\n      \"price\": \"Rp.  0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"Rp. 39.000\",\n    \"evidence\": \"Subtotal  Rp. 39.000\"\n  },\n  \"total\": {\n    \"amount\": \"Rp. 39.000\",\n    \"evidence\": \"Total  Rp. 39.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 873,
+  "completion": 424,
+  "total": 1297,
+  "reasoning": 159
+ },
+ "seconds": 1.0760362148284912
+}

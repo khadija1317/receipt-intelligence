@@ -1,0 +1,17 @@
+{
+ "index": 24,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "S0oi-Corn Flakes Codkies\nRp.Sb-DDO  xi  256000\nSDDj-Chokoreto Cockies\n62000  xi  'P.62-DOD\nLDOz-Plastic  Bag  Medium\nRp.0  xi  Rp.D\nTotal  Item:\nTotal.  418000\nDebet Card  118000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"S0oi-Corn Flakes Codkies\",\n      \"cnt\": null,\n      \"price\": \"256000\"\n    },\n    {\n      \"nm\": \"SDDj-Chokoreto Cockies\",\n      \"cnt\": null,\n      \"price\": \"62000\"\n    },\n    {\n      \"nm\": \"LDOz-Plastic  Bag  Medium\",\n      \"cnt\": null,\n      \"price\": \"Rp.0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"418000\",\n    \"evidence\": \"Total.  418000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 864,
+  "completion": 421,
+  "total": 1285,
+  "reasoning": 212
+ },
+ "seconds": 1.110910415649414,
+ "error": null
+}

@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "Se' I Sapi Samba] Matah R )",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Masi Putih",
+   "cnt": "2",
+   "price": {
+    "value": "10000",
+    "raw": "10000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MiIk Shake Coklat",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16, 000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 11,
+ "subtotal": {
+  "value": "81000",
+  "raw": "81 , 000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtota]  81 , 000"
+ },
+ "total": {
+  "value": "89100",
+  "raw": "89. 100",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  89. 100"
+ },
+ "tax": {
+  "value": "8100",
+  "raw": "8 ,100",
+  "status": "ok",
+  "conf": null,
+  "line": "PB  10x  8 ,100"
+ },
+ "service": null
+}

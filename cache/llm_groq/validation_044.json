@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "THAI ICED TEA (L)",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "16,363  16,263",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 44,
+ "subtotal": {
+  "value": "161367",
+  "raw": "161367",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  161367"
+ },
+ "total": {
+  "value": "17938",
+  "raw": "17,938",
+  "status": "ok",
+  "conf": null,
+  "line": "Grand Total  17,938"
+ },
+ "tax": {
+  "value": "1634",
+  "raw": "1634",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak Resto  1  1634"
+ },
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 28,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "ELEPHANT READ BEAN\n12,000  12,000\nchapsa/ twister donnut\n10,000  10,000\n2  TOTAL  22,000\nCASH  22,000\nCHANGE",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"22,000\",\n    \"evidence\": \"2  TOTAL  22,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 890,
+  "completion": 341,
+  "total": 1231,
+  "reasoning": 231
+ },
+ "seconds": 0.9188368320465088,
+ "error": null
+}

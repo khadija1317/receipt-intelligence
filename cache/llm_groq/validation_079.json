@@ -1,0 +1,94 @@
+{
+ "menu": [
+  {
+   "nm": "Crab Stick",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bakso Lobster",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Sawi Putih",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8 ,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Jamur Enoki",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8 , 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Jamur Kuping",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Mal ing",
+   "cnt": "2",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nasi (MLY)",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 79,
+ "subtotal": {
+  "value": "72000",
+  "raw": "72.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtota]  72.000"
+ },
+ "total": {
+  "value": "72000",
+  "raw": "72,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  72,000"
+ },
+ "tax": null,
+ "service": null
+}

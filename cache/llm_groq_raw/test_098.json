@@ -1,0 +1,17 @@
+{
+ "index": 98,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "pancie\nFOOD\nQuality/K\nPresental\nTaste/Ras\nBEVERAC\nQuality/K\nPresental  79000\nTaste/Rai  BLACK  PEPPER MEATBALL PAS  77000\nTRUFFLE CREAM  59,000\nSERVICE  EARL' GREY MILK TEA  215,000\nSUBTTL  12,900\nFriendlin  Service Charge 6%  22 ,790\nPromptn  TAX 10}\nAttentive  250690\nTime/Wa  TOTAL\nOTHERS\nCleanline\nAmbiance\nValue for |",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Presental\",\n      \"cnt\": null,\n      \"price\": \"79000\"\n    },\n    {\n      \"nm\": \"BLACK  PEPPER MEATBALL PAS\",\n      \"cnt\": null,\n      \"price\": \"77000\"\n    },\n    {\n      \"nm\": \"TRUFFLE CREAM\",\n      \"cnt\": null,\n      \"price\": \"59,000\"\n    },\n    {\n      \"nm\": \"SERVICE  EARL' GREY MILK TEA\",\n      \"cnt\": null,\n      \"price\": \"215,000\"\n    },\n    {\n      \"nm\": \"Attentive\",\n      \"cnt\": null,\n      \"price\": \"250690\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"12,900\",\n    \"evidence\": \"SUBTTL  12,900\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"10}\",\n    \"evidence\": \"Promptn  TAX 10}\"\n  },\n  \"service\": {\n    \"amount\": \"22 ,790\",\n    \"evidence\": \"Friendlin  Service Charge 6%  22 ,790\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 914,
+  "completion": 561,
+  "total": 1475,
+  "reasoning": 276
+ },
+ "seconds": 1.8462836742401123,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 26,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Cap  Cay\nNas| Cap Cay Porsi  0\nesal\n5000  65000\nHinuman\nTeh Tarar\n2  A.ouu  UqO\nLalni-Iain\nFu Yung Hal\n65.000  65000\nSubtotal  Rp 138,000\nTotal  Rp 138.000\nCash   Ap  138.000\nRp  0\nChange",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"Rp 138,000\",\n    \"evidence\": \"Subtotal  Rp 138,000\"\n  },\n  \"total\": {\n    \"amount\": \"Rp 138.000\",\n    \"evidence\": \"Total  Rp 138.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 876,
+  "completion": 356,
+  "total": 1232,
+  "reasoning": 233
+ },
+ "seconds": 0.8933053016662598,
+ "error": null
+}

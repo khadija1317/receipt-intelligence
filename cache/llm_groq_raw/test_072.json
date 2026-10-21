@@ -1,0 +1,17 @@
+{
+ "index": 72,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "8\nZE\n1\nJeE\nChoco Devil  15,9095)\n~iea  Cce\nSubTotal:\nPBl:  15,909\n1,591\nTotal:  17,500\ncash;\nChanqet  20,5  QQo\n2,  5001\nZE=EEEEE5\n53223223",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Choco Devil\",\n      \"cnt\": null,\n      \"price\": \"15,9095)\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"15,909\",\n    \"evidence\": \"PBl:  15,909\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"17,500\",\n    \"evidence\": \"Total:  17,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 863,
+  "completion": 425,
+  "total": 1288,
+  "reasoning": 274
+ },
+ "seconds": 1.5536267757415771,
+ "error": null
+}

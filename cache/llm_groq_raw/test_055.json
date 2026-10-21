@@ -1,0 +1,17 @@
+{
+ "index": 55,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "APPLE CINNAMON PASTRY  22,000\n2 ROYAL CHEESE TART  32 ,000\nTOTAL  52000\nCARD  52000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"APPLE CINNAMON PASTRY\",\n      \"cnt\": null,\n      \"price\": \"22,000\"\n    },\n    {\n      \"nm\": \"ROYAL CHEESE TART\",\n      \"cnt\": \"2\",\n      \"price\": \"32 ,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"52000\",\n    \"evidence\": \"TOTAL  52000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 822,
+  "completion": 298,
+  "total": 1120,
+  "reasoning": 125
+ },
+ "seconds": 0.8218123912811279,
+ "error": null
+}

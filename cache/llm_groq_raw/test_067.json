@@ -1,0 +1,17 @@
+{
+ "index": 67,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2005-CHEEsE  JOHR\n500,0}  ?.500,00\nTotal Item:\nTotal.  s0,00\nCash  sq0.00\nTendered:",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"500,0}\",\n      \"cnt\": null,\n      \"price\": \"?.500,00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"s0,00\",\n    \"evidence\": \"Total.  s0,00\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 824,
+  "completion": 433,
+  "total": 1257,
+  "reasoning": 292
+ },
+ "seconds": 1.6412060260772705,
+ "error": null
+}

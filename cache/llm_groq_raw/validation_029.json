@@ -1,0 +1,16 @@
+{
+ "index": 29,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Sabun Beras  1\n30000  30000\nSub Total\n30000\nDiscount (0 %)\nTunai\nSOooo\nKernbalian\n20000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Sabun Beras  1\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"Kernbalian\",\n      \"cnt\": null,\n      \"price\": \"20000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 822,
+  "completion": 481,
+  "total": 1303,
+  "reasoning": 323
+ },
+ "seconds": 2.286308526992798
+}

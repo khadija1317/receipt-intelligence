@@ -1,0 +1,16 @@
+{
+ "index": 22,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "RedVelvet Nutella  280000\nFree nini Candle\nLarge  RCX\nSubtotaL  280000\nPBi  28000\nTOTAL  308000\nBCA Card  ZC8 ,  00",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RedVelvet Nutella\",\n      \"cnt\": null,\n      \"price\": \"280000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"280000\",\n    \"evidence\": \"SubtotaL  280000\"\n  },\n  \"tax\": {\n    \"amount\": \"28000\",\n    \"evidence\": \"PBi  28000\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"308000\",\n    \"evidence\": \"TOTAL  308000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 835,
+  "completion": 269,
+  "total": 1104,
+  "reasoning": 114
+ },
+ "seconds": 0.9881143569946289
+}

@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "BUBBLE GUni",
+   "cnt": null,
+   "price": {
+    "value": "18182",
+    "raw": "18,182",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 23,
+ "subtotal": null,
+ "total": {
+  "value": "1818",
+  "raw": "1,818",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  1,818"
+ },
+ "tax": {
+  "value": "18182",
+  "raw": "18,182",
+  "status": "ok",
+  "conf": null,
+  "line": "PAJAK 1ox  18,182"
+ },
+ "service": null
+}

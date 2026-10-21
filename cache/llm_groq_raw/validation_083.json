@@ -1,0 +1,16 @@
+{
+ "index": 83,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1X S-Milk tea  Ooo  OOO\n1oox\nPBI\nSubtotal  17,000\nTota]  17,000\nCash:  17,000\nCHANGE:",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1X S-Milk tea  Ooo  OOO\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1oox\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"PBI\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"17,000\",\n    \"evidence\": \"Subtotal  17,000\"\n  },\n  \"total\": {\n    \"amount\": \"17,000\",\n    \"evidence\": \"Tota]  17,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 829,
+  "completion": 368,
+  "total": 1197,
+  "reasoning": 164
+ },
+ "seconds": 2.4412364959716797
+}

@@ -1,0 +1,17 @@
+{
+ "index": 39,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Fifl7xDPl ` .  JPGeT WtreD Bag\nel  4  EpCq\n:  7{  14844,Cn\n`   `\n>  HNP\nP  t  :\nan  hal  7c7 nno\nHPL7EaDr !G.^ >.   >  ED\nU\nFal  Fea cna  eraeednd:\ns  Vaae  Feaaa\n  Maeina\ns\n'  a  Meentee",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 893,
+  "completion": 125,
+  "total": 1018,
+  "reasoning": 26
+ },
+ "seconds": 0.4455890655517578,
+ "error": null
+}

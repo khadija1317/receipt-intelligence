@@ -1,0 +1,17 @@
+{
+ "index": 15,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "3\ncald\nLemon Tea  (L)  25. 000\nCarame] Sma /  1  38. 000\nTOTAL  63000\nCASH  70. 000\nCHANGED  7. 000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Lemon Tea  (L)\",\n      \"cnt\": null,\n      \"price\": \"25. 000\"\n    },\n    {\n      \"nm\": \"Carame] Sma /\",\n      \"cnt\": \"1\",\n      \"price\": \"38. 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"63000\",\n    \"evidence\": \"TOTAL  63000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 841,
+  "completion": 281,
+  "total": 1122,
+  "reasoning": 108
+ },
+ "seconds": 0.8361434936523438,
+ "error": null
+}

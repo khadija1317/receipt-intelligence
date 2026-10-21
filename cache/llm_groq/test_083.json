@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "COCKIES AnD CREAM",
+   "cnt": null,
+   "price": {
+    "value": "20909",
+    "raw": "20,909",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "FajfX",
+   "cnt": "107",
+   "price": {
+    "value": "2091",
+    "raw": "2,091",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 83,
+ "subtotal": null,
+ "total": {
+  "value": "23000",
+  "raw": "23,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  23,000"
+ },
+ "tax": null,
+ "service": null
+}

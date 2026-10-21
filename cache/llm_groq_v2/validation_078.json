@@ -1,0 +1,76 @@
+{
+ "menu": [
+  {
+   "nm": "Nineral Water",
+   "cnt": "2",
+   "price": {
+    "value": "8000",
+    "raw": "8000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Teh Tawaf Dingin",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Soto Betaw1",
+   "cnt": "2",
+   "price": {
+    "value": "16000",
+    "raw": "16000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NAS PUTIH",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 78,
+ "subtotal": {
+  "value": "154000",
+  "raw": "154000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  154000"
+ },
+ "total": {
+  "value": "177870",
+  "raw": "177.870",
+  "status": "ok",
+  "conf": null,
+  "line": "6 Tatal  177.870"
+ },
+ "tax": {
+  "value": "16170",
+  "raw": "16170",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak  Res  10 /  16170"
+ },
+ "service": {
+  "value": "700",
+  "raw": "700",
+  "status": "ok",
+  "conf": null,
+  "line": "Seru  Charse  700"
+ }
+}

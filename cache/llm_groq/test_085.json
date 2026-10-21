@@ -1,0 +1,134 @@
+{
+ "menu": [
+  {
+   "nm": "Nas i Tambah",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ayam Pop",
+   "cnt": "1",
+   "price": {
+    "value": "7000",
+    "raw": "7000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Samabal SP",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Sambal Gabus As",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KerUpuk Kuah",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ikan Bawal Besa",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Telur Dadar",
+   "cnt": null,
+   "price": {
+    "value": "28500",
+    "raw": "28500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Teh Es",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Teh Manis",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7 . 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Es Batu",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ft} Hakanan",
+   "cnt": null,
+   "price": {
+    "value": "159588",
+    "raw": "159588",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 85,
+ "subtotal": {
+  "value": "179500",
+  "raw": "179500",
+  "status": "ok",
+  "conf": null,
+  "line": "Fajak Rest  Subtotal  10v  179500"
+ },
+ "total": {
+  "value": "497450",
+  "raw": "497.450",
+  "status": "ok",
+  "conf": null,
+  "line": "14 Total  497.450"
+ },
+ "tax": null,
+ "service": null
+}

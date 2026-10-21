@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Avocado COFFEE",
+   "cnt": null,
+   "price": {
+    "value": "61000",
+    "raw": "61000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Cx9 K",
+   "cnt": null,
+   "price": {
+    "value": "200034",
+    "raw": "200,034",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 4,
+ "subtotal": null,
+ "total": {
+  "value": "19",
+  "raw": "19",
+  "status": "ok",
+  "conf": null,
+  "line": "8U6_TOTAL  19 <  QOc"
+ },
+ "tax": null,
+ "service": null
+}

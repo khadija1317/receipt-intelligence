@@ -1,0 +1,16 @@
+{
+ "index": 9,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tahu Ikan Oma Giok  20,000\nTOTAL  20.00\nCASH  20,000\nCHANGED",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Tahu Ikan Oma Giok\",\n      \"cnt\": null,\n      \"price\": \"20,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"20.00\",\n    \"evidence\": \"TOTAL  20.00\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 813,
+  "completion": 225,
+  "total": 1038,
+  "reasoning": 83
+ },
+ "seconds": 0.7801036834716797
+}

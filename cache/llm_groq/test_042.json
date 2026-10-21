@@ -1,0 +1,58 @@
+{
+ "menu": [
+  {
+   "nm": "Lnicken HCC _ ipcs",
+   "cnt": null,
+   "price": {
+    "value": "15666",
+    "raw": "15 . 666",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "P kest",
+   "cnt": "16",
+   "price": {
+    "value": "1500",
+    "raw": "1 ,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Jaial",
+   "cnt": null,
+   "price": {
+    "value": "16500",
+    "raw": "16,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Caer",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "50 , Oco",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 42,
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "15 , L66",
+  "status": "review",
+  "conf": null,
+  "line": "Cub Total  15 , L66"
+ },
+ "tax": null,
+ "service": null
+}

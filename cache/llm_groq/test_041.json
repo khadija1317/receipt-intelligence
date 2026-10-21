@@ -1,0 +1,130 @@
+{
+ "menu": [
+  {
+   "nm": "Chicken Hary land",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "~47619,00",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Cappuc ino' (Hot /Iced)",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "30303,un",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Naga Lychee Juice",
+   "cnt": null,
+   "price": {
+    "value": "34632",
+    "raw": "34632",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Cafe Latte",
+   "cnt": null,
+   "price": {
+    "value": "30303.00",
+    "raw": "30303. 00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Hot Chocolate MarshialIo",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "30302 . Ulj",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chicken Cesar Salad",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "43290. QU",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Minera Hater",
+   "cnt": null,
+   "price": {
+    "value": "12987.00",
+    "raw": "12987 ,00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Minera Mater",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "12987 . UU",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Lychee /Peach /Lemon/Mango",
+   "cnt": null,
+   "price": {
+    "value": "25474.00",
+    "raw": "25474.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chicken Mary land",
+   "cnt": null,
+   "price": {
+    "value": "47619.00",
+    "raw": "47619,00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 41,
+ "subtotal": {
+  "value": "316017.00",
+  "raw": "316017,00",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtota]  316017,00"
+ },
+ "total": {
+  "value": "365000.00",
+  "raw": "365000,00",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  365000,00"
+ },
+ "tax": null,
+ "service": {
+  "value": "48982.68",
+  "raw": "48982 .68",
+  "status": "ok",
+  "conf": null,
+  "line": "Service Charge 5x  48982 .68"
+ }
+}

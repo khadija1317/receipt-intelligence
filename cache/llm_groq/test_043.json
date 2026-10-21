@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "Pcs Cheese Tart",
+   "cnt": null,
+   "price": {
+    "value": "165000.60",
+    "raw": "165000.60",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bor ok",
+   "cnt": null,
+   "price": {
+    "value": "6",
+    "raw": "6",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 43,
+ "subtotal": {
+  "value": null,
+  "raw": "Rp16s000  ,00",
+  "status": "review",
+  "conf": null,
+  "line": "Subtota]:  Rp16s000  ,00"
+ },
+ "total": {
+  "value": "165000.00",
+  "raw": "165000.00",
+  "status": "ok",
+  "conf": null,
+  "line": "Total;  165000.00"
+ },
+ "tax": null,
+ "service": null
+}

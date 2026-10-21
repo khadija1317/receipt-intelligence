@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Chocolate Log Cake",
+   "cnt": null,
+   "price": {
+    "value": "115000",
+    "raw": "115,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Snowman Cake Chocolate",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Strawberry Log Cake",
+   "cnt": "2x",
+   "price": {
+    "value": "210000",
+    "raw": "210,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 82,
+ "subtotal": {
+  "value": "385000",
+  "raw": "385, 000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  385, 000"
+ },
+ "total": {
+  "value": "385000",
+  "raw": "385, 000",
+  "status": "ok",
+  "conf": null,
+  "line": "GRAND   TOTAL  385, 000"
+ },
+ "tax": null,
+ "service": null
+}

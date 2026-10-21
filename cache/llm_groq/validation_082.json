@@ -1,0 +1,58 @@
+{
+ "menu": [
+  {
+   "nm": "PEARL: Chocq TEA",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GREEN TEA LYCHEE",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TuiuP Seal",
+   "cnt": "2",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CUP 14",
+   "cnt": "2",
+   "price": {
+    "value": "2",
+    "raw": "02",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 82,
+ "subtotal": null,
+ "total": {
+  "value": "35000",
+  "raw": "35,000",
+  "status": "ok",
+  "conf": null,
+  "line": "6 Tota E  35,000"
+ },
+ "tax": null,
+ "service": null
+}

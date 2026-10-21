@@ -1,0 +1,17 @@
+{
+ "index": 75,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "choco PUFF  29,091\nCREAMY BEEF CLS FTC  42,727\nNEW URIENTAL  CKk RICE  34,545\nLIPTON PITCHER  54,545\nSC/P  SUPER SUPRENE  47,273\nCBZP BLACK PEPP BEEF  48182\nSUBTOTAL  256,363\nTax  254637\nTOTAL  282000\n3",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"choco PUFF\",\n      \"cnt\": null,\n      \"price\": \"29,091\"\n    },\n    {\n      \"nm\": \"CREAMY BEEF CLS FTC\",\n      \"cnt\": null,\n      \"price\": \"42,727\"\n    },\n    {\n      \"nm\": \"NEW URIENTAL  CKk RICE\",\n      \"cnt\": null,\n      \"price\": \"34,545\"\n    },\n    {\n      \"nm\": \"LIPTON PITCHER\",\n      \"cnt\": null,\n      \"price\": \"54,545\"\n    },\n    {\n      \"nm\": \"SC/P  SUPER SUPRENE\",\n      \"cnt\": null,\n      \"price\": \"47,273\"\n    },\n    {\n      \"nm\": \"CBZP BLACK PEPP BEEF\",\n      \"cnt\": null,\n      \"price\": \"48182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"256,363\",\n    \"evidence\": \"SUBTOTAL  256,363\"\n  },\n  \"tax\": {\n    \"amount\": \"254637\",\n    \"evidence\": \"Tax  254637\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"282000\",\n    \"evidence\": \"TOTAL  282000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 880,
+  "completion": 519,
+  "total": 1399,
+  "reasoning": 204
+ },
+ "seconds": 1.9627184867858887,
+ "error": null
+}

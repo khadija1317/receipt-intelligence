@@ -1,0 +1,106 @@
+{
+ "menu": [
+  {
+   "nm": "iPrs Sop Sui Jiao",
+   "cnt": null,
+   "price": {
+    "value": "33000",
+    "raw": "33000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "iPrs Ha Kaou Udng",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1Prs Si0 Nay Kpting",
+   "cnt": null,
+   "price": {
+    "value": "23500",
+    "raw": "23,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "iPrs Siomay Kmbinasi",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "4Prs Leng Hong Kien",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "Z0,Qo0",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1Prs mie Kgkung Trsi",
+   "cnt": null,
+   "price": {
+    "value": "35500",
+    "raw": "35,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1615 65 Ten Tawar",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 25,
+ "subtotal": {
+  "value": null,
+  "raw": "180=  QOO",
+  "status": "review",
+  "conf": null,
+  "line": "Subtotal  180=  QOO"
+ },
+ "total": {
+  "value": "207900",
+  "raw": "207,900",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  207,900"
+ },
+ "tax": {
+  "value": "18000",
+  "raw": "18000",
+  "status": "ok",
+  "conf": null,
+  "line": "Pb  1  18000"
+ },
+ "service": {
+  "value": null,
+  "raw": "{ Dod",
+  "status": "review",
+  "conf": null,
+  "line": "Service Charge  { Dod"
+ }
+}

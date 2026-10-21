@@ -1,0 +1,17 @@
+{
+ "index": 92,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "<FC Hinger HC  20  JOC\nZHARGE Tn  909\nSup Total  20,909\nP,Fest  10  2,091\n23,J0\nTota)\nLash  25 , JCC\nKemca]  2 , JCo\nItzms;",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"<FC Hinger HC\",\n      \"cnt\": null,\n      \"price\": \"20\"\n    },\n    {\n      \"nm\": \"ZHARGE Tn\",\n      \"cnt\": null,\n      \"price\": \"909\"\n    },\n    {\n      \"nm\": \"P,Fest\",\n      \"cnt\": \"10\",\n      \"price\": \"2,091\"\n    },\n    {\n      \"nm\": \"Lash\",\n      \"cnt\": null,\n      \"price\": \"25\"\n    },\n    {\n      \"nm\": \"Kemca]\",\n      \"cnt\": null,\n      \"price\": \"2\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 908,
+  "completion": 716,
+  "total": 1624,
+  "reasoning": 482
+ },
+ "seconds": 1.6420621871948242,
+ "error": null
+}

@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "Gojek Chicken",
+   "cnt": null,
+   "price": {
+    "value": "95000",
+    "raw": "95,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Gojek Chicken",
+   "cnt": null,
+   "price": {
+    "value": "180000",
+    "raw": "180,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Gojek French",
+   "cnt": null,
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 40,
+ "subtotal": {
+  "value": "345.00",
+  "raw": "345,00",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  345,00"
+ },
+ "total": {
+  "value": "379500",
+  "raw": "379,500",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  379,500"
+ },
+ "tax": {
+  "value": "34500",
+  "raw": "34,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  34,500"
+ },
+ "service": null
+}

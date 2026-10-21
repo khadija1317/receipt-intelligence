@@ -1,0 +1,17 @@
+{
+ "index": 69,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "23/* )/2017\n[MD]   SoFT  MORNING ROLL  18000\n5\n2  PEAL HONEY PANCAKE BREAD  20000\n}\n4  ~USTARD BRIOCHE  36000\n1\nTOTAL  74,000\nZASH  100000\nCHANGE  26000\n;\nThar",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SoFT  MORNING ROLL\",\n      \"cnt\": null,\n      \"price\": \"18000\"\n    },\n    {\n      \"nm\": \"PEAL HONEY PANCAKE BREAD\",\n      \"cnt\": \"2\",\n      \"price\": \"20000\"\n    },\n    {\n      \"nm\": \"~USTARD BRIOCHE\",\n      \"cnt\": \"4\",\n      \"price\": \"36000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"74,000\",\n    \"evidence\": \"TOTAL  74,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 863,
+  "completion": 493,
+  "total": 1356,
+  "reasoning": 288
+ },
+ "seconds": 1.512986660003662,
+ "error": null
+}

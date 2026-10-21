@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "REGULAR Et>",
+   "cnt": null,
+   "price": {
+    "value": "70000.00",
+    "raw": "70000.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "OFFL INE PRCMO",
+   "cnt": null,
+   "price": {
+    "value": "70000.00",
+    "raw": "70000 . 00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 90,
+ "subtotal": null,
+ "total": {
+  "value": "70000.00",
+  "raw": "70000 , 00",
+  "status": "ok",
+  "conf": null,
+  "line": "CN:  Total  Due  70000 , 00"
+ },
+ "tax": null,
+ "service": null
+}

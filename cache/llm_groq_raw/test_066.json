@@ -1,0 +1,17 @@
+{
+ "index": 66,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PILLZ SURIA  362364\nPLRSTIK  35\nSUBTOTRL  36,364\nPBL  102  10,0042\nGNOUKT  3.(36\nTDTAL  40,\nCAs  50\nCHZ  102",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PILLZ SURIA\",\n      \"cnt\": null,\n      \"price\": \"362364\"\n    },\n    {\n      \"nm\": \"PLRSTIK\",\n      \"cnt\": null,\n      \"price\": \"35\"\n    },\n    {\n      \"nm\": \"GNOUKT\",\n      \"cnt\": null,\n      \"price\": \"3.(36\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"36,364\",\n    \"evidence\": \"SUBTOTRL  36,364\"\n  },\n  \"total\": {\n    \"amount\": \"40,\",\n    \"evidence\": \"TDTAL  40,\"\n  },\n  \"tax\": {\n    \"amount\": \"10,0042\",\n    \"evidence\": \"PBL  102  10,0042\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 848,
+  "completion": 487,
+  "total": 1335,
+  "reasoning": 269
+ },
+ "seconds": 1.631066083908081,
+ "error": null
+}

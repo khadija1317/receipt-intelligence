@@ -1,0 +1,17 @@
+{
+ "index": 83,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "COCKIES AnD CREAM  20,909\nStotal  20,909\nFajfX  107  2,091\nTotal  23,000\nJendered  25.000\nKenbali  2000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"COCKIES AnD CREAM\",\n      \"cnt\": null,\n      \"price\": \"20,909\"\n    },\n    {\n      \"nm\": \"FajfX\",\n      \"cnt\": \"107\",\n      \"price\": \"2,091\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"23,000\",\n    \"evidence\": \"Total  23,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 840,
+  "completion": 402,
+  "total": 1242,
+  "reasoning": 230
+ },
+ "seconds": 1.8460712432861328,
+ "error": null
+}

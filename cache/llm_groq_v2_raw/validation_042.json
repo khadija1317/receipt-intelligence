@@ -1,0 +1,17 @@
+{
+ "index": 42,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "STIX CINNAMON\n19000\n19000\nCINNAMON SUGAR\n17 000  17,000\nTRIPPLE CHEESE\n17000  17,000\nSUB TOTAL  52,000\nGRAND TOTAL  63000\nVISA  1851  53000\nCHANGE DUE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"STIX CINNAMON\",\n      \"cnt\": null,\n      \"price\": \"19000\"\n    },\n    {\n      \"nm\": \"CINNAMON SUGAR\",\n      \"cnt\": null,\n      \"price\": \"17,000\"\n    },\n    {\n      \"nm\": \"TRIPPLE CHEESE\",\n      \"cnt\": null,\n      \"price\": \"17,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"52,000\",\n    \"evidence\": \"SUB TOTAL  52,000\"\n  },\n  \"total\": {\n    \"amount\": \"63000\",\n    \"evidence\": \"GRAND TOTAL  63000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 911,
+  "completion": 452,
+  "total": 1363,
+  "reasoning": 241
+ },
+ "seconds": 1.6009888648986816,
+ "error": null
+}

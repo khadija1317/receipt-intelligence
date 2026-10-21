@@ -1,0 +1,64 @@
+{
+ "menu": [
+  {
+   "nm": "TALAH UNGU",
+   "cnt": null,
+   "price": {
+    "value": "500",
+    "raw": "500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "OISC ITEH",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "40 . Uoo .",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "DISC ITEH",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "-40 . OQu\"",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "DISC ITeH",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "Onu\"",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 61,
+ "subtotal": {
+  "value": null,
+  "raw": "24,5uU",
+  "status": "review",
+  "conf": null,
+  "line": "SUBTOTAL  24,5uU"
+ },
+ "total": {
+  "value": "24500",
+  "raw": "24500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  24500"
+ },
+ "tax": null,
+ "service": null
+}

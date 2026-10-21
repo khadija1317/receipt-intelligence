@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Kopi Susu Kolone]",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Kemba |",
+   "cnt": "1",
+   "price": {
+    "value": "27000",
+    "raw": "27000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 1,
+ "subtotal": null,
+ "total": {
+  "value": "23000",
+  "raw": "23000",
+  "status": "ok",
+  "conf": null,
+  "line": "Tota]  23000"
+ },
+ "tax": null,
+ "service": null
+}

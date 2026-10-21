@@ -1,0 +1,17 @@
+{
+ "index": 72,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "STIX CINNAMON\n19,000  19000\nTRiPPLE CHEESE\n17,000  17,000\nSUB TOTAL  36000\nGRANDTOTAL  36,000\nMASTER  4607  36000\nCHANGE DUE",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"36000\",\n    \"evidence\": \"SUB TOTAL  36000\"\n  },\n  \"total\": {\n    \"amount\": \"36,000\",\n    \"evidence\": \"GRANDTOTAL  36,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 898,
+  "completion": 317,
+  "total": 1215,
+  "reasoning": 199
+ },
+ "seconds": 0.9326112270355225,
+ "error": null
+}

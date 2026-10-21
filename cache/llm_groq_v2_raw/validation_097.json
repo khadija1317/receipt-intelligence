@@ -1,0 +1,17 @@
+{
+ "index": 97,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "O\n02\nLemion  Tea  (L)  25000\n25,000\nTOTAL\nCASH  30000\nCHANGED  5000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Lemion  Tea  (L)  25000\",\n      \"cnt\": null,\n      \"price\": \"25000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 875,
+  "completion": 309,
+  "total": 1184,
+  "reasoning": 171
+ },
+ "seconds": 1.2414076328277588,
+ "error": null
+}

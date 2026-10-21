@@ -1,0 +1,68 @@
+{
+ "receipts": 100,
+ "fields": {
+  "total": {
+   "correct": 67,
+   "wrong": 14,
+   "no_answer": 17,
+   "extra": 0,
+   "not_scored": 2,
+   "unparseable_label": 0,
+   "review_but_answered": 0,
+   "precision": 0.8271604938271605,
+   "recall": 0.6836734693877551,
+   "f1": 0.7486033519553073
+  },
+  "subtotal": {
+   "correct": 39,
+   "wrong": 8,
+   "no_answer": 20,
+   "extra": 0,
+   "not_scored": 33,
+   "unparseable_label": 0,
+   "review_but_answered": 0,
+   "precision": 0.8297872340425532,
+   "recall": 0.582089552238806,
+   "f1": 0.6842105263157895
+  },
+  "tax": {
+   "correct": 25,
+   "wrong": 6,
+   "no_answer": 16,
+   "extra": 0,
+   "not_scored": 53,
+   "unparseable_label": 0,
+   "review_but_answered": 0,
+   "precision": 0.8064516129032258,
+   "recall": 0.5319148936170213,
+   "f1": 0.641025641025641
+  },
+  "service": {
+   "correct": 8,
+   "wrong": 3,
+   "no_answer": 2,
+   "extra": 0,
+   "not_scored": 87,
+   "unparseable_label": 0,
+   "review_but_answered": 0,
+   "precision": 0.7272727272727273,
+   "recall": 0.6153846153846154,
+   "f1": 0.6666666666666667
+  }
+ },
+ "items": {
+  "matched": 155,
+  "returned": 202,
+  "label_count": 219,
+  "unreadable": 68,
+  "precision": 0.7673267326732673,
+  "recall": 0.7077625570776256,
+  "name_similarity": 0.8432038999883101,
+  "count_agreement": 0.23076923076923078
+ },
+ "exact": 22,
+ "label_items_skipped": {
+  "no_price": 1,
+  "unparseable": 1
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "1 Peanut 8 Cheese",
+   "cnt": "1",
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 85,
+ "subtotal": {
+  "value": "13636",
+  "raw": "13,636",
+  "status": "ok",
+  "conf": null,
+  "line": "SubTotal:  13,636"
+ },
+ "total": {
+  "value": "15000",
+  "raw": "15,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  15,000"
+ },
+ "tax": {
+  "value": "1364",
+  "raw": "1,364",
+  "status": "ok",
+  "conf": null,
+  "line": "PBi:  1,364  1"
+ },
+ "service": null
+}

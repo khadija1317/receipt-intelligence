@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "PAin AU CHOCOLATE",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CHGco CUSTARD PASTRY",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MILK PASTRY ROLL",
+   "cnt": null,
+   "price": {
+    "value": "13500",
+    "raw": "13,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "REAL CHEESE INSIDE BREAD",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SAUSAGE BREAD",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20 ,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "HAM CHEESE FLAT BREAD",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 24,
+ "subtotal": null,
+ "total": {
+  "value": "100000",
+  "raw": "100000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  3  100000"
+ },
+ "tax": null,
+ "service": null
+}

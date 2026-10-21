@@ -1,0 +1,64 @@
+{
+ "menu": [
+  {
+   "nm": "Ix",
+   "cnt": null,
+   "price": {
+    "value": "52000",
+    "raw": "52. 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nasi Cainput Bal i",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ix",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22. 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Lemion",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 49,
+ "subtotal": {
+  "value": "74000",
+  "raw": "74.000",
+  "status": "ok",
+  "conf": null,
+  "line": "SubTTI  74.000"
+ },
+ "total": null,
+ "tax": {
+  "value": "7400",
+  "raw": "7400",
+  "status": "ok",
+  "conf": null,
+  "line": "TaX  7400"
+ },
+ "service": null
+}

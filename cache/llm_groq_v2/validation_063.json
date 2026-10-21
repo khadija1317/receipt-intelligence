@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "ISI CAMPLR",
+   "cnt": "1",
+   "price": {
+    "value": "43636",
+    "raw": "43.636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "A.MINRA DOTO",
+   "cnt": "1",
+   "price": {
+    "value": "8.00",
+    "raw": "8.00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 63,
+ "subtotal": null,
+ "total": {
+  "value": "56800",
+  "raw": "56,800",
+  "status": "ok",
+  "conf": null,
+  "line": "GRAND TOTAL  56,800  >"
+ },
+ "tax": {
+  "value": "5.18",
+  "raw": "5.18",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10.00 %  5.18"
+ },
+ "service": null
+}

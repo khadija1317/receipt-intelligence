@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Tahu Ikan Oma Giok",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 9,
+ "subtotal": null,
+ "total": {
+  "value": "20.00",
+  "raw": "20.00",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  20.00"
+ },
+ "tax": null,
+ "service": null
+}

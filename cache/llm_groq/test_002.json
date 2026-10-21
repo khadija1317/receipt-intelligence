@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "S#IF MT",
+   "cnt": null,
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "'CONU] JELLY",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 2,
+ "subtotal": null,
+ "total": {
+  "value": "28006",
+  "raw": "28006",
+  "status": "ok",
+  "conf": null,
+  "line": "tOtAL SA03  28006"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 32,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "1  Nasi  (MLY)  6000\nSubtotal  6000\nToTAL  6 . (0O\nGo-Pay static QR  6000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Nasi  (MLY)\",\n      \"cnt\": \"1\",\n      \"price\": \"6000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"6000\",\n    \"evidence\": \"Subtotal  6000\"\n  },\n  \"total\": {\n    \"amount\": \"6 . (0O\",\n    \"evidence\": \"ToTAL  6 . (0O\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 878,
+  "completion": 248,
+  "total": 1126,
+  "reasoning": 94
+ },
+ "seconds": 1.2816905975341797,
+ "error": null
+}

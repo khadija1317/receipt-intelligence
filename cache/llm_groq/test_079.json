@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "1001-Choco Bun",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "6001-Plastic Bag Small",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 79,
+ "subtotal": null,
+ "total": {
+  "value": "22000",
+  "raw": "22000",
+  "status": "ok",
+  "conf": null,
+  "line": "otal.  22000"
+ },
+ "tax": null,
+ "service": null
+}

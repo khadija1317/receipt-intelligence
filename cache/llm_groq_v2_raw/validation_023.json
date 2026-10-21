@@ -1,0 +1,17 @@
+{
+ "index": 23,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "#Nemenetkine #AN3\nBUBBLE GUni\n18,182\nSubtotal\nPAJAK 1ox  18,182\nTotal  1,818\n20,006\nCASH\n20.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BUBBLE GUni\",\n      \"cnt\": null,\n      \"price\": \"18,182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"18,182\",\n    \"evidence\": \"PAJAK 1ox  18,182\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"1,818\",\n    \"evidence\": \"Total  1,818\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 889,
+  "completion": 391,
+  "total": 1280,
+  "reasoning": 237
+ },
+ "seconds": 1.0263652801513672,
+ "error": null
+}

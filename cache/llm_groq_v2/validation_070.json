@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Kara buurryTeishoku",
+   "cnt": null,
+   "price": {
+    "value": "67000",
+    "raw": "67000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Letn Plate",
+   "cnt": null,
+   "price": {
+    "value": "19000",
+    "raw": "19000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Icna Hot",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 70,
+ "subtotal": null,
+ "total": {
+  "value": "103000",
+  "raw": "103,000",
+  "status": "ok",
+  "conf": null,
+  "line": "atotAl  103,000"
+ },
+ "tax": null,
+ "service": {
+  "value": "7723",
+  "raw": "7,723",
+  "status": "ok",
+  "conf": null,
+  "line": "@rvice  731  7,723"
+ }
+}

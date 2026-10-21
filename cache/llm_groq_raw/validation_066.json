@@ -1,0 +1,16 @@
+{
+ "index": 66,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "A IR  MINERAL  0\nTL  Joo\nCASH  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"A IR  MINERAL\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"TL  Joo\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 802,
+  "completion": 301,
+  "total": 1103,
+  "reasoning": 146
+ },
+ "seconds": 1.3578646183013916
+}

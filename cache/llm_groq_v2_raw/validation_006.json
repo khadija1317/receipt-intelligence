@@ -1,0 +1,17 @@
+{
+ "index": 6,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "POTATO SAUSAGE BREAD  19,000\nOREO   GREEN TEA SPREAD  52000\nWHITE CHOCO BANANA   SPREAD  62000\nTOTAL  123,200\nCARD  123,0j00",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"POTATO SAUSAGE BREAD\",\n      \"cnt\": null,\n      \"price\": \"19,000\"\n    },\n    {\n      \"nm\": \"OREO   GREEN TEA SPREAD\",\n      \"cnt\": null,\n      \"price\": \"52000\"\n    },\n    {\n      \"nm\": \"WHITE CHOCO BANANA   SPREAD\",\n      \"cnt\": null,\n      \"price\": \"62000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"123,200\",\n    \"evidence\": \"TOTAL  123,200\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 894,
+  "completion": 317,
+  "total": 1211,
+  "reasoning": 109
+ },
+ "seconds": 1.0123767852783203,
+ "error": null
+}

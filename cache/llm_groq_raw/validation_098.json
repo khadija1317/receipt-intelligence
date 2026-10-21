@@ -1,0 +1,16 @@
+{
+ "index": 98,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Hulk Topper Package  100000\nTOTAL  V0O,O00\nCaSh  100000\nCHANGED",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Hulk Topper Package\",\n      \"cnt\": null,\n      \"price\": \"100000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"V0O,O00\",\n    \"evidence\": \"TOTAL  V0O,O00\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1578,
+  "completion": 231,
+  "total": 1809,
+  "reasoning": 89
+ },
+ "seconds": 0.8358268737792969
+}

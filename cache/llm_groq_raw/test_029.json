@@ -1,0 +1,17 @@
+{
+ "index": 29,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "COLD OCHA  1  10,909\nBCA PROMO  54,455\nABURA UDON SPICY  0\n'-KAKE UDON  0\nSKEWERED TOFUROLL  1  12,727\nEBI TEMPURA  13,636\nKITSUNE UDON (KIDS}  28,182\nSUB, TOTAL  132,636\nRESTAURANT TAX  13,264\nGRAND TOTAL\n~BCA EDC  [145,900]  145,900",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"COLD OCHA\",\n      \"cnt\": \"1\",\n      \"price\": \"10,909\"\n    },\n    {\n      \"nm\": \"BCA PROMO\",\n      \"cnt\": null,\n      \"price\": \"54,455\"\n    },\n    {\n      \"nm\": \"ABURA UDON SPICY\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"'-KAKE UDON\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"SKEWERED TOFUROLL\",\n      \"cnt\": \"1\",\n      \"price\": \"12,727\"\n    },\n    {\n      \"nm\": \"EBI TEMPURA\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    },\n    {\n      \"nm\": \"KITSUNE UDON (KIDS}\",\n      \"cnt\": null,\n      \"price\": \"28,182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"13,264\",\n    \"evidence\": \"RESTAURANT TAX  13,264\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 906,
+  "completion": 619,
+  "total": 1525,
+  "reasoning": 294
+ },
+ "seconds": 1.7371604442596436,
+ "error": null
+}

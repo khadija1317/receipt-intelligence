@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "IX S-HazeInut KOI Cafe @25,000",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 48,
+ "subtotal": {
+  "value": "22728",
+  "raw": "22 ,728",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  22 ,728"
+ },
+ "total": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Tota]  25,000"
+ },
+ "tax": null,
+ "service": null
+}

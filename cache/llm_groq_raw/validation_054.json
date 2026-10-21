@@ -1,0 +1,16 @@
+{
+ "index": 54,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "4003-Blueberry Fuji\n40000  40000\nS@D1-Plastic Bag Small\nTotal Item;\nTotal.  40000\nCash\nTendered:  50000\nChange:  10000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"4003-Blueberry Fuji\",\n      \"cnt\": null,\n      \"price\": \"40000  40000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"40000\",\n    \"evidence\": \"Total.  40000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 832,
+  "completion": 436,
+  "total": 1268,
+  "reasoning": 293
+ },
+ "seconds": 1.7403666973114014
+}

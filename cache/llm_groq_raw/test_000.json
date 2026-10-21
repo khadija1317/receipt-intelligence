@@ -1,0 +1,17 @@
+{
+ "index": 0,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "901016  -TICKET Cp\n60000  EO,Q0O\nTOTAL dis:  60,000\ntak  5,455\nSubtota]  60000\nToTaL  (Oty  00  60000\nEdC CIMB NIAGA No: xx7730  60,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"EO,Q0O\",\n      \"cnt\": null,\n      \"price\": \"60000\"\n    },\n    {\n      \"nm\": \"tak\",\n      \"cnt\": null,\n      \"price\": \"5,455\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"60000\",\n    \"evidence\": \"Subtota]  60000\"\n  },\n  \"total\": {\n    \"amount\": \"60,000\",\n    \"evidence\": \"TOTAL dis:  60,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 855,
+  "completion": 505,
+  "total": 1360,
+  "reasoning": 329
+ },
+ "seconds": 1.809708595275879,
+ "error": null
+}

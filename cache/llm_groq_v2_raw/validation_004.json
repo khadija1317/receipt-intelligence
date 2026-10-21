@@ -1,0 +1,17 @@
+{
+ "index": 4,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "05\nEeea\nBB0   Chicken  41,000\n'Sedang\nITEMS  41,000\nTotal:  50000  41,000\nPay  Cash  Crange  9000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Chicken\",\n      \"cnt\": null,\n      \"price\": \"41,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"41,000\",\n    \"evidence\": \"Total:  50000  41,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 888,
+  "completion": 347,
+  "total": 1235,
+  "reasoning": 206
+ },
+ "seconds": 1.1540355682373047,
+ "error": null
+}

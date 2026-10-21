@@ -1,0 +1,17 @@
+{
+ "index": 34,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "GRILLED BABY POTATO  (R  50,500\nTRUFFLE CREAM  76 , 000\nCARBONARA  70,500\nORIGINAL BREWED TEA  46 , 000\nSUBTTL  243 , 000\nSUC CHG 6*  14,580\nPBI  102  25, 758\nTOTAL  283, 338\nUISA  283, 338\n5962",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"GRILLED BABY POTATO  (R\",\n      \"cnt\": null,\n      \"price\": \"50,500\"\n    },\n    {\n      \"nm\": \"TRUFFLE CREAM\",\n      \"cnt\": null,\n      \"price\": \"76 , 000\"\n    },\n    {\n      \"nm\": \"CARBONARA\",\n      \"cnt\": null,\n      \"price\": \"70,500\"\n    },\n    {\n      \"nm\": \"ORIGINAL BREWED TEA\",\n      \"cnt\": null,\n      \"price\": \"46 , 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"14,580\",\n    \"evidence\": \"SUC CHG 6*  14,580\"\n  },\n  \"total\": {\n    \"amount\": \"283, 338\",\n    \"evidence\": \"TOTAL  283, 338\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 942,
+  "completion": 480,
+  "total": 1422,
+  "reasoning": 226
+ },
+ "seconds": 1.3834266662597656,
+ "error": null
+}

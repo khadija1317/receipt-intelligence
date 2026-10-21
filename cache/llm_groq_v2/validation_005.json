@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "LE ATNERAL",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "G,bp8",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NETI RHT",
+   "cnt": null,
+   "price": {
+    "value": "7273",
+    "raw": "7,273",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TAk ANT",
+   "cnt": null,
+   "price": {
+    "value": "727",
+    "raw": "727",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 5,
+ "subtotal": null,
+ "total": {
+  "value": "8030",
+  "raw": "8,030",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  8,030"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,16 @@
+{
+ "index": 33,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "GRAINS PAN BREAD  20,500\nICED HIBISCUS LYCHEE TEA  37 , 000\nTOTAL  57500\nGIFTSO  50 ,000\n811923270311\nCASH  7,500\nCHANGE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"GRAINS PAN BREAD\",\n      \"cnt\": null,\n      \"price\": \"20,500\"\n    },\n    {\n      \"nm\": \"ICED HIBISCUS LYCHEE TEA\",\n      \"cnt\": null,\n      \"price\": \"37 , 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"57500\",\n    \"evidence\": \"TOTAL  57500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 843,
+  "completion": 384,
+  "total": 1227,
+  "reasoning": 207
+ },
+ "seconds": 1.152402639389038
+}

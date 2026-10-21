@@ -1,0 +1,16 @@
+{
+ "index": 59,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "XLD  Org  Park i0r  78,000\nSicita Babi  65000\nHatplate Tahu  58,000\nDF Fish Fillet Garlc  108,000\n1  Siewora Belly  38,800\nKwan Yin  Cup  SO,00O\nHerbal Jellv  38,000\nOnde-Onde  38,000\nITEMS :13  561,800\nService charge  42,135\nPBI  60,394\nTotal  #0*ee0er0  664,329",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"XLD  Org  Park i0r\",\n      \"cnt\": null,\n      \"price\": \"78,000\"\n    },\n    {\n      \"nm\": \"Sicita Babi\",\n      \"cnt\": null,\n      \"price\": \"65000\"\n    },\n    {\n      \"nm\": \"Hatplate Tahu\",\n      \"cnt\": null,\n      \"price\": \"58,000\"\n    },\n    {\n      \"nm\": \"DF Fish Fillet Garlc\",\n      \"cnt\": null,\n      \"price\": \"108,000\"\n    },\n    {\n      \"nm\": \"Siewora Belly\",\n      \"cnt\": \"1\",\n      \"price\": \"38,800\"\n    },\n    {\n      \"nm\": \"Kwan Yin  Cup\",\n      \"cnt\": null,\n      \"price\": \"SO,00O\"\n    },\n    {\n      \"nm\": \"Herbal Jellv\",\n      \"cnt\": null,\n      \"price\": \"38,000\"\n    },\n    {\n      \"nm\": \"Onde-Onde\",\n      \"cnt\": null,\n      \"price\": \"38,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"664,329\",\n    \"evidence\": \"Total  #0*ee0er0  664,329\"\n  },\n  \"tax\": {\n    \"amount\": \"60,394\",\n    \"evidence\": \"PBI  60,394\"\n  },\n  \"service\": {\n    \"amount\": \"42,135\",\n    \"evidence\": \"Service charge  42,135\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 914,
+  "completion": 694,
+  "total": 1608,
+  "reasoning": 313
+ },
+ "seconds": 1.7805156707763672
+}

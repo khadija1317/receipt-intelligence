@@ -1,0 +1,17 @@
+{
+ "index": 47,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "Seaweed  Chicken  42,000  0\nSedang\n42,808  42\nITEMS  7\nFoveCash  50,000  Change  8,000\nPay",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Seaweed  Chicken\",\n      \"cnt\": null,\n      \"price\": \"42,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 884,
+  "completion": 353,
+  "total": 1237,
+  "reasoning": 223
+ },
+ "seconds": 1.1995134353637695,
+ "error": null
+}

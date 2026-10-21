@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "2X",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Honey Manaa|",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "10 |AL",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 68,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

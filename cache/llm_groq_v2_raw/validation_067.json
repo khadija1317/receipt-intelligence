@@ -1,0 +1,17 @@
+{
+ "index": 67,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "1  PAKET BERZ  69,091\n1  BREAD  N CHEESE DEL\n1 MAC N CHEESE DEL\n1  PEPSI DEL\n1 P/p  THUOSAND  ISL  DEL\n1  LIPTON  ICE  TEA  DEL\nSUBTOTAL  69,091\nTaX  909\nead  462\nTOTAL  76, @0O",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PAKET BERZ\",\n      \"cnt\": \"1\",\n      \"price\": \"69,091\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"69,091\",\n    \"evidence\": \"SUBTOTAL  69,091\"\n  },\n  \"tax\": {\n    \"amount\": \"909\",\n    \"evidence\": \"TaX  909\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"@0O\",\n    \"evidence\": \"TOTAL  76, @0O\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 931,
+  "completion": 420,
+  "total": 1351,
+  "reasoning": 262
+ },
+ "seconds": 1.1092054843902588,
+ "error": null
+}

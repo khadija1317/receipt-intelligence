@@ -1,0 +1,17 @@
+{
+ "index": 36,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "8\nSoft Ori 1 Too  8\nTop Ored  0\nTop  Ured\n6\nTop Banana\nSubTatali  4479273  6\n: :  7an\nTotali  4\nCiv:  18,980  7",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"4479273\",\n    \"evidence\": \"SubTatali  4479273  6\"\n  },\n  \"total\": {\n    \"amount\": \"18,980\",\n    \"evidence\": \"Civ:  18,980  7\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 902,
+  "completion": 241,
+  "total": 1143,
+  "reasoning": 114
+ },
+ "seconds": 0.9254424571990967,
+ "error": null
+}

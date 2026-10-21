@@ -1,0 +1,23 @@
+{
+ "menu": [],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 26,
+ "subtotal": {
+  "value": "138000",
+  "raw": "Rp 138,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  Rp 138,000"
+ },
+ "total": {
+  "value": "138000",
+  "raw": "Rp 138.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  Rp 138.000"
+ },
+ "tax": null,
+ "service": null
+}

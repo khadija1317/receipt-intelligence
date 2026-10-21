@@ -1,0 +1,68 @@
+{
+ "menu": [
+  {
+   "nm": "EGG TART",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "L MHoco CuS\" ARD PASTRY",
+   "cnt": null,
+   "price": {
+    "value": "24800",
+    "raw": "24,800",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "REDBEAN BI'EAD",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MASH",
+   "cnt": null,
+   "price": {
+    "value": "50000",
+    "raw": "50,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CHANCE",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 6,
+ "subtotal": null,
+ "total": {
+  "value": "465000",
+  "raw": "46  5000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  46  5000"
+ },
+ "tax": null,
+ "service": null
+}

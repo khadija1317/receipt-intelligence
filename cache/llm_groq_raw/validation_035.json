@@ -1,0 +1,16 @@
+{
+ "index": 35,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "BLACK  PEPPER  MEATBALL  76,500\nQUARTO FORMANGGI PASTa  82 ,500\nGREEN TEA WiTH CRUMBLE  56,000\n2  ORIGINAL BREWED TEA  46,000\nSUBTTL  261 , 000\nSVC CHG &x  15,660\nPBI  10X  27,666\nTOTAL  304326\n2",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BLACK  PEPPER  MEATBALL\",\n      \"cnt\": null,\n      \"price\": \"76,500\"\n    },\n    {\n      \"nm\": \"QUARTO FORMANGGI PASTa\",\n      \"cnt\": null,\n      \"price\": \"82 ,500\"\n    },\n    {\n      \"nm\": \"GREEN TEA WiTH CRUMBLE\",\n      \"cnt\": null,\n      \"price\": \"56,000\"\n    },\n    {\n      \"nm\": \"ORIGINAL BREWED TEA\",\n      \"cnt\": \"2\",\n      \"price\": \"46,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"27,666\",\n    \"evidence\": \"PBI  10X  27,666\"\n  },\n  \"service\": {\n    \"amount\": \"15,660\",\n    \"evidence\": \"SVC CHG &x  15,660\"\n  },\n  \"total\": {\n    \"amount\": \"304326\",\n    \"evidence\": \"TOTAL  304326\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 880,
+  "completion": 724,
+  "total": 1604,
+  "reasoning": 455
+ },
+ "seconds": 1.9844920635223389
+}

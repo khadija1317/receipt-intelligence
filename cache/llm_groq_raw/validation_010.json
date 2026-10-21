@@ -1,0 +1,16 @@
+{
+ "index": 10,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2  Serbu  40. 000\n2  Choco Peanut Bread  20. 000\nTOTAL  60000\nCASH  60. 000\nCHANGED",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Serbu\",\n      \"cnt\": \"2\",\n      \"price\": \"40. 000\"\n    },\n    {\n      \"nm\": \"Choco Peanut Bread\",\n      \"cnt\": \"2\",\n      \"price\": \"20. 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"60000\",\n    \"evidence\": \"TOTAL  60000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 824,
+  "completion": 286,
+  "total": 1110,
+  "reasoning": 118
+ },
+ "seconds": 1.5253796577453613
+}

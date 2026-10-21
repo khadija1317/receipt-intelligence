@@ -1,0 +1,17 @@
+{
+ "index": 45,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "1  AUP Seafood  85000\nOmurice Katsu Curry  10\n1  Earl Gray  Tea  3  Oop\n1  Hot  Tea  QuD\nSUBTOTAL  240000\nService  21600\nPBl  26160\nTOTAL  287,760",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"AUP Seafood\",\n      \"cnt\": \"1\",\n      \"price\": \"85000\"\n    },\n    {\n      \"nm\": \"Omurice Katsu Curry\",\n      \"cnt\": null,\n      \"price\": \"10\"\n    },\n    {\n      \"nm\": \"Earl Gray  Tea  Oop\",\n      \"cnt\": \"1\",\n      \"price\": \"3\"\n    },\n    {\n      \"nm\": \"Hot  Tea  QuD\",\n      \"cnt\": \"1\",\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"240000\",\n    \"evidence\": \"SUBTOTAL  240000\"\n  },\n  \"service\": {\n    \"amount\": \"21600\",\n    \"evidence\": \"Service  21600\"\n  },\n  \"tax\": {\n    \"amount\": \"26160\",\n    \"evidence\": \"PBl  26160\"\n  },\n  \"total\": {\n    \"amount\": \"287,760\",\n    \"evidence\": \"TOTAL  287,760\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 906,
+  "completion": 459,
+  "total": 1365,
+  "reasoning": 208
+ },
+ "seconds": 1.3485169410705566,
+ "error": null
+}

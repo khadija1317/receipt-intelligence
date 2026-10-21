@@ -1,0 +1,17 @@
+{
+ "index": 40,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "X3lki Al]\n7 3;  54.033\nJ7sk Sisn banana  Pizzd  7-  %a:\n'\" Taginp @bon; ejuscdkhele:i\n0  14000\nTotel  {2  GI_\n39Sy  ;3,32\n~HSGE  30\nXndeU Ah\n\"imycnE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"J7sk Sisn banana  Pizzd  7-  %a:\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"0  14000\",\n    \"evidence\": \"0  14000\"\n  },\n  \"total\": {\n    \"amount\": \"39Sy  ;3,32\",\n    \"evidence\": \"39Sy  ;3,32\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 269,
+  "total": 1137,
+  "reasoning": 105
+ },
+ "seconds": 1.0222837924957275,
+ "error": null
+}

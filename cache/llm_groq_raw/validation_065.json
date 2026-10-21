@@ -1,0 +1,16 @@
+{
+ "index": 65,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "6\n>\n3\n>\n1\nD\nBASD TAHU  1 43.636  43,636  1\nNASI PUTIX  1  6-000  6.000\nTOTAL  49.636\nTAX 10.02 %  4,964\nGRAND TOTAL  54.600\nTUNAI  60.100  7\nKENRALI  5.500\n3\nTer",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BASD TAHU\",\n      \"cnt\": \"1\",\n      \"price\": \"43,636\"\n    },\n    {\n      \"nm\": \"NASI PUTIX\",\n      \"cnt\": \"1\",\n      \"price\": \"6.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"49.636\",\n    \"evidence\": \"TOTAL  49.636\"\n  },\n  \"tax\": {\n    \"amount\": \"4,964\",\n    \"evidence\": \"TAX 10.02 %  4,964\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 886,
+  "completion": 409,
+  "total": 1295,
+  "reasoning": 222
+ },
+ "seconds": 1.3856050968170166
+}

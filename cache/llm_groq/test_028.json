@@ -1,0 +1,66 @@
+{
+ "menu": [
+  {
+   "nm": "SAMGYOPSAL",
+   "cnt": "2",
+   "price": {
+    "value": "194000",
+    "raw": "194,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SUL LUNG TANG",
+   "cnt": "7",
+   "price": {
+    "value": "75000",
+    "raw": "75,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MAKOLI",
+   "cnt": null,
+   "price": {
+    "value": "100000",
+    "raw": "100,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 28,
+ "subtotal": {
+  "value": "369000",
+  "raw": "369,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  369,000"
+ },
+ "total": {
+  "value": "426195",
+  "raw": "426,195",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  426,195"
+ },
+ "tax": {
+  "value": "38745",
+  "raw": "38,745",
+  "status": "ok",
+  "conf": null,
+  "line": "VAT  38,745"
+ },
+ "service": {
+  "value": "18450",
+  "raw": "18,450",
+  "status": "ok",
+  "conf": null,
+  "line": "Service  18,450"
+ }
+}

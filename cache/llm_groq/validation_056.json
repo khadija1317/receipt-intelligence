@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "Thaj Iced",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20 . 000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 56,
+ "subtotal": {
+  "value": "20000",
+  "raw": "20. 000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtota/  20. 000"
+ },
+ "total": {
+  "value": "20000",
+  "raw": "20.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Totah  20.000"
+ },
+ "tax": null,
+ "service": null
+}

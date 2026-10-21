@@ -1,0 +1,17 @@
+{
+ "index": 82,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "40\n225\nChocolate Log Cake  Ix  115,000  115,000\nSnowman Cake Chocolate  Ix  60,000  60,000\nStrawberry Log Cake  2x  105000  210,000  RA\nSub Total  385, 000\nGRAND   TOTAL  385, 000\nVISA MASTER  385,000\n8213\nCHANGE\nTIME NN",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Chocolate Log Cake\",\n      \"cnt\": null,\n      \"price\": \"115,000\"\n    },\n    {\n      \"nm\": \"Snowman Cake Chocolate\",\n      \"cnt\": null,\n      \"price\": \"60,000\"\n    },\n    {\n      \"nm\": \"Strawberry Log Cake\",\n      \"cnt\": \"2x\",\n      \"price\": \"210,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"385, 000\",\n    \"evidence\": \"Sub Total  385, 000\"\n  },\n  \"total\": {\n    \"amount\": \"385, 000\",\n    \"evidence\": \"GRAND   TOTAL  385, 000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 877,
+  "completion": 443,
+  "total": 1320,
+  "reasoning": 227
+ },
+ "seconds": 1.390998125076294,
+ "error": null
+}

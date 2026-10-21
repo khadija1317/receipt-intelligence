@@ -1,0 +1,23 @@
+{
+ "menu": [],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 94,
+ "subtotal": null,
+ "total": {
+  "value": "80100",
+  "raw": "80.100",
+  "status": "ok",
+  "conf": null,
+  "line": "TADA EGIFT  80.100"
+ },
+ "tax": null,
+ "service": {
+  "value": "7280",
+  "raw": "7.280",
+  "status": "ok",
+  "conf": null,
+  "line": "SERVICE  7.280"
+ }
+}

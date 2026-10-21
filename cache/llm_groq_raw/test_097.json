@@ -1,0 +1,17 @@
+{
+ "index": 97,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2  20,000\nBUBUR GO  40.000\nPUYUh GO  6,000\n3  3 , 000\nSATEZATIcGO  9,000\n6 , OOxITEMS\nTOTAL  55. 000\nCASH  55, 000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BUBUR GO\",\n      \"cnt\": null,\n      \"price\": \"40.000\"\n    },\n    {\n      \"nm\": \"PUYUh GO\",\n      \"cnt\": null,\n      \"price\": \"6,000\"\n    },\n    {\n      \"nm\": \"SATEZATIcGO\",\n      \"cnt\": null,\n      \"price\": \"9,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"55. 000\",\n    \"evidence\": \"TOTAL  55. 000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 853,
+  "completion": 428,
+  "total": 1281,
+  "reasoning": 227
+ },
+ "seconds": 1.241600513458252,
+ "error": null
+}

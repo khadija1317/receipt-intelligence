@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "K-Passion Fruit Vac",
+   "cnt": "1",
+   "price": {
+    "value": "29.00",
+    "raw": "29.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Suztcreal",
+   "cnt": null,
+   "price": {
+    "value": "2.0",
+    "raw": "2,0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 87,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": {
+  "value": null,
+  "raw": "1,ccD",
+  "status": "review",
+  "conf": null,
+  "line": "CHARGE :  1,ccD"
+ }
+}

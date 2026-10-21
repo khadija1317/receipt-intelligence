@@ -1,0 +1,16 @@
+{
+ "index": 71,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Niam_\nDum Ou Thai Coffec  19 . OcO\nIce  1000\nSubtota]  0\nTOTAL  20000\nCash  40000\nChange Due  X0 ,  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Ice\",\n      \"cnt\": null,\n      \"price\": \"1000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"0\",\n    \"evidence\": \"Subtota]  0\"\n  },\n  \"total\": {\n    \"amount\": \"20000\",\n    \"evidence\": \"TOTAL  20000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 834,
+  "completion": 215,
+  "total": 1049,
+  "reasoning": 74
+ },
+ "seconds": 0.9773471355438232
+}

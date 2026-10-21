@@ -1,0 +1,17 @@
+{
+ "index": 60,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "VANILLA CHOCO HEART CAKE  180 , 000\nTOTAL  180 , 000\nVISA CARD 180 ,  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"VANILLA CHOCO HEART CAKE\",\n      \"cnt\": null,\n      \"price\": \"180 , 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"180 , 000\",\n    \"evidence\": \"TOTAL  180 , 000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 871,
+  "completion": 219,
+  "total": 1090,
+  "reasoning": 72
+ },
+ "seconds": 0.6847259998321533,
+ "error": null
+}

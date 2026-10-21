@@ -1,0 +1,96 @@
+{
+ "menu": [
+  {
+   "nm": "RedVelvel Cheesk SJc",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chicken Baked Rile",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Fish n Chips",
+   "cnt": "1",
+   "price": {
+    "value": "8",
+    "raw": "8",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nushropm Soup",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chamomile",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Iced Tea",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": "Z0, OCo",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 14,
+ "subtotal": {
+  "value": "238000",
+  "raw": "238000",
+  "status": "ok",
+  "conf": null,
+  "line": "SubtotAL  238000"
+ },
+ "total": {
+  "value": "281435",
+  "raw": "281,435",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  281,435"
+ },
+ "tax": {
+  "value": "25585",
+  "raw": "25585",
+  "status": "ok",
+  "conf": null,
+  "line": "Pbi  25585"
+ },
+ "service": {
+  "value": "17850",
+  "raw": "17,850",
+  "status": "ok",
+  "conf": null,
+  "line": "Service  17,850"
+ }
+}

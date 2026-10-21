@@ -1,0 +1,16 @@
+{
+ "index": 61,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Populaire Cha  ilate\n4,600  4,500\nPaddle Pop Ch ,'0 Magma\n3 ,000  3 ,000\nSub Tota|  7,500\nPajak Resto ( IOS)  750\nTota/  Bayar  8,250\nUang Bayar  10 ,000\nFree Kenba |  (n  50\nTqta| Kemba |  1  an  1,800",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Populaire Cha  ilate\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"Paddle Pop Ch ,'0 Magma\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"Free Kenba |  (n\",\n      \"cnt\": null,\n      \"price\": \"50\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"7,500\",\n    \"evidence\": \"Sub Tota|  7,500\"\n  },\n  \"tax\": {\n    \"amount\": \"750\",\n    \"evidence\": \"Pajak Resto ( IOS)  750\"\n  },\n  \"total\": {\n    \"amount\": \"8,250\",\n    \"evidence\": \"Tota/  Bayar  8,250\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 888,
+  "completion": 779,
+  "total": 1667,
+  "reasoning": 553
+ },
+ "seconds": 2.6599059104919434
+}

@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "THAI ICED GREEN TEA",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "24000  24,000",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 32,
+ "subtotal": {
+  "value": "24000",
+  "raw": "24,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB-TOTAL  24,000"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

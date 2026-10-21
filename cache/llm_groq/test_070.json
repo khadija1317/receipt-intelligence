@@ -1,0 +1,130 @@
+{
+ "menu": [
+  {
+   "nm": "UDANC RE",
+   "cnt": "2",
+   "price": {
+    "value": "432000",
+    "raw": "432,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AYM GR JUN NJAN",
+   "cnt": null,
+   "price": {
+    "value": "408000",
+    "raw": "408,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SAPO Tk SEAFOOD",
+   "cnt": "1",
+   "price": {
+    "value": "172000",
+    "raw": "172,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "POCAI",
+   "cnt": "2",
+   "price": {
+    "value": "222000",
+    "raw": "222,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GURAME FILLET M",
+   "cnt": "1",
+   "price": {
+    "value": "163000",
+    "raw": "163,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BIHUN GORENB JJ",
+   "cnt": null,
+   "price": {
+    "value": "116000",
+    "raw": "116,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ICED TEA",
+   "cnt": "5",
+   "price": {
+    "value": "60000",
+    "raw": "60,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "FooD",
+   "cnt": null,
+   "price": {
+    "value": "1213000",
+    "raw": "1,213,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BEVERACES",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "OTHERS",
+   "cnt": null,
+   "price": {
+    "value": "70.0",
+    "raw": "70.0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 70,
+ "subtotal": {
+  "value": "1343000",
+  "raw": "1,343,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  1,343,000"
+ },
+ "total": null,
+ "tax": {
+  "value": "142358",
+  "raw": "142,358",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  104  142,358"
+ },
+ "service": {
+  "value": "80580",
+  "raw": "80,580",
+  "status": "ok",
+  "conf": null,
+  "line": "SERVICE CHARGE  80,580"
+ }
+}

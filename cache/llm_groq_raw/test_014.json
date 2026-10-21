@@ -1,0 +1,17 @@
+{
+ "index": 14,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 RedVelvel  Cheesk SJc  0\n4\n1  Chicken Baked Rile  Odo\n0\n1 Fish n Chips  8  @Oo\nNushropm  Soup  Ooo\n5\n1  Chamomile  @oo\n1  Iced Tea  Z0, OCo\nSubtotAL  238000\nService  17,850\nPbi  25585\n1\nTOTAL  281,435\nCoupon  100000\nCASH  200000\nChange  18,565",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RedVelvel  Cheesk SJc\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"Chicken Baked Rile\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"Fish n Chips\",\n      \"cnt\": \"1\",\n      \"price\": \"8\"\n    },\n    {\n      \"nm\": \"Nushropm  Soup\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"Chamomile\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"Iced Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"Z0, OCo\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"238000\",\n    \"evidence\": \"SubtotAL  238000\"\n  },\n  \"total\": {\n    \"amount\": \"281,435\",\n    \"evidence\": \"TOTAL  281,435\"\n  },\n  \"tax\": {\n    \"amount\": \"25585\",\n    \"evidence\": \"Pbi  25585\"\n  },\n  \"service\": {\n    \"amount\": \"17,850\",\n    \"evidence\": \"Service  17,850\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 904,
+  "completion": 607,
+  "total": 1511,
+  "reasoning": 300
+ },
+ "seconds": 1.5738961696624756,
+ "error": null
+}

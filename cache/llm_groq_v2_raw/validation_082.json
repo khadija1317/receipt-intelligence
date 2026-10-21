@@ -1,0 +1,17 @@
+{
+ "index": 82,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "PEARL: Chocq TEA  17,000\nGREEN TEA LYCHEE  10000\n2 TuiuP Seal\n2 CUP 14  02\nNET Sales  35. 000\n6 Tota E  35,000\nBeyar  100. 000\nCASH\nKemba |   65000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PEARL: Chocq TEA\",\n      \"cnt\": null,\n      \"price\": \"17,000\"\n    },\n    {\n      \"nm\": \"GREEN TEA LYCHEE\",\n      \"cnt\": null,\n      \"price\": \"10000\"\n    },\n    {\n      \"nm\": \"2 TuiuP Seal\",\n      \"cnt\": \"2\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"2 CUP 14\",\n      \"cnt\": \"2\",\n      \"price\": \"02\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"35,000\",\n    \"evidence\": \"6 Tota E  35,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 918,
+  "completion": 708,
+  "total": 1626,
+  "reasoning": 474
+ },
+ "seconds": 1.645387887954712,
+ "error": null
+}

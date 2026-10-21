@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "Ashi Cnick Carba Vatah",
+   "cnt": null,
+   "price": {
+    "value": "75010",
+    "raw": "75.010",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Jacur Gorenz",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "10,Gn",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Subiota]",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "05,0q0",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Falak (IOF)",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "B.500",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Tuna !",
+   "cnt": null,
+   "price": {
+    "value": "1004000",
+    "raw": "1004000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Kerbal1",
+   "cnt": null,
+   "price": {
+    "value": "6500",
+    "raw": "6,500",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 34,
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "93-500",
+  "status": "review",
+  "conf": null,
+  "line": "Tota |  93-500"
+ },
+ "tax": null,
+ "service": null
+}

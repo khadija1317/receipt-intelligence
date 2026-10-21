@@ -1,0 +1,16 @@
+{
+ "index": 75,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "KFC Hinger HC  40 , 000\nOr i Bento  13,636\nMango Float  5909\nF.Wngr GES-HC  0\nCHARGE  TA  909\nSub Total  60 , 454\nP Rest  10  6,046\nTotal  66,500\nCash  100000\nKembal  33,500\n6  Items,",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"KFC Hinger HC\",\n      \"cnt\": null,\n      \"price\": \"40 , 000\"\n    },\n    {\n      \"nm\": \"Or i Bento\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    },\n    {\n      \"nm\": \"Mango Float\",\n      \"cnt\": null,\n      \"price\": \"5909\"\n    },\n    {\n      \"nm\": \"F.Wngr GES-HC\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"60 , 454\",\n    \"evidence\": \"Sub Total  60 , 454\"\n  },\n  \"total\": {\n    \"amount\": \"66,500\",\n    \"evidence\": \"Total  66,500\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 877,
+  "completion": 454,
+  "total": 1331,
+  "reasoning": 216
+ },
+ "seconds": 1.362684726715088
+}

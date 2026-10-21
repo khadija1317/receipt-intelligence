@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Viet Milk Coffee",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 80,
+ "subtotal": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  25,000"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

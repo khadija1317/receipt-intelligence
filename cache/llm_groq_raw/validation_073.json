@@ -1,0 +1,16 @@
+{
+ "index": 73,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "ICED  TT\nTotaL  20\nCASH\nCHANGE",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"20\",\n    \"evidence\": \"TotaL  20\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1567,
+  "completion": 183,
+  "total": 1750,
+  "reasoning": 77
+ },
+ "seconds": 1.0383977890014648
+}

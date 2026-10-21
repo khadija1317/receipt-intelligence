@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Large",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Pastry Keju",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 53,
+ "subtotal": null,
+ "total": {
+  "value": "31000",
+  "raw": "31000",
+  "status": "ok",
+  "conf": null,
+  "line": "4 Total  31000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,16 @@
+{
+ "index": 48,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SB  OR  28, 636\nChokocha FIt  13,636\nBbq Berto  13,636\nSub Total  55 , 908\nP Rest  10  5,592\nTotal  61,500\nCash  70000\nKemba |  8 , 500\n3  Items ;",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SB  OR\",\n      \"cnt\": null,\n      \"price\": \"28, 636\"\n    },\n    {\n      \"nm\": \"Chokocha FIt\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    },\n    {\n      \"nm\": \"Bbq Berto\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"55 , 908\",\n    \"evidence\": \"Sub Total  55 , 908\"\n  },\n  \"total\": {\n    \"amount\": \"61,500\",\n    \"evidence\": \"Total  61,500\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 861,
+  "completion": 389,
+  "total": 1250,
+  "reasoning": 179
+ },
+ "seconds": 1.768507480621338
+}

@@ -1,0 +1,58 @@
+{
+ "menu": [
+  {
+   "nm": "(TA) NASI RG TERI",
+   "cnt": null,
+   "price": {
+    "value": "165460",
+    "raw": "165,460",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "(TA) BIHUN GORENG",
+   "cnt": null,
+   "price": {
+    "value": "40456",
+    "raw": "40,456",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "(TA) KWETIAW SEAFOOD",
+   "cnt": null,
+   "price": {
+    "value": "42274",
+    "raw": "42,274",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "(TA} NASI GORENG",
+   "cnt": null,
+   "price": {
+    "value": "55456",
+    "raw": "55,456",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 51,
+ "subtotal": null,
+ "total": {
+  "value": "334000",
+  "raw": "334,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  334,000"
+ },
+ "tax": null,
+ "service": null
+}

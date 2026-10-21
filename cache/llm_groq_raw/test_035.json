@@ -1,0 +1,17 @@
+{
+ "index": 35,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2  TWIST  DONUT  18 ,000\nBANANA  DONUT  11,000\nCREAMCHEESE  BREAD  13,000\nFRANKFRUT SAUSAGE ROLL  12,000\nTOTAL  52000\nCASH  104,000\nCHANGE  5(  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TWIST  DONUT\",\n      \"cnt\": \"2\",\n      \"price\": \"18 ,000\"\n    },\n    {\n      \"nm\": \"BANANA  DONUT\",\n      \"cnt\": null,\n      \"price\": \"11,000\"\n    },\n    {\n      \"nm\": \"CREAMCHEESE  BREAD\",\n      \"cnt\": null,\n      \"price\": \"13,000\"\n    },\n    {\n      \"nm\": \"FRANKFRUT SAUSAGE ROLL\",\n      \"cnt\": null,\n      \"price\": \"12,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"52000\",\n    \"evidence\": \"TOTAL  52000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 858,
+  "completion": 397,
+  "total": 1255,
+  "reasoning": 161
+ },
+ "seconds": 1.3366038799285889,
+ "error": null
+}

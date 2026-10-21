@@ -1,0 +1,17 @@
+{
+ "index": 8,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "[REG] BLACK SAKURA  45,455\nCOOKIE DOH SAUCES\nNATA DE COCO\nSub Total  45,455\nPB1 (16%)  4,545\nRounding\nTotal  50,000\nCard Payment  50,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"[REG] BLACK SAKURA\",\n      \"cnt\": null,\n      \"price\": \"45,455\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"45,455\",\n    \"evidence\": \"Sub Total  45,455\"\n  },\n  \"tax\": {\n    \"amount\": \"4,545\",\n    \"evidence\": \"PB1 (16%)  4,545\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"50,000\",\n    \"evidence\": \"Total  50,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 304,
+  "total": 1149,
+  "reasoning": 140
+ },
+ "seconds": 0.9960918426513672,
+ "error": null
+}

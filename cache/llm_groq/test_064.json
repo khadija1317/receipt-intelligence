@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "SINGLE ScoOP",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "16.Ooc",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 64,
+ "subtotal": null,
+ "total": {
+  "value": "16000",
+  "raw": "16000",
+  "status": "ok",
+  "conf": null,
+  "line": "ToTAL  16000"
+ },
+ "tax": null,
+ "service": null
+}

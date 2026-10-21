@@ -1,0 +1,17 @@
+{
+ "index": 85,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "***x***xxxx*****x**x****\n3  Nas i  Put ih\nNas i  Tambah  30000\n1  Ayam  Pop  7000\nSamabal  SP  40000\nSambal  Gabus  As  11000\nin  Cb\n1  KerUpuk  Kuah  18000\nIkan  Bawal  Besa  15000\nTelur  Dadar  28500\nTeh  Es  10000\nTeh  Manis  7 . 000\nEs  Batu  9000\n4000\nFajak Rest  Subtotal  10v  179500\n17950\n14 Total  497.450\nFt}  Hakanan  159588\n20\nCash  197. 450",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Nas i  Tambah\",\n      \"cnt\": null,\n      \"price\": \"30000\"\n    },\n    {\n      \"nm\": \"Ayam  Pop\",\n      \"cnt\": \"1\",\n      \"price\": \"7000\"\n    },\n    {\n      \"nm\": \"Samabal  SP\",\n      \"cnt\": null,\n      \"price\": \"40000\"\n    },\n    {\n      \"nm\": \"Sambal  Gabus  As\",\n      \"cnt\": null,\n      \"price\": \"11000\"\n    },\n    {\n      \"nm\": \"KerUpuk  Kuah\",\n      \"cnt\": \"1\",\n      \"price\": \"18000\"\n    },\n    {\n      \"nm\": \"Ikan  Bawal  Besa\",\n      \"cnt\": null,\n      \"price\": \"15000\"\n    },\n    {\n      \"nm\": \"Telur  Dadar\",\n      \"cnt\": null,\n      \"price\": \"28500\"\n    },\n    {\n      \"nm\": \"Teh  Es\",\n      \"cnt\": null,\n      \"price\": \"10000\"\n    },\n    {\n      \"nm\": \"Teh  Manis\",\n      \"cnt\": null,\n      \"price\": \"7 . 000\"\n    },\n    {\n      \"nm\": \"Es  Batu\",\n      \"cnt\": null,\n      \"price\": \"9000\"\n    },\n    {\n      \"nm\": \"Ft}  Hakanan\",\n      \"cnt\": null,\n      \"price\": \"159588\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"179500\",\n    \"evidence\": \"Fajak Rest  Subtotal  10v  179500\"\n  },\n  \"total\": {\n    \"amount\": \"497.450\",\n    \"evidence\": \"14 Total  497.450\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 961,
+  "completion": 1028,
+  "total": 1989,
+  "reasoning": 576
+ },
+ "seconds": 2.8354129791259766,
+ "error": null
+}

@@ -1,0 +1,23 @@
+{
+ "menu": [],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 36,
+ "subtotal": {
+  "value": "4479273",
+  "raw": "4479273",
+  "status": "ok",
+  "conf": null,
+  "line": "SubTatali  4479273  6"
+ },
+ "total": {
+  "value": "18980",
+  "raw": "18,980",
+  "status": "ok",
+  "conf": null,
+  "line": "Civ:  18,980  7"
+ },
+ "tax": null,
+ "service": null
+}

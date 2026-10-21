@@ -1,0 +1,17 @@
+{
+ "index": 79,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "9.000\nCrab Stick  10.000\nBakso Lobster  7,000\nSawi Putih  8 ,000\nJamur Enoki  8 , 000\n1 Jamur Kuping\n2 Mal ing\n12000  24.000\nNasi (MLY)  6,000\nSubtota]  72.000\nTOTAL  72,000\nBCA  72,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Crab Stick\",\n      \"cnt\": null,\n      \"price\": \"10.000\"\n    },\n    {\n      \"nm\": \"Bakso Lobster\",\n      \"cnt\": null,\n      \"price\": \"7,000\"\n    },\n    {\n      \"nm\": \"Sawi Putih\",\n      \"cnt\": null,\n      \"price\": \"8 ,000\"\n    },\n    {\n      \"nm\": \"Jamur Enoki\",\n      \"cnt\": null,\n      \"price\": \"8 , 000\"\n    },\n    {\n      \"nm\": \"Jamur Kuping\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"Mal ing\",\n      \"cnt\": \"2\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"12000\",\n      \"cnt\": null,\n      \"price\": \"24.000\"\n    },\n    {\n      \"nm\": \"Nasi (MLY)\",\n      \"cnt\": null,\n      \"price\": \"6,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"72.000\",\n    \"evidence\": \"Subtota]  72.000\"\n  },\n  \"total\": {\n    \"amount\": \"72,000\",\n    \"evidence\": \"TOTAL  72,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 936,
+  "completion": 664,
+  "total": 1600,
+  "reasoning": 317
+ },
+ "seconds": 1.8218045234680176,
+ "error": null
+}

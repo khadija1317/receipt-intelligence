@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Free Kenba | (n",
+   "cnt": null,
+   "price": {
+    "value": "50",
+    "raw": "50",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Tqta| Kemba |",
+   "cnt": "1",
+   "price": {
+    "value": "1800",
+    "raw": "1,800",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 61,
+ "subtotal": {
+  "value": "7500",
+  "raw": "7,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Tota|  7,500"
+ },
+ "total": {
+  "value": "8250",
+  "raw": "8,250",
+  "status": "ok",
+  "conf": null,
+  "line": "Tota/  Bayar  8,250"
+ },
+ "tax": {
+  "value": "750",
+  "raw": "750",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak Resto ( IOS)  750"
+ },
+ "service": null
+}

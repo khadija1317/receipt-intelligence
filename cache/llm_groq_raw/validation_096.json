@@ -1,0 +1,16 @@
+{
+ "index": 96,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1\nQ\n13,636\nChoco Cheese  -2.045\nExclusive Hember Car\n13,636\nGubTotal:  2,045,\nDiscounti\n1,159\nPaia\nTotal;  12,750\ncash:  12-\n7",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Choco Cheese\",\n      \"cnt\": null,\n      \"price\": \"-2.045\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"12,750\",\n    \"evidence\": \"Total;  12,750\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 844,
+  "completion": 371,
+  "total": 1215,
+  "reasoning": 232
+ },
+ "seconds": 1.3322181701660156
+}

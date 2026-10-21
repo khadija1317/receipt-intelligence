@@ -1,0 +1,17 @@
+{
+ "index": 12,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "0571-1854 BLUS  ManITA  0\n2120, Q0U  02  120=\nIoU_-QJol  ShOpP  ING RAG\n2880  1003\nTOTAl  (2 icer)  120000\nCc,  Visa-  RCA  120,Q00;\nTotal  Keahalian",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"0571-1854 BLUS  ManITA\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"2120, Q0U  02\",\n      \"cnt\": null,\n      \"price\": \"120=\"\n    },\n    {\n      \"nm\": \"2880\",\n      \"cnt\": null,\n      \"price\": \"1003\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"120000\",\n    \"evidence\": \"TOTAl  (2 icer)  120000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 863,
+  "completion": 587,
+  "total": 1450,
+  "reasoning": 381
+ },
+ "seconds": 1.424593210220337,
+ "error": null
+}

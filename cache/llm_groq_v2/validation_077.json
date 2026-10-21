@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "Cheese Tart",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "Rp3arOd.Q",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 77,
+ "subtotal": {
+  "value": null,
+  "raw": "RI @",
+  "status": "review",
+  "conf": null,
+  "line": "Subtotal:  RI @"
+ },
+ "total": {
+  "value": null,
+  "raw": "Nra @",
+  "status": "review",
+  "conf": null,
+  "line": "Tota  :  Nra @"
+ },
+ "tax": {
+  "value": null,
+  "raw": "Ri7d",
+  "status": "review",
+  "conf": null,
+  "line": "Tota /  Tax  Inc uded :  Ri7d"
+ },
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 49,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Ptgs Fggtart  17000\nChoco Neli  4600\nSUDTOTAL  23,Ooq\nDUE  23000\ncash  3000\nCHANGE  27.00\nTOtAl  @Ty  ITEM  2 PCS",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Ptgs Fggtart\",\n      \"cnt\": null,\n      \"price\": \"17000\"\n    },\n    {\n      \"nm\": \"Choco Neli\",\n      \"cnt\": null,\n      \"price\": \"4600\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"23,Ooq\",\n    \"evidence\": \"SUDTOTAL  23,Ooq\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 844,
+  "completion": 337,
+  "total": 1181,
+  "reasoning": 167
+ },
+ "seconds": 1.1719372272491455,
+ "error": null
+}

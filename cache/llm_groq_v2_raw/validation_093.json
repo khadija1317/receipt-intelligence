@@ -1,0 +1,17 @@
+{
+ "index": 93,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "PAKET BER4\n138.182\nBREAD N CHEESE DEL\n1  BREAD N CHEESE DEL\nCRARSTICK  FUSILLI  DEL\n1  LINE SQuASH DEL\nLINE SQUASH  DEL\n1 P/p SPICY  TUNA  DEL\nP/p Thudsand ISL  DEL\n1  PP  BEEF CORN\nSUNRISE ITALIAN SoDA\n1  LIPTON ICE  TEA DEL\n507  CHICKEN  ROYAL  19182\nSUBTOTAL  156,364\nTax  15,636\nTOTAL  172,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BREAD N CHEESE DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"CRARSTICK  FUSILLI  DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"LINE SQuASH DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"P/p SPICY  TUNA  DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"P/p Thudsand ISL  DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"PP  BEEF CORN\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"SUNRISE ITALIAN SoDA\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"LIPTON ICE  TEA DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"CHICKEN  ROYAL\",\n      \"cnt\": \"507\",\n      \"price\": \"19182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"156,364\",\n    \"evidence\": \"SUBTOTAL  156,364\"\n  },\n  \"tax\": {\n    \"amount\": \"15,636\",\n    \"evidence\": \"Tax  15,636\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"172,000\",\n    \"evidence\": \"TOTAL  172,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 977,
+  "completion": 1121,
+  "total": 2098,
+  "reasoning": 717
+ },
+ "seconds": 2.648887872695923,
+ "error": null
+}

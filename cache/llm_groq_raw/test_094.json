@@ -1,0 +1,17 @@
+{
+ "index": 94,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "0)\n1  Ep  2\n2  2\n1  1\n2\n1  TAHU GORENG  28,000\n1  CAKWE  17,000  2\n1  PHO TAI CHIN ( R)  63,000\n1  TEA  11,000\nSub Total  119,000\nServ,  7,0%  8,330  ;\n1  PB ]  10,0%  12,733\nGrand Total  140,063  0\n2 9A  CREDIT CAR:  140,063  2\nF\n0\nWaw:\nI",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TAHU GORENG\",\n      \"cnt\": \"1\",\n      \"price\": \"28,000\"\n    },\n    {\n      \"nm\": \"CAKWE\",\n      \"cnt\": \"1\",\n      \"price\": \"17,000\"\n    },\n    {\n      \"nm\": \"PHO TAI CHIN ( R)\",\n      \"cnt\": \"1\",\n      \"price\": \"63,000\"\n    },\n    {\n      \"nm\": \"TEA\",\n      \"cnt\": \"1\",\n      \"price\": \"11,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"119,000\",\n    \"evidence\": \"Sub Total  119,000\"\n  },\n  \"tax\": {\n    \"amount\": \"12,733\",\n    \"evidence\": \"PB ]  10,0%  12,733\"\n  },\n  \"service\": {\n    \"amount\": \"8,330\",\n    \"evidence\": \"Serv,  7,0%  8,330  ;\"\n  },\n  \"total\": {\n    \"amount\": \"140,063\",\n    \"evidence\": \"Grand Total  140,063  0\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 934,
+  "completion": 459,
+  "total": 1393,
+  "reasoning": 179
+ },
+ "seconds": 1.4495489597320557,
+ "error": null
+}

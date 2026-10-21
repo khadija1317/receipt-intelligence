@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "2 [MDi SOFT STEAMED CHEESEC",
+   "cnt": "2",
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "2 [MD] SOFT STEAMED CHOCCCA",
+   "cnt": "2",
+   "price": {
+    "value": "20000",
+    "raw": "20 ,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 22,
+ "subtotal": null,
+ "total": {
+  "value": "40000",
+  "raw": "40 ,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  40 ,000"
+ },
+ "tax": null,
+ "service": null
+}

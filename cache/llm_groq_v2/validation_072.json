@@ -1,0 +1,23 @@
+{
+ "menu": [],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 72,
+ "subtotal": {
+  "value": "36000",
+  "raw": "36000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB TOTAL  36000"
+ },
+ "total": {
+  "value": "36000",
+  "raw": "36,000",
+  "status": "ok",
+  "conf": null,
+  "line": "GRANDTOTAL  36,000"
+ },
+ "tax": null,
+ "service": null
+}

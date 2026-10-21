@@ -1,0 +1,120 @@
+{
+ "menu": [
+  {
+   "nm": "Tahu Isi",
+   "cnt": "2",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Tea",
+   "cnt": "5",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Kepiting 7-B.4ons Chilly 0.7",
+   "cnt": "1",
+   "price": {
+    "value": "291490",
+    "raw": "291,490",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Udang Telur Asin Regular",
+   "cnt": "1",
+   "price": {
+    "value": "47500",
+    "raw": "47,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Kailan 2 Rasa",
+   "cnt": "1",
+   "price": {
+    "value": "45000",
+    "raw": "45000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Mantau 4 2 PCS",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": "25,@oo",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Sweet Tea",
+   "cnt": "2",
+   "price": {
+    "value": "16000",
+    "raw": "16000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nasi Putih",
+   "cnt": "7",
+   "price": {
+    "value": "42000",
+    "raw": "42000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Hantau 3 PCs",
+   "cnt": "1",
+   "price": {
+    "value": "37500",
+    "raw": "37.500",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 59,
+ "subtotal": {
+  "value": "618490",
+  "raw": "618,490",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  618,490"
+ },
+ "total": {
+  "value": null,
+  "raw": "680  S00",
+  "status": "review",
+  "conf": null,
+  "line": "Total  680  S00"
+ },
+ "tax": {
+  "value": "613849",
+  "raw": "613849",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  613849"
+ },
+ "service": null
+}

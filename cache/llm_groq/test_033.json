@@ -1,0 +1,64 @@
+{
+ "menu": [
+  {
+   "nm": "GRILLED BABY POTATO (R",
+   "cnt": null,
+   "price": {
+    "value": "50500",
+    "raw": "50 , 500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "HOT TUNA",
+   "cnt": null,
+   "price": {
+    "value": "67000",
+    "raw": "67 , 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Hot TUNA",
+   "cnt": null,
+   "price": {
+    "value": "67000",
+    "raw": "67 , 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Disc 1OOX(ItMO6)",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "~67,000",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 33,
+ "subtotal": null,
+ "total": {
+  "value": "148127",
+  "raw": "148127",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  148127"
+ },
+ "tax": null,
+ "service": {
+  "value": "11070",
+  "raw": "11,070",
+  "status": "ok",
+  "conf": null,
+  "line": "SVC CHG 6X  11,070"
+ }
+}

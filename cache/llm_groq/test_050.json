@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "SpFrile Cduvurfy",
+   "cnt": "1",
+   "price": {
+    "value": "17727",
+    "raw": "17,727",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Juviuiaia",
+   "cnt": null,
+   "price": {
+    "value": "17727",
+    "raw": "17,727",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Foi:",
+   "cnt": null,
+   "price": {
+    "value": "1773",
+    "raw": "1,773",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 50,
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "j9;jp",
+  "status": "review",
+  "conf": null,
+  "line": "Totai:  j9;jp"
+ },
+ "tax": null,
+ "service": null
+}

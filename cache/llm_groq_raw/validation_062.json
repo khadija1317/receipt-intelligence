@@ -1,0 +1,16 @@
+{
+ "index": 62,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1COufhHU9955uhc;\nFrench Fries  10,909\nChieese' Bur ger  36364\n1 Milo  9,091\nSUB T OTAL  56, 364\nPRT  5,636\n0T  62000\nCASH  100 , Oco\nGrnge  38000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"French Fries\",\n      \"cnt\": null,\n      \"price\": \"10,909\"\n    },\n    {\n      \"nm\": \"Chieese' Bur ger\",\n      \"cnt\": null,\n      \"price\": \"36364\"\n    },\n    {\n      \"nm\": \"1 Milo\",\n      \"cnt\": \"1\",\n      \"price\": \"9,091\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"56, 364\",\n    \"evidence\": \"SUB T OTAL  56, 364\"\n  },\n  \"total\": {\n    \"amount\": \"62000\",\n    \"evidence\": \"0T  62000\"\n  },\n  \"tax\": {\n    \"amount\": \"5,636\",\n    \"evidence\": \"PRT  5,636\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 861,
+  "completion": 393,
+  "total": 1254,
+  "reasoning": 175
+ },
+ "seconds": 1.0602078437805176
+}

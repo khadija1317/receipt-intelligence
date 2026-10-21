@@ -1,0 +1,17 @@
+{
+ "index": 23,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "6 TWIST   DONUT  54,000\nREDBEAN BREAD  9,000\nTOTAL  63 , 000\nCASH   70000\nCHANGE  7,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TWIST   DONUT\",\n      \"cnt\": \"6\",\n      \"price\": \"54,000\"\n    },\n    {\n      \"nm\": \"REDBEAN BREAD\",\n      \"cnt\": null,\n      \"price\": \"9,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"63 , 000\",\n    \"evidence\": \"TOTAL  63 , 000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 827,
+  "completion": 298,
+  "total": 1125,
+  "reasoning": 125
+ },
+ "seconds": 1.021160364151001,
+ "error": null
+}

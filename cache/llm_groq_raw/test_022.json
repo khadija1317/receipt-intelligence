@@ -1,0 +1,17 @@
+{
+ "index": 22,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2 [MDi  SOFT  STEAMED CHEESEC  20,000\n2 [MD] SOFT STEAMED CHOCCCA  20 ,000\nTOTAL  40 ,000\nCASH  106000\nCHANGE  60,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"2 [MDi  SOFT  STEAMED CHEESEC\",\n      \"cnt\": \"2\",\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"2 [MD] SOFT STEAMED CHOCCCA\",\n      \"cnt\": \"2\",\n      \"price\": \"20 ,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"40 ,000\",\n    \"evidence\": \"TOTAL  40 ,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 842,
+  "completion": 346,
+  "total": 1188,
+  "reasoning": 157
+ },
+ "seconds": 1.3489491939544678,
+ "error": null
+}

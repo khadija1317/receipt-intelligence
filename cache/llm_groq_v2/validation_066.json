@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "A IR MINERAL",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TL Joo",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 66,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

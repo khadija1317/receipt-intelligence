@@ -1,0 +1,17 @@
+{
+ "index": 54,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Dja F\nKaCAnG HERAH  10 ,000\nSUBTOTAL  10 ,000\nTotaL  10,000\ncash  10,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"KaCAnG HERAH\",\n      \"cnt\": null,\n      \"price\": \"10 ,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"10 ,000\",\n    \"evidence\": \"SUBTOTAL  10 ,000\"\n  },\n  \"total\": {\n    \"amount\": \"10,000\",\n    \"evidence\": \"TotaL  10,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 822,
+  "completion": 286,
+  "total": 1108,
+  "reasoning": 133
+ },
+ "seconds": 1.2308907508850098,
+ "error": null
+}

@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Chicken",
+   "cnt": null,
+   "price": {
+    "value": "41000",
+    "raw": "41,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 4,
+ "subtotal": null,
+ "total": {
+  "value": "41000",
+  "raw": "41,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  50000  41,000"
+ },
+ "tax": null,
+ "service": null
+}

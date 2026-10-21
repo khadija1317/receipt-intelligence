@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "SoFT MORNING ROLL",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PEAL HONEY PANCAKE BREAD",
+   "cnt": "2",
+   "price": {
+    "value": "20000",
+    "raw": "20000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "~USTARD BRIOCHE",
+   "cnt": "4",
+   "price": {
+    "value": "36000",
+    "raw": "36000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 69,
+ "subtotal": null,
+ "total": {
+  "value": "74000",
+  "raw": "74,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  74,000"
+ },
+ "tax": null,
+ "service": null
+}

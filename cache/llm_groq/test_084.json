@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Ix",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Zx",
+   "cnt": "0",
+   "price": {
+    "value": "24000",
+    "raw": "24.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 84,
+ "subtotal": {
+  "value": "36000",
+  "raw": "36000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  36000"
+ },
+ "total": {
+  "value": "39600",
+  "raw": "Rp 39.600",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  Rp 39.600"
+ },
+ "tax": {
+  "value": "3600",
+  "raw": "Rp 3.600",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax (10.03)  Rp 3.600"
+ },
+ "service": null
+}

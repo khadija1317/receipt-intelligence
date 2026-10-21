@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "MARBLE CASTELA",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 46,
+ "subtotal": null,
+ "total": {
+  "value": "22000",
+  "raw": "22000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  22000"
+ },
+ "tax": null,
+ "service": null
+}

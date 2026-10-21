@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "EO,Q0O",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "tak",
+   "cnt": null,
+   "price": {
+    "value": "5455",
+    "raw": "5,455",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 0,
+ "subtotal": {
+  "value": "60000",
+  "raw": "60000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtota]  60000"
+ },
+ "total": {
+  "value": "60000",
+  "raw": "60,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL dis:  60,000"
+ },
+ "tax": null,
+ "service": null
+}

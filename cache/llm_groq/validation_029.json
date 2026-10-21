@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "Sabun Beras 1",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Kernbalian",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 29,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

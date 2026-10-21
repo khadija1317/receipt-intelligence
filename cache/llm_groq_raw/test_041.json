@@ -1,0 +1,17 @@
+{
+ "index": 41,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Chicken Hary land  ~47619,00\nCappuc ino' (Hot /Iced)  30303,un\nNaga Lychee Juice  34632\nCafe Latte  30303. 00\nHot Chocolate MarshialIo  30302 . Ulj\nChicken  Cesar Salad  43290. QU\nMinera  Hater  12987 ,00\nMinera  Mater  12987 . UU\nLychee /Peach /Lemon/Mango  25474.00\nChicken Mary land  47619,00\nSubtota]  316017,00\nService Charge 5x  48982 .68\nTOTAL  365000,00",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Chicken Hary land\",\n      \"cnt\": null,\n      \"price\": \"~47619,00\"\n    },\n    {\n      \"nm\": \"Cappuc ino' (Hot /Iced)\",\n      \"cnt\": null,\n      \"price\": \"30303,un\"\n    },\n    {\n      \"nm\": \"Naga Lychee Juice\",\n      \"cnt\": null,\n      \"price\": \"34632\"\n    },\n    {\n      \"nm\": \"Cafe Latte\",\n      \"cnt\": null,\n      \"price\": \"30303. 00\"\n    },\n    {\n      \"nm\": \"Hot Chocolate MarshialIo\",\n      \"cnt\": null,\n      \"price\": \"30302 . Ulj\"\n    },\n    {\n      \"nm\": \"Chicken  Cesar Salad\",\n      \"cnt\": null,\n      \"price\": \"43290. QU\"\n    },\n    {\n      \"nm\": \"Minera  Hater\",\n      \"cnt\": null,\n      \"price\": \"12987 ,00\"\n    },\n    {\n      \"nm\": \"Minera  Mater\",\n      \"cnt\": null,\n      \"price\": \"12987 . UU\"\n    },\n    {\n      \"nm\": \"Lychee /Peach /Lemon/Mango\",\n      \"cnt\": null,\n      \"price\": \"25474.00\"\n    },\n    {\n      \"nm\": \"Chicken Mary land\",\n      \"cnt\": null,\n      \"price\": \"47619,00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"316017,00\",\n    \"evidence\": \"Subtota]  316017,00\"\n  },\n  \"total\": {\n    \"amount\": \"365000,00\",\n    \"evidence\": \"TOTAL  365000,00\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"48982 .68\",\n    \"evidence\": \"Service Charge 5x  48982 .68\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 936,
+  "completion": 832,
+  "total": 1768,
+  "reasoning": 379
+ },
+ "seconds": 2.2362008094787598,
+ "error": null
+}

@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "ES KOPI SUSU",
+   "cnt": null,
+   "price": {
+    "value": "72000",
+    "raw": "72.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 12,
+ "subtotal": null,
+ "total": {
+  "value": "72000",
+  "raw": "72.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  72.000"
+ },
+ "tax": null,
+ "service": null
+}

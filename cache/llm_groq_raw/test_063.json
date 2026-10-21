@@ -1,0 +1,17 @@
+{
+ "index": 63,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kopi Susu Kanpung _  x1  19.000\nIce\nKopi Susu Kampung  Less  Ice\nKopi Susu Kampung .  x2  38 . 000\nIce\nSubtota]  57000\nTotal  57. 000\nCash  60000\nChange  3.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Kopi Susu Kanpung _\",\n      \"cnt\": \"x1\",\n      \"price\": \"19.000\"\n    },\n    {\n      \"nm\": \"Kopi Susu Kampung .\",\n      \"cnt\": \"x2\",\n      \"price\": \"38 . 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"57000\",\n    \"evidence\": \"Subtota]  57000\"\n  },\n  \"total\": {\n    \"amount\": \"57. 000\",\n    \"evidence\": \"Total  57. 000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 861,
+  "completion": 385,
+  "total": 1246,
+  "reasoning": 193
+ },
+ "seconds": 2.722163438796997,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 21,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1  35. 000  Rp35. 000\nHasi GOR Sfd TLR\n1  3000  Rr3 .  000\nES TEH TAHAR\n#**TOTAL  Rp38  0\ncaSH  50000\nCHANGE  Re1z .  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1\",\n      \"cnt\": \"1\",\n      \"price\": \"Rp35. 000\"\n    },\n    {\n      \"nm\": \"1\",\n      \"cnt\": \"1\",\n      \"price\": \"Rr3 .  000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"Rp38  0\",\n    \"evidence\": \"#**TOTAL  Rp38  0\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 853,
+  "completion": 492,
+  "total": 1345,
+  "reasoning": 318
+ },
+ "seconds": 1.4214367866516113,
+ "error": null
+}

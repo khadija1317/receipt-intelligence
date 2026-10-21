@@ -1,0 +1,17 @@
+{
+ "index": 4,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Jcd\nIatuala ML\nUlha \nIul\nqdb\nJiq&\n?.Op\nl\nDow  ICE  BLACKCOFFE  Joj\nAvocado COFFEE\n61000\nOUbecHIken  KAtsu  FF  54 CUj\nOloi\n8U6_TOTAL  19 <  QOc\nDiSjWT  19,406\nT 0T &  174,G10\nCx9 K  200,034\nChANGE\n25,400",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Avocado COFFEE\",\n      \"cnt\": null,\n      \"price\": \"61000\"\n    },\n    {\n      \"nm\": \"Cx9 K\",\n      \"cnt\": null,\n      \"price\": \"200,034\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"19\",\n    \"evidence\": \"8U6_TOTAL  19 <  QOc\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 895,
+  "completion": 442,
+  "total": 1337,
+  "reasoning": 272
+ },
+ "seconds": 1.3633294105529785,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 5,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "TRAD Ky TOAST CARTE  28 . 182\nITEMS  1.00\nSUBTTL  28 . 182\nPB-  1  103  2.818\nTOTAL  31000\nCASH  31000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TRAD Ky TOAST CARTE\",\n      \"cnt\": null,\n      \"price\": \"28 . 182\"\n    },\n    {\n      \"nm\": \"PB-\",\n      \"cnt\": null,\n      \"price\": \"2.818\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"28 . 182\",\n    \"evidence\": \"SUBTTL  28 . 182\"\n  },\n  \"total\": {\n    \"amount\": \"31000\",\n    \"evidence\": \"TOTAL  31000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 840,
+  "completion": 434,
+  "total": 1274,
+  "reasoning": 254
+ },
+ "seconds": 1.376098394393921,
+ "error": null
+}

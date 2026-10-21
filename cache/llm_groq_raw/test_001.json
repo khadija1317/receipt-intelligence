@@ -1,0 +1,17 @@
+{
+ "index": 1,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "J.STE  Ffomo  I7300\nY.B .BaT  46000\nY.Basu  Proh  27300\nT 0 TAL  9 1 0 0 0\nC AsSh  9 1 00 0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"J.STE  Ffomo\",\n      \"cnt\": null,\n      \"price\": \"I7300\"\n    },\n    {\n      \"nm\": \"Y.B .BaT\",\n      \"cnt\": null,\n      \"price\": \"46000\"\n    },\n    {\n      \"nm\": \"Y.Basu  Proh\",\n      \"cnt\": null,\n      \"price\": \"27300\"\n    },\n    {\n      \"nm\": \"T 0 TAL\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"C AsSh\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 844,
+  "completion": 449,
+  "total": 1293,
+  "reasoning": 204
+ },
+ "seconds": 1.1705446243286133,
+ "error": null
+}

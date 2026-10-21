@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "Kupori 15 j00,O00",
+   "cnt": "15",
+   "price": {
+    "value": null,
+    "raw": "j00,O00",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ADD CXICKEN Box Po?",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PDi 110) 10,021",
+   "cnt": null,
+   "price": {
+    "value": "10021",
+    "raw": "10,021",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 7,
+ "subtotal": null,
+ "total": {
+  "value": "114000",
+  "raw": "114000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  114000"
+ },
+ "tax": null,
+ "service": null
+}

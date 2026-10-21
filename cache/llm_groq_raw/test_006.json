@@ -1,0 +1,17 @@
+{
+ "index": 6,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "ell\nEGG   TART  13,000\nL  MHoco CuS\" ARD PASTRY  24,800\nREDBEAN BI'EAD  9,000\nTOTAL  46  5000\nMASH  50,000\nCHANCE  4,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"EGG   TART\",\n      \"cnt\": null,\n      \"price\": \"13,000\"\n    },\n    {\n      \"nm\": \"L  MHoco CuS\\\" ARD PASTRY\",\n      \"cnt\": null,\n      \"price\": \"24,800\"\n    },\n    {\n      \"nm\": \"REDBEAN BI'EAD\",\n      \"cnt\": null,\n      \"price\": \"9,000\"\n    },\n    {\n      \"nm\": \"MASH\",\n      \"cnt\": null,\n      \"price\": \"50,000\"\n    },\n    {\n      \"nm\": \"CHANCE\",\n      \"cnt\": null,\n      \"price\": \"4,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"46  5000\",\n    \"evidence\": \"TOTAL  46  5000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 850,
+  "completion": 581,
+  "total": 1431,
+  "reasoning": 315
+ },
+ "seconds": 1.6736605167388916,
+ "error": null
+}

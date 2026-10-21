@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "VANILLA CHOCO HEART CAKE",
+   "cnt": null,
+   "price": {
+    "value": "180000",
+    "raw": "180 , 000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 60,
+ "subtotal": null,
+ "total": {
+  "value": "180000",
+  "raw": "180 , 000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  180 , 000"
+ },
+ "tax": null,
+ "service": null
+}

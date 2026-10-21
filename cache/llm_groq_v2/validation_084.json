@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "HAZELNUT CHOCO MT",
+   "cnt": "1",
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PEARL",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "HAZELNUT ChOcO MT",
+   "cnt": "1",
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 84,
+ "subtotal": {
+  "value": "52000",
+  "raw": "52,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB   TOTAL  52,000"
+ },
+ "total": {
+  "value": "52000",
+  "raw": "52,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  SALES  52,000"
+ },
+ "tax": null,
+ "service": null
+}

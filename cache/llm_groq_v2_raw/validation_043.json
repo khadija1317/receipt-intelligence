@@ -1,0 +1,17 @@
+{
+ "index": 43,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "ROTI UNYIL  170  2724  0\nPAPER BAG BESAR\n6000\nTotal  278 . 000\nCash  300  0\nKembali  22. 000\nTotal  @ty:  171",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ROTI UNYIL\",\n      \"cnt\": \"170\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"PAPER BAG BESAR\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"278 . 000\",\n    \"evidence\": \"Total  278 . 000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 896,
+  "completion": 525,
+  "total": 1421,
+  "reasoning": 357
+ },
+ "seconds": 1.6196813583374023,
+ "error": null
+}

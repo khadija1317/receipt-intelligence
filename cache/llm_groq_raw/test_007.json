@@ -1,0 +1,17 @@
+{
+ "index": 7,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kupori  15  j00,O00\nADD CXICKEN Box  Po?\nSubiotal  100,209\nPDi  110)  10,021\nTotal  114000\nLash  RpAMl,nQo",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Kupori  15  j00,O00\",\n      \"cnt\": \"15\",\n      \"price\": \"j00,O00\"\n    },\n    {\n      \"nm\": \"ADD CXICKEN Box  Po?\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"PDi  110)  10,021\",\n      \"cnt\": null,\n      \"price\": \"10,021\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"114000\",\n    \"evidence\": \"Total  114000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 837,
+  "completion": 595,
+  "total": 1432,
+  "reasoning": 385
+ },
+ "seconds": 1.6881592273712158,
+ "error": null
+}

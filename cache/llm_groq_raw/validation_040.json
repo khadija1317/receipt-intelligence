@@ -1,0 +1,16 @@
+{
+ "index": 40,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Gojek Chicken  95,000\nChilli Sauce H\nGojek Chicken  180,000\nSoy  Sauce F\nGojek French  70,000\nFries\nSub Total  345,00\nService\nTax  34,500\nDiscount\nTOTAL  379,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Gojek Chicken\",\n      \"cnt\": null,\n      \"price\": \"95,000\"\n    },\n    {\n      \"nm\": \"Gojek Chicken\",\n      \"cnt\": null,\n      \"price\": \"180,000\"\n    },\n    {\n      \"nm\": \"Gojek French\",\n      \"cnt\": null,\n      \"price\": \"70,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"345,00\",\n    \"evidence\": \"Sub Total  345,00\"\n  },\n  \"total\": {\n    \"amount\": \"379,500\",\n    \"evidence\": \"TOTAL  379,500\"\n  },\n  \"tax\": {\n    \"amount\": \"34,500\",\n    \"evidence\": \"Tax  34,500\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": \"Service\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 851,
+  "completion": 448,
+  "total": 1299,
+  "reasoning": 231
+ },
+ "seconds": 1.2198691368103027
+}

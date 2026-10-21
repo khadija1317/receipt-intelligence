@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "Kopi Susu Kanpung _",
+   "cnt": "x1",
+   "price": {
+    "value": "19000",
+    "raw": "19.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Kopi Susu Kampung .",
+   "cnt": "x2",
+   "price": {
+    "value": "38000",
+    "raw": "38 . 000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 63,
+ "subtotal": {
+  "value": "57000",
+  "raw": "57000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtota]  57000"
+ },
+ "total": {
+  "value": "57000",
+  "raw": "57. 000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  57. 000"
+ },
+ "tax": null,
+ "service": null
+}

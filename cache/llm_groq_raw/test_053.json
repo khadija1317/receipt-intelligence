@@ -1,0 +1,17 @@
+{
+ "index": 53,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Jopiegi\n**x**x***********rt*****r******t*t**\n==22=5222==55920=  132\nPecel  Kompl it  Nasi  42  00\nSoto  KUDUS  42000\n2  Mineral  Water  18000\nSUbtotal  107000\nSeru i  Char ge  5/  5350\nPajak  Rest  10/  1  235\nTotal  123.585\n5=2==\n285",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Pecel  Kompl it  Nasi\",\n      \"cnt\": null,\n      \"price\": \"42 00\"\n    },\n    {\n      \"nm\": \"Soto  KUDUS\",\n      \"cnt\": null,\n      \"price\": \"42000\"\n    },\n    {\n      \"nm\": \"Mineral  Water\",\n      \"cnt\": \"2\",\n      \"price\": \"18000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"107000\",\n    \"evidence\": \"SUbtotal  107000\"\n  },\n  \"total\": {\n    \"amount\": \"123.585\",\n    \"evidence\": \"Total  123.585\"\n  },\n  \"tax\": {\n    \"amount\": \"235\",\n    \"evidence\": \"Pajak  Rest  10/  1  235\"\n  },\n  \"service\": {\n    \"amount\": \"5350\",\n    \"evidence\": \"Seru i  Char ge  5/  5350\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 901,
+  "completion": 508,
+  "total": 1409,
+  "reasoning": 264
+ },
+ "seconds": 1.5756094455718994,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 31,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "PREMIUM TOAST PAN BREAD  24,000\nTOTAL  24,000\nCASH  24,000\nCHANGE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PREMIUM TOAST PAN BREAD\",\n      \"cnt\": null,\n      \"price\": \"24,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"24,000\",\n    \"evidence\": \"TOTAL  24,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 223,
+  "total": 1091,
+  "reasoning": 80
+ },
+ "seconds": 0.9438920021057129,
+ "error": null
+}

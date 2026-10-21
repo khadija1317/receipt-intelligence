@@ -1,0 +1,17 @@
+{
+ "index": 64,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "2\nRhole RheaT Pax brerd  0.00\ntoTAL  20,000\nCaSH  Tod,oIo\nCHANGE  80 , 000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Rhole RheaT Pax brerd\",\n      \"cnt\": null,\n      \"price\": \"0.00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"20,000\",\n    \"evidence\": \"toTAL  20,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 877,
+  "completion": 287,
+  "total": 1164,
+  "reasoning": 142
+ },
+ "seconds": 1.0733189582824707,
+ "error": null
+}

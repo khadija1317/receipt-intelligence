@@ -1,0 +1,17 @@
+{
+ "index": 3,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "00821  40080\nD\nIX  @1  11000\nDOnat GULA  11,000\n1.OOxITEHs\nSUBTOTAL  11,000\nTotal  11,000\ncash  I1  ,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"DOnat GULA\",\n      \"cnt\": null,\n      \"price\": \"11,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"11,000\",\n    \"evidence\": \"SUBTOTAL  11,000\"\n  },\n  \"total\": {\n    \"amount\": \"11,000\",\n    \"evidence\": \"Total  11,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 840,
+  "completion": 259,
+  "total": 1099,
+  "reasoning": 109
+ },
+ "seconds": 0.7688086032867432,
+ "error": null
+}

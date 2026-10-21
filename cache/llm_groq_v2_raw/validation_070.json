@@ -1,0 +1,17 @@
+{
+ "index": 70,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "Kara buurryTeishoku  67000\nLetn  Plate  19000\nIcna Hot  15000\natotAl  103,000\n@rvice  731  7,723\n11,073\nTOtAL  121798\nTotal  itea  3  fotal Qt;  3",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Kara buurryTeishoku\",\n      \"cnt\": null,\n      \"price\": \"67000\"\n    },\n    {\n      \"nm\": \"Letn  Plate\",\n      \"cnt\": null,\n      \"price\": \"19000\"\n    },\n    {\n      \"nm\": \"Icna Hot\",\n      \"cnt\": null,\n      \"price\": \"15000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"7,723\",\n    \"evidence\": \"@rvice  731  7,723\"\n  },\n  \"total\": {\n    \"amount\": \"103,000\",\n    \"evidence\": \"atotAl  103,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 915,
+  "completion": 509,
+  "total": 1424,
+  "reasoning": 298
+ },
+ "seconds": 1.4222195148468018,
+ "error": null
+}

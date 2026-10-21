@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "J7sk Sisn banana Pizzd 7- %a:",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 40,
+ "subtotal": {
+  "value": "14000",
+  "raw": "0  14000",
+  "status": "ok",
+  "conf": null,
+  "line": "0  14000"
+ },
+ "total": {
+  "value": null,
+  "raw": "39Sy  ;3,32",
+  "status": "review",
+  "conf": null,
+  "line": "39Sy  ;3,32"
+ },
+ "tax": null,
+ "service": null
+}

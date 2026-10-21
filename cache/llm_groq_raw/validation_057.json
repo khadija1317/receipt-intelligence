@@ -1,0 +1,16 @@
+{
+ "index": 57,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SEAFOOD MARINARA  85000\nCREAMY MARTNARA SALMON  85 . 500\n2  LYCHEe ICE: TEA  77000\nSUBTTL  247,500\nSUC CHG 6:  14.850\nPBI  10*  26,235\nTOTAL  288,585",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SEAFOOD MARINARA\",\n      \"cnt\": null,\n      \"price\": \"85000\"\n    },\n    {\n      \"nm\": \"CREAMY MARTNARA SALMON\",\n      \"cnt\": null,\n      \"price\": \"85 . 500\"\n    },\n    {\n      \"nm\": \"LYCHEe ICE: TEA\",\n      \"cnt\": \"2\",\n      \"price\": \"77000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"247,500\",\n    \"evidence\": \"SUBTTL  247,500\"\n  },\n  \"tax\": {\n    \"amount\": \"26,235\",\n    \"evidence\": \"PBI  10*  26,235\"\n  },\n  \"service\": {\n    \"amount\": \"14.850\",\n    \"evidence\": \"SUC CHG 6:  14.850\"\n  },\n  \"total\": {\n    \"amount\": \"288,585\",\n    \"evidence\": \"TOTAL  288,585\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 863,
+  "completion": 489,
+  "total": 1352,
+  "reasoning": 244
+ },
+ "seconds": 1.8154163360595703
+}

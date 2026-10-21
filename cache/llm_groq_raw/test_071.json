@@ -1,0 +1,17 @@
+{
+ "index": 71,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Cuka Apel Tefes  1\n198000  TS8000\nSub Tolal  19a000\nTunai  200200\nKorribalian  22000",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"19a000\",\n    \"evidence\": \"Sub Tolal  19a000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 825,
+  "completion": 368,
+  "total": 1193,
+  "reasoning": 258
+ },
+ "seconds": 1.5336122512817383,
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "menu": [
+  {
+   "nm": "AUP Seafood",
+   "cnt": "1",
+   "price": {
+    "value": "85000",
+    "raw": "85000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Omurice Katsu Curry",
+   "cnt": null,
+   "price": {
+    "value": "10",
+    "raw": "10",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Earl Gray Tea Oop",
+   "cnt": "1",
+   "price": {
+    "value": "3",
+    "raw": "3",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Hot Tea QuD",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 45,
+ "subtotal": {
+  "value": "240000",
+  "raw": "240000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  240000"
+ },
+ "total": {
+  "value": "287760",
+  "raw": "287,760",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  287,760"
+ },
+ "tax": {
+  "value": "26160",
+  "raw": "26160",
+  "status": "ok",
+  "conf": null,
+  "line": "PBl  26160"
+ },
+ "service": {
+  "value": "21600",
+  "raw": "21600",
+  "status": "ok",
+  "conf": null,
+  "line": "Service  21600"
+ }
+}

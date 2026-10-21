@@ -1,0 +1,17 @@
+{
+ "index": 89,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "A2 f0299kE#ecui8 +'3*1882t4\n9192#53\nKL  Cnspy  Chcken  40000\nPedas sedikit\nITEMS:|\nTuta  808\nPay   Cash  50000  Change  J0,OOO\nI'_'r D F`  Baen  EESs####EZ3\n10400 12138208209429232",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"KL  Cnspy  Chcken\",\n      \"cnt\": null,\n      \"price\": \"40000\"\n    },\n    {\n      \"nm\": \"Tuta\",\n      \"cnt\": null,\n      \"price\": \"808\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 877,
+  "completion": 260,
+  "total": 1137,
+  "reasoning": 102
+ },
+ "seconds": 0.9774572849273682,
+ "error": null
+}

@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Ptgs Fggtart",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Choco Neli",
+   "cnt": null,
+   "price": {
+    "value": "4600",
+    "raw": "4600",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 49,
+ "subtotal": {
+  "value": null,
+  "raw": "23,Ooq",
+  "status": "review",
+  "conf": null,
+  "line": "SUDTOTAL  23,Ooq"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

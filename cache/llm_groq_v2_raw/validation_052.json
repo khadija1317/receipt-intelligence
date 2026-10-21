@@ -1,0 +1,17 @@
+{
+ "index": 52,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "2 KENTHIR  2  42.000\n2 KOL GORENG  6,000\n2 TEH MANIS  8000\nSubtotal  56 . 000\nTotal  56,000\nCASH  56 .000\nKemba I ian",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"KENTHIR\",\n      \"cnt\": \"2\",\n      \"price\": \"42.000\"\n    },\n    {\n      \"nm\": \"KOL GORENG\",\n      \"cnt\": \"2\",\n      \"price\": \"6,000\"\n    },\n    {\n      \"nm\": \"TEH MANIS\",\n      \"cnt\": \"2\",\n      \"price\": \"8000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"56 . 000\",\n    \"evidence\": \"Subtotal  56 . 000\"\n  },\n  \"total\": {\n    \"amount\": \"56,000\",\n    \"evidence\": \"Total  56,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 901,
+  "completion": 421,
+  "total": 1322,
+  "reasoning": 211
+ },
+ "seconds": 1.421827793121338,
+ "error": null
+}

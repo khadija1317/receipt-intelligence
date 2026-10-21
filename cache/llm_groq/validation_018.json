@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "ceef c roii *cs",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "10,000  10,000",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "kaya bred",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "15,000  15,000",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 18,
+ "subtotal": null,
+ "total": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  25,000"
+ },
+ "tax": null,
+ "service": null
+}

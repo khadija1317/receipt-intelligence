@@ -1,0 +1,16 @@
+{
+ "index": 26,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "#8\nNASI MERAHRUTTH\n1x  5000  5.000\nSAYR\n2x4000  800\nKERUPUKISAMBEL\n1x  2000  2000\nAYAM\nIx  14000  1400\nMINUMAN KEMASANREFILL\nIx  6.000  6,000\nGana td ead eeneraa\nTota  Rp. 35.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"NASI MERAHRUTTH\",\n      \"cnt\": \"1\",\n      \"price\": \"5.000\"\n    },\n    {\n      \"nm\": \"SAYR\",\n      \"cnt\": \"2\",\n      \"price\": \"800\"\n    },\n    {\n      \"nm\": \"KERUPUKISAMBEL\",\n      \"cnt\": \"1\",\n      \"price\": \"2000\"\n    },\n    {\n      \"nm\": \"AYAM\",\n      \"cnt\": null,\n      \"price\": \"1400\"\n    },\n    {\n      \"nm\": \"MINUMAN KEMASANREFILL\",\n      \"cnt\": null,\n      \"price\": \"6,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"35.000\",\n    \"evidence\": \"Tota  Rp. 35.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 889,
+  "completion": 572,
+  "total": 1461,
+  "reasoning": 308
+ },
+ "seconds": 1.912797212600708
+}

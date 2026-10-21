@@ -1,0 +1,16 @@
+{
+ "index": 8,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "3X  @6500\nTALAH UNGU  19,500\nDISC ITEH  ~40.O0Or\nAHOUNT  800\nIX  @0\nMIKA KECIL\n4.OOxITEMs\nSUB TOTAL  11,700\nTotaL  11,700\ncash  20,000\nCHANGE  8,300",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"3X\",\n      \"cnt\": null,\n      \"price\": \"@6500\"\n    },\n    {\n      \"nm\": \"TALAH UNGU\",\n      \"cnt\": null,\n      \"price\": \"19,500\"\n    },\n    {\n      \"nm\": \"DISC ITEH\",\n      \"cnt\": null,\n      \"price\": \"~40.O0Or\"\n    },\n    {\n      \"nm\": \"AHOUNT\",\n      \"cnt\": null,\n      \"price\": \"800\"\n    },\n    {\n      \"nm\": \"IX\",\n      \"cnt\": null,\n      \"price\": \"@0\"\n    },\n    {\n      \"nm\": \"MIKA KECIL\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"11,700\",\n    \"evidence\": \"SUB TOTAL  11,700\"\n  },\n  \"total\": {\n    \"amount\": \"11,700\",\n    \"evidence\": \"TotaL  11,700\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 865,
+  "completion": 502,
+  "total": 1367,
+  "reasoning": 218
+ },
+ "seconds": 2.7624330520629883
+}

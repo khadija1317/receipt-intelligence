@@ -1,0 +1,17 @@
+{
+ "index": 17,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "4\ndoblina Maer  25,000\nMozaralla Hot  38,000\nDog\nChlli Papper  14,000\nCroquelle\nChedao  14,000\nCroquatte\nPlaatlk Amook\nPlaetik Putlh\nTako Away\nSubtotal  91,000\nDlacount\nTOTAL  Rp. 91,000\nDobit  91,000\nXXXXXXXX",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"doblina Maer\",\n      \"cnt\": null,\n      \"price\": \"25,000\"\n    },\n    {\n      \"nm\": \"Mozaralla Hot\",\n      \"cnt\": null,\n      \"price\": \"38,000\"\n    },\n    {\n      \"nm\": \"Chlli Papper\",\n      \"cnt\": null,\n      \"price\": \"14,000\"\n    },\n    {\n      \"nm\": \"Chedao\",\n      \"cnt\": null,\n      \"price\": \"14,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"91,000\",\n    \"evidence\": \"Subtotal  91,000\"\n  },\n  \"total\": {\n    \"amount\": \"Rp. 91,000\",\n    \"evidence\": \"TOTAL  Rp. 91,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 878,
+  "completion": 481,
+  "total": 1359,
+  "reasoning": 241
+ },
+ "seconds": 1.2679226398468018,
+ "error": null
+}

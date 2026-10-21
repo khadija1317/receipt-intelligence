@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "SaYap",
+   "cnt": "3",
+   "price": {
+    "value": null,
+    "raw": ", 636",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Paha BaWAH",
+   "cnt": "3",
+   "price": {
+    "value": null,
+    "raw": ", 638",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Resto",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "10/",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 95,
+ "subtotal": {
+  "value": "22708",
+  "raw": "22,708",
+  "status": "ok",
+  "conf": null,
+  "line": "Sublota  22,708"
+ },
+ "total": {
+  "value": "30000",
+  "raw": "30000",
+  "status": "ok",
+  "conf": null,
+  "line": "2 Total  30000"
+ },
+ "tax": null,
+ "service": null
+}

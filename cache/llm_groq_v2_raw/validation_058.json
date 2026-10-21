@@ -1,0 +1,17 @@
+{
+ "index": 58,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "Viet Milk Coffee  25,000\n#Hot\nSubtotal  25 . 000\nTotal  25, 000\nCASH  25,00\nKenbaLian  Rp 0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Viet Milk Coffee\",\n      \"cnt\": null,\n      \"price\": \"25,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"25 . 000\",\n    \"evidence\": \"Subtotal  25 . 000\"\n  },\n  \"total\": {\n    \"amount\": \"25, 000\",\n    \"evidence\": \"Total  25, 000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 883,
+  "completion": 258,
+  "total": 1141,
+  "reasoning": 106
+ },
+ "seconds": 0.8667237758636475,
+ "error": null
+}

@@ -1,0 +1,16 @@
+{
+ "index": 56,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Thaj Iced  Txl  20 . 000\nSubtota/  20. 000\nTotah  20.000\nCash  20.000\nChange",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Thaj Iced\",\n      \"cnt\": null,\n      \"price\": \"20 . 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"20. 000\",\n    \"evidence\": \"Subtota/  20. 000\"\n  },\n  \"total\": {\n    \"amount\": \"20.000\",\n    \"evidence\": \"Totah  20.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 824,
+  "completion": 307,
+  "total": 1131,
+  "reasoning": 152
+ },
+ "seconds": 1.184605598449707
+}

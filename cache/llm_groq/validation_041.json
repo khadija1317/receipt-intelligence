@@ -1,0 +1,120 @@
+{
+ "menu": [
+  {
+   "nm": "SOGOGI JAPCHAE",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "150 @00",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GONG GIBAB",
+   "cnt": null,
+   "price": {
+    "value": "105000",
+    "raw": "105, 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CHULPAN CHEESE",
+   "cnt": null,
+   "price": {
+    "value": "230000",
+    "raw": "230000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CREAM TEOK PO KI",
+   "cnt": null,
+   "price": {
+    "value": "95000",
+    "raw": "95000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "EL KEUN",
+   "cnt": null,
+   "price": {
+    "value": "120000",
+    "raw": "120,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CHAM KKOT SAL",
+   "cnt": null,
+   "price": {
+    "value": "620000",
+    "raw": "620000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "U AM GYEOP",
+   "cnt": null,
+   "price": {
+    "value": "290000",
+    "raw": "290,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "U SEOLF 'GYEoBN] AAir",
+   "cnt": null,
+   "price": {
+    "value": "390000",
+    "raw": "390000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ICEIBLACK CQFFE '",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "0iM",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 41,
+ "subtotal": {
+  "value": "2000000",
+  "raw": "2,000, 000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  2,000, 000"
+ },
+ "total": null,
+ "tax": {
+  "value": "212460",
+  "raw": "212 460",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  212 460"
+ },
+ "service": {
+  "value": "140000",
+  "raw": "140,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Service  140,000"
+ }
+}

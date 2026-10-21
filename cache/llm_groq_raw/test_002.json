@@ -1,0 +1,17 @@
+{
+ "index": 2,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "\"S#IF MT  24,000\n'CONU]   JELLY  4,000\nSUB   (OTA  20,000\ntOtAL SA03  28006\nTOTAL IUS\nCASH  100 , 00_\nCHANGE  72,000\nOupue Hn;  102",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"S#IF MT\",\n      \"cnt\": null,\n      \"price\": \"24,000\"\n    },\n    {\n      \"nm\": \"'CONU]   JELLY\",\n      \"cnt\": null,\n      \"price\": \"4,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"28006\",\n    \"evidence\": \"tOtAL SA03  28006\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 856,
+  "completion": 442,
+  "total": 1298,
+  "reasoning": 269
+ },
+ "seconds": 1.3659462928771973,
+ "error": null
+}

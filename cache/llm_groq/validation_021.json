@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "Mango Lemon Tea",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "Rp2g,090",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Sliders Set",
+   "cnt": null,
+   "price": {
+    "value": "113636",
+    "raw": "Rp113,636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chicken Vege Rice Bow]",
+   "cnt": null,
+   "price": {
+    "value": "86363",
+    "raw": "Rp86,363",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 21,
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "Rp2z4  908",
+  "status": "review",
+  "conf": null,
+  "line": "TOTAL:  Rp2z4  908"
+ },
+ "tax": {
+  "value": "20446",
+  "raw": "20446",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  20446"
+ },
+ "service": {
+  "value": "9736",
+  "raw": "Rp9,736",
+  "status": "ok",
+  "conf": null,
+  "line": "Srv Ch  Rp9,736"
+ }
+}

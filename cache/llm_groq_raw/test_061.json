@@ -1,0 +1,17 @@
+{
+ "index": 61,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "5500\nTALAH  UNGU  500\nOISC  ITEH  40 . Uoo .\nAHOUNT  @U\nJ0uo\nAREH  AREH  UUU]\nDISC   ITEH  -40 . OQu\"\nAHOUNT  FJ,2Uu\nJ000\nLEMPER\nDISC   ITeH  Onu\"\nAMUUMT\nMIKA  SEDANG\nPLASTIK KECIL\n5000\nTEH KotAk  Q\n7.0C   ITEHs\nSUBTOTAL  24,5uU\nTotal  24500\nCARD  24,5Uu",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TALAH  UNGU\",\n      \"cnt\": null,\n      \"price\": \"500\"\n    },\n    {\n      \"nm\": \"OISC  ITEH\",\n      \"cnt\": null,\n      \"price\": \"40 . Uoo .\"\n    },\n    {\n      \"nm\": \"DISC   ITEH\",\n      \"cnt\": null,\n      \"price\": \"-40 . OQu\\\"\"\n    },\n    {\n      \"nm\": \"DISC   ITeH\",\n      \"cnt\": null,\n      \"price\": \"Onu\\\"\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"24,5uU\",\n    \"evidence\": \"SUBTOTAL  24,5uU\"\n  },\n  \"total\": {\n    \"amount\": \"24500\",\n    \"evidence\": \"Total  24500\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 928,
+  "completion": 720,
+  "total": 1648,
+  "reasoning": 474
+ },
+ "seconds": 51.55069446563721,
+ "error": null
+}

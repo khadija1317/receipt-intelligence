@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "PILLZ SURIA",
+   "cnt": null,
+   "price": {
+    "value": "362364",
+    "raw": "362364",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PLRSTIK",
+   "cnt": null,
+   "price": {
+    "value": "35",
+    "raw": "35",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GNOUKT",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "3.(36",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 66,
+ "subtotal": {
+  "value": "36364",
+  "raw": "36,364",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTRL  36,364"
+ },
+ "total": {
+  "value": null,
+  "raw": "40,",
+  "status": "review",
+  "conf": null,
+  "line": "TDTAL  40,"
+ },
+ "tax": {
+  "value": null,
+  "raw": "10,0042",
+  "status": "review",
+  "conf": null,
+  "line": "PBL  102  10,0042"
+ },
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 9,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Burnbu Kaldu Ayam  38000\n38000\nSub Tofal  36000\nDiscount (0 %)\nTunai  SQOQO\nKombalian  14000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Burnbu Kaldu Ayam\",\n      \"cnt\": null,\n      \"price\": \"38000\"\n    },\n    {\n      \"nm\": \"Sub Tofal\",\n      \"cnt\": null,\n      \"price\": \"36000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 826,
+  "completion": 385,
+  "total": 1211,
+  "reasoning": 226
+ },
+ "seconds": 1.1791622638702393,
+ "error": null
+}

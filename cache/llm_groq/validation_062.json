@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "French Fries",
+   "cnt": null,
+   "price": {
+    "value": "10909",
+    "raw": "10,909",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chieese' Bur ger",
+   "cnt": null,
+   "price": {
+    "value": "36364",
+    "raw": "36364",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 Milo",
+   "cnt": "1",
+   "price": {
+    "value": "9091",
+    "raw": "9,091",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 62,
+ "subtotal": {
+  "value": "56364",
+  "raw": "56, 364",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB T OTAL  56, 364"
+ },
+ "total": {
+  "value": "62000",
+  "raw": "62000",
+  "status": "ok",
+  "conf": null,
+  "line": "0T  62000"
+ },
+ "tax": {
+  "value": "5636",
+  "raw": "5,636",
+  "status": "ok",
+  "conf": null,
+  "line": "PRT  5,636"
+ },
+ "service": null
+}

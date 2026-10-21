@@ -1,0 +1,17 @@
+{
+ "index": 64,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SINGLE ScoOP  16.Ooc\nToTAL  16000\nCATEND  50000\nCHANGE  34- OOQ",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SINGLE ScoOP\",\n      \"cnt\": null,\n      \"price\": \"16.Ooc\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"16000\",\n    \"evidence\": \"ToTAL  16000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 815,
+  "completion": 244,
+  "total": 1059,
+  "reasoning": 105
+ },
+ "seconds": 1.2239055633544922,
+ "error": null
+}

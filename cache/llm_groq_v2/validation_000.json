@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "REAL GANACHE",
+   "cnt": null,
+   "price": {
+    "value": "16500",
+    "raw": "16,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "EGG TART",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PIZZA TOAST",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 0,
+ "subtotal": null,
+ "total": {
+  "value": "45500",
+  "raw": "45500",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  45500"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,22 @@
+{
+ "menu": [
+  {
+   "nm": "K-Passion Fruit Vac",
+   "cnt": "1",
+   "price": {
+    "value": "29.00",
+    "raw": "29.00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 87,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

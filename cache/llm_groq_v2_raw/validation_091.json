@@ -1,0 +1,17 @@
+{
+ "index": 91,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "Le\nK7  1217  J9,091\nAoD CKICKEN BOX  907\nSuptotal  #0,O0o\nPE1 (i0)  Ooo\nTotal  44000\nCash  Rp.50, @oo\nCheng?  Pp.6,OOO",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"K7  1217\",\n      \"cnt\": null,\n      \"price\": \"J9,091\"\n    },\n    {\n      \"nm\": \"AoD CKICKEN BOX\",\n      \"cnt\": null,\n      \"price\": \"907\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"44000\",\n    \"evidence\": \"Total  44000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 908,
+  "completion": 523,
+  "total": 1431,
+  "reasoning": 354
+ },
+ "seconds": 1.5050249099731445,
+ "error": null
+}

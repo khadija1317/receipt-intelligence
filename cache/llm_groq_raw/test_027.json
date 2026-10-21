@@ -1,0 +1,17 @@
+{
+ "index": 27,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Fo\nPKT AYAM  33000\nGULAI  OTAK  23000\n2.00 ITEHS\nSUBTOTAL  56 , 000\nTaX 10x  5,600\nTOTAL  61600\nCHARGES  61600",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PKT AYAM\",\n      \"cnt\": null,\n      \"price\": \"33000\"\n    },\n    {\n      \"nm\": \"GULAI  OTAK\",\n      \"cnt\": null,\n      \"price\": \"23000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"56 , 000\",\n    \"evidence\": \"SUBTOTAL  56 , 000\"\n  },\n  \"tax\": {\n    \"amount\": \"5,600\",\n    \"evidence\": \"TaX 10x  5,600\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"61600\",\n    \"evidence\": \"TOTAL  61600\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 367,
+  "total": 1212,
+  "reasoning": 176
+ },
+ "seconds": 1.0379369258880615,
+ "error": null
+}

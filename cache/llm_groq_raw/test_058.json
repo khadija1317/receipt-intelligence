@@ -1,0 +1,17 @@
+{
+ "index": 58,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PK  33  TAT  55000\nCagh  100,0oJ\nSub Total:  55,307\nPBi  5,530\nTotale  L0,500\nRaye  400000\nChang? Duet  37000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PK  33  TAT\",\n      \"cnt\": null,\n      \"price\": \"55000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"55,307\",\n    \"evidence\": \"Sub Total:  55,307\"\n  },\n  \"tax\": {\n    \"amount\": \"5,530\",\n    \"evidence\": \"PBi  5,530\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"L0,500\",\n    \"evidence\": \"Totale  L0,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 384,
+  "total": 1229,
+  "reasoning": 220
+ },
+ "seconds": 2.0457684993743896,
+ "error": null
+}

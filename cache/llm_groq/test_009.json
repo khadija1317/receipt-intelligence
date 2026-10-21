@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "Burnbu Kaldu Ayam",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Sub Tofal",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "36000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 9,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

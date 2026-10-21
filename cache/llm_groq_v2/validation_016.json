@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "20 , 000",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TT",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 16,
+ "subtotal": null,
+ "total": {
+  "value": "20",
+  "raw": "20",
+  "status": "ok",
+  "conf": null,
+  "line": "ToTAL  20"
+ },
+ "tax": null,
+ "service": null
+}

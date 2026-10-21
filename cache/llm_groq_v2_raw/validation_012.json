@@ -1,0 +1,17 @@
+{
+ "index": 12,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "8e08059e",
+ "text": "ES KOPI   SUSU  72.000\nTotal  72.000\nGoPay  72.000\nKembali",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ES KOPI   SUSU\",\n      \"cnt\": null,\n      \"price\": \"72.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"72.000\",\n    \"evidence\": \"Total  72.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 224,
+  "total": 1092,
+  "reasoning": 82
+ },
+ "seconds": 1.1042144298553467,
+ "error": null
+}

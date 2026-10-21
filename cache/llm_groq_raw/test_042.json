@@ -1,0 +1,17 @@
+{
+ "index": 42,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Lnicken HCC _  ipcs  15 . 666\nCub Total  15 , L66\nP kest  16  1 ,500\nJaial  16,500\nCaer  50 , Oco\nKembal (  38560\nItems,",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Lnicken HCC _  ipcs\",\n      \"cnt\": null,\n      \"price\": \"15 . 666\"\n    },\n    {\n      \"nm\": \"P kest\",\n      \"cnt\": \"16\",\n      \"price\": \"1 ,500\"\n    },\n    {\n      \"nm\": \"Jaial\",\n      \"cnt\": null,\n      \"price\": \"16,500\"\n    },\n    {\n      \"nm\": \"Caer\",\n      \"cnt\": null,\n      \"price\": \"50 , Oco\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"15 , L66\",\n    \"evidence\": \"Cub Total  15 , L66\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 846,
+  "completion": 599,
+  "total": 1445,
+  "reasoning": 369
+ },
+ "seconds": 1.6259336471557617,
+ "error": null
+}

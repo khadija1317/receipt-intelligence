@@ -1,0 +1,17 @@
+{
+ "index": 36,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "eb*wrer#abmrcrlcamluidluareraiwrrrb0rbwem00w880e4b800m500\nXXL Grispy Chicken  40000\nSedang\nEnd  Teat\nITEMS:1  40000\nTotal  40000\nPay Cash  100,000  Charge  .60,000\n5575535H5555555555575538585559555555853855955553535553",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"XXL Grispy Chicken\",\n      \"cnt\": null,\n      \"price\": \"40000\"\n    },\n    {\n      \"nm\": \"ITEMS:1\",\n      \"cnt\": null,\n      \"price\": \"40000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"40000\",\n    \"evidence\": \"Total  40000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \".60,000\",\n    \"evidence\": \"Pay Cash  100,000  Charge  .60,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 880,
+  "completion": 471,
+  "total": 1351,
+  "reasoning": 289
+ },
+ "seconds": 1.5835347175598145,
+ "error": null
+}

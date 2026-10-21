@@ -1,0 +1,17 @@
+{
+ "index": 81,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "J002-Kyoto Choco Mochi\n14.000  28000\n1001-Choco Bun\n22.000  22.000\n6001-Plastic  Bag  Swall\nTotal  Item:\nTotal.  50 .q00",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"50 .q00\",\n    \"evidence\": \"Total.  50 .q00\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 838,
+  "completion": 320,
+  "total": 1158,
+  "reasoning": 209
+ },
+ "seconds": 1.5060696601867676,
+ "error": null
+}

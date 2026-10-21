@@ -1,0 +1,16 @@
+{
+ "index": 46,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "MARBLE CASTELA\n22,000  22000\nTOTAL  22000\nCHANGE  22,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"MARBLE CASTELA\",\n      \"cnt\": null,\n      \"price\": \"22,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"22000\",\n    \"evidence\": \"TOTAL  22000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 808,
+  "completion": 263,
+  "total": 1071,
+  "reasoning": 126
+ },
+ "seconds": 2.1450185775756836
+}

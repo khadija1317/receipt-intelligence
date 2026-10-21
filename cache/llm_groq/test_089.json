@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "KL Cnspy Chcken",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Tuta",
+   "cnt": null,
+   "price": {
+    "value": "808",
+    "raw": "808",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 89,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

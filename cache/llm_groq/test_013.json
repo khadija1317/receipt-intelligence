@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "BASD KUNH",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": "43-636",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "A.MINERA CEAS",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": "3-0)",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 13,
+ "subtotal": null,
+ "total": {
+  "value": "46.63",
+  "raw": "46,63",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  46,63"
+ },
+ "tax": {
+  "value": null,
+  "raw": "iO.00",
+  "status": "review",
+  "conf": null,
+  "line": "TAX iO.00 %"
+ },
+ "service": null
+}

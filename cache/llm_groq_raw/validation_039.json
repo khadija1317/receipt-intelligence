@@ -1,0 +1,16 @@
+{
+ "index": 39,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "JINT  1\nA  Ood\nYov\nTo  26 ,000\nPKT  NGLop PerkeaEL  12,000\nTERONG\nPARU  23,000\n20000\nSBL  GR ATI/AMPLA  3\nNESTLE 330 ML  8 ,000\n5.OOxITEMS\nSUBTOTAL  89000\n}\nTAX 10X  8,900\nTOTAL  97,900\nCASH  100 , 000\nCHANGE  2,100",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"JINT\",\n      \"cnt\": null,\n      \"price\": \"1\"\n    },\n    {\n      \"nm\": \"To\",\n      \"cnt\": null,\n      \"price\": \"26 ,000\"\n    },\n    {\n      \"nm\": \"PKT  NGLop PerkeaEL\",\n      \"cnt\": null,\n      \"price\": \"12,000\"\n    },\n    {\n      \"nm\": \"PARU\",\n      \"cnt\": null,\n      \"price\": \"23,000\"\n    },\n    {\n      \"nm\": \"NESTLE 330 ML\",\n      \"cnt\": null,\n      \"price\": \"8 ,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"89000\",\n    \"evidence\": \"SUBTOTAL  89000\"\n  },\n  \"total\": {\n    \"amount\": \"97,900\",\n    \"evidence\": \"TOTAL  97,900\"\n  },\n  \"tax\": {\n    \"amount\": \"8,900\",\n    \"evidence\": \"TAX 10X  8,900\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 904,
+  "completion": 736,
+  "total": 1640,
+  "reasoning": 462
+ },
+ "seconds": 1.8183469772338867
+}

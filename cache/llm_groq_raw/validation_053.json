@@ -1,0 +1,16 @@
+{
+ "index": 53,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "e2s25=2  E I  72\nLarge  11000\n#Rhum\nPastry  Keju  20000\n#Plastik  Kcl\n4 Total  31000\nBayar  40000\nKembal i  9000\ne  322522",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Large\",\n      \"cnt\": null,\n      \"price\": \"11000\"\n    },\n    {\n      \"nm\": \"Pastry  Keju\",\n      \"cnt\": null,\n      \"price\": \"20000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"31000\",\n    \"evidence\": \"4 Total  31000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 852,
+  "completion": 397,
+  "total": 1249,
+  "reasoning": 234
+ },
+ "seconds": 1.5565383434295654
+}

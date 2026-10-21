@@ -1,0 +1,140 @@
+{
+ "menu": [
+  {
+   "nm": "PAKET BEPS UP3 154545",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BREAD % CHEESE DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TUNA DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CRABSTICK FUSILLI DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LEMON TEA HANGAT DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BLACKCURRANT DFL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Sc/P ThouSand I5 VEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SCSC/P BBQ BEEF DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CR/P BEEF MAYO DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SUNRISE ITALIAN SODA",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SUNRISE ITALIAN SODA",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 88,
+ "subtotal": {
+  "value": "154545",
+  "raw": "154,545",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  154,545"
+ },
+ "total": {
+  "value": null,
+  "raw": "170,'",
+  "status": "review",
+  "conf": null,
+  "line": "TOTAL  170,'  Qoo"
+ },
+ "tax": {
+  "value": "15455",
+  "raw": "15,455",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  15,455"
+ },
+ "service": null
+}
