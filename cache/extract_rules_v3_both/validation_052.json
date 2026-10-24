@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "2 KENTHIR",
+   "cnt": "2",
+   "price": {
+    "value": "42000",
+    "raw": "42.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 KOL GORENG",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 TEH MANIS",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "56000",
+  "raw": "56.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 56.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "56000",
+  "raw": "56.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 56.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 52
+}

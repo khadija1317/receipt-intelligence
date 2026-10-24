@@ -1,0 +1,53 @@
+{
+ "menu": [
+  {
+   "nm": "BASO TAHU",
+   "cnt": null,
+   "price": {
+    "value": "43181",
+    "raw": "43,181",
+    "status": "ok",
+    "conf": 0.9988,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ES JERUK",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": 0.9393,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "62000",
+  "raw": "62,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "GRAND TOTAL 62,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "61799",
+  "raw": "61,799",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "TAX 10.00 % 61,799",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 95
+}

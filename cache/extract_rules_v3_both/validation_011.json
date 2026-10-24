@@ -1,0 +1,81 @@
+{
+ "menu": [
+  {
+   "nm": "Se'I Sapi Sambal Matah ( R )",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Se'I Sapi Lada Hitam (J)",
+   "cnt": "1",
+   "price": {
+    "value": "35000",
+    "raw": "35.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Nasi Putih",
+   "cnt": "2",
+   "price": {
+    "value": "10000",
+    "raw": "10.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Milk Shake Coklat",
+   "cnt": "1",
+   "price": {
+    "value": "16000",
+    "raw": "16.000",
+    "status": "ok",
+    "conf": 0.9982,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "81000",
+  "raw": "81.000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Subtotal 81.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "89100",
+  "raw": "89.100",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 89.100",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "8100",
+  "raw": "8.100",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "PB 110% 8.100",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 11
+}

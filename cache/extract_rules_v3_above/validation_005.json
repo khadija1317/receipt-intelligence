@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "LE MINERAL",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8.000",
+    "status": "ok",
+    "conf": 0.9391,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NET1ANT",
+   "cnt": null,
+   "price": {
+    "value": "7273",
+    "raw": "7,273",
+    "status": "ok",
+    "conf": 0.9513,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "8000",
+  "raw": "8.000",
+  "status": "ok",
+  "conf": 0.9855,
+  "low_trust": false,
+  "line": "TOTAL 8.000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "727",
+  "raw": "727",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAX AMT 727",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 5
+}

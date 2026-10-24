@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "0571-1854 BLUS WANITA",
+   "cnt": null,
+   "price": {
+    "value": "120000",
+    "raw": "120,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CC.Visa.BCA",
+   "cnt": null,
+   "price": {
+    "value": "120000",
+    "raw": "120,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": null,
+ "total": {
+  "value": "0",
+  "raw": "0",
+  "status": "ok",
+  "conf": 0.9926,
+  "low_trust": false,
+  "line": "Total Kembalian 0",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 12
+}

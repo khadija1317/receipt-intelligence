@@ -92,3 +92,14 @@ LLM items: validation returned 222 with 45 unreadable prices; test returned 255 
 Readings. (1) Total recall ties again: 73 = 73 on test; the correct total is readable on 94, so about 21 receipts are not returned by either arm. (2) The LLM was never wrong on a test total but left 5 more unanswered; 0 wrong of 73 answered still allows a true wrong rate of about 4%. (3) The LLM leads on items and exact match (+7 on both splits), small on single fields.
 
 Nine validation failures read (text only, nothing built). Amount alone on the line above a keyword-only line: 41, 92, 94, 97 (94: the LLM took the e-gift payment row instead, evidence line without a total word). Rows shifted by one: 16, 38, 23. Keyword fused into the cash line: 47. Amount refused (leading dot ".26.000"): 68, correctly sent to review. Validation 66 and 73: total not readable in the text.
+
+## Day 6 addendum 2 (Oct 24): rules v3, a keyword-only total line takes the amount-only neighbour
+
+Pattern seen on 4 of 9 validation failures read by eye (text only): the amount sits alone on the line above a keyword-only TOTAL line (vals 41, 92, 94, 97). Rule: only when v2 found NO total, and a total-keyword line has no amount, use the line directly above if it is exactly one amount with no words; mode "both" also looks below; if both neighbours qualify the result is "review" with no value (decision 3b). Decisions 1GO 2b 3b were mine. Stop rule written before any number: keep v3 only if validation total correct is at least 89 of 98 (v2: 86), cap 1 hour (used about 10 minutes). Rules v2 stays frozen; default is adjacent=off.
+
+Safety: with the switch off, 100 validation files were byte-identical to the frozen v2 files. Tests: 94 pass (85 + 9 new).
+
+Validation total (correct/wrong/no answer): v2 86/5/7 -> v3 above 90/5/3 and v3 both 90/5/3 (identical). Exact match 43 -> 44. Wrong list unchanged (16, 23, 38, 47, 61). Fixed: 41, 92, 94, 97. Left: 66, 73 (total not readable), 68 (leading dot refused, flagged for review).
+Test total: v2 73/5/17 -> v3 both 74/5/16; every other field and exact match (39) unchanged. How the total was found: validation 93 normal rule, 4 above, 0 below, 0 ambiguous, 3 none; test 80 normal, 1 above, 0 below, 0 ambiguous, 19 none.
+
+Readings. (1) The rule was written from the four validation receipts it fixes, so 4 of 4 is built in; on test it fired once (and was right): validation is optimistic, as with the Day 4 fuzzy fix (+9 val, +3 test). (2) The "below" lookup and the "ambiguous -> review" branch never fired on real data; they exist only in unit tests. (3) Wrong totals are untouched by v3: the wrong-row receipts (16, 38, 23, 47) have an amount on the TOTAL line, so the rule does not run; they are for the validator. (4) Remaining gap on test: correct total readable on 94, returned correctly on 74.

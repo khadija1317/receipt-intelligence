@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "BEVERAG",
+   "cnt": null,
+   "price": {
+    "value": "11",
+    "raw": "11",
+    "status": "ok",
+    "conf": 0.2902,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Taste/Ra 1 BLACK PEPPER MEATBALL PAS",
+   "cnt": null,
+   "price": {
+    "value": "77000",
+    "raw": "77,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TRUFFLE CREAM",
+   "cnt": null,
+   "price": {
+    "value": "59000",
+    "raw": "59,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax",
+   "total"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": {
+  "value": "22790",
+  "raw": "22,790",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Friendlin Service Charge 6% 22,790",
+  "n_candidates": 2
+ },
+ "index": 98
+}

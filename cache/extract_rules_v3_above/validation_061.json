@@ -1,0 +1,36 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "7500",
+  "raw": "7,500",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Sub Total 7,500",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "1800",
+  "raw": "1,800",
+  "status": "ok",
+  "conf": 0.9958,
+  "low_trust": false,
+  "line": "Total Kembalian 1,800",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "750",
+  "raw": "750",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Pajak Resto (10%) 750",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 61
+}

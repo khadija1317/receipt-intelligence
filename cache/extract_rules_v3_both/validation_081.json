@@ -1,0 +1,92 @@
+{
+ "menu": [
+  {
+   "nm": "1 SURIMI",
+   "cnt": null,
+   "price": {
+    "value": "29091",
+    "raw": "29,091",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 CREAMY CHK CLS FTC",
+   "cnt": null,
+   "price": {
+    "value": "42727",
+    "raw": "42,727",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 MIX 4FUN CHOCOLATE",
+   "cnt": null,
+   "price": {
+    "value": "19091",
+    "raw": "19,091",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 GREEN ITSODA PITCHER",
+   "cnt": null,
+   "price": {
+    "value": "60909",
+    "raw": "60,909",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 SC/R GRILLED STEAK",
+   "cnt": null,
+   "price": {
+    "value": "99091",
+    "raw": "99,091",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "250909",
+  "raw": "250,909",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 250,909",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "276000",
+  "raw": "276,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 276,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "25091",
+  "raw": "25,091",
+  "status": "ok",
+  "conf": 0.9994,
+  "low_trust": false,
+  "line": "TAX 25,091",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 81
+}

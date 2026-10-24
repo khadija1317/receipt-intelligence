@@ -1,0 +1,136 @@
+{
+ "menu": [
+  {
+   "nm": "XLB Org Park 10x",
+   "cnt": "1",
+   "price": {
+    "value": "78000",
+    "raw": "78,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Sicito Babi",
+   "cnt": "1",
+   "price": {
+    "value": "65000",
+    "raw": "65,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Hotplate Tahu",
+   "cnt": "1",
+   "price": {
+    "value": "58000",
+    "raw": "58,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DF Fish Fillet Garic",
+   "cnt": "1",
+   "price": {
+    "value": "108000",
+    "raw": "108,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LM Pork Belly",
+   "cnt": "1",
+   "price": {
+    "value": "88000",
+    "raw": "88,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Siew Mai",
+   "cnt": "15",
+   "price": {
+    "value": "38800",
+    "raw": "38,800",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Kwan Yin Cup",
+   "cnt": null,
+   "price": {
+    "value": "50000",
+    "raw": "50,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Herbal Jelly",
+   "cnt": "1",
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Onde-Onde",
+   "cnt": "1",
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "664329",
+  "raw": "664,329",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total. 664,329",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "60394",
+  "raw": "60,394",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "PB1 60,394",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "42135",
+  "raw": "42,135",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "Service charge 42,135",
+  "n_candidates": 1
+ },
+ "index": 59
+}

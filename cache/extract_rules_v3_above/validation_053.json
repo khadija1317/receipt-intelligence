@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "1 Large",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11.000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 *Rhum",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Pastry Keju",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 *Plastik kcl",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9914,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "31000",
+  "raw": "31.000",
+  "status": "ok",
+  "conf": 0.9992,
+  "low_trust": false,
+  "line": "4 Total 31.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 53
+}

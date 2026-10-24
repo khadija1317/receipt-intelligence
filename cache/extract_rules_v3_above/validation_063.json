@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "ISI CAMPUR",
+   "cnt": null,
+   "price": {
+    "value": "43636",
+    "raw": "43.636",
+    "status": "ok",
+    "conf": 0.9941,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "A.MINERAL BOTOL AFUNG",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8.000",
+    "status": "ok",
+    "conf": 0.9921,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "56800",
+  "raw": "56,800",
+  "status": "ok",
+  "conf": 0.9166,
+  "low_trust": false,
+  "line": "GRAND TOTAL 56,800",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "5164",
+  "raw": "5.164",
+  "status": "ok",
+  "conf": 0.9994,
+  "low_trust": false,
+  "line": "TAX 10.00 % 5.164",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 63
+}

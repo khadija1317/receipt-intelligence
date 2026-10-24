@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "2 JAMUR",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TAHU",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "15000",
+  "raw": "15,000",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "SUBTOTAL 15,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "16500",
+  "raw": "16,500",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "TOTAL 16,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "1500",
+  "raw": "1,500",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "PB1 10% 1,500",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 20
+}

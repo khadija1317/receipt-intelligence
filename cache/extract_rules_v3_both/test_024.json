@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "x1",
+   "cnt": null,
+   "price": {
+    "value": "56000",
+    "raw": "Rp.56.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "x1",
+   "cnt": null,
+   "price": {
+    "value": "62000",
+    "raw": "Rp.62.000",
+    "status": "ok",
+    "conf": 0.9963,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "118000",
+  "raw": "Rp.118.000",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "Total. Rp.118.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 24
+}

@@ -1,0 +1,68 @@
+{
+ "menu": [
+  {
+   "nm": "UP 0622 3000",
+   "cnt": null,
+   "price": {
+    "value": "3000",
+    "raw": "3000",
+    "status": "ok",
+    "conf": 0.7392,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 BAKSO BNGKS",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": 0.9983,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "6 GORENGAN",
+   "cnt": null,
+   "price": {
+    "value": "-6000",
+    "raw": "-6,000",
+    "status": "ok",
+    "conf": 0.9062,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TL",
+   "cnt": null,
+   "price": {
+    "value": "21000",
+    "raw": "21.000",
+    "status": "ok",
+    "conf": 0.9833,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CG",
+   "cnt": null,
+   "price": {
+    "value": "-9000",
+    "raw": "-9,000",
+    "status": "ok",
+    "conf": 0.8604,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 91
+}

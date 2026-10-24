@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1 PAKET BER4 UP3",
+   "cnt": null,
+   "price": {
+    "value": "154545",
+    "raw": "154,545",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "154545",
+  "raw": "154,545",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 154,545",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "170000",
+  "raw": "170,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TOTAL 170,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "15455",
+  "raw": "15,455",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAX 15,455",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 88
+}

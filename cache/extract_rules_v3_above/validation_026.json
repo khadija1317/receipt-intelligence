@@ -1,0 +1,20 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 6
+ },
+ "subtotal": null,
+ "total": {
+  "value": "35000",
+  "raw": "Rp.35.000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Total Rp.35.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 26
+}

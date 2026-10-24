@@ -90,7 +90,47 @@ def field_of(result):
     }
 
 
-def extract_receipt(pieces, currency="IDR", fuzzy=True):
+ADJACENT_MODES = ("off", "above", "both")
+
+
+def _amount_only(p):
+    """A line made of exactly one piece, and that piece is an amount."""
+    return p is not None and not p["label"].strip() and len(p["amounts"]) == 1
+
+
+def _adjacent_total(parsed, mode):
+    """Rules v3. Only called when v2 found no total at all.
+    For a total-keyword line with no amount: look at the line directly above
+    (and, in mode 'both', directly below) for a line that is a single amount."""
+    for n in range(len(parsed) - 1, -1, -1):  # lowest keyword line first, like v2
+        p = parsed[n]
+        if p["kind"] != "total" or p["amounts"]:
+            continue
+        above = parsed[n - 1] if n >= 1 else None
+        below = parsed[n + 1] if mode == "both" and n + 1 < len(parsed) else None
+        if _amount_only(above) and _amount_only(below):
+            return {"value": None, "raw": "", "status": "review", "conf": None,
+                    "low_trust": False,
+                    "line": f"{above['text']} | {p['text']} | {below['text']}",
+                    "n_candidates": 2, "adjacent": "ambiguous"}
+        if _amount_only(above):
+            field = field_of(above["amounts"][0])
+            field["line"] = f"{above['text']} | {p['text']}"
+            field["adjacent"] = "above"
+        elif _amount_only(below):
+            field = field_of(below["amounts"][0])
+            field["line"] = f"{p['text']} | {below['text']}"
+            field["adjacent"] = "below"
+        else:
+            continue
+        field["n_candidates"] = 1
+        return field
+    return None
+
+
+def extract_receipt(pieces, currency="IDR", fuzzy=True, adjacent="off"):
+    if adjacent not in ADJACENT_MODES:
+        raise ValueError(f"adjacent must be one of {ADJACENT_MODES}, got {adjacent!r}")
     parsed = []
     for line in merge_receipt(pieces):
         label, amounts = line_parts(line, currency)
@@ -135,4 +175,6 @@ def extract_receipt(pieces, currency="IDR", fuzzy=True):
     result = {"menu": menu, "notes": notes}
     for kind in KINDS:
         result[kind] = pick(kind)
+    if adjacent != "off" and result["total"] is None:
+        result["total"] = _adjacent_total(parsed, adjacent)
     return result

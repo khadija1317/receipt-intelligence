@@ -1,0 +1,24 @@
+{
+ "menu": [
+  {
+   "nm": "AIR MINERAL",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".7,000",
+    "status": "review",
+    "conf": 0.9412,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 66
+}

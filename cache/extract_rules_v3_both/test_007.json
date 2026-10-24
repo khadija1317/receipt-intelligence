@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "Kupon",
+   "cnt": "15",
+   "price": {
+    "value": "100000",
+    "raw": "100,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ADD CHICKEN BOX",
+   "cnt": null,
+   "price": {
+    "value": "909",
+    "raw": "909",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "100909",
+  "raw": "100,909",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Subtotal 100,909",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "111000",
+  "raw": "111,000",
+  "status": "ok",
+  "conf": 0.96,
+  "low_trust": false,
+  "line": "Total 111,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "10091",
+  "raw": "10,091",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "PB1 (10%) 10,091",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 7
+}

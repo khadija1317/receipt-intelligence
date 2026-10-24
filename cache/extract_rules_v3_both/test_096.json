@@ -1,0 +1,26 @@
+{
+ "menu": [
+  {
+   "nm": "BBQ Chicken",
+   "cnt": null,
+   "price": {
+    "value": "41000",
+    "raw": "41,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 96
+}

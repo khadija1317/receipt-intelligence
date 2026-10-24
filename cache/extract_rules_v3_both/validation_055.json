@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Cha Keaw L... x2",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Cha Keaw L... x2",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BCA PAY... (100%)",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "60.000)",
+    "status": "review",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "60000",
+  "raw": "60.000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Total 60.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 55
+}

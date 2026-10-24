@@ -33,6 +33,7 @@ def main():
     parser.add_argument("--show", type=int, nargs="*", default=[0, 19, 7])
     parser.add_argument("--ocr-dir", default="cache/ocr")
     parser.add_argument("--out-dir", default="cache/extract_rules")
+    parser.add_argument("--adjacent", choices=["off", "above", "both"], default="off")
     args = parser.parse_args()
     split = args.split
     ocr = Path(args.ocr_dir)
@@ -48,7 +49,7 @@ def main():
 
     for i, raw in enumerate(ds["ground_truth"]):
         record = json.loads((ocr / f"{split}_{i:03d}.json").read_text(encoding="utf-8"))
-        result = extract_receipt(record["pieces"], CURRENCY)
+        result = extract_receipt(record["pieces"], CURRENCY, adjacent=args.adjacent)
         result["index"] = i
         (out / f"{split}_{i:03d}.json").write_text(
             json.dumps(result, ensure_ascii=False, indent=1), encoding="utf-8")

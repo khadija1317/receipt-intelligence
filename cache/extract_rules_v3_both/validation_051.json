@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "118 Round Wagyu (1gr)",
+   "cnt": null,
+   "price": {
+    "value": "47200",
+    "raw": "47.200",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Wagyu Rice Box",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10.000",
+    "status": "ok",
+    "conf": 0.9982,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "57200",
+  "raw": "57.200",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 57.200",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "57200",
+  "raw": "57.200",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 57.200",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 51
+}

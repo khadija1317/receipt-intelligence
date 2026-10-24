@@ -1,0 +1,89 @@
+{
+ "menu": [
+  {
+   "nm": "2 Mineral Water",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18 000",
+    "status": "ok",
+    "conf": 0.9924,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Teh Tawar Dingin",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11.000",
+    "status": "ok",
+    "conf": 0.9982,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Soto Betawi",
+   "cnt": null,
+   "price": {
+    "value": "116000",
+    "raw": "116.000",
+    "status": "ok",
+    "conf": 0.9977,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9.000",
+    "status": "ok",
+    "conf": 0.9784,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "154000",
+  "raw": "154 000",
+  "status": "ok",
+  "conf": 0.9984,
+  "low_trust": false,
+  "line": "Subtotal 154 000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "177870",
+  "raw": "177.870",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "6 Total 177.870",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "16170",
+  "raw": "16170",
+  "status": "ok",
+  "conf": 0.999,
+  "low_trust": false,
+  "line": "Pajak Rest 10 16170",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "7700",
+  "raw": "7700",
+  "status": "ok",
+  "conf": 0.9994,
+  "low_trust": false,
+  "line": "Servi Charge 7700",
+  "n_candidates": 1
+ },
+ "index": 78
+}

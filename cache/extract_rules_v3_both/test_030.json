@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "Kupon",
+   "cnt": "3",
+   "price": {
+    "value": "28636",
+    "raw": "28,636",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "28636",
+  "raw": "28,636",
+  "status": "ok",
+  "conf": 0.9968,
+  "low_trust": false,
+  "line": "Subtotal 28,636",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "31500",
+  "raw": "31,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Dine In Total 31,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "2864",
+  "raw": "2,864",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "PB1 (10%) 2,864",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 30
+}

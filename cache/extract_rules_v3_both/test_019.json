@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "4 AMBUSH DBL CHS",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60000",
+    "status": "ok",
+    "conf": 0.9714,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "10 AMBUSH CHS BUR",
+   "cnt": null,
+   "price": {
+    "value": "100000",
+    "raw": "100000",
+    "status": "ok",
+    "conf": 0.9705,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NET SALES",
+   "cnt": null,
+   "price": {
+    "value": "160000",
+    "raw": "160000",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "16000",
+  "raw": "16000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "TAX 16000",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 19
+}

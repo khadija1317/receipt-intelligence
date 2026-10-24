@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "MOSMINE MT (L)",
+   "cnt": null,
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": 0.9701,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LUCONUT JELLY (L)",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": 0.9919,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "28000",
+  "raw": "28,000",
+  "status": "ok",
+  "conf": 0.996,
+  "low_trust": false,
+  "line": "SUB TOTAL 28,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "1",
+  "raw": "1",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "TOTAL ITENS 1",
+  "n_candidates": 2
+ },
+ "tax": null,
+ "service": null,
+ "index": 2
+}

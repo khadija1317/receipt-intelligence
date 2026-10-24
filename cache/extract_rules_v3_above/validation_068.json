@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "2X",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Honey Mandarin",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26,000",
+    "status": "ok",
+    "conf": 0.9989,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": ".26.000",
+  "status": "review",
+  "conf": 0.9386,
+  "low_trust": false,
+  "line": "TOTAL .26.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 68
+}

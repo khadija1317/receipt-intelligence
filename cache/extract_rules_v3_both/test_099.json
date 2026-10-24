@@ -1,0 +1,114 @@
+{
+ "menu": [
+  {
+   "nm": "1 FL-Xmas 30 Off",
+   "cnt": null,
+   "price": {
+    "value": "68180",
+    "raw": "68,180",
+    "status": "ok",
+    "conf": 0.9991,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PAKET SLICES",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 » FL Cake - French",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PAKET SLICES",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 »FL Cake - Green",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PAKET SLICES",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9983,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "FL Cake - Belgium",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9952,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "68180",
+  "raw": "68,180",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "SUBTOTAL 68,180",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "75000",
+  "raw": "75,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 75,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "0",
+  "raw": "0",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "PAJAK 0 % 0",
+  "n_candidates": 2
+ },
+ "service": null,
+ "index": 99
+}

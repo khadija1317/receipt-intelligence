@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "K7",
+   "cnt": null,
+   "price": {
+    "value": "39091",
+    "raw": "39,091",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ADD CHICKEN BOX",
+   "cnt": null,
+   "price": {
+    "value": "909",
+    "raw": "909",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "40000",
+  "raw": "40,000",
+  "status": "ok",
+  "conf": 0.9836,
+  "low_trust": false,
+  "line": "Subtotal 40,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "44000",
+  "raw": "44,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Total 44,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "4000",
+  "raw": "4,000",
+  "status": "ok",
+  "conf": 0.9984,
+  "low_trust": false,
+  "line": "PB1 (10%) 4,000",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 91
+}

@@ -1,0 +1,53 @@
+{
+ "menu": [
+  {
+   "nm": "PILLOW DURIA",
+   "cnt": null,
+   "price": {
+    "value": "36364",
+    "raw": "36,364",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLASTIK 物",
+   "cnt": null,
+   "price": {
+    "value": "25",
+    "raw": "25",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "36364",
+  "raw": "36,364",
+  "status": "ok",
+  "conf": 0.9992,
+  "low_trust": false,
+  "line": "SUBTOTAL 36,364",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "40000",
+  "raw": "40,000",
+  "status": "ok",
+  "conf": 0.9912,
+  "low_trust": false,
+  "line": "TOTAL 40,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 66
+}

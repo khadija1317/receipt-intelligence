@@ -1,0 +1,28 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 4
+ },
+ "subtotal": {
+  "value": "53000",
+  "raw": "53,000",
+  "status": "ok",
+  "conf": 0.989,
+  "low_trust": false,
+  "line": "SUB TOTAL 53,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "53000",
+  "raw": "53,000",
+  "status": "ok",
+  "conf": 0.997,
+  "low_trust": false,
+  "line": "GRAND TOTAL 53,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 42
+}

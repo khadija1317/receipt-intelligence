@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "ICED TT",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".20.000",
+    "status": "review",
+    "conf": 0.8669,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": ".20,000",
+  "status": "review",
+  "conf": 0.9333,
+  "low_trust": false,
+  "line": "TOTAL .20,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 73
+}

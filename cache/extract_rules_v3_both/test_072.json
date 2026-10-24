@@ -1,0 +1,35 @@
+{
+ "menu": [
+  {
+   "nm": " Choco Devil",
+   "cnt": null,
+   "price": {
+    "value": "15909",
+    "raw": "15,909",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal",
+   "tax"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "17500",
+  "raw": "17,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total: 17,500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 72
+}

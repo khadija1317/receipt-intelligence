@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "Fu Yung Hai",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": {
+  "value": "138000",
+  "raw": "Rp 138.000",
+  "status": "ok",
+  "conf": 0.9993,
+  "low_trust": false,
+  "line": "Subtotal Rp 138.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "138000",
+  "raw": "Rp 138.000",
+  "status": "ok",
+  "conf": 0.9991,
+  "low_trust": false,
+  "line": "Total Rp 138.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 26
+}

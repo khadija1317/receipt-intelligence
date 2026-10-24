@@ -1,0 +1,46 @@
+{
+ "menu": [
+  {
+   "nm": "2005-CHEESE JOHN",
+   "cnt": null,
+   "price": {
+    "value": "9500.00",
+    "raw": "9.500,00",
+    "status": "ok",
+    "conf": 0.9942,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "x1",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "9,500,00",
+    "status": "review",
+    "conf": 0.9431,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "9500.00",
+  "raw": "9.500,00",
+  "status": "ok",
+  "conf": 0.9507,
+  "low_trust": false,
+  "line": "9.500,00 | Total.",
+  "adjacent": "above",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 67
+}

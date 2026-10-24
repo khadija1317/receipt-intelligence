@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "wm",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.8303,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "17000",
+  "raw": "17,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUB TOTAL 17,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "17000",
+  "raw": "17,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "GRAND TOTAL 17,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 77
+}

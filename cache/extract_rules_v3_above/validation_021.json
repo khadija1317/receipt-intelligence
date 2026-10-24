@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "1 Mango Lemon Tea",
+   "cnt": null,
+   "price": {
+    "value": "29090",
+    "raw": "Rp29,090",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Sliders Set",
+   "cnt": null,
+   "price": {
+    "value": "113636",
+    "raw": "Rp113,636",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Chicken Vege Rice Bowl",
+   "cnt": null,
+   "price": {
+    "value": "86363",
+    "raw": "Rp86,363",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "224908",
+  "raw": "Rp224,908",
+  "status": "ok",
+  "conf": 0.9717,
+  "low_trust": false,
+  "line": "TOTAL: Rp224,908",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "20446",
+  "raw": "Rp20,446",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAX Rp20,446",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 21
+}

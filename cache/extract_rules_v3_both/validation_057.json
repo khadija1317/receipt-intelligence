@@ -1,0 +1,84 @@
+{
+ "menu": [
+  {
+   "nm": "SEAFOOD MARINARA",
+   "cnt": null,
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": 0.994,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CREAMY MARINARA SALMON",
+   "cnt": "1",
+   "price": {
+    "value": "85500",
+    "raw": "85.500",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LYCHEE ICE TEA",
+   "cnt": "2",
+   "price": {
+    "value": "77000",
+    "raw": "77,000",
+    "status": "ok",
+    "conf": 0.996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "247500",
+    "raw": "247,500",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUC CHG 6%",
+   "cnt": null,
+   "price": {
+    "value": "14850",
+    "raw": "14.850",
+    "status": "ok",
+    "conf": 0.989,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "288585",
+  "raw": "288,585",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TOTAL 288,585",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "26235",
+  "raw": "26,235",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "PB1 10% 26,235",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 57
+}
