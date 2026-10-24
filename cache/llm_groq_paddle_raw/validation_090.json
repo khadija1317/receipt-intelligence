@@ -1,0 +1,17 @@
+{
+ "index": 90,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "CINEMAXX\nEMAXX\nCINEMAXX\nREGULAR  IEMAXX  2 35000.00  70000.00\nCINEMA  Total Due  70000.00\nOFFLINE PROMO  70000.00\nCINEMAX\nCIN\nChange  CINEMAXX  0.00\nCINEMAXX\nCINEMAXX  CINEMAXX",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"REGULAR  IEMAXX\",\n      \"cnt\": \"2\",\n      \"price\": \"70000.00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"70000.00\",\n    \"evidence\": \"CINEMA  Total Due  70000.00\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 881,
+  "completion": 369,
+  "total": 1250,
+  "reasoning": 218
+ },
+ "seconds": 1.075939416885376,
+ "error": null
+}

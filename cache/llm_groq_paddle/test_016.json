@@ -1,0 +1,80 @@
+{
+ "menu": [
+  {
+   "nm": "[L G] BLACK SAKURA",
+   "cnt": "1",
+   "price": {
+    "value": "59091",
+    "raw": "59,091",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LONGAN",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ROASTED ALMOND",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "VANGGO",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NINERAL WATER (bundling) 5k",
+   "cnt": "1",
+   "price": {
+    "value": "4545",
+    "raw": "4,545",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 16,
+ "subtotal": {
+  "value": "63636",
+  "raw": "63,636",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  63,636"
+ },
+ "total": {
+  "value": "70000",
+  "raw": "70,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  70,000"
+ },
+ "tax": {
+  "value": "6364",
+  "raw": "6,364",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1 (10%)  6,364"
+ },
+ "service": null
+}

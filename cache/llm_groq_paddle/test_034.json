@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Ash Chick Sambal Matah",
+   "cnt": "5",
+   "price": {
+    "value": "75000",
+    "raw": "75.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Jamur Goreng",
+   "cnt": "2",
+   "price": {
+    "value": "10000",
+    "raw": "10.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 34,
+ "subtotal": {
+  "value": "85000",
+  "raw": "85.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  85.000"
+ },
+ "total": {
+  "value": "93500",
+  "raw": "93.500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  93.500"
+ },
+ "tax": {
+  "value": "8500",
+  "raw": "8.500",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak (10%)  8.500"
+ },
+ "service": null
+}

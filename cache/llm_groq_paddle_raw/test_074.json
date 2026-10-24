@@ -1,0 +1,17 @@
+{
+ "index": 74,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 BLACKCURRANT  32,000\n1 SPRITE  32,000\n**BEVERAGE  64,000\n1 GRILLED CALAMARI  85,000\n1 DINE FOR  2  129,000\nDANISH FISH & CHIPS DF\n* NEW YORK FISH & CHIPS\n**  FOOD  214,000\nSUBTTL  278,000\nService Charge  22,240\nTAX  30,024\nTOTAL  330.264",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BLACKCURRANT\",\n      \"cnt\": \"1\",\n      \"price\": \"32,000\"\n    },\n    {\n      \"nm\": \"SPRITE\",\n      \"cnt\": \"1\",\n      \"price\": \"32,000\"\n    },\n    {\n      \"nm\": \"**BEVERAGE\",\n      \"cnt\": null,\n      \"price\": \"64,000\"\n    },\n    {\n      \"nm\": \"GRILLED CALAMARI\",\n      \"cnt\": \"1\",\n      \"price\": \"85,000\"\n    },\n    {\n      \"nm\": \"DINE FOR  2\",\n      \"cnt\": \"1\",\n      \"price\": \"129,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"22,240\",\n    \"evidence\": \"Service Charge  22,240\"\n  },\n  \"tax\": {\n    \"amount\": \"30,024\",\n    \"evidence\": \"TAX  30,024\"\n  },\n  \"total\": {\n    \"amount\": \"330.264\",\n    \"evidence\": \"TOTAL  330.264\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 897,
+  "completion": 678,
+  "total": 1575,
+  "reasoning": 398
+ },
+ "seconds": 1.7132115364074707,
+ "error": null
+}

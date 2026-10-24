@@ -1,0 +1,17 @@
+{
+ "index": 8,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Diant\n3X  @6500\nTALAM UNGU  19,500\nDISC ITEM  -40.000%\nAMOUNT  -7,800\n1X  @0\nMIKA KECIL  0\n4.00xITEMs\nSUBTOTAL  11,700\nTOTAL  11,700\nCASH  20,000\nCHANGE  8,300",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": null,\n      \"price\": \"19,500\"\n    },\n    {\n      \"nm\": \"MIKA KECIL\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"11,700\",\n    \"evidence\": \"SUBTOTAL  11,700\"\n  },\n  \"total\": {\n    \"amount\": \"11,700\",\n    \"evidence\": \"TOTAL  11,700\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 871,
+  "completion": 418,
+  "total": 1289,
+  "reasoning": 240
+ },
+ "seconds": 1.200509786605835,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 59,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2  \nHATE\n2 Tahu Isi  78,000\n5.Tea  30,000\n1 Kepiting 7-8.4ons - Chilly 0.7  297,490\n…\n1 Udang Telur Asin - Regular  47,500\n1 Kailan 2 Rasa  45,000\n1 Mantau - 2 pcs  25,000\n2 Sweet Tea  16,000\n7 Nasi Putih  42,000\n1 Mantau.- 3 pcs  37,500\nTotal Item  Total Qty  y  21\nSubtotal  618490\nTax  61,849\nTotal  680,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"2 Tahu Isi\",\n      \"cnt\": null,\n      \"price\": \"78,000\"\n    },\n    {\n      \"nm\": \"5.Tea\",\n      \"cnt\": null,\n      \"price\": \"30,000\"\n    },\n    {\n      \"nm\": \"1 Kepiting 7-8.4ons - Chilly 0.7\",\n      \"cnt\": null,\n      \"price\": \"297,490\"\n    },\n    {\n      \"nm\": \"1 Udang Telur Asin - Regular\",\n      \"cnt\": null,\n      \"price\": \"47,500\"\n    },\n    {\n      \"nm\": \"1 Kailan 2 Rasa\",\n      \"cnt\": null,\n      \"price\": \"45,000\"\n    },\n    {\n      \"nm\": \"1 Mantau - 2 pcs\",\n      \"cnt\": null,\n      \"price\": \"25,000\"\n    },\n    {\n      \"nm\": \"2 Sweet Tea\",\n      \"cnt\": null,\n      \"price\": \"16,000\"\n    },\n    {\n      \"nm\": \"7 Nasi Putih\",\n      \"cnt\": null,\n      \"price\": \"42,000\"\n    },\n    {\n      \"nm\": \"1 Mantau.- 3 pcs\",\n      \"cnt\": null,\n      \"price\": \"37,500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"618490\",\n    \"evidence\": \"Subtotal  618490\"\n  },\n  \"tax\": {\n    \"amount\": \"61,849\",\n    \"evidence\": \"Tax  61,849\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"680,500\",\n    \"evidence\": \"Total  680,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 935,
+  "completion": 840,
+  "total": 1775,
+  "reasoning": 427
+ },
+ "seconds": 2.1731622219085693,
+ "error": null
+}

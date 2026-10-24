@@ -1,0 +1,17 @@
+{
+ "index": 30,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kupon  3  28,636\nSubtotal  28,636\nPB1 (10%)  2,864\nDine In Total  31,500\nCash  50,000\nChange  18,500",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"28,636\",\n    \"evidence\": \"Subtotal  28,636\"\n  },\n  \"tax\": {\n    \"amount\": \"2,864\",\n    \"evidence\": \"PB1 (10%)  2,864\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"31,500\",\n    \"evidence\": \"Dine In Total  31,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 835,
+  "completion": 221,
+  "total": 1056,
+  "reasoning": 88
+ },
+ "seconds": 0.6244428157806396,
+ "error": null
+}

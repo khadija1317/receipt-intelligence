@@ -1,0 +1,17 @@
+{
+ "index": 10,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AuntleAnnes\nF\nETER\nME\n1  1h\nCINNAMONSUGAR\n1 ×  17,000  17,000\nSUB TOTAL  17,000\nGRANDTOTAL  17,000\nCASHIDR  20,000\nCHANGE DUE  3,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"CINNAMONSUGAR\",\n      \"cnt\": \"1\",\n      \"price\": \"17,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"17,000\",\n    \"evidence\": \"SUB TOTAL  17,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 855,
+  "completion": 298,
+  "total": 1153,
+  "reasoning": 156
+ },
+ "seconds": 1.0994541645050049,
+ "error": null
+}

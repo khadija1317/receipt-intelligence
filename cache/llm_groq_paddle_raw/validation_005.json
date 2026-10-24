@@ -1,0 +1,17 @@
+{
+ "index": 5,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "iis sese e pran ae poin prin vete véos ttu\nsat su ua pon ga si po c a pt  o\nLE MINERAL  8.000\n1.00\nNET1ANT  7,273\nTAX AMT  727\nTOTAL  8.000\nCASH  8,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"LE MINERAL\",\n      \"cnt\": null,\n      \"price\": \"8.000\"\n    },\n    {\n      \"nm\": \"NET1ANT\",\n      \"cnt\": null,\n      \"price\": \"7,273\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"727\",\n    \"evidence\": \"TAX AMT  727\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"8.000\",\n    \"evidence\": \"TOTAL  8.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 854,
+  "completion": 325,
+  "total": 1179,
+  "reasoning": 151
+ },
+ "seconds": 0.9961872100830078,
+ "error": null
+}

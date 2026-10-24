@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "1 BUBBLE GUM",
+   "cnt": "1",
+   "price": {
+    "value": "18182",
+    "raw": "18,182",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 23,
+ "subtotal": null,
+ "total": {
+  "value": "1818",
+  "raw": "1,818",
+  "status": "ok",
+  "conf": null,
+  "line": "1 Total  1,818"
+ },
+ "tax": {
+  "value": "18182",
+  "raw": "18.182",
+  "status": "ok",
+  "conf": null,
+  "line": "PAJAK 10%  18.182"
+ },
+ "service": null
+}

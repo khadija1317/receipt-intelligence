@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "French Fries",
+   "cnt": "1",
+   "price": {
+    "value": "10909",
+    "raw": "10,909",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Cheese Burger",
+   "cnt": "2",
+   "price": {
+    "value": "36364",
+    "raw": "36,364",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Milo",
+   "cnt": "1",
+   "price": {
+    "value": "9091",
+    "raw": "9.091",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 62,
+ "subtotal": {
+  "value": "56364",
+  "raw": "56.364",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  56.364"
+ },
+ "total": {
+  "value": "62000",
+  "raw": "62.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  62.000"
+ },
+ "tax": {
+  "value": "5636",
+  "raw": "5,636",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1  5,636"
+ },
+ "service": null
+}

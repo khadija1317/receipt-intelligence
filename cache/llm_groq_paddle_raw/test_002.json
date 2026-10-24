@@ -1,0 +1,17 @@
+{
+ "index": 2,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "MOSMINE MT (L)  24,000\nLUCONUT JELLY (L)  4,000\nSUB TOTAL  28,000\nTOTAL SALES  28.000\nTOTAL ITENS  1\nCASH  100.000\nCHANGE  72.000\nQueue No:  102",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"MOSMINE MT (L)\",\n      \"cnt\": null,\n      \"price\": \"24,000\"\n    },\n    {\n      \"nm\": \"LUCONUT JELLY (L)\",\n      \"cnt\": null,\n      \"price\": \"4,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"28,000\",\n    \"evidence\": \"SUB TOTAL  28,000\"\n  },\n  \"total\": {\n    \"amount\": \"28.000\",\n    \"evidence\": \"TOTAL SALES  28.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 855,
+  "completion": 320,
+  "total": 1175,
+  "reasoning": 135
+ },
+ "seconds": 1.2281723022460938,
+ "error": null
+}

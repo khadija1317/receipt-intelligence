@@ -1,0 +1,17 @@
+{
+ "index": 14,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 RedVelvet Cheese Slc  38,000\n1 Chicken Baked Rice  55,000\nFish n Chips  65000\nMushroom Soup  35000\nChamomile  25000\n1 Iced Tea  20000\nSUBTOTAL  238,000\nService  17,850\nPB1  25,585\nTOTAL  281,435\nCoupon  100,000\nCASH  200,000\nChange  18,565",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RedVelvet Cheese Slc\",\n      \"cnt\": \"1\",\n      \"price\": \"38,000\"\n    },\n    {\n      \"nm\": \"Chicken Baked Rice\",\n      \"cnt\": \"1\",\n      \"price\": \"55,000\"\n    },\n    {\n      \"nm\": \"Fish n Chips\",\n      \"cnt\": null,\n      \"price\": \"65000\"\n    },\n    {\n      \"nm\": \"Mushroom Soup\",\n      \"cnt\": null,\n      \"price\": \"35000\"\n    },\n    {\n      \"nm\": \"Chamomile\",\n      \"cnt\": null,\n      \"price\": \"25000\"\n    },\n    {\n      \"nm\": \"Iced Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"20000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"238,000\",\n    \"evidence\": \"SUBTOTAL  238,000\"\n  },\n  \"total\": {\n    \"amount\": \"281,435\",\n    \"evidence\": \"TOTAL  281,435\"\n  },\n  \"tax\": {\n    \"amount\": \"25,585\",\n    \"evidence\": \"PB1  25,585\"\n  },\n  \"service\": {\n    \"amount\": \"17,850\",\n    \"evidence\": \"Service  17,850\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 891,
+  "completion": 572,
+  "total": 1463,
+  "reasoning": 262
+ },
+ "seconds": 2.2173337936401367,
+ "error": null
+}

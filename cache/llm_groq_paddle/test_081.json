@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "3002-Kyoto Choco Mochi",
+   "cnt": "2",
+   "price": {
+    "value": "28000",
+    "raw": "28.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1001-Choco Bun",
+   "cnt": "1",
+   "price": {
+    "value": "22000",
+    "raw": "22.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "6001-Plastic Bag Small",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 81,
+ "subtotal": null,
+ "total": {
+  "value": "50000",
+  "raw": "50.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  50.000"
+ },
+ "tax": null,
+ "service": null
+}

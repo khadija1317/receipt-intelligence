@@ -1,0 +1,17 @@
+{
+ "index": 6,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tous  L#  Jours\n9111100\n1 EGG TART  13,000\n2 CHOCO CUS ARD PASTRY  24,000\n1 REDBEAN BREAD  9,000\nTOTAL  46,000\nCASH  50,000\nCHANGE  4,000\nW",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"EGG TART\",\n      \"cnt\": \"1\",\n      \"price\": \"13,000\"\n    },\n    {\n      \"nm\": \"CHOCO CUS ARD PASTRY\",\n      \"cnt\": \"2\",\n      \"price\": \"24,000\"\n    },\n    {\n      \"nm\": \"REDBEAN BREAD\",\n      \"cnt\": \"1\",\n      \"price\": \"9,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"46,000\",\n    \"evidence\": \"TOTAL  46,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 858,
+  "completion": 364,
+  "total": 1222,
+  "reasoning": 158
+ },
+ "seconds": 0.8789598941802979,
+ "error": null
+}

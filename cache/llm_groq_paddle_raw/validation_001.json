@@ -1,0 +1,17 @@
+{
+ "index": 1,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kopi Susu Kolonel  23.000\nTotal  23.000\nTunai  50.000\nKembali  27.000\n**  **",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Kopi Susu Kolonel\",\n      \"cnt\": null,\n      \"price\": \"23.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"23.000\",\n    \"evidence\": \"Total  23.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 822,
+  "completion": 221,
+  "total": 1043,
+  "reasoning": 79
+ },
+ "seconds": 1.0514914989471436,
+ "error": null
+}

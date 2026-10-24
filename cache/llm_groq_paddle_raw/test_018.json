@@ -1,0 +1,17 @@
+{
+ "index": 18,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Propolis Cair  1  156000\n156000\nSub Tofal  156000\nTunai  156000\nKembalian  Rp.0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Propolis Cair\",\n      \"cnt\": \"1\",\n      \"price\": \"156000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 820,
+  "completion": 302,
+  "total": 1122,
+  "reasoning": 173
+ },
+ "seconds": 0.7571077346801758,
+ "error": null
+}

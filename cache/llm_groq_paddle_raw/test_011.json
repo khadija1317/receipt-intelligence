@@ -1,0 +1,17 @@
+{
+ "index": 11,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 BANABERRY FRESH CREAM CAK  230,000\nTOTAL  230,000\n230,000\nCASH  0\nCHANGE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BANABERRY FRESH CREAM CAK\",\n      \"cnt\": \"1\",\n      \"price\": \"230,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"230,000\",\n    \"evidence\": \"TOTAL  230,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 817,
+  "completion": 219,
+  "total": 1036,
+  "reasoning": 74
+ },
+ "seconds": 0.5909097194671631,
+ "error": null
+}

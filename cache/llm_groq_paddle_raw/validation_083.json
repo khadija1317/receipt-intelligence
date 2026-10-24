@@ -1,0 +1,17 @@
+{
+ "index": 83,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1X S-Milk tea  @17,000  17,000\n100%\nPB1:  0\nSubtotal:  17,000\nTotal:  17,000\nCash:  17,000\nCHANGE:  0\nTat ",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"S-Milk tea\",\n      \"cnt\": \"1\",\n      \"price\": \"17,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"17,000\",\n    \"evidence\": \"Subtotal:  17,000\"\n  },\n  \"total\": {\n    \"amount\": \"17,000\",\n    \"evidence\": \"Total:  17,000\"\n  },\n  \"tax\": {\n    \"amount\": \"0\",\n    \"evidence\": \"PB1:  0\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 841,
+  "completion": 295,
+  "total": 1136,
+  "reasoning": 137
+ },
+ "seconds": 1.1408536434173584,
+ "error": null
+}

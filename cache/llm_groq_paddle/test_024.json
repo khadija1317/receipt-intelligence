@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "5001-Corn Flakes Cookies",
+   "cnt": "1",
+   "price": {
+    "value": "56000",
+    "raw": "Rp.56.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "5003-Chokoreto Cookies",
+   "cnt": "1",
+   "price": {
+    "value": "62000",
+    "raw": "Rp.62.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "6002-Plastic Bag Medium",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Rp.0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 24,
+ "subtotal": null,
+ "total": {
+  "value": "118000",
+  "raw": "Rp.118.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  Rp.118.000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "HPL754DR LUNCH BOX 3P SET W/RED BAG & SPOD",
+   "cnt": "8",
+   "price": {
+    "value": "1944000",
+    "raw": "1,944,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "HPL500 RICE CASE 7L W/CUP",
+   "cnt": "5",
+   "price": {
+    "value": "975000",
+    "raw": "975,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "HPL754BB LUNCH BOX 3P SET W/BLACK BAG & SP",
+   "cnt": "4",
+   "price": {
+    "value": "972000",
+    "raw": "972,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 39,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 17,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "号\n__\nGoblin's Mace  1  25,000\nMozarella Hot  2  38,000\nDog\nChili Pepper  14,000\nCroquette\nCheese  14,000\nCroquette\nPlastik Amook  1  0\nPlastik Putih  1  0\nTake Away\nSubtotal  91,000\nDiscount  (0)\nTOTAL  Rp. 91,000\nDebit  91,000\nxxxxxxxxxxxx",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Goblin's Mace\",\n      \"cnt\": \"1\",\n      \"price\": \"25,000\"\n    },\n    {\n      \"nm\": \"Mozarella Hot\",\n      \"cnt\": \"2\",\n      \"price\": \"38,000\"\n    },\n    {\n      \"nm\": \"Chili Pepper\",\n      \"cnt\": null,\n      \"price\": \"14,000\"\n    },\n    {\n      \"nm\": \"Cheese\",\n      \"cnt\": null,\n      \"price\": \"14,000\"\n    },\n    {\n      \"nm\": \"Plastik Amook\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"Plastik Putih\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"91,000\",\n    \"evidence\": \"Subtotal  91,000\"\n  },\n  \"total\": {\n    \"amount\": \"Rp. 91,000\",\n    \"evidence\": \"TOTAL  Rp. 91,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 894,
+  "completion": 750,
+  "total": 1644,
+  "reasoning": 453
+ },
+ "seconds": 1.8472890853881836,
+ "error": null
+}

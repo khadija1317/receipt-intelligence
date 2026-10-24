@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "XXI Java Tea (M)",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Combo",
+   "cnt": "1",
+   "price": {
+    "value": "30000",
+    "raw": "30.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 62,
+ "subtotal": null,
+ "total": {
+  "value": "48000",
+  "raw": "48.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  48.000"
+ },
+ "tax": null,
+ "service": null
+}

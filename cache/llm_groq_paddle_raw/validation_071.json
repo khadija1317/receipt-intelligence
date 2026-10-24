@@ -1,0 +1,17 @@
+{
+ "index": 71,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "CNGUIKA\nAIAM\n1 Dum Dum Thai Coffee  19.000\n1 Ice  1.000\nSubtotal  20.000\nTOTAL  20.000\nCash  50.000\nChange Due  30.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Dum Dum Thai Coffee\",\n      \"cnt\": \"1\",\n      \"price\": \"19.000\"\n    },\n    {\n      \"nm\": \"Ice\",\n      \"cnt\": \"1\",\n      \"price\": \"1.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"20.000\",\n    \"evidence\": \"Subtotal  20.000\"\n  },\n  \"total\": {\n    \"amount\": \"20.000\",\n    \"evidence\": \"TOTAL  20.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 838,
+  "completion": 310,
+  "total": 1148,
+  "reasoning": 133
+ },
+ "seconds": 0.8836133480072021,
+ "error": null
+}

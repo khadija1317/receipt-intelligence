@@ -1,0 +1,17 @@
+{
+ "index": 37,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Ice Lemon Tea  13,636\nGyro Platter - Regular  50,000\nSubtotal  63,636\nPB1-TAX Tax  6,364\nFor Here Total  70,000\nCash  70,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Ice Lemon Tea\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    },\n    {\n      \"nm\": \"Gyro Platter - Regular\",\n      \"cnt\": null,\n      \"price\": \"50,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"63,636\",\n    \"evidence\": \"Subtotal  63,636\"\n  },\n  \"tax\": {\n    \"amount\": \"6,364\",\n    \"evidence\": \"PB1-TAX Tax  6,364\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"70,000\",\n    \"evidence\": \"For Here Total  70,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 837,
+  "completion": 325,
+  "total": 1162,
+  "reasoning": 132
+ },
+ "seconds": 0.8581867218017578,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 76,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Enting2 Dua Bandeng Ori  31.000\n01069  31.000\nTAHU BAKSO Grg Ayam VC [biji  68.000\n07165  10  6.800\nQTY11  ITEMS  2\nTOTAL  99.000\nKARTU  99.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Enting2 Dua Bandeng Ori\",\n      \"cnt\": null,\n      \"price\": \"31.000\"\n    },\n    {\n      \"nm\": \"01069\",\n      \"cnt\": null,\n      \"price\": \"31.000\"\n    },\n    {\n      \"nm\": \"TAHU BAKSO Grg Ayam VC [biji\",\n      \"cnt\": null,\n      \"price\": \"68.000\"\n    },\n    {\n      \"nm\": \"07165\",\n      \"cnt\": \"10\",\n      \"price\": \"6.800\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"99.000\",\n    \"evidence\": \"TOTAL  99.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 858,
+  "completion": 466,
+  "total": 1324,
+  "reasoning": 231
+ },
+ "seconds": 1.2662420272827148,
+ "error": null
+}

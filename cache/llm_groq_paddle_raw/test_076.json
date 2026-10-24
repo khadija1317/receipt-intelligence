@@ -1,0 +1,17 @@
+{
+ "index": 76,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "MM\nTIMAM\nm\nBASO TAHU  *46000\nNASI PUTIH  *6000\nBASO TAHU  *46000\n2×6000\nNASI PUTIH  *12000\nTEMS  50\nASH\n*110000\nTHER  1",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BASO TAHU\",\n      \"cnt\": null,\n      \"price\": \"*46000\"\n    },\n    {\n      \"nm\": \"NASI PUTIH\",\n      \"cnt\": null,\n      \"price\": \"*6000\"\n    },\n    {\n      \"nm\": \"BASO TAHU\",\n      \"cnt\": null,\n      \"price\": \"*46000\"\n    },\n    {\n      \"nm\": \"NASI PUTIH\",\n      \"cnt\": null,\n      \"price\": \"*12000\"\n    },\n    {\n      \"nm\": \"TEMS\",\n      \"cnt\": null,\n      \"price\": \"50\"\n    },\n    {\n      \"nm\": \"THER\",\n      \"cnt\": null,\n      \"price\": \"1\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 851,
+  "completion": 660,
+  "total": 1511,
+  "reasoning": 394
+ },
+ "seconds": 1.5058472156524658,
+ "error": null
+}

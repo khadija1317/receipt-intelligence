@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "Cheese Tart",
+   "cnt": null,
+   "price": {
+    "value": "58000.00",
+    "raw": "Rp58000.00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 77,
+ "subtotal": {
+  "value": "58000.00",
+  "raw": "Rp58000.00",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal:  Rp58000.00"
+ },
+ "total": {
+  "value": "58000.00",
+  "raw": "Rp58000.00",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  Rp58000.00"
+ },
+ "tax": {
+  "value": "5272.73",
+  "raw": "Rp5272.73",
+  "status": "ok",
+  "conf": null,
+  "line": "Total Tax Included:  Rp5272.73"
+ },
+ "service": null
+}

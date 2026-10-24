@@ -1,0 +1,17 @@
+{
+ "index": 38,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "NN  THAMEH\nm\n1  XLB Org Park 10x  78,000\n1  Sicito Babi  65,000\n1  Hotplate Tahu  58,000\n1  DF Fish Fillet Garic  108,000\n1  LM Pork Belly  88,000\n15  Siew Mai  38,800\nKwan Yin Cup  50,000\n1  Herbal Jelly  38,000\n1  Onde-Onde  38,000\nITEMS:13  561,800\nService charge  42,135\nPB1  60,394\nTotal.  664,329\nB0到0启票",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"XLB Org Park 10x\",\n      \"cnt\": \"1\",\n      \"price\": \"78,000\"\n    },\n    {\n      \"nm\": \"Sicito Babi\",\n      \"cnt\": \"1\",\n      \"price\": \"65,000\"\n    },\n    {\n      \"nm\": \"Hotplate Tahu\",\n      \"cnt\": \"1\",\n      \"price\": \"58,000\"\n    },\n    {\n      \"nm\": \"DF Fish Fillet Garic\",\n      \"cnt\": \"1\",\n      \"price\": \"108,000\"\n    },\n    {\n      \"nm\": \"LM Pork Belly\",\n      \"cnt\": \"1\",\n      \"price\": \"88,000\"\n    },\n    {\n      \"nm\": \"Siew Mai\",\n      \"cnt\": \"15\",\n      \"price\": \"38,800\"\n    },\n    {\n      \"nm\": \"Kwan Yin Cup\",\n      \"cnt\": null,\n      \"price\": \"50,000\"\n    },\n    {\n      \"nm\": \"Herbal Jelly\",\n      \"cnt\": \"1\",\n      \"price\": \"38,000\"\n    },\n    {\n      \"nm\": \"Onde-Onde\",\n      \"cnt\": \"1\",\n      \"price\": \"38,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"664,329\",\n    \"evidence\": \"Total.  664,329\"\n  },\n  \"tax\": {\n    \"amount\": \"60,394\",\n    \"evidence\": \"PB1  60,394\"\n  },\n  \"service\": {\n    \"amount\": \"42,135\",\n    \"evidence\": \"Service charge  42,135\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 937,
+  "completion": 681,
+  "total": 1618,
+  "reasoning": 279
+ },
+ "seconds": 1.864835262298584,
+ "error": null
+}

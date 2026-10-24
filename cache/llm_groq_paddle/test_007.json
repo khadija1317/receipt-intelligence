@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "ADD CHICKEN BOX",
+   "cnt": null,
+   "price": {
+    "value": "909",
+    "raw": "909",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 7,
+ "subtotal": {
+  "value": "100909",
+  "raw": "100,909",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  100,909"
+ },
+ "total": {
+  "value": "111000",
+  "raw": "111,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  111,000"
+ },
+ "tax": {
+  "value": "10091",
+  "raw": "10,091",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1 (10%)  10,091"
+ },
+ "service": null
+}

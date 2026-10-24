@@ -1,0 +1,80 @@
+{
+ "menu": [
+  {
+   "nm": "PKT TELE",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TERONG",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PARU",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SBL GR ATI/AMPLA",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NESTLE 330 ML",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 39,
+ "subtotal": {
+  "value": "89000",
+  "raw": "89,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  89,000"
+ },
+ "total": {
+  "value": "97900",
+  "raw": "97,900",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  97,900"
+ },
+ "tax": {
+  "value": "8900",
+  "raw": "8,900",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10%  8,900"
+ },
+ "service": null
+}

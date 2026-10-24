@@ -1,0 +1,17 @@
+{
+ "index": 17,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "hemar.Tmn\nLEMONADE16OZ\n1 ×  20,000  20.000\nSUB TOTAL  20,000\nGRAND TOTAL  20,000\nCASHIDR  100,000\nCHANGEDUE  80.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"LEMONADE16OZ\",\n      \"cnt\": \"1\",\n      \"price\": \"20.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"20,000\",\n    \"evidence\": \"SUB TOTAL  20,000\"\n  },\n  \"total\": {\n    \"amount\": \"20,000\",\n    \"evidence\": \"GRAND TOTAL  20,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 843,
+  "completion": 356,
+  "total": 1199,
+  "reasoning": 202
+ },
+ "seconds": 0.9952902793884277,
+ "error": null
+}

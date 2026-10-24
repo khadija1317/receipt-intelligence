@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "[MD] SOFT MORNING ROLL",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "REAL HONEY PANCAKE BREAD",
+   "cnt": "2",
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CUSTARD BRIOCHE",
+   "cnt": "4",
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 69,
+ "subtotal": null,
+ "total": {
+  "value": "74000",
+  "raw": "74,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  74,000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 40,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Snack Lestari All\n227,000  54,000\nBakery Aneka Sisir banana,Pizza,yoko,Mar\nmer,Daging,abon,keju,cokelat,dll\n27,000  14,000\nTOTAL  68,000\nCASH  100,000\nCHANGE  32,000\nCS  Scanned with\nComSconner",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Snack Lestari All\",\n      \"cnt\": null,\n      \"price\": \"227,000\"\n    },\n    {\n      \"nm\": \"Bakery Aneka Sisir banana,Pizza,yoko,Mar mer,Daging,abon,keju,cokelat,dll\",\n      \"cnt\": null,\n      \"price\": \"27,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"68,000\",\n    \"evidence\": \"TOTAL  68,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 438,
+  "total": 1306,
+  "reasoning": 246
+ },
+ "seconds": 1.101210117340088,
+ "error": null
+}

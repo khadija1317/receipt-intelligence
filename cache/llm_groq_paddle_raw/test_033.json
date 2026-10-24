@@ -1,0 +1,17 @@
+{
+ "index": 33,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "GRILLED BABY POTATO (R  50,500\nHOT TUNA  67,000\nHOT TUNA  67,000\nDisc -100%(ITM06)  -67,000\nSUBTTL  117,500\nSVC CHG 6%  11,070\nPB1 10%  19,557\nTOTAL  148,127",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"GRILLED BABY POTATO (R\",\n      \"cnt\": null,\n      \"price\": \"50,500\"\n    },\n    {\n      \"nm\": \"HOT TUNA\",\n      \"cnt\": null,\n      \"price\": \"67,000\"\n    },\n    {\n      \"nm\": \"HOT TUNA\",\n      \"cnt\": null,\n      \"price\": \"67,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"19,557\",\n    \"evidence\": \"PB1 10%  19,557\"\n  },\n  \"service\": {\n    \"amount\": \"11,070\",\n    \"evidence\": \"SVC CHG 6%  11,070\"\n  },\n  \"total\": {\n    \"amount\": \"148,127\",\n    \"evidence\": \"TOTAL  148,127\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 492,
+  "total": 1360,
+  "reasoning": 264
+ },
+ "seconds": 1.592696189880371,
+ "error": null
+}

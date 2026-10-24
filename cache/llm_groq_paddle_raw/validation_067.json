@@ -1,0 +1,17 @@
+{
+ "index": 67,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PIZZA\n1 PAKET BER2  69,091\n1 BREAD N CHEESE DEL\n1 MAC N CHEESE DEL\n1 PEPSI DEL\n1 P/P THUOSAND ISL DEL\n1 LIPTON ICE TEA DEL\nSUBTOTAL  69,091\nTAX  6,909\nTOTAL  76,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PAKET BER2\",\n      \"cnt\": \"1\",\n      \"price\": \"69,091\"\n    },\n    {\n      \"nm\": \"BREAD N CHEESE DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"MAC N CHEESE DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"PEPSI DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"P/P THUOSAND ISL DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"LIPTON ICE TEA DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"69,091\",\n    \"evidence\": \"SUBTOTAL  69,091\"\n  },\n  \"tax\": {\n    \"amount\": \"6,909\",\n    \"evidence\": \"TAX  6,909\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"76,000\",\n    \"evidence\": \"TOTAL  76,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 864,
+  "completion": 525,
+  "total": 1389,
+  "reasoning": 216
+ },
+ "seconds": 1.500673532485962,
+ "error": null
+}

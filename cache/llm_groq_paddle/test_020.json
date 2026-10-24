@@ -1,0 +1,86 @@
+{
+ "menu": [
+  {
+   "nm": "q cashew nuts chkn",
+   "cnt": null,
+   "price": {
+    "value": "64500",
+    "raw": "64,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "garlic pepper beef",
+   "cnt": null,
+   "price": {
+    "value": "79500",
+    "raw": "79500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "red curry beef",
+   "cnt": null,
+   "price": {
+    "value": "69500",
+    "raw": "69500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "phad thai",
+   "cnt": null,
+   "price": {
+    "value": "64500",
+    "raw": "64,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "steamed rice",
+   "cnt": null,
+   "price": {
+    "value": "47600",
+    "raw": "47,600",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 20,
+ "subtotal": {
+  "value": "325600",
+  "raw": "325,600",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  325,600"
+ },
+ "total": {
+  "value": "377859",
+  "raw": "377,859",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  377,859"
+ },
+ "tax": {
+  "value": "34351",
+  "raw": "34,351",
+  "status": "ok",
+  "conf": null,
+  "line": "10% PB1  34,351"
+ },
+ "service": {
+  "value": "17908",
+  "raw": "17,908",
+  "status": "ok",
+  "conf": null,
+  "line": "Service chrg  17,908"
+ }
+}

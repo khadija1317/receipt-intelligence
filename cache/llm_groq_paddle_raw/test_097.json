@@ -1,0 +1,17 @@
+{
+ "index": 97,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "BUEUR  AYAM\nPAIKIRAN\nCalarg  Nerg\nFEFEEEEECFFEFFGFCFEE  CECCCECE\n  SWIT  D 20:10\n2  20.000\nBUBUR GO  40.000\nPUYUH GO  6.000\n3  3.000\nSATEŻATI¿GO  9.000\n6.00xITEMS\nTOTAL  55.000\nCASH  55.000\nT  kmil\ntm  Rurern  WN\nC  LTe  ",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BUBUR GO\",\n      \"cnt\": null,\n      \"price\": \"40.000\"\n    },\n    {\n      \"nm\": \"PUYUH GO\",\n      \"cnt\": null,\n      \"price\": \"6.000\"\n    },\n    {\n      \"nm\": \"SATEŻATI¿GO\",\n      \"cnt\": null,\n      \"price\": \"9.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"55.000\",\n    \"evidence\": \"TOTAL  55.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 914,
+  "completion": 385,
+  "total": 1299,
+  "reasoning": 186
+ },
+ "seconds": 1.04325270652771,
+ "error": null
+}

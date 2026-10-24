@@ -1,0 +1,17 @@
+{
+ "index": 24,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "5001-Corn Flakes Cookies\nRp.56.000  x1  Rp.56.000\n5003-Chokoreto Cookies\nRp.62.000  x1  Rp.62.000\n6002-Plastic Bag Medium\nRp.0  Rp.0\nTotal Item:  3\nTotal.  Rp.118.000\nDebet Card  118.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"5001-Corn Flakes Cookies\",\n      \"cnt\": \"1\",\n      \"price\": \"Rp.56.000\"\n    },\n    {\n      \"nm\": \"5003-Chokoreto Cookies\",\n      \"cnt\": \"1\",\n      \"price\": \"Rp.62.000\"\n    },\n    {\n      \"nm\": \"6002-Plastic Bag Medium\",\n      \"cnt\": null,\n      \"price\": \"Rp.0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"Rp.118.000\",\n    \"evidence\": \"Total.  Rp.118.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 540,
+  "total": 1408,
+  "reasoning": 325
+ },
+ "seconds": 1.620500087738037,
+ "error": null
+}

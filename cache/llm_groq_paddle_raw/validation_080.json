@@ -1,0 +1,17 @@
+{
+ "index": 80,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "M\nd\n1 Sate Padang  25 000\n1 Total  25.000\nCash  25000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Sate Padang\",\n      \"cnt\": \"1\",\n      \"price\": \"25 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"25.000\",\n    \"evidence\": \"1 Total  25.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 811,
+  "completion": 232,
+  "total": 1043,
+  "reasoning": 91
+ },
+ "seconds": 0.8838436603546143,
+ "error": null
+}

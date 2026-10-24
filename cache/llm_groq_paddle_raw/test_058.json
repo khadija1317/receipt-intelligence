@@ -1,0 +1,17 @@
+{
+ "index": 58,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PHO BO TAI  55,000\nCASH  100,000\nSub Total:  55,000\nPB1  5,500\nTotal  批  60,500\nPay:  100,000\nChange Due:  39,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PHO BO TAI\",\n      \"cnt\": null,\n      \"price\": \"55,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"55,000\",\n    \"evidence\": \"Sub Total:  55,000\"\n  },\n  \"tax\": {\n    \"amount\": \"5,500\",\n    \"evidence\": \"PB1  5,500\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"60,500\",\n    \"evidence\": \"Total  批  60,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 267,
+  "total": 1112,
+  "reasoning": 103
+ },
+ "seconds": 0.7148511409759521,
+ "error": null
+}

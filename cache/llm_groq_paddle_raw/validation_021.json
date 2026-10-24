@@ -1,0 +1,17 @@
+{
+ "index": 21,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 Mango Lemon Tea  Rp29,090\n1 Sliders Set  Rp113,636\n1 Chicken Vege Rice Bowl  Rp86,363\n1 Discount BCA 15%  -Rp34,363\nNet Total:  Rp194,726\nSrv Ch  Rp9,736\nTAX  Rp20,446\nTOTAL:  Rp224,908\nVisa  Rp224,908",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Mango Lemon Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"Rp29,090\"\n    },\n    {\n      \"nm\": \"Sliders Set\",\n      \"cnt\": \"1\",\n      \"price\": \"Rp113,636\"\n    },\n    {\n      \"nm\": \"Chicken Vege Rice Bowl\",\n      \"cnt\": \"1\",\n      \"price\": \"Rp86,363\"\n    },\n    {\n      \"nm\": \"Discount BCA 15%\",\n      \"cnt\": null,\n      \"price\": \"-Rp34,363\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"Rp20,446\",\n    \"evidence\": \"TAX  Rp20,446\"\n  },\n  \"service\": {\n    \"amount\": \"Rp9,736\",\n    \"evidence\": \"Srv Ch  Rp9,736\"\n  },\n  \"total\": {\n    \"amount\": \"Rp224,908\",\n    \"evidence\": \"TOTAL:  Rp224,908\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 425,
+  "total": 1293,
+  "reasoning": 167
+ },
+ "seconds": 1.2823562622070312,
+ "error": null
+}

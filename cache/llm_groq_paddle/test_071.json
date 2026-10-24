@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Cuka Apel Tetes",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 71,
+ "subtotal": {
+  "value": "198000",
+  "raw": "198000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  198000"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

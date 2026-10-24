@@ -1,0 +1,76 @@
+{
+ "menu": [
+  {
+   "nm": "TAHUGORENG",
+   "cnt": "1",
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CAKWE",
+   "cnt": "1",
+   "price": {
+    "value": "17000",
+    "raw": "17,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PHO TAI CHINIR)",
+   "cnt": "1",
+   "price": {
+    "value": "63000",
+    "raw": "63,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TEA",
+   "cnt": "1",
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 94,
+ "subtotal": {
+  "value": "119000",
+  "raw": "119,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  119,000"
+ },
+ "total": {
+  "value": "140063",
+  "raw": "140,063",
+  "status": "ok",
+  "conf": null,
+  "line": "Grand Total  140,063"
+ },
+ "tax": {
+  "value": "12733",
+  "raw": "12,733",
+  "status": "ok",
+  "conf": null,
+  "line": "S  PB1 10.0%  12,733  NOODLE"
+ },
+ "service": {
+  "value": "8330",
+  "raw": "8,330",
+  "status": "ok",
+  "conf": null,
+  "line": "Serv. 7.0%  8,330"
+ }
+}

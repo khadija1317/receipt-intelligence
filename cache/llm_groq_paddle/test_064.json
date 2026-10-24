@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "SINGLE SCOOP",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 64,
+ "subtotal": null,
+ "total": {
+  "value": "16000",
+  "raw": "16.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  16.000"
+ },
+ "tax": null,
+ "service": null
+}

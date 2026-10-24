@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "Chicken HCC, 1Pcs",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 42,
+ "subtotal": {
+  "value": "15000",
+  "raw": "15,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  15,000"
+ },
+ "total": {
+  "value": "16500",
+  "raw": "16,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  16,500"
+ },
+ "tax": null,
+ "service": {
+  "value": "1500",
+  "raw": "1,500",
+  "status": "ok",
+  "conf": null,
+  "line": "P.Rest 10%  1,500"
+ }
+}

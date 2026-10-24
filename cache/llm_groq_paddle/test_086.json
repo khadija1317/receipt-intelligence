@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Cheezemania",
+   "cnt": "1",
+   "price": {
+    "value": "9500",
+    "raw": "9,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Mamamia",
+   "cnt": "1",
+   "price": {
+    "value": "12500",
+    "raw": "12,500",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 86,
+ "subtotal": {
+  "value": "22000",
+  "raw": "22,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  22,000"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

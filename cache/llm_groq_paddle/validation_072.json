@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "STIX CINNAMON",
+   "cnt": null,
+   "price": {
+    "value": "19000",
+    "raw": "19,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TRIPPLECHEESE",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 72,
+ "subtotal": {
+  "value": "36000",
+  "raw": "36,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB TOTAL  36,000"
+ },
+ "total": {
+  "value": "36000",
+  "raw": "36,000",
+  "status": "ok",
+  "conf": null,
+  "line": "GRAND TOTAL  36,000"
+ },
+ "tax": null,
+ "service": null
+}

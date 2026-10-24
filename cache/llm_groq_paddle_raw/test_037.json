@@ -1,0 +1,17 @@
+{
+ "index": 37,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Popcorn Salt (S)  20.000\nTOTAL  20.000\nCASH  50.000\nCHANGED  30.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Popcorn Salt (S)\",\n      \"cnt\": null,\n      \"price\": \"20.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"20.000\",\n    \"evidence\": \"TOTAL  20.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 817,
+  "completion": 211,
+  "total": 1028,
+  "reasoning": 71
+ },
+ "seconds": 0.6612954139709473,
+ "error": null
+}

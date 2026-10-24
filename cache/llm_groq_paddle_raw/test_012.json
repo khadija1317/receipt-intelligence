@@ -1,0 +1,17 @@
+{
+ "index": 12,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "27\n0571-1854 BLUS WANITA  120,000\n1  0120,000  0%\n1002-0060 SHOPPING  BAG\n1  @880 100%  0\nTOTAL (2 item)  120,000\nCC.Visa.BCA  120,000\nTotal Kembalian  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"0571-1854 BLUS WANITA\",\n      \"cnt\": null,\n      \"price\": \"120,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"120,000\",\n    \"evidence\": \"TOTAL (2 item)  120,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 861,
+  "completion": 363,
+  "total": 1224,
+  "reasoning": 215
+ },
+ "seconds": 1.4442152976989746,
+ "error": null
+}

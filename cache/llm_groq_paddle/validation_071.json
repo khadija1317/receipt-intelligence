@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "Dum Dum Thai Coffee",
+   "cnt": "1",
+   "price": {
+    "value": "19000",
+    "raw": "19.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ice",
+   "cnt": "1",
+   "price": {
+    "value": "1000",
+    "raw": "1.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 71,
+ "subtotal": {
+  "value": "20000",
+  "raw": "20.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  20.000"
+ },
+ "total": {
+  "value": "20000",
+  "raw": "20.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  20.000"
+ },
+ "tax": null,
+ "service": null
+}

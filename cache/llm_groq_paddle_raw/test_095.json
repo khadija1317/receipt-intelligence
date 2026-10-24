@@ -1,0 +1,17 @@
+{
+ "index": 95,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "BASO TAHU  1 43,181  43,181\nES JERUK  1 13,000  13,000\n56,181\nTOTAL\n5,618\nTAX 10.00 %  61,799\nGRAND TOTAL  62,000\nTUNAI  201\nKEMBALI",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BASO TAHU\",\n      \"cnt\": \"1\",\n      \"price\": \"43,181\"\n    },\n    {\n      \"nm\": \"ES JERUK\",\n      \"cnt\": \"1\",\n      \"price\": \"13,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"61,799\",\n    \"evidence\": \" TAX 10.00 %  61,799\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 862,
+  "completion": 430,
+  "total": 1292,
+  "reasoning": 253
+ },
+ "seconds": 1.4098381996154785,
+ "error": null
+}

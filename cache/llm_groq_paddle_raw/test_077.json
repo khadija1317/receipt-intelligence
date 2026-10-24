@@ -1,0 +1,17 @@
+{
+ "index": 77,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1  wm\nTRIPPLE CHEESE\n1 ×  17,000  17,000\nSUB TOTAL  17,000\nGRAND TOTAL  17,000\nCASHIDR  22,000\nCHANGE DUE  5,000\n19\n  WIR\n1",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TRIPPLE CHEESE\",\n      \"cnt\": \"1\",\n      \"price\": \"17,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"17,000\",\n    \"evidence\": \"SUB TOTAL  17,000\"\n  },\n  \"total\": {\n    \"amount\": \"17,000\",\n    \"evidence\": \"GRAND TOTAL  17,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 850,
+  "completion": 348,
+  "total": 1198,
+  "reasoning": 194
+ },
+ "seconds": 0.8556694984436035,
+ "error": null
+}

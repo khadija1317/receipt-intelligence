@@ -1,0 +1,17 @@
+{
+ "index": 61,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Da\n1X  5500\nTALAM UNGU  6,500\nDISC ITEM  -40.000%\nAMOUNT  -2 600\n1X  3000\nAREM - AREM  8,000\nDISC ITEM  -40.000%\nAHOUNT  -3,200\n2X  9000\nLEMPER  18.000\nDISC ITEM  -40.000%\nAMOUNT  -7.200\n1X  D\nMIKA SEDANG\n1X  0\nPLASTIK KECIL\n1X  5000\nTEH KOTAK  5,000\n7.00 ITEMs\nSUBTOTAL  24,500\nTOTAL  24,500\nCARD  24,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1X\",\n      \"cnt\": \"1\",\n      \"price\": \"5500\"\n    },\n    {\n      \"nm\": \"TALAM UNGU\",\n      \"cnt\": null,\n      \"price\": \"6,500\"\n    },\n    {\n      \"nm\": \"1X\",\n      \"cnt\": \"1\",\n      \"price\": \"3000\"\n    },\n    {\n      \"nm\": \"AREM - AREM\",\n      \"cnt\": null,\n      \"price\": \"8,000\"\n    },\n    {\n      \"nm\": \"2X\",\n      \"cnt\": \"2\",\n      \"price\": \"9000\"\n    },\n    {\n      \"nm\": \"LEMPER\",\n      \"cnt\": null,\n      \"price\": \"18.000\"\n    },\n    {\n      \"nm\": \"1X  D\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"1X\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"PLASTIK KECIL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1X\",\n      \"cnt\": \"1\",\n      \"price\": \"5000\"\n    },\n    {\n      \"nm\": \"TEH KOTAK\",\n      \"cnt\": null,\n      \"price\": \"5,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"24,500\",\n    \"evidence\": \"SUBTOTAL  24,500\"\n  },\n  \"total\": {\n    \"amount\": \"24,500\",\n    \"evidence\": \"TOTAL  24,500\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 954,
+  "completion": 757,
+  "total": 1711,
+  "reasoning": 330
+ },
+ "seconds": 1.8170247077941895,
+ "error": null
+}

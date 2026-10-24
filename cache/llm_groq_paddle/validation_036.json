@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "Soft Ori 3 Top",
+   "cnt": "3",
+   "price": {
+    "value": "17272",
+    "raw": "17,272",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Top Oreo",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Top-ODreo",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Top Banana",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 36,
+ "subtotal": {
+  "value": "17272",
+  "raw": "17,272",
+  "status": "ok",
+  "conf": null,
+  "line": "SubTotal:  17,272"
+ },
+ "total": {
+  "value": "18999",
+  "raw": "18,999",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  18,999  D'n"
+ },
+ "tax": {
+  "value": "1727",
+  "raw": "1,727",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1:  1,727"
+ },
+ "service": null
+}

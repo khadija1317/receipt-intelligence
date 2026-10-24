@@ -1,0 +1,80 @@
+{
+ "menu": [
+  {
+   "nm": "BLACKCURRANT",
+   "cnt": "1",
+   "price": {
+    "value": "32000",
+    "raw": "32,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SPRITE",
+   "cnt": "1",
+   "price": {
+    "value": "32000",
+    "raw": "32,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "**BEVERAGE",
+   "cnt": null,
+   "price": {
+    "value": "64000",
+    "raw": "64,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GRILLED CALAMARI",
+   "cnt": "1",
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "DINE FOR 2",
+   "cnt": "1",
+   "price": {
+    "value": "129000",
+    "raw": "129,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 74,
+ "subtotal": null,
+ "total": {
+  "value": "330264",
+  "raw": "330.264",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  330.264"
+ },
+ "tax": {
+  "value": "30024",
+  "raw": "30,024",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  30,024"
+ },
+ "service": {
+  "value": "22240",
+  "raw": "22,240",
+  "status": "ok",
+  "conf": null,
+  "line": "Service Charge  22,240"
+ }
+}

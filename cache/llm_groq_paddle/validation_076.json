@@ -1,0 +1,58 @@
+{
+ "menu": [
+  {
+   "nm": "Enting2 Dua Bandeng Ori",
+   "cnt": null,
+   "price": {
+    "value": "31000",
+    "raw": "31.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "01069",
+   "cnt": null,
+   "price": {
+    "value": "31000",
+    "raw": "31.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TAHU BAKSO Grg Ayam VC [biji",
+   "cnt": null,
+   "price": {
+    "value": "68000",
+    "raw": "68.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "07165",
+   "cnt": "10",
+   "price": {
+    "value": "6800",
+    "raw": "6.800",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 76,
+ "subtotal": null,
+ "total": {
+  "value": "99000",
+  "raw": "99.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  99.000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 39,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SEEEEEEED\nHPL754DR LUNCH BOX 3P SET W/RED BAG & SPOD\nN.\n8 PCS  243.000  1,944,000\nDISKON:(20%)  1,555,200\nHPL500 RICE CASE 7L W/CUP\n5 PCS  195,000  975,000\nDISKON: (20%)  780,000\nHPL754BB LUNCH BOX 3P SET W/BLACK BAG & SP\n00N\n4 PCS  243,000  972,000\nDISKON: (20%)  777.600\nTOTAL ITEM :  M\nTOTAL QTY  17\nBAYAR CREDIT CARD  3.112,800\nTOTAL HRG",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"HPL754DR LUNCH BOX 3P SET W/RED BAG & SPOD\",\n      \"cnt\": \"8\",\n      \"price\": \"1,944,000\"\n    },\n    {\n      \"nm\": \"HPL500 RICE CASE 7L W/CUP\",\n      \"cnt\": \"5\",\n      \"price\": \"975,000\"\n    },\n    {\n      \"nm\": \"HPL754BB LUNCH BOX 3P SET W/BLACK BAG & SP\",\n      \"cnt\": \"4\",\n      \"price\": \"972,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 953,
+  "completion": 571,
+  "total": 1524,
+  "reasoning": 343
+ },
+ "seconds": 1.3442864418029785,
+ "error": null
+}

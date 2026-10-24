@@ -1,0 +1,17 @@
+{
+ "index": 20,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "q  cashew nuts chkn  64,500\ngarlic pepper beef  79500\nred curry  beef  69500\n  phad thai  64,500\nsteamed rice  47,600\nSUBTOTAL  325,600\nService chrg  17,908\n10% PB1  34,351\nTOTAL  377,859",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"q  cashew nuts chkn\",\n      \"cnt\": null,\n      \"price\": \"64,500\"\n    },\n    {\n      \"nm\": \"garlic pepper beef\",\n      \"cnt\": null,\n      \"price\": \"79500\"\n    },\n    {\n      \"nm\": \"red curry  beef\",\n      \"cnt\": null,\n      \"price\": \"69500\"\n    },\n    {\n      \"nm\": \"phad thai\",\n      \"cnt\": null,\n      \"price\": \"64,500\"\n    },\n    {\n      \"nm\": \"steamed rice\",\n      \"cnt\": null,\n      \"price\": \"47,600\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"325,600\",\n    \"evidence\": \"SUBTOTAL  325,600\"\n  },\n  \"service\": {\n    \"amount\": \"17,908\",\n    \"evidence\": \"Service chrg  17,908\"\n  },\n  \"tax\": {\n    \"amount\": \"34,351\",\n    \"evidence\": \"10% PB1  34,351\"\n  },\n  \"total\": {\n    \"amount\": \"377,859\",\n    \"evidence\": \"TOTAL  377,859\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 866,
+  "completion": 539,
+  "total": 1405,
+  "reasoning": 252
+ },
+ "seconds": 1.270352840423584,
+ "error": null
+}

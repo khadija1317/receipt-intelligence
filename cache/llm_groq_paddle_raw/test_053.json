@@ -1,0 +1,17 @@
+{
+ "index": 53,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kopidegit\n**米***********米******米**米*米***\n1 Pecel Komplit + Nasi  42.000\n1 SOTO KUDUS  47.000\n2 Mineral Water  18.000\nSubtotal  107.000\nSerui Charge  5  5.350\nPajak Rest 10%  11.235\n4 Total  123.585",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Pecel Komplit + Nasi\",\n      \"cnt\": \"1\",\n      \"price\": \"42.000\"\n    },\n    {\n      \"nm\": \"SOTO KUDUS\",\n      \"cnt\": \"1\",\n      \"price\": \"47.000\"\n    },\n    {\n      \"nm\": \"Mineral Water\",\n      \"cnt\": \"2\",\n      \"price\": \"18.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"107.000\",\n    \"evidence\": \"Subtotal  107.000\"\n  },\n  \"tax\": {\n    \"amount\": \"11.235\",\n    \"evidence\": \"Pajak Rest 10%  11.235\"\n  },\n  \"service\": {\n    \"amount\": \"5.350\",\n    \"evidence\": \"Serui Charge  5  5.350\"\n  },\n  \"total\": {\n    \"amount\": \"123.585\",\n    \"evidence\": \"4 Total  123.585\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 873,
+  "completion": 453,
+  "total": 1326,
+  "reasoning": 211
+ },
+ "seconds": 1.275604486465454,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 62,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "XXI\ncafe\nPIRC\nT\n1  XXI Java Tea (M)  18.000\n1  Combo  2  30.000\nTOTAL  48.000\nCASH  50.000\nCHANGED  2.000\n1",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"XXI Java Tea (M)\",\n      \"cnt\": \"1\",\n      \"price\": \"18.000\"\n    },\n    {\n      \"nm\": \"Combo\",\n      \"cnt\": \"1\",\n      \"price\": \"30.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"48.000\",\n    \"evidence\": \"TOTAL  48.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 844,
+  "completion": 357,
+  "total": 1201,
+  "reasoning": 188
+ },
+ "seconds": 0.8716578483581543,
+ "error": null
+}

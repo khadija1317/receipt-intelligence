@@ -1,0 +1,17 @@
+{
+ "index": 86,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Bread.ife\n1 Cheezemania  9,500\n1 Mamamia  12,500\nSUBTOTAL  22,000\nDUE  22,000\nCASH  52,000\nCHANGE  30,000\nTOTAL QTY  2 ITEM  2 PCS",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Cheezemania\",\n      \"cnt\": \"1\",\n      \"price\": \"9,500\"\n    },\n    {\n      \"nm\": \"Mamamia\",\n      \"cnt\": \"1\",\n      \"price\": \"12,500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"22,000\",\n    \"evidence\": \"SUBTOTAL  22,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 849,
+  "completion": 293,
+  "total": 1142,
+  "reasoning": 124
+ },
+ "seconds": 0.7378177642822266,
+ "error": null
+}

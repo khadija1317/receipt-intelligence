@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Kroket",
+   "cnt": "1×",
+   "price": {
+    "value": "12000",
+    "raw": "12.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Arem Arem",
+   "cnt": null,
+   "price": {
+    "value": "24000",
+    "raw": "24.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 84,
+ "subtotal": {
+  "value": "36000",
+  "raw": "36.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  Rp 36.000"
+ },
+ "total": {
+  "value": "39600",
+  "raw": "39.600",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  Rp 39.600"
+ },
+ "tax": {
+  "value": "3600",
+  "raw": "3.600",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax (10.0%)  Rp 3.600"
+ },
+ "service": null
+}

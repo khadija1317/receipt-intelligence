@@ -1,0 +1,17 @@
+{
+ "index": 7,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kupon  15  100,000\nADD CHICKEN BOX  909\nSubtotal  100,909\nPB1 (10%)  10,091\nTotal  111,000\nCash  Rp.111,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ADD CHICKEN BOX\",\n      \"cnt\": null,\n      \"price\": \"909\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"100,909\",\n    \"evidence\": \"Subtotal  100,909\"\n  },\n  \"tax\": {\n    \"amount\": \"10,091\",\n    \"evidence\": \"PB1 (10%)  10,091\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"111,000\",\n    \"evidence\": \"Total  111,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 835,
+  "completion": 258,
+  "total": 1093,
+  "reasoning": 98
+ },
+ "seconds": 0.6605954170227051,
+ "error": null
+}

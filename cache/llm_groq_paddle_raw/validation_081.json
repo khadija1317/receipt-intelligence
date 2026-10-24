@@ -1,0 +1,17 @@
+{
+ "index": 81,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 SURIMI  29,091\n1 CREAMY CHK CLS FTC  42,727\n1 MIX 4FUN CHOCOLATE  19,091\n1 GREEN ITSODA PITCHER  60,909\n1 SC/R GRILLED STEAK  99,091\nSUBTOTAL  250,909\nTAX  25,091\nTOTAL  276,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SURIMI\",\n      \"cnt\": \"1\",\n      \"price\": \"29,091\"\n    },\n    {\n      \"nm\": \"CREAMY CHK CLS FTC\",\n      \"cnt\": \"1\",\n      \"price\": \"42,727\"\n    },\n    {\n      \"nm\": \"MIX 4FUN CHOCOLATE\",\n      \"cnt\": \"1\",\n      \"price\": \"19,091\"\n    },\n    {\n      \"nm\": \"GREEN ITSODA PITCHER\",\n      \"cnt\": \"1\",\n      \"price\": \"60,909\"\n    },\n    {\n      \"nm\": \"SC/R GRILLED STEAK\",\n      \"cnt\": \"1\",\n      \"price\": \"99,091\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"250,909\",\n    \"evidence\": \"SUBTOTAL  250,909\"\n  },\n  \"tax\": {\n    \"amount\": \"25,091\",\n    \"evidence\": \"TAX  25,091\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"276,000\",\n    \"evidence\": \"TOTAL  276,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 871,
+  "completion": 388,
+  "total": 1259,
+  "reasoning": 96
+ },
+ "seconds": 1.0824370384216309,
+ "error": null
+}

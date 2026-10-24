@@ -1,0 +1,17 @@
+{
+ "index": 24,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 PAIN AU CHOCOLATE  11,000\n1 CHOCO CUSTARD PASTRY  12,000\n9,000\n1 MILK PASTRY ROLL  13,500\n1 REAL CHEESE INSIDE BREAD  15,000\n1 SAUSAGE BREAD  20,000\n1 HAM CHEESE FLAT BREAD\nTOTAL  80,500\n100,000\nCASH  19,500\nCHANGE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PAIN AU CHOCOLATE\",\n      \"cnt\": \"1\",\n      \"price\": \"11,000\"\n    },\n    {\n      \"nm\": \"CHOCO CUSTARD PASTRY\",\n      \"cnt\": \"1\",\n      \"price\": \"12,000\"\n    },\n    {\n      \"nm\": \"MILK PASTRY ROLL\",\n      \"cnt\": \"1\",\n      \"price\": \"13,500\"\n    },\n    {\n      \"nm\": \"REAL CHEESE INSIDE BREAD\",\n      \"cnt\": \"1\",\n      \"price\": \"15,000\"\n    },\n    {\n      \"nm\": \"SAUSAGE BREAD\",\n      \"cnt\": \"1\",\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"HAM CHEESE FLAT BREAD\",\n      \"cnt\": \"1\",\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"80,500\",\n    \"evidence\": \"TOTAL  80,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 888,
+  "completion": 639,
+  "total": 1527,
+  "reasoning": 333
+ },
+ "seconds": 1.914443016052246,
+ "error": null
+}

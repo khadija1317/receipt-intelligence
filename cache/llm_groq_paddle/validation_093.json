@@ -1,0 +1,150 @@
+{
+ "menu": [
+  {
+   "nm": "PAKET BER4",
+   "cnt": "1",
+   "price": {
+    "value": "138182",
+    "raw": "138,182",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BREAD N CHEESE DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BREAD N CHEESE DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CRABSTICK FUSILLI DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LIME SQUASH DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LIME SQUASH DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "P/P SPICY TUNA DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "P/P THUOSAND ISL DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "P/P BEEF CORN",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SUNRISE ITALIAN SODA",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LIPTON ICE TEA DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "50% CHICKEN ROYAL",
+   "cnt": "1",
+   "price": {
+    "value": "18182",
+    "raw": "18,182",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 93,
+ "subtotal": {
+  "value": "156364",
+  "raw": "156,364",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  156,364"
+ },
+ "total": {
+  "value": "172000",
+  "raw": "172,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  172,000"
+ },
+ "tax": {
+  "value": "15630",
+  "raw": "15,630",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  15,630"
+ },
+ "service": null
+}

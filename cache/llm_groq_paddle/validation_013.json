@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "MINERAL 600 ML",
+   "cnt": "1",
+   "price": {
+    "value": "7727",
+    "raw": "7,727",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BULGOGI R",
+   "cnt": "1",
+   "price": {
+    "value": "33636",
+    "raw": "33,636",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 13,
+ "subtotal": {
+  "value": "41364",
+  "raw": "41,364",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  41,364"
+ },
+ "total": {
+  "value": "45500",
+  "raw": "45,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  45,500"
+ },
+ "tax": {
+  "value": "4136",
+  "raw": "4,136",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  4,136"
+ },
+ "service": null
+}

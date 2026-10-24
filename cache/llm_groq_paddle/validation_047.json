@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Seaweed Chicken",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 47,
+ "subtotal": null,
+ "total": {
+  "value": "50000",
+  "raw": "50,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Pay Cash  50,000  Total.  Change :8,000"
+ },
+ "tax": null,
+ "service": null
+}

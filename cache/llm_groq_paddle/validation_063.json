@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "ISI CAMPUR",
+   "cnt": "1",
+   "price": {
+    "value": "43636",
+    "raw": "43.636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "A.MINERAL BOTOL",
+   "cnt": "1",
+   "price": {
+    "value": "8000",
+    "raw": "8.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 63,
+ "subtotal": null,
+ "total": {
+  "value": "51636",
+  "raw": "51.636",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  51.636"
+ },
+ "tax": {
+  "value": "5164",
+  "raw": "5.164",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10.00 %  5.164"
+ },
+ "service": null
+}

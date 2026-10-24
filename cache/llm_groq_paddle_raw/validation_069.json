@@ -1,0 +1,17 @@
+{
+ "index": 69,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "tas oy so onnne zo bxa\n1 SOTO MEDAN+NASI  59.500\n1 GADO-GADO  34.500\n1 SOTO BETAWI + NASI  57.500\nSubtotal  151.500\nService Charge  5  7.575\nPajak RESTO 10%  15.908\n3TOTAL  174.983\nT",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SOTO MEDAN+NASI\",\n      \"cnt\": \"1\",\n      \"price\": \"59.500\"\n    },\n    {\n      \"nm\": \"GADO-GADO\",\n      \"cnt\": \"1\",\n      \"price\": \"34.500\"\n    },\n    {\n      \"nm\": \"SOTO BETAWI + NASI\",\n      \"cnt\": \"1\",\n      \"price\": \"57.500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"151.500\",\n    \"evidence\": \"Subtotal  151.500\"\n  },\n  \"tax\": {\n    \"amount\": \"15.908\",\n    \"evidence\": \"Pajak RESTO 10%  15.908\"\n  },\n  \"service\": {\n    \"amount\": \"7.575\",\n    \"evidence\": \"Service Charge  5  7.575\"\n  },\n  \"total\": {\n    \"amount\": \"174.983\",\n    \"evidence\": \"3TOTAL  174.983\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 872,
+  "completion": 513,
+  "total": 1385,
+  "reasoning": 268
+ },
+ "seconds": 1.1832938194274902,
+ "error": null
+}

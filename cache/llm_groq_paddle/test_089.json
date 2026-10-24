@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "XXL Crispy Chicken",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "-Pedas sedikit",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ITEMS:1",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 89,
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "40:000",
+  "status": "review",
+  "conf": null,
+  "line": "Tatal  40:000"
+ },
+ "tax": null,
+ "service": null
+}

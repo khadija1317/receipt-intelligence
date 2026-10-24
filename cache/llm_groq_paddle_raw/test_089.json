@@ -1,0 +1,17 @@
+{
+ "index": 89,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "XXL Crispy Chicken  40,000\n-Pedas sedikit  0\nITEMS:1  40.000\nTatal  40:000\nPay Cash  50,000  Change:10,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"XXL Crispy Chicken\",\n      \"cnt\": null,\n      \"price\": \"40,000\"\n    },\n    {\n      \"nm\": \"-Pedas sedikit\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"ITEMS:1\",\n      \"cnt\": null,\n      \"price\": \"40.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"40:000\",\n    \"evidence\": \"Tatal  40:000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 832,
+  "completion": 377,
+  "total": 1209,
+  "reasoning": 181
+ },
+ "seconds": 0.9310529232025146,
+ "error": null
+}

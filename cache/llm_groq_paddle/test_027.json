@@ -1,0 +1,56 @@
+{
+ "menu": [
+  {
+   "nm": "PKT AYAM",
+   "cnt": null,
+   "price": {
+    "value": "33000",
+    "raw": "33,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GULAI OTAK",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 27,
+ "subtotal": {
+  "value": "56000",
+  "raw": "56,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  56,000"
+ },
+ "total": {
+  "value": "61600",
+  "raw": "61,600",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  61,600"
+ },
+ "tax": {
+  "value": "5600",
+  "raw": "5,600",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10%  5,600"
+ },
+ "service": {
+  "value": "61600",
+  "raw": "61,600",
+  "status": "ok",
+  "conf": null,
+  "line": "CHARGE5  61,600"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "index": 1,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SANS\nXIXARTRA2N\nSINDINE\nJ.STB PROMO  17500\nY.B.BAT  46000\nY.BASOPROM  27500\nTOTAL  91000\nCASH  91000\nTIGE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"J.STB PROMO\",\n      \"cnt\": null,\n      \"price\": \"17500\"\n    },\n    {\n      \"nm\": \"Y.B.BAT\",\n      \"cnt\": null,\n      \"price\": \"46000\"\n    },\n    {\n      \"nm\": \"Y.BASOPROM\",\n      \"cnt\": null,\n      \"price\": \"27500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"91000\",\n    \"evidence\": \"TOTAL  91000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 841,
+  "completion": 308,
+  "total": 1149,
+  "reasoning": 114
+ },
+ "seconds": 0.9013717174530029,
+ "error": null
+}

@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "<FC Winger HC",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CHARGE TA",
+   "cnt": null,
+   "price": {
+    "value": "909",
+    "raw": "909",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 92,
+ "subtotal": {
+  "value": "20909",
+  "raw": "20,909",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  20,909"
+ },
+ "total": null,
+ "tax": null,
+ "service": {
+  "value": "2091",
+  "raw": "2,091",
+  "status": "ok",
+  "conf": null,
+  "line": "P.Rest 10 %  2,091"
+ }
+}

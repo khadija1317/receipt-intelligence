@@ -1,0 +1,17 @@
+{
+ "index": 3,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1X M-Caramel Black Tea @28,000  28,000\n70%\nLess Ice\nPB1:  0\nSubtotal:  28,000\nTotal:  28,000\nCash:  28,000\nCHANGE:",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"M-Caramel Black Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"28,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"28,000\",\n    \"evidence\": \"Subtotal:  28,000\"\n  },\n  \"total\": {\n    \"amount\": \"28,000\",\n    \"evidence\": \"Total:  28,000\"\n  },\n  \"tax\": {\n    \"amount\": \"0\",\n    \"evidence\": \"PB1:  0\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 838,
+  "completion": 294,
+  "total": 1132,
+  "reasoning": 135
+ },
+ "seconds": 1.3775036334991455,
+ "error": null
+}

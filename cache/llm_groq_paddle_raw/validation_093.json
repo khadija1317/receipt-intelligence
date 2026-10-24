@@ -1,0 +1,17 @@
+{
+ "index": 93,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1  iur\n1\n1 PAKET BER4  138,182\n1 BREAD N CHEESE DEL\n1 BREAD N CHEESE DEL\n1 CRABSTICK FUSILLI DEL\n1 LIME SQUASH DEL\n1 LIME SQUASH DEL\n1 P/P SPICY TUNA DEL\n1 P/P THUOSAND ISL DEL\n1 P/P BEEF CORN\n1 SUNRISE ITALIAN SODA\n1 LIPTON ICE TEA DEL\n1 50% CHICKEN ROYAL  18,182\nSUBTOTAL  156,364\nTAX  15,630\nTOTAL  172,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PAKET BER4\",\n      \"cnt\": \"1\",\n      \"price\": \"138,182\"\n    },\n    {\n      \"nm\": \"BREAD N CHEESE DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"BREAD N CHEESE DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"CRABSTICK FUSILLI DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"LIME SQUASH DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"LIME SQUASH DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"P/P SPICY TUNA DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"P/P THUOSAND ISL DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"P/P BEEF CORN\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"SUNRISE ITALIAN SODA\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"LIPTON ICE TEA DEL\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"50% CHICKEN ROYAL\",\n      \"cnt\": \"1\",\n      \"price\": \"18,182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"156,364\",\n    \"evidence\": \"SUBTOTAL  156,364\"\n  },\n  \"tax\": {\n    \"amount\": \"15,630\",\n    \"evidence\": \"TAX  15,630\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"172,000\",\n    \"evidence\": \"TOTAL  172,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 931,
+  "completion": 821,
+  "total": 1752,
+  "reasoning": 325
+ },
+ "seconds": 1.878690242767334,
+ "error": null
+}

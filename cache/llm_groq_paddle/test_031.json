@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "SALMON PESTO",
+   "cnt": null,
+   "price": {
+    "value": "85500",
+    "raw": "85,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SALMON PESTO",
+   "cnt": null,
+   "price": {
+    "value": "85500",
+    "raw": "85,500",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 31,
+ "subtotal": null,
+ "total": {
+  "value": "113886",
+  "raw": "113,886",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  113,886"
+ },
+ "tax": {
+  "value": "18126",
+  "raw": "18,126",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1 10%  18,126"
+ },
+ "service": {
+  "value": "10260",
+  "raw": "10,260",
+  "status": "ok",
+  "conf": null,
+  "line": "SVC CHG 6%  10,260"
+ }
+}

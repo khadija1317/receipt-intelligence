@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "1 35.000",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "Rp35.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 21,
+ "subtotal": null,
+ "total": {
+  "value": "38000",
+  "raw": "Rp38.000",
+  "status": "ok",
+  "conf": null,
+  "line": "***TOTAL  Rp38.000"
+ },
+ "tax": null,
+ "service": null
+}

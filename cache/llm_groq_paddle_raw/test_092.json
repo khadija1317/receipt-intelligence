@@ -1,0 +1,17 @@
+{
+ "index": 92,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "901016  -TICKET CP\n60.000  240.000\nTOTAL (Qty=4.00)240.000\n- CASH  250.000\nCHANGE  10.000\n水**水  水***",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"240.000\",\n    \"evidence\": \"TOTAL (Qty=4.00)240.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 833,
+  "completion": 231,
+  "total": 1064,
+  "reasoning": 118
+ },
+ "seconds": 0.8141231536865234,
+ "error": null
+}

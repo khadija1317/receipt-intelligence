@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "S-Ovaltine",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 2,
+ "subtotal": {
+  "value": "18181",
+  "raw": "18,181",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal:  18,181"
+ },
+ "total": {
+  "value": "20000",
+  "raw": "20,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  20,000"
+ },
+ "tax": {
+  "value": "1818",
+  "raw": "1,818",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1:  1,818"
+ },
+ "service": null
+}

@@ -1,0 +1,72 @@
+{
+ "menu": [
+  {
+   "nm": "BASO TAHU",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "*46000",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "*6000",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BASO TAHU",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "*46000",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "*12000",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TEMS",
+   "cnt": null,
+   "price": {
+    "value": "50",
+    "raw": "50",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "THER",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 76,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

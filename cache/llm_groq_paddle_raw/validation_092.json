@@ -1,0 +1,17 @@
+{
+ "index": 92,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "<FC Winger HC  20,000\nCHARGE TA  909\nSub Total  20,909\nP.Rest 10 %  2,091\n23,000\nTotal\nCash  25,000\nKemball  2,000\n2 Items,",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"<FC Winger HC\",\n      \"cnt\": null,\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"CHARGE TA\",\n      \"cnt\": null,\n      \"price\": \"909\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"20,909\",\n    \"evidence\": \"Sub Total  20,909\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"2,091\",\n    \"evidence\": \"P.Rest 10 %  2,091\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 528,
+  "total": 1373,
+  "reasoning": 349
+ },
+ "seconds": 1.3371927738189697,
+ "error": null
+}

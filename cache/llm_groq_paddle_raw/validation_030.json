@@ -1,0 +1,17 @@
+{
+ "index": 30,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tn  m  an\n1\n      1\nI\n1 REDBEAN BRE/D  9,000\n1 FRANKFRUT S/USAGE ROLL  12,000\nTOTAL  21,000\nCASH  50,000\nCHANGE  29,000\nI",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"REDBEAN BRE/D\",\n      \"cnt\": \"1\",\n      \"price\": \"9,000\"\n    },\n    {\n      \"nm\": \"FRANKFRUT S/USAGE ROLL\",\n      \"cnt\": \"1\",\n      \"price\": \"12,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"21,000\",\n    \"evidence\": \"TOTAL  21,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 850,
+  "completion": 271,
+  "total": 1121,
+  "reasoning": 94
+ },
+ "seconds": 0.7821719646453857,
+ "error": null
+}

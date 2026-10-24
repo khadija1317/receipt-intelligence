@@ -1,0 +1,17 @@
+{
+ "index": 63,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AFUNG\nAFUNG\nISI CAMPUR  1 43.636  43.636\nA.MINERAL BOTOL  1 8,000  8.000  AFUNG\nTOTAL  51.636\nTAX 10.00 %  5.164\nGRAND TOTAL  56,800\nTUNAI  110,000\nKEMBALI  53,200  AFUNG",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ISI CAMPUR\",\n      \"cnt\": \"1\",\n      \"price\": \"43.636\"\n    },\n    {\n      \"nm\": \"A.MINERAL BOTOL\",\n      \"cnt\": \"1\",\n      \"price\": \"8.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"51.636\",\n    \"evidence\": \"TOTAL  51.636\"\n  },\n  \"tax\": {\n    \"amount\": \"5.164\",\n    \"evidence\": \"TAX 10.00 %  5.164\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 876,
+  "completion": 393,
+  "total": 1269,
+  "reasoning": 208
+ },
+ "seconds": 1.256436824798584,
+ "error": null
+}

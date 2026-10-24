@@ -1,0 +1,66 @@
+{
+ "menu": [
+  {
+   "nm": "Pecel Komplit + Nasi",
+   "cnt": "1",
+   "price": {
+    "value": "42000",
+    "raw": "42.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SOTO KUDUS",
+   "cnt": "1",
+   "price": {
+    "value": "47000",
+    "raw": "47.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Mineral Water",
+   "cnt": "2",
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 53,
+ "subtotal": {
+  "value": "107000",
+  "raw": "107.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  107.000"
+ },
+ "total": {
+  "value": "123585",
+  "raw": "123.585",
+  "status": "ok",
+  "conf": null,
+  "line": "4 Total  123.585"
+ },
+ "tax": {
+  "value": "11235",
+  "raw": "11.235",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak Rest 10%  11.235"
+ },
+ "service": {
+  "value": "5350",
+  "raw": "5.350",
+  "status": "ok",
+  "conf": null,
+  "line": "Serui Charge  5  5.350"
+ }
+}

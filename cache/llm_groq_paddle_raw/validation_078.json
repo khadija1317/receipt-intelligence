@@ -1,0 +1,17 @@
+{
+ "index": 78,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kopidegit\nHIIN\n2 Mineral Water  18 000\n1 Teh Tawar Dingin  11.000\nSoto Betawi  116.000\nNASI PUTIH  9.000\nSubtotal  154 000\nServi Charge  7700\nPajak Rest  10  16170\n6 Total  177.870",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Mineral Water\",\n      \"cnt\": \"2\",\n      \"price\": \"18 000\"\n    },\n    {\n      \"nm\": \"Teh Tawar Dingin\",\n      \"cnt\": \"1\",\n      \"price\": \"11.000\"\n    },\n    {\n      \"nm\": \"Soto Betawi\",\n      \"cnt\": null,\n      \"price\": \"116.000\"\n    },\n    {\n      \"nm\": \"NASI PUTIH\",\n      \"cnt\": null,\n      \"price\": \"9.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"154 000\",\n    \"evidence\": \"Subtotal  154 000\"\n  },\n  \"total\": {\n    \"amount\": \"177.870\",\n    \"evidence\": \"6 Total  177.870\"\n  },\n  \"tax\": {\n    \"amount\": \"16170\",\n    \"evidence\": \"Pajak Rest  10  16170\"\n  },\n  \"service\": {\n    \"amount\": \"7700\",\n    \"evidence\": \"Servi Charge  7700\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 866,
+  "completion": 653,
+  "total": 1519,
+  "reasoning": 393
+ },
+ "seconds": 1.5780925750732422,
+ "error": null
+}

@@ -1,0 +1,22 @@
+{
+ "menu": [
+  {
+   "nm": "Lemon Tea (L)",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 97,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

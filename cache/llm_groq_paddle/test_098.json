@@ -1,0 +1,64 @@
+{
+ "menu": [
+  {
+   "nm": "BEVERAG",
+   "cnt": null,
+   "price": {
+    "value": "11",
+    "raw": "11",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 BLACK PEPPER MEATBALL PAS",
+   "cnt": null,
+   "price": {
+    "value": "77000",
+    "raw": "77,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 TRUFFLE CREAM",
+   "cnt": null,
+   "price": {
+    "value": "59000",
+    "raw": "59,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SERVICE 1 EARL GREY MILK TEA",
+   "cnt": null,
+   "price": {
+    "value": "215000",
+    "raw": "215,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 98,
+ "subtotal": {
+  "value": "12900",
+  "raw": "12,900",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTTL  12,900"
+ },
+ "total": null,
+ "tax": null,
+ "service": {
+  "value": "22790",
+  "raw": "22,790",
+  "status": "ok",
+  "conf": null,
+  "line": "Friendlin  Service Charge 6%  22,790"
+ }
+}

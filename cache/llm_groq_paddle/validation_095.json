@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "SAYAP",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PAHA BAWAH",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 95,
+ "subtotal": {
+  "value": "27272",
+  "raw": "27,272",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  27,272"
+ },
+ "total": {
+  "value": "30000",
+  "raw": "30,000",
+  "status": "ok",
+  "conf": null,
+  "line": "2 Total  30,000"
+ },
+ "tax": null,
+ "service": {
+  "value": "2700",
+  "raw": "2,700",
+  "status": "ok",
+  "conf": null,
+  "line": "P.Resto 10%  2,700"
+ }
+}

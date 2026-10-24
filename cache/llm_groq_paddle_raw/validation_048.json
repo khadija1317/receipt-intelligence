@@ -1,0 +1,17 @@
+{
+ "index": 48,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SB I OR  28,636\nChokocha Flt  13,636\nBbq Bento  13,636\nSub Total  55,908\nP.Rest 10%  5,592\nTotal  61,500\nCash  70,000\nKemball  8,500\n3 Items,",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SB I OR\",\n      \"cnt\": null,\n      \"price\": \"28,636\"\n    },\n    {\n      \"nm\": \"Chokocha Flt\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    },\n    {\n      \"nm\": \"Bbq Bento\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"55,908\",\n    \"evidence\": \"Sub Total  55,908\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"5,592\",\n    \"evidence\": \"P.Rest 10%  5,592\"\n  },\n  \"total\": {\n    \"amount\": \"61,500\",\n    \"evidence\": \"Total  61,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 857,
+  "completion": 352,
+  "total": 1209,
+  "reasoning": 133
+ },
+ "seconds": 0.8545870780944824,
+ "error": null
+}

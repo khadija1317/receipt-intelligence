@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "ubur Polos + Telur",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "13.000  13.000",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 65,
+ "subtotal": {
+  "value": "13000",
+  "raw": "13.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  13.000"
+ },
+ "total": {
+  "value": "13000",
+  "raw": "13.000",
+  "status": "ok",
+  "conf": null,
+  "line": "otal  13.000"
+ },
+ "tax": null,
+ "service": null
+}

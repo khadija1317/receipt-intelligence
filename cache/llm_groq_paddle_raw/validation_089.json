@@ -1,0 +1,17 @@
+{
+ "index": 89,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1023-Chocochip & Walnut\n29.000  x1  29.000\n6001-Plastic Bag Small\n0\nTotal Item:  2\nTotal.  29.000\nCash\nTendered:  100.000\nChange:  71.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1023-Chocochip & Walnut\",\n      \"cnt\": \"1\",\n      \"price\": \"29.000\"\n    },\n    {\n      \"nm\": \"6001-Plastic Bag Small\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"29.000\",\n    \"evidence\": \"Total.  29.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 846,
+  "completion": 470,
+  "total": 1316,
+  "reasoning": 296
+ },
+ "seconds": 1.3086907863616943,
+ "error": null
+}

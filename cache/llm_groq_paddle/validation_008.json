@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "TALAM UNGU",
+   "cnt": null,
+   "price": {
+    "value": "19500",
+    "raw": "19,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MIKA KECIL",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 8,
+ "subtotal": {
+  "value": "11700",
+  "raw": "11,700",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  11,700"
+ },
+ "total": {
+  "value": "11700",
+  "raw": "11,700",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  11,700"
+ },
+ "tax": null,
+ "service": null
+}

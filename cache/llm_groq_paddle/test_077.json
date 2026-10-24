@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "TRIPPLE CHEESE",
+   "cnt": "1",
+   "price": {
+    "value": "17000",
+    "raw": "17,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 77,
+ "subtotal": {
+  "value": "17000",
+  "raw": "17,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB TOTAL  17,000"
+ },
+ "total": {
+  "value": "17000",
+  "raw": "17,000",
+  "status": "ok",
+  "conf": null,
+  "line": "GRAND TOTAL  17,000"
+ },
+ "tax": null,
+ "service": null
+}

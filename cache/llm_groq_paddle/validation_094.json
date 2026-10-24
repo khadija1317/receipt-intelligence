@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "Emily's Shrimp Scampi",
+   "cnt": "1",
+   "price": {
+    "value": "69000",
+    "raw": "69.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 94,
+ "subtotal": {
+  "value": "0",
+  "raw": "0",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB TOTAL  0"
+ },
+ "total": {
+  "value": "80100",
+  "raw": "80.100",
+  "status": "ok",
+  "conf": null,
+  "line": "TADA EGIFT  80.100"
+ },
+ "tax": null,
+ "service": {
+  "value": "7280",
+  "raw": "7.280",
+  "status": "ok",
+  "conf": null,
+  "line": "SERVICE  7.280"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "XXL Crispy Chicken",
+   "cnt": "1",
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 36,
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "40:000",
+  "status": "review",
+  "conf": null,
+  "line": "Tatal...  40:000"
+ },
+ "tax": null,
+ "service": null
+}

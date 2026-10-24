@@ -1,0 +1,17 @@
+{
+ "index": 22,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 RedVelvet Nutella  280,000\n5 Free Mini Candle\n1 Large Box\nSUBTOTAL  280,000\nPB1  28,000\nTOTAL  308,000\nBCA Card  308,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RedVelvet Nutella\",\n      \"cnt\": \"1\",\n      \"price\": \"280,000\"\n    },\n    {\n      \"nm\": \"Free Mini Candle\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"Large Box\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"280,000\",\n    \"evidence\": \"SUBTOTAL  280,000\"\n  },\n  \"tax\": {\n    \"amount\": \"28,000\",\n    \"evidence\": \"PB1  28,000\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"308,000\",\n    \"evidence\": \"TOTAL  308,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 835,
+  "completion": 360,
+  "total": 1195,
+  "reasoning": 150
+ },
+ "seconds": 0.9881243705749512,
+ "error": null
+}

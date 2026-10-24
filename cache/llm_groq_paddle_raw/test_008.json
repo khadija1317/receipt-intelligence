@@ -1,0 +1,17 @@
+{
+ "index": 8,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "me\n1 [REG] BLACK SAKURA  45,455\n1 COOKIE DOH SAUCES  0\n1 NATA DE COCO  0\nSub Total  45,455\nPB1(10%)  4,545\nRounding  0\nTotal  50,000\nCard Payment  50,000\n★★★  ★*★\n1",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"[REG] BLACK SAKURA\",\n      \"cnt\": \"1\",\n      \"price\": \"45,455\"\n    },\n    {\n      \"nm\": \"COOKIE DOH SAUCES\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"NATA DE COCO\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"45,455\",\n    \"evidence\": \"Sub Total  45,455\"\n  },\n  \"total\": {\n    \"amount\": \"50,000\",\n    \"evidence\": \"Total  50,000\"\n  },\n  \"tax\": {\n    \"amount\": \"4,545\",\n    \"evidence\": \"PB1(10%)  4,545\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 444,
+  "total": 1312,
+  "reasoning": 220
+ },
+ "seconds": 1.2531051635742188,
+ "error": null
+}

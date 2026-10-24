@@ -1,0 +1,17 @@
+{
+ "index": 20,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1  1\n2 JAMUR  10,000\n1 TAHU  5,000\nSUBTOTAL  15,000\nPB1 10%  1,500\nTOTAL  16,500\n20,000\nCASH  3,500\nChange",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"JAMUR\",\n      \"cnt\": \"2\",\n      \"price\": \"10,000\"\n    },\n    {\n      \"nm\": \"TAHU\",\n      \"cnt\": \"1\",\n      \"price\": \"5,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"15,000\",\n    \"evidence\": \"SUBTOTAL  15,000\"\n  },\n  \"tax\": {\n    \"amount\": \"1,500\",\n    \"evidence\": \"PB1 10%  1,500\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"16,500\",\n    \"evidence\": \"TOTAL  16,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 846,
+  "completion": 324,
+  "total": 1170,
+  "reasoning": 134
+ },
+ "seconds": 1.0339229106903076,
+ "error": null
+}

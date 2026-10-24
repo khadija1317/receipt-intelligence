@@ -1,0 +1,17 @@
+{
+ "index": 10,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "RoTmn  1\n2  Serbu  1  40.000\n2  Choco Peanut Bread  20.000\nTOTAL  60.000\nCASH  60.000\nCHANGED  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RoTmn\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"Serbu\",\n      \"cnt\": \"1\",\n      \"price\": \"40.000\"\n    },\n    {\n      \"nm\": \"Choco Peanut Bread\",\n      \"cnt\": null,\n      \"price\": \"20.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"60.000\",\n    \"evidence\": \"TOTAL  60.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 835,
+  "completion": 398,
+  "total": 1233,
+  "reasoning": 205
+ },
+ "seconds": 1.5472240447998047,
+ "error": null
+}

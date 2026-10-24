@@ -1,0 +1,17 @@
+{
+ "index": 65,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "ubur Polos + Telur\n13.000  13.000\nSubtotal  13.000\najak\notal  13.000\n10",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ubur Polos + Telur\",\n      \"cnt\": null,\n      \"price\": \"13.000  13.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"13.000\",\n    \"evidence\": \"Subtotal  13.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"13.000\",\n    \"evidence\": \"otal  13.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 817,
+  "completion": 477,
+  "total": 1294,
+  "reasoning": 321
+ },
+ "seconds": 1.465909481048584,
+ "error": null
+}

@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Choco Devil",
+   "cnt": null,
+   "price": {
+    "value": "15909",
+    "raw": "15,909",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 72,
+ "subtotal": null,
+ "total": {
+  "value": "17500",
+  "raw": "17,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  17,500"
+ },
+ "tax": null,
+ "service": null
+}

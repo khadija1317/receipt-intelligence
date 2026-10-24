@@ -1,0 +1,17 @@
+{
+ "index": 66,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PILLOW DURIA  36,364\nPLASTIK  25  物\nSUBTOTAL  36,364\nPB1 10%  10.000%\nAMOUNT  3,636\nTOTAL  40,000\nCASH  50,000\nCHANGE  10,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PILLOW DURIA\",\n      \"cnt\": null,\n      \"price\": \"36,364\"\n    },\n    {\n      \"nm\": \"PLASTIK\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"36,364\",\n    \"evidence\": \"SUBTOTAL  36,364\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"40,000\",\n    \"evidence\": \"TOTAL  40,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 852,
+  "completion": 356,
+  "total": 1208,
+  "reasoning": 181
+ },
+ "seconds": 0.9237909317016602,
+ "error": null
+}

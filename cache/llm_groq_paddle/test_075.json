@@ -1,0 +1,90 @@
+{
+ "menu": [
+  {
+   "nm": "CHOCO PUFF",
+   "cnt": "1",
+   "price": {
+    "value": "29091",
+    "raw": "29,091",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CREAMY BEEF CLS FTC",
+   "cnt": "1",
+   "price": {
+    "value": "42727",
+    "raw": "42,727",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NEW ORIENTAL CHK RICE",
+   "cnt": "1",
+   "price": {
+    "value": "34545",
+    "raw": "34,545",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LIPTON PITCHER",
+   "cnt": "1",
+   "price": {
+    "value": "54545",
+    "raw": "54,545",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SC/P SUPER SUPREME",
+   "cnt": "1",
+   "price": {
+    "value": "47273",
+    "raw": "47,273",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CB/P BLACK PEPP BEEF",
+   "cnt": "1",
+   "price": {
+    "value": "48182",
+    "raw": "48.182",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 75,
+ "subtotal": {
+  "value": "256363",
+  "raw": "256,363",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  256,363"
+ },
+ "total": {
+  "value": "282000",
+  "raw": "282,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  282,000"
+ },
+ "tax": {
+  "value": "25637",
+  "raw": "25,637",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  25,637"
+ },
+ "service": null
+}

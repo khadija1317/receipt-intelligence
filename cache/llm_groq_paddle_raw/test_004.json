@@ -1,0 +1,17 @@
+{
+ "index": 4,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": ")SC:1\nlatuakaim1\nRm\nW\nSalo\nVias\nP.ger\ntHle\nnew  ICE BLACKCOFFE  82,000\nAVOCADO COFFEE  61,000\nelbe  CHIKEN KATSU FF  51,000\nBibi\napeeeses\n9q  SUB T8TAL  194,000\nDISCOUNT  19,400\nlep.  TOTAL  174,600\nCASH  200,000\nCHANGE  28,400",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"new  ICE BLACKCOFFE\",\n      \"cnt\": null,\n      \"price\": \"82,000\"\n    },\n    {\n      \"nm\": \"AVOCADO COFFEE\",\n      \"cnt\": null,\n      \"price\": \"61,000\"\n    },\n    {\n      \"nm\": \"elbe  CHIKEN KATSU FF\",\n      \"cnt\": null,\n      \"price\": \"51,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"194,000\",\n    \"evidence\": \"9q  SUB T8TAL  194,000\"\n  },\n  \"total\": {\n    \"amount\": \"174,600\",\n    \"evidence\": \"lep.  TOTAL  174,600\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 904,
+  "completion": 442,
+  "total": 1346,
+  "reasoning": 217
+ },
+ "seconds": 1.3693428039550781,
+ "error": null
+}

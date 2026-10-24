@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "BAKSO BNGKS",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GORENGAN",
+   "cnt": "6",
+   "price": {
+    "value": "-6000",
+    "raw": "-6,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TL",
+   "cnt": null,
+   "price": {
+    "value": "21000",
+    "raw": "21.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 91,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 19,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "THE\n1 FUTAMI 17 GREEN TEA (CLAS  12,500\n1 EGG TART  13,000\n1 GRAIN CROQUE MONSIEUR  17,000\nTOTAL  42,500\nCASH  50,000\nCHANGE  7,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"FUTAMI 17 GREEN TEA (CLAS\",\n      \"cnt\": \"1\",\n      \"price\": \"12,500\"\n    },\n    {\n      \"nm\": \"EGG TART\",\n      \"cnt\": \"1\",\n      \"price\": \"13,000\"\n    },\n    {\n      \"nm\": \"GRAIN CROQUE MONSIEUR\",\n      \"cnt\": \"1\",\n      \"price\": \"17,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"42,500\",\n    \"evidence\": \"TOTAL  42,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 849,
+  "completion": 423,
+  "total": 1272,
+  "reasoning": 212
+ },
+ "seconds": 0.9958124160766602,
+ "error": null
+}

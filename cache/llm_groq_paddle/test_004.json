@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "new ICE BLACKCOFFE",
+   "cnt": null,
+   "price": {
+    "value": "82000",
+    "raw": "82,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AVOCADO COFFEE",
+   "cnt": null,
+   "price": {
+    "value": "61000",
+    "raw": "61,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "elbe CHIKEN KATSU FF",
+   "cnt": null,
+   "price": {
+    "value": "51000",
+    "raw": "51,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 4,
+ "subtotal": {
+  "value": "194000",
+  "raw": "194,000",
+  "status": "ok",
+  "conf": null,
+  "line": "9q  SUB T8TAL  194,000"
+ },
+ "total": {
+  "value": "174600",
+  "raw": "174,600",
+  "status": "ok",
+  "conf": null,
+  "line": "lep.  TOTAL  174,600"
+ },
+ "tax": null,
+ "service": null
+}

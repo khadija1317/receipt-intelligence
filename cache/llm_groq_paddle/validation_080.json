@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Sate Padang",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25 000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 80,
+ "subtotal": null,
+ "total": {
+  "value": "25000",
+  "raw": "25.000",
+  "status": "ok",
+  "conf": null,
+  "line": "1 Total  25.000"
+ },
+ "tax": null,
+ "service": null
+}

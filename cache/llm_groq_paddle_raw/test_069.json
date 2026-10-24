@@ -1,0 +1,17 @@
+{
+ "index": 69,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "23/J/2017\n1 [MD] SOFT MORNING ROLL  18,000\n2 REAL HONEY PANCAKE BREAD  20,000\n4  CUSTARD BRIOCHE  36,000\nTOTAL  74,000\nCASH  100,000\nCHANGE  26,000\nThar<",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"[MD] SOFT MORNING ROLL\",\n      \"cnt\": \"1\",\n      \"price\": \"18,000\"\n    },\n    {\n      \"nm\": \"REAL HONEY PANCAKE BREAD\",\n      \"cnt\": \"2\",\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"CUSTARD BRIOCHE\",\n      \"cnt\": \"4\",\n      \"price\": \"36,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"74,000\",\n    \"evidence\": \"TOTAL  74,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 859,
+  "completion": 351,
+  "total": 1210,
+  "reasoning": 141
+ },
+ "seconds": 1.1679251194000244,
+ "error": null
+}

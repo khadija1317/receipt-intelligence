@@ -1,0 +1,17 @@
+{
+ "index": 41,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "021-5150773\nsir\nable\nSOGOGI JAPCHAE  1  150,000\nGONG GIBAB  7  105,000\nCHULPAN CHEESE  1  230,000\nDAK GALBI\nCREAM TEOK PO KI  1  95,000\nEL KEUN  1  120,000\nHWANGTAE\nSUNDUBU(TUKBEGI)\nCHAM KKOT SAL  2  620,000\nU SAM GYEOP  2  290,000\nUSLYENA  390,000\n0\nICECOFFE MIX  3  0\nICE BLACK COFFE  2018  0\nSub Total  2,000,000\nService  140,000\nTax  212,460\nDiscount  0\n2,352,460\nTOTAL\nCard  2,352,460\nCHANGE  0\nCH\nB",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SOGOGI JAPCHAE\",\n      \"cnt\": \"1\",\n      \"price\": \"150,000\"\n    },\n    {\n      \"nm\": \"GONG GIBAB\",\n      \"cnt\": \"7\",\n      \"price\": \"105,000\"\n    },\n    {\n      \"nm\": \"CHULPAN CHEESE\",\n      \"cnt\": \"1\",\n      \"price\": \"230,000\"\n    },\n    {\n      \"nm\": \"DAK GALBI\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"CREAM TEOK PO KI\",\n      \"cnt\": \"1\",\n      \"price\": \"95,000\"\n    },\n    {\n      \"nm\": \"EL KEUN\",\n      \"cnt\": \"1\",\n      \"price\": \"120,000\"\n    },\n    {\n      \"nm\": \"HWANGTAE\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"SUNDUBU(TUKBEGI)\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"CHAM KKOT SAL\",\n      \"cnt\": \"2\",\n      \"price\": \"620,000\"\n    },\n    {\n      \"nm\": \"U SAM GYEOP\",\n      \"cnt\": \"2\",\n      \"price\": \"290,000\"\n    },\n    {\n      \"nm\": \"USLYENA\",\n      \"cnt\": null,\n      \"price\": \"390,000\"\n    },\n    {\n      \"nm\": \"ICECOFFE MIX\",\n      \"cnt\": \"3\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"ICE BLACK COFFE\",\n      \"cnt\": \"2018\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"2,000,000\",\n    \"evidence\": \"Sub Total  2,000,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"212,460\",\n    \"evidence\": \"Tax  212,460\"\n  },\n  \"service\": {\n    \"amount\": \"140,000\",\n    \"evidence\": \"Service  140,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1000,
+  "completion": 997,
+  "total": 1997,
+  "reasoning": 478
+ },
+ "seconds": 2.509807586669922,
+ "error": null
+}

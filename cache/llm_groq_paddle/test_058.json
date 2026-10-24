@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "PHO BO TAI",
+   "cnt": null,
+   "price": {
+    "value": "55000",
+    "raw": "55,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 58,
+ "subtotal": {
+  "value": "55000",
+  "raw": "55,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total:  55,000"
+ },
+ "total": {
+  "value": "60500",
+  "raw": "60,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  批  60,500"
+ },
+ "tax": {
+  "value": "5500",
+  "raw": "5,500",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1  5,500"
+ },
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 99,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 FL-Xmas 30 Off  68,180\nPAKET SLICES  0\n1 » FL Cake - French  0\nVanilla SLC\nPAKET SLICES  0\n1 »FL Cake - Green  0\nTea SLC\n1  PAKET SLICES  0\n1  FL Cake - Belgium  0\nChoco SLC\nSUBTOTAL  68,180\nDISKON  0\nBIAYA TAMBAHAN  0\nPAJAK PPN 10 %  6,818\nPAJAK 0 %  0\nBIAYA CC  0\nPEMBULATAN  2\nTOTAL  75,000\nTUNAI  0\nNON TUNAI  75,000\nKEMBALI  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"FL-Xmas 30 Off\",\n      \"cnt\": \"1\",\n      \"price\": \"68,180\"\n    },\n    {\n      \"nm\": \"» FL Cake - French\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"»FL Cake - Green\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"PAKET SLICES\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"FL Cake - Belgium\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"68,180\",\n    \"evidence\": \"SUBTOTAL  68,180\"\n  },\n  \"total\": {\n    \"amount\": \"75,000\",\n    \"evidence\": \"TOTAL  75,000\"\n  },\n  \"tax\": {\n    \"amount\": \"6,818\",\n    \"evidence\": \"PAJAK PPN 10 %  6,818\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 967,
+  "completion": 691,
+  "total": 1658,
+  "reasoning": 407
+ },
+ "seconds": 1.964552402496338,
+ "error": null
+}

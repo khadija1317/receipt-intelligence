@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "GRILLED BABY POTATO (R",
+   "cnt": "1",
+   "price": {
+    "value": "50500",
+    "raw": "50,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TRUFFLE CREAM",
+   "cnt": "1",
+   "price": {
+    "value": "76000",
+    "raw": "76,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CARBONARA",
+   "cnt": "1",
+   "price": {
+    "value": "70500",
+    "raw": "70,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ORIGINAL BREWED TEA",
+   "cnt": "2",
+   "price": {
+    "value": "46000",
+    "raw": "46,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 34,
+ "subtotal": null,
+ "total": {
+  "value": "283338",
+  "raw": "283,338",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  283,338"
+ },
+ "tax": {
+  "value": "25758",
+  "raw": "25,758",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1 10%  25,758"
+ },
+ "service": {
+  "value": "14580",
+  "raw": "14,580",
+  "status": "ok",
+  "conf": null,
+  "line": "SUC CHG 6%  14,580"
+ }
+}

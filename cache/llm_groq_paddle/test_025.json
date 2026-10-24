@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "TWIST STRAWBERRY DONUT",
+   "cnt": "1",
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TLJ CROQUETTE",
+   "cnt": "1",
+   "price": {
+    "value": "17000",
+    "raw": "17,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "POTATO PEPPER BAGEL",
+   "cnt": "1",
+   "price": {
+    "value": "16000",
+    "raw": "16,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 25,
+ "subtotal": null,
+ "total": {
+  "value": "43000",
+  "raw": "43,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  43,000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 94,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "IES  ON OHD\nT\n1\nS\ntHe  1\nIE一  sma  PHHOO NNLE\n1 TAHUGORENG  28,000\n1 CAKWE  17,000\n1 PHO TAI CHINIR)  63,000\n1 TEA  11,000\nSub Total  119,000\nServ. 7.0%  8,330\nS  PB1 10.0%  12,733  NOODLE\nGrand Total  140,063\n5904  CREDIT CAR:  140,063\nT  0\nE\nH",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TAHUGORENG\",\n      \"cnt\": \"1\",\n      \"price\": \"28,000\"\n    },\n    {\n      \"nm\": \"CAKWE\",\n      \"cnt\": \"1\",\n      \"price\": \"17,000\"\n    },\n    {\n      \"nm\": \"PHO TAI CHINIR)\",\n      \"cnt\": \"1\",\n      \"price\": \"63,000\"\n    },\n    {\n      \"nm\": \"TEA\",\n      \"cnt\": \"1\",\n      \"price\": \"11,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"119,000\",\n    \"evidence\": \"Sub Total  119,000\"\n  },\n  \"total\": {\n    \"amount\": \"140,063\",\n    \"evidence\": \"Grand Total  140,063\"\n  },\n  \"tax\": {\n    \"amount\": \"12,733\",\n    \"evidence\": \"S  PB1 10.0%  12,733  NOODLE\"\n  },\n  \"service\": {\n    \"amount\": \"8,330\",\n    \"evidence\": \"Serv. 7.0%  8,330\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 926,
+  "completion": 493,
+  "total": 1419,
+  "reasoning": 215
+ },
+ "seconds": 3.182358503341675,
+ "error": null
+}

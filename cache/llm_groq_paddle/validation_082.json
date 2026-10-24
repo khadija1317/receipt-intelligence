@@ -1,0 +1,58 @@
+{
+ "menu": [
+  {
+   "nm": "1 PEARL CHOCO TEA",
+   "cnt": "1",
+   "price": {
+    "value": "17000",
+    "raw": "17.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 GREEN TEA LYCHEE",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "2 TUTUP SEAL",
+   "cnt": "2",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "2 CUP 14 OZ",
+   "cnt": "2",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 82,
+ "subtotal": null,
+ "total": {
+  "value": "35000",
+  "raw": "35.000",
+  "status": "ok",
+  "conf": null,
+  "line": "6 Total  35.000"
+ },
+ "tax": null,
+ "service": null
+}

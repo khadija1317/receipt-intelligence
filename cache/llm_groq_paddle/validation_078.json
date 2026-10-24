@@ -1,0 +1,76 @@
+{
+ "menu": [
+  {
+   "nm": "Mineral Water",
+   "cnt": "2",
+   "price": {
+    "value": "18000",
+    "raw": "18 000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Teh Tawar Dingin",
+   "cnt": "1",
+   "price": {
+    "value": "11000",
+    "raw": "11.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Soto Betawi",
+   "cnt": null,
+   "price": {
+    "value": "116000",
+    "raw": "116.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 78,
+ "subtotal": {
+  "value": "154000",
+  "raw": "154 000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  154 000"
+ },
+ "total": {
+  "value": "177870",
+  "raw": "177.870",
+  "status": "ok",
+  "conf": null,
+  "line": "6 Total  177.870"
+ },
+ "tax": {
+  "value": "16170",
+  "raw": "16170",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak Rest  10  16170"
+ },
+ "service": {
+  "value": "7700",
+  "raw": "7700",
+  "status": "ok",
+  "conf": null,
+  "line": "Servi Charge  7700"
+ }
+}

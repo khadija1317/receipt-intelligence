@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "Tan W",
+   "cnt": "1",
+   "price": {
+    "value": "52000",
+    "raw": "52.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nasi CampurBali",
+   "cnt": "1",
+   "price": {
+    "value": "22000",
+    "raw": "22.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 49,
+ "subtotal": {
+  "value": "74000",
+  "raw": "74.000",
+  "status": "ok",
+  "conf": null,
+  "line": "SubTTL  74.000"
+ },
+ "total": null,
+ "tax": {
+  "value": "7400",
+  "raw": "7.400",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  7.400"
+ },
+ "service": null
+}

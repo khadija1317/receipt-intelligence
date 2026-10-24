@@ -1,0 +1,17 @@
+{
+ "index": 15,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Arem Arem\n2  12.000  24.000\nPepenero Pastel\n2  15.000  30.000\nSubtotal  Rp 54.000\nTax (10.0%)  Rp 5.400\nTotal  Rp 59.400\nCash  Rp 100.000\nChange  Rp 40.600",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Arem Arem\",\n      \"cnt\": \"2\",\n      \"price\": \"24.000\"\n    },\n    {\n      \"nm\": \"Pepenero Pastel\",\n      \"cnt\": \"2\",\n      \"price\": \"30.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"54.000\",\n    \"evidence\": \"Subtotal  Rp 54.000\"\n  },\n  \"tax\": {\n    \"amount\": \"5.400\",\n    \"evidence\": \"Tax (10.0%)  Rp 5.400\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"59.400\",\n    \"evidence\": \"Total  Rp 59.400\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 862,
+  "completion": 512,
+  "total": 1374,
+  "reasoning": 315
+ },
+ "seconds": 1.7576005458831787,
+ "error": null
+}

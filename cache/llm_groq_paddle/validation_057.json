@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "SEAFOOD MARINARA",
+   "cnt": null,
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CREAMY MARINARA SALMON",
+   "cnt": "1",
+   "price": {
+    "value": "85500",
+    "raw": "85.500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LYCHEE ICE TEA",
+   "cnt": "2",
+   "price": {
+    "value": "77000",
+    "raw": "77,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 57,
+ "subtotal": null,
+ "total": {
+  "value": "288585",
+  "raw": "288,585",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  288,585"
+ },
+ "tax": {
+  "value": "26235",
+  "raw": "26,235",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1 10%  26,235"
+ },
+ "service": {
+  "value": "14850",
+  "raw": "14.850",
+  "status": "ok",
+  "conf": null,
+  "line": "SUC CHG 6%  14.850"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "index": 55,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "EVen\nCha Keaw L... x2  60.000\nCha Keaw L... x2  60.000\nBCA PAY... (100%)  60.000)\nTotal  60.000\nEDC  60.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Cha Keaw L...\",\n      \"cnt\": \"x2\",\n      \"price\": \"60.000\"\n    },\n    {\n      \"nm\": \"Cha Keaw L...\",\n      \"cnt\": \"x2\",\n      \"price\": \"60.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"60.000\",\n    \"evidence\": \"Total  60.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 839,
+  "completion": 281,
+  "total": 1120,
+  "reasoning": 109
+ },
+ "seconds": 1.1652545928955078,
+ "error": null
+}

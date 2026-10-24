@@ -1,0 +1,17 @@
+{
+ "index": 60,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Topping Milo Sparkle (untuk 1 Po\nrsi)\n1x  1.250  1.250\nBola Ubi Mini  Original (14 Pcs\n1\n2x  12.500  25.000\nSubtotal  26.250\nPajak\nTotal  26.250\nPembayaran  GO-PAY",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Topping Milo Sparkle (untuk 1 Po rsi)\",\n      \"cnt\": \"1\",\n      \"price\": \"1.250\"\n    },\n    {\n      \"nm\": \"Bola Ubi Mini  Original (14 Pcs 1\",\n      \"cnt\": \"2\",\n      \"price\": \"25.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"26.250\",\n    \"evidence\": \"Subtotal  26.250\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"26.250\",\n    \"evidence\": \"Total  26.250\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 861,
+  "completion": 608,
+  "total": 1469,
+  "reasoning": 411
+ },
+ "seconds": 1.736450433731079,
+ "error": null
+}

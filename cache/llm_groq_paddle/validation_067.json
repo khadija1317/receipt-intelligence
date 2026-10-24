@@ -1,0 +1,90 @@
+{
+ "menu": [
+  {
+   "nm": "PAKET BER2",
+   "cnt": "1",
+   "price": {
+    "value": "69091",
+    "raw": "69,091",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BREAD N CHEESE DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MAC N CHEESE DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PEPSI DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "P/P THUOSAND ISL DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LIPTON ICE TEA DEL",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 67,
+ "subtotal": {
+  "value": "69091",
+  "raw": "69,091",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  69,091"
+ },
+ "total": {
+  "value": "76000",
+  "raw": "76,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  76,000"
+ },
+ "tax": {
+  "value": "6909",
+  "raw": "6,909",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  6,909"
+ },
+ "service": null
+}

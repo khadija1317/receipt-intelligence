@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "APPLE CINNAMON PASTRY",
+   "cnt": "1",
+   "price": {
+    "value": "22000",
+    "raw": "22,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ROYAL CHEESE TART",
+   "cnt": "2",
+   "price": {
+    "value": "32000",
+    "raw": "32,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 55,
+ "subtotal": null,
+ "total": {
+  "value": "54000",
+  "raw": "54,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  54,000"
+ },
+ "tax": null,
+ "service": null
+}

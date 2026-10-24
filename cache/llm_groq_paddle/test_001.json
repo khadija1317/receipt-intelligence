@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "J.STB PROMO",
+   "cnt": null,
+   "price": {
+    "value": "17500",
+    "raw": "17500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Y.B.BAT",
+   "cnt": null,
+   "price": {
+    "value": "46000",
+    "raw": "46000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Y.BASOPROM",
+   "cnt": null,
+   "price": {
+    "value": "27500",
+    "raw": "27500",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 1,
+ "subtotal": null,
+ "total": {
+  "value": "91000",
+  "raw": "91000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  91000"
+ },
+ "tax": null,
+ "service": null
+}

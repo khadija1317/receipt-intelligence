@@ -1,0 +1,17 @@
+{
+ "index": 36,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "60\nM  \n1\nw  \n出拼出\n1  XXL Crispy Chicken  40,000\n一  -Sedang  0\nITEMS:1  40.000\nTatal...  40:000\nPay Cash  100.000  Change:60,000\nTE\n1\n1",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"XXL Crispy Chicken\",\n      \"cnt\": \"1\",\n      \"price\": \"40,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"40:000\",\n    \"evidence\": \"Tatal...  40:000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 854,
+  "completion": 351,
+  "total": 1205,
+  "reasoning": 208
+ },
+ "seconds": 0.8961706161499023,
+ "error": null
+}

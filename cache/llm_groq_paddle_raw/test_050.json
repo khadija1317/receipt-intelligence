@@ -1,0 +1,17 @@
+{
+ "index": 50,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "S\nFom\nN01M  mun\nIEeTw\nML  Rnmia\n  na\nmen\nSpcfrice Cauburry  17,727\nSuuTulal:  17,727\nFBI:  1,773\nTotal:  19,500\nLashl:  100,008\nChanye:  80,500\n  1",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Spcfrice Cauburry\",\n      \"cnt\": null,\n      \"price\": \"17,727\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"17,727\",\n    \"evidence\": \"SuuTulal:  17,727\"\n  },\n  \"tax\": {\n    \"amount\": \"1,773\",\n    \"evidence\": \"FBI:  1,773\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"19,500\",\n    \"evidence\": \"Total:  19,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 872,
+  "completion": 297,
+  "total": 1169,
+  "reasoning": 130
+ },
+ "seconds": 0.7785847187042236,
+ "error": null
+}

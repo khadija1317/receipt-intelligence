@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "BASD KUAH",
+   "cnt": "1",
+   "price": {
+    "value": "43636",
+    "raw": "43.636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "A.MINERAL GELAS",
+   "cnt": "1",
+   "price": {
+    "value": "3000",
+    "raw": "3,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 13,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

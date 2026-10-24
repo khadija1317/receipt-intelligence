@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "PILLOW DURIA",
+   "cnt": null,
+   "price": {
+    "value": "36364",
+    "raw": "36,364",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PLASTIK",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 66,
+ "subtotal": {
+  "value": "36364",
+  "raw": "36,364",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  36,364"
+ },
+ "total": {
+  "value": "40000",
+  "raw": "40,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  40,000"
+ },
+ "tax": null,
+ "service": null
+}

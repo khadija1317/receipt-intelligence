@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "AMBUSH DBL CHS",
+   "cnt": "4",
+   "price": {
+    "value": "60000",
+    "raw": "60000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AMBUSH CHS BUR",
+   "cnt": "10",
+   "price": {
+    "value": "100000",
+    "raw": "100000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 19,
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "16000",
+  "raw": "16000",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  16000"
+ },
+ "service": null
+}

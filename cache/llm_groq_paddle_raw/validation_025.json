@@ -1,0 +1,17 @@
+{
+ "index": 25,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1Prs Sop Sui Jiao  33,000\n1Prs Ha Kaou Udng  28,000\n1Prs Sio May Kpting  23,500\n1Prs Siomay Kmbinasi  23,000\n1Prs Leng Hong Kien  30,000\n1Prs Mie Kgkung Trsi  35,500\n101s Es Teh Tawar  7,000\nSubtotal  180,000\nService Charge  9,000\nPb  1  18,900\nTotal  207,900\nTotal A  \nVotal Qty  7\n30 0ctober 2012 10  -..50",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1Prs Sop Sui Jiao\",\n      \"cnt\": null,\n      \"price\": \"33,000\"\n    },\n    {\n      \"nm\": \"1Prs Ha Kaou Udng\",\n      \"cnt\": null,\n      \"price\": \"28,000\"\n    },\n    {\n      \"nm\": \"1Prs Sio May Kpting\",\n      \"cnt\": null,\n      \"price\": \"23,500\"\n    },\n    {\n      \"nm\": \"1Prs Siomay Kmbinasi\",\n      \"cnt\": null,\n      \"price\": \"23,000\"\n    },\n    {\n      \"nm\": \"1Prs Leng Hong Kien\",\n      \"cnt\": null,\n      \"price\": \"30,000\"\n    },\n    {\n      \"nm\": \"1Prs Mie Kgkung Trsi\",\n      \"cnt\": null,\n      \"price\": \"35,500\"\n    },\n    {\n      \"nm\": \"101s Es Teh Tawar\",\n      \"cnt\": null,\n      \"price\": \"7,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"180,000\",\n    \"evidence\": \"Subtotal  180,000\"\n  },\n  \"service\": {\n    \"amount\": \"9,000\",\n    \"evidence\": \"Service Charge  9,000\"\n  },\n  \"tax\": {\n    \"amount\": \"18,900\",\n    \"evidence\": \"Pb  1  18,900\"\n  },\n  \"total\": {\n    \"amount\": \"207,900\",\n    \"evidence\": \"Total  207,900\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 939,
+  "completion": 586,
+  "total": 1525,
+  "reasoning": 212
+ },
+ "seconds": 1.6576619148254395,
+ "error": null
+}

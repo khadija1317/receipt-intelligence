@@ -1,0 +1,17 @@
+{
+ "index": 26,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "O\n_\n2\nNASI MERAH/PUTIH\n1×  5.000  5.000\nSAYUR\n2×4.000  8.000\nKERUPUK/SAMBEL\n1×2.000  2.000\nAYAM\n1×14.000  14.000\nMINUMAN KEMASAN/REFILL\n1×6.000  6.000\nTotal  Rp.35.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"NASI MERAH/PUTIH\",\n      \"cnt\": \"1\",\n      \"price\": \"5.000\"\n    },\n    {\n      \"nm\": \"SAYUR\",\n      \"cnt\": \"2\",\n      \"price\": \"8.000\"\n    },\n    {\n      \"nm\": \"KERUPUK/SAMBEL\",\n      \"cnt\": \"1\",\n      \"price\": \"2.000\"\n    },\n    {\n      \"nm\": \"AYAM\",\n      \"cnt\": \"1\",\n      \"price\": \"14.000\"\n    },\n    {\n      \"nm\": \"MINUMAN KEMASAN/REFILL\",\n      \"cnt\": \"1\",\n      \"price\": \"6.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"Rp.35.000\",\n    \"evidence\": \"Total  Rp.35.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 885,
+  "completion": 580,
+  "total": 1465,
+  "reasoning": 309
+ },
+ "seconds": 1.449324607849121,
+ "error": null
+}

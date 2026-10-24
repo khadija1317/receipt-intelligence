@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "RoTmn",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Serbu",
+   "cnt": "1",
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Choco Peanut Bread",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 10,
+ "subtotal": null,
+ "total": {
+  "value": "60000",
+  "raw": "60.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  60.000"
+ },
+ "tax": null,
+ "service": null
+}

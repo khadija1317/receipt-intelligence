@@ -1,0 +1,17 @@
+{
+ "index": 72,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "D'arepes\nI\n  Choco Devil  15,909\nSubTotal:\n15,909\nPB1:\n1,591\nTotal:  17,500\ncash:\nChange:  20,000\n2,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Choco Devil\",\n      \"cnt\": null,\n      \"price\": \"15,909\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"17,500\",\n    \"evidence\": \"Total:  17,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 835,
+  "completion": 343,
+  "total": 1178,
+  "reasoning": 204
+ },
+ "seconds": 0.8677446842193604,
+ "error": null
+}

@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "PAIN AU CHOCOLATE",
+   "cnt": "1",
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CHOCO CUSTARD PASTRY",
+   "cnt": "1",
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MILK PASTRY ROLL",
+   "cnt": "1",
+   "price": {
+    "value": "13500",
+    "raw": "13,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "REAL CHEESE INSIDE BREAD",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SAUSAGE BREAD",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "HAM CHEESE FLAT BREAD",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 24,
+ "subtotal": null,
+ "total": {
+  "value": "80500",
+  "raw": "80,500",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  80,500"
+ },
+ "tax": null,
+ "service": null
+}

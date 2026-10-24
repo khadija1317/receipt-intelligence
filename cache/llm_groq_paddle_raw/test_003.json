@@ -1,0 +1,17 @@
+{
+ "index": 3,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "mc\n  18\nn\nwUmT\n1X  @11000\nDONAT GULA  11,000\n1.00xITEMs\nSUBTOTAL  11,000\nTOTAL  11,000\nCASH  11,000\nTW",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1X\",\n      \"cnt\": null,\n      \"price\": \"@11000\"\n    },\n    {\n      \"nm\": \"DONAT GULA\",\n      \"cnt\": null,\n      \"price\": \"11,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"11,000\",\n    \"evidence\": \"SUBTOTAL  11,000\"\n  },\n  \"total\": {\n    \"amount\": \"11,000\",\n    \"evidence\": \"TOTAL  11,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 843,
+  "completion": 331,
+  "total": 1174,
+  "reasoning": 156
+ },
+ "seconds": 0.8100268840789795,
+ "error": null
+}

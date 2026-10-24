@@ -1,0 +1,104 @@
+{
+ "menu": [
+  {
+   "nm": "COLD OCHA",
+   "cnt": "1",
+   "price": {
+    "value": "10909",
+    "raw": "10,909",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BCA PROMO",
+   "cnt": "1",
+   "price": {
+    "value": "54455",
+    "raw": "54,455",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "-ABURA UDON SPICY",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": ":-KAKE UDON",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SKEWERED SHUMAI",
+   "cnt": "1",
+   "price": {
+    "value": "12727",
+    "raw": "12,727",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SKEWERED TOFU ROLL",
+   "cnt": "1",
+   "price": {
+    "value": "12727",
+    "raw": "12,727",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "EBI TEMPURA",
+   "cnt": "1",
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KITSUNE UDON (KIDS)",
+   "cnt": "1",
+   "price": {
+    "value": "28182",
+    "raw": "28,182",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 29,
+ "subtotal": {
+  "value": "132636",
+  "raw": "132,636",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB.TOTAL  132,636"
+ },
+ "total": null,
+ "tax": {
+  "value": "13264",
+  "raw": "13,264",
+  "status": "ok",
+  "conf": null,
+  "line": "RESTAURANT TAX  13,264"
+ },
+ "service": null
+}

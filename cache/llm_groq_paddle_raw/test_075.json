@@ -1,0 +1,17 @@
+{
+ "index": 75,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 CHOCO PUFF  29,091\n1 CREAMY BEEF CLS FTC  42,727\n1 NEW ORIENTAL CHK RICE  34,545\n1 LIPTON PITCHER  54,545\n1 SC/P SUPER SUPREME  47,273\n1 CB/P BLACK PEPP BEEF  48.182\nSUBTOTAL  256,363\nTAX  25,637\nTOTAL  282,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"CHOCO PUFF\",\n      \"cnt\": \"1\",\n      \"price\": \"29,091\"\n    },\n    {\n      \"nm\": \"CREAMY BEEF CLS FTC\",\n      \"cnt\": \"1\",\n      \"price\": \"42,727\"\n    },\n    {\n      \"nm\": \"NEW ORIENTAL CHK RICE\",\n      \"cnt\": \"1\",\n      \"price\": \"34,545\"\n    },\n    {\n      \"nm\": \"LIPTON PITCHER\",\n      \"cnt\": \"1\",\n      \"price\": \"54,545\"\n    },\n    {\n      \"nm\": \"SC/P SUPER SUPREME\",\n      \"cnt\": \"1\",\n      \"price\": \"47,273\"\n    },\n    {\n      \"nm\": \"CB/P BLACK PEPP BEEF\",\n      \"cnt\": \"1\",\n      \"price\": \"48.182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"256,363\",\n    \"evidence\": \"SUBTOTAL  256,363\"\n  },\n  \"tax\": {\n    \"amount\": \"25,637\",\n    \"evidence\": \"TAX  25,637\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"282,000\",\n    \"evidence\": \"TOTAL  282,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 886,
+  "completion": 438,
+  "total": 1324,
+  "reasoning": 114
+ },
+ "seconds": 1.059882640838623,
+ "error": null
+}

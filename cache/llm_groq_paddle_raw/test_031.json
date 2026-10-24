@@ -1,0 +1,17 @@
+{
+ "index": 31,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SALMON PESTO  85,500\nSALMON PESTO  85,500\nDisc -100%(ITM06)  -85,500\nSUBTTL  85,500\nSVC CHG 6%  10,260\nPB1 10%  18,126\nTOTAL  113,886",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SALMON PESTO\",\n      \"cnt\": null,\n      \"price\": \"85,500\"\n    },\n    {\n      \"nm\": \"SALMON PESTO\",\n      \"cnt\": null,\n      \"price\": \"85,500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"18,126\",\n    \"evidence\": \"PB1 10%  18,126\"\n  },\n  \"service\": {\n    \"amount\": \"10,260\",\n    \"evidence\": \"SVC CHG 6%  10,260\"\n  },\n  \"total\": {\n    \"amount\": \"113,886\",\n    \"evidence\": \"TOTAL  113,886\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 857,
+  "completion": 355,
+  "total": 1212,
+  "reasoning": 157
+ },
+ "seconds": 0.8926770687103271,
+ "error": null
+}

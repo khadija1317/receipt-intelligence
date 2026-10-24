@@ -1,0 +1,17 @@
+{
+ "index": 51,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "10\n118 Round Wagyu (1gr)  47.200\n1 Wagyu Rice Box  10.000\nSubtotal  57.200\nTOTAL  57.200\n57.200\nBCA",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"118 Round Wagyu (1gr)\",\n      \"cnt\": null,\n      \"price\": \"47.200\"\n    },\n    {\n      \"nm\": \"1 Wagyu Rice Box\",\n      \"cnt\": null,\n      \"price\": \"10.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"57.200\",\n    \"evidence\": \"Subtotal  57.200\"\n  },\n  \"total\": {\n    \"amount\": \"57.200\",\n    \"evidence\": \"TOTAL  57.200\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 830,
+  "completion": 377,
+  "total": 1207,
+  "reasoning": 196
+ },
+ "seconds": 1.1426935195922852,
+ "error": null
+}

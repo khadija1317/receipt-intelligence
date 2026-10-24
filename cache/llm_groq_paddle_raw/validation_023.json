@@ -1,0 +1,17 @@
+{
+ "index": 23,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "  1 BUBBLE GUM\n18,182\nSubtotal\nPAJAK 10%  18.182\n1 Total  1,818\n20.000\nCASH\n20.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1 BUBBLE GUM\",\n      \"cnt\": \"1\",\n      \"price\": \"18,182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"18.182\",\n    \"evidence\": \"PAJAK 10%  18.182\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"1,818\",\n    \"evidence\": \"1 Total  1,818\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 828,
+  "completion": 427,
+  "total": 1255,
+  "reasoning": 270
+ },
+ "seconds": 1.2990646362304688,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 29,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "0\nCOLD OCHA  1  10,909\nBCA PROMO  1  54,455\n-ABURA UDON SPICY  1  0\n:-KAKE UDON  1  0\nSKEWERED SHUMAI  1  12,727\nSKEWERED TOFU ROLL  1  12,727\nEBI TEMPURA  1  13,636\nKITSUNE UDON (KIDS)  1  28,182\nSUB.TOTAL  132,636\nRESTAURANT TAX  13,264\nGRAND TOTAL\n~BCA EDC . [145,900]  145,900",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"COLD OCHA\",\n      \"cnt\": \"1\",\n      \"price\": \"10,909\"\n    },\n    {\n      \"nm\": \"BCA PROMO\",\n      \"cnt\": \"1\",\n      \"price\": \"54,455\"\n    },\n    {\n      \"nm\": \"-ABURA UDON SPICY\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \":-KAKE UDON\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"SKEWERED SHUMAI\",\n      \"cnt\": \"1\",\n      \"price\": \"12,727\"\n    },\n    {\n      \"nm\": \"SKEWERED TOFU ROLL\",\n      \"cnt\": \"1\",\n      \"price\": \"12,727\"\n    },\n    {\n      \"nm\": \"EBI TEMPURA\",\n      \"cnt\": \"1\",\n      \"price\": \"13,636\"\n    },\n    {\n      \"nm\": \"KITSUNE UDON (KIDS)\",\n      \"cnt\": \"1\",\n      \"price\": \"28,182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"132,636\",\n    \"evidence\": \"SUB.TOTAL  132,636\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"13,264\",\n    \"evidence\": \"RESTAURANT TAX  13,264\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 941,
+  "completion": 697,
+  "total": 1638,
+  "reasoning": 322
+ },
+ "seconds": 1.6183350086212158,
+ "error": null
+}

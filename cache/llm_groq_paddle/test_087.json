@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "ASI",
+   "cnt": null,
+   "price": {
+    "value": "36500",
+    "raw": "36,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PHO TAI CHIN",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 87,
+ "subtotal": {
+  "value": "36500",
+  "raw": "36,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  36,500"
+ },
+ "total": {
+  "value": "40150",
+  "raw": "40,150",
+  "status": "ok",
+  "conf": null,
+  "line": "Grand Total  40,150  DLEH"
+ },
+ "tax": {
+  "value": "3650",
+  "raw": "3,650",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1 10.0%  3,650"
+ },
+ "service": null
+}

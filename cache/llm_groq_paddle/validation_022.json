@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "RedVelvet Nutella",
+   "cnt": "1",
+   "price": {
+    "value": "280000",
+    "raw": "280,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Free Mini Candle",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Large Box",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 22,
+ "subtotal": {
+  "value": "280000",
+  "raw": "280,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  280,000"
+ },
+ "total": {
+  "value": "308000",
+  "raw": "308,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  308,000"
+ },
+ "tax": {
+  "value": "28000",
+  "raw": "28,000",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1  28,000"
+ },
+ "service": null
+}

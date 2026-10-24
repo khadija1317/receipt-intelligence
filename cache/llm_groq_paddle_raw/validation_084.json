@@ -1,0 +1,17 @@
+{
+ "index": 84,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "HM\nI\n1 × HAZELNUT CHOCO MT ( R )  24,000\nPEARL (R)  4,000\n1 × HAZELNUT CHOCO MT ( R)  24,000\n-t\nSUB TOTAL  52,000\nTOTAL SALES  52,000\nTOTAL ITEMS  2\nDEBIT BCA  52,000\n1  1I",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"HAZELNUT CHOCO MT ( R )\",\n      \"cnt\": \"1\",\n      \"price\": \"24,000\"\n    },\n    {\n      \"nm\": \"PEARL (R)\",\n      \"cnt\": null,\n      \"price\": \"4,000\"\n    },\n    {\n      \"nm\": \"HAZELNUT CHOCO MT ( R )\",\n      \"cnt\": \"1\",\n      \"price\": \"24,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"52,000\",\n    \"evidence\": \"SUB TOTAL  52,000\"\n  },\n  \"total\": {\n    \"amount\": \"52,000\",\n    \"evidence\": \"TOTAL SALES  52,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 878,
+  "completion": 429,
+  "total": 1307,
+  "reasoning": 202
+ },
+ "seconds": 1.3300187587738037,
+ "error": null
+}

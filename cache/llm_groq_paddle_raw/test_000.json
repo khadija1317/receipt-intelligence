@@ -1,0 +1,17 @@
+{
+ "index": 0,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "901016  -TICKET CP\n2  60,000  60.000\nTOTAL DISC $  -60,000\nTAX  5.455\nSubtotal  60.000\nTOTAL  (Qty  2.00  60.000\n- EDC CIMB NIAGA No: xx7730  60.000\nCUSTOMER INEO",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"2  60,000\",\n      \"cnt\": \"2\",\n      \"price\": \"60.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"60.000\",\n    \"evidence\": \"Subtotal  60.000\"\n  },\n  \"tax\": {\n    \"amount\": \"5.455\",\n    \"evidence\": \"TAX  5.455\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"60.000\",\n    \"evidence\": \"TOTAL  (Qty  2.00  60.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 864,
+  "completion": 464,
+  "total": 1328,
+  "reasoning": 295
+ },
+ "seconds": 1.9044082164764404,
+ "error": null
+}

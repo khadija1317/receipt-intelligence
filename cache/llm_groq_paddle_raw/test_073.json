@@ -1,0 +1,17 @@
+{
+ "index": 73,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "T\n65105080\n1001-Choco Bun\n22.000  x1  22.000\n6001-Plastic Bag Small\n0  x1  0\nTotal Item:  CJ\nTotal.  22.000\nCash\nTendered:  25.000\n3.000\nChange:",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1001-Choco Bun\",\n      \"cnt\": \"1\",\n      \"price\": \"22.000  x1  22.000\"\n    },\n    {\n      \"nm\": \"6001-Plastic Bag Small\",\n      \"cnt\": \"1\",\n      \"price\": \"0  x1  0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"22.000\",\n    \"evidence\": \"Total.  22.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 853,
+  "completion": 463,
+  "total": 1316,
+  "reasoning": 277
+ },
+ "seconds": 1.419802188873291,
+ "error": null
+}

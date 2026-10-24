@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Cha Keaw L...",
+   "cnt": "x2",
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Cha Keaw L...",
+   "cnt": "x2",
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 55,
+ "subtotal": null,
+ "total": {
+  "value": "60000",
+  "raw": "60.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  60.000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "Topping Milo Sparkle (untuk 1 Po rsi)",
+   "cnt": "1",
+   "price": {
+    "value": "1250",
+    "raw": "1.250",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bola Ubi Mini Original (14 Pcs 1",
+   "cnt": "2",
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 60,
+ "subtotal": {
+  "value": "26250",
+  "raw": "26.250",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  26.250"
+ },
+ "total": {
+  "value": "26250",
+  "raw": "26.250",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  26.250"
+ },
+ "tax": null,
+ "service": null
+}

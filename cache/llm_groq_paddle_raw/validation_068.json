@@ -1,0 +1,17 @@
+{
+ "index": 68,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "B\n2X  13,000\nHoney Mandarin  26,000\nTOTAL  .26.000\nCASH  30,000\nCHANGE  4,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"2X\",\n      \"cnt\": null,\n      \"price\": \"13,000\"\n    },\n    {\n      \"nm\": \"Honey Mandarin\",\n      \"cnt\": null,\n      \"price\": \"26,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \".26.000\",\n    \"evidence\": \"TOTAL  .26.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 822,
+  "completion": 360,
+  "total": 1182,
+  "reasoning": 196
+ },
+ "seconds": 1.2957534790039062,
+ "error": null
+}

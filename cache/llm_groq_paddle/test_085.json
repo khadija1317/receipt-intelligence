@@ -1,0 +1,130 @@
+{
+ "menu": [
+  {
+   "nm": "1 Nasi Tambah 3 Nasi Putih",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "2 Ayam Pop",
+   "cnt": "2",
+   "price": {
+    "value": "7000",
+    "raw": "7.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 Samabal SP",
+   "cnt": "1",
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 Sambal Gabus Asin Cb",
+   "cnt": "1",
+   "price": {
+    "value": "11000",
+    "raw": "11.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 Kerupuk Kuah",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 IKan Bawal Besa",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 Telur Dadar",
+   "cnt": "1",
+   "price": {
+    "value": "10000",
+    "raw": "10.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 Teh Es",
+   "cnt": "1",
+   "price": {
+    "value": "7000",
+    "raw": "7.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 Teh Manis",
+   "cnt": "1",
+   "price": {
+    "value": "9000",
+    "raw": "9.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 Es Batu",
+   "cnt": "1",
+   "price": {
+    "value": "4000",
+    "raw": "4.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 85,
+ "subtotal": {
+  "value": "179500",
+  "raw": "179.500",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  179.500"
+ },
+ "total": {
+  "value": "197450",
+  "raw": "197.450",
+  "status": "ok",
+  "conf": null,
+  "line": "14 Total  197.450"
+ },
+ "tax": {
+  "value": "17950",
+  "raw": "17.950",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak Rest.10%  17.950"
+ },
+ "service": null
+}

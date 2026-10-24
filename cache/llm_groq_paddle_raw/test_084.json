@@ -1,0 +1,17 @@
+{
+ "index": 84,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kroket\n1× @12.000  12.000\nArem Arem\n@12.000  24.000\nSubtotal  Rp 36.000\nTax (10.0%)  Rp 3.600\nTotal  Rp 39.600\nOther  Rp 39.600",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Kroket\",\n      \"cnt\": \"1×\",\n      \"price\": \"12.000\"\n    },\n    {\n      \"nm\": \"Arem Arem\",\n      \"cnt\": null,\n      \"price\": \"24.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"36.000\",\n    \"evidence\": \"Subtotal  Rp 36.000\"\n  },\n  \"tax\": {\n    \"amount\": \"3.600\",\n    \"evidence\": \"Tax (10.0%)  Rp 3.600\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"39.600\",\n    \"evidence\": \"Total  Rp 39.600\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 850,
+  "completion": 438,
+  "total": 1288,
+  "reasoning": 243
+ },
+ "seconds": 1.648414134979248,
+ "error": null
+}

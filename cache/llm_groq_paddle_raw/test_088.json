@@ -1,0 +1,17 @@
+{
+ "index": 88,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AuntieAnne's\nFH888N\nSTIXECLAIRS\n1 ×  19,000  19,000\nALMOND CREAM CHEESE\n×  28,000  28,000\nSUB TOTAL  47,000\nGRANDTOTAL  47,000\nVISA  8945  47,000\nCHANGE DUE  0",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"47,000\",\n    \"evidence\": \"SUB TOTAL  47,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 284,
+  "total": 1152,
+  "reasoning": 175
+ },
+ "seconds": 1.0448615550994873,
+ "error": null
+}

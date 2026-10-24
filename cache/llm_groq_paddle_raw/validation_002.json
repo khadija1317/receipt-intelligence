@@ -1,0 +1,17 @@
+{
+ "index": 2,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "20,000  20,000\n1 S-Ovaltine\n50%\nPB1:  1,818\nSubtotal:  18,181\nTotal:  20,000\nCash:  100,000\nCHANGE:  80,000\n10% Tax Included",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"S-Ovaltine\",\n      \"cnt\": \"1\",\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"18,181\",\n    \"evidence\": \"Subtotal:  18,181\"\n  },\n  \"total\": {\n    \"amount\": \"20,000\",\n    \"evidence\": \"Total:  20,000\"\n  },\n  \"tax\": {\n    \"amount\": \"1,818\",\n    \"evidence\": \"PB1:  1,818\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 300,
+  "total": 1145,
+  "reasoning": 141
+ },
+ "seconds": 0.8583614826202393,
+ "error": null
+}

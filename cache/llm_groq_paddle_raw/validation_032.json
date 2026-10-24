@@ -1,0 +1,17 @@
+{
+ "index": 32,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "DONBLOOK\n11M  \nwum\nBau  WN\n18  MS\nTallsr  mism  e\n1 Nasi (MLY)  6.000\nSubtotal  6.000\nTOTAL  6.000\nGo-Pay static QR  6.000\nSemitthe\nTmi1",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1 Nasi (MLY)\",\n      \"cnt\": \"1\",\n      \"price\": \"6.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"6.000\",\n    \"evidence\": \"Subtotal  6.000\"\n  },\n  \"total\": {\n    \"amount\": \"6.000\",\n    \"evidence\": \"TOTAL  6.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 856,
+  "completion": 230,
+  "total": 1086,
+  "reasoning": 79
+ },
+ "seconds": 0.5867462158203125,
+ "error": null
+}

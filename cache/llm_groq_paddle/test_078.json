@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Lemon Tea (L)",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Extra Jelly Lychee",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 78,
+ "subtotal": null,
+ "total": {
+  "value": "30000",
+  "raw": "30.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  30.000"
+ },
+ "tax": null,
+ "service": null
+}

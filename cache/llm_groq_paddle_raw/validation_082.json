@@ -1,0 +1,17 @@
+{
+ "index": 82,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "bishouse\nSESEESSSSEESSSIEEESSESEEESEESSSSEESSEES\n1 PEARL CHOCO TEA  17.000\n1 GREEN TEA LYCHEE  18.000\n2 TUTUP SEAL  0\n2 CUP 14 OZ  0\nNET Sales  35.000\n6 Total  35.000\nBayar  100.000\nCASH\nKembali  65.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1 PEARL CHOCO TEA\",\n      \"cnt\": \"1\",\n      \"price\": \"17.000\"\n    },\n    {\n      \"nm\": \"1 GREEN TEA LYCHEE\",\n      \"cnt\": \"1\",\n      \"price\": \"18.000\"\n    },\n    {\n      \"nm\": \"2 TUTUP SEAL\",\n      \"cnt\": \"2\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"2 CUP 14 OZ\",\n      \"cnt\": \"2\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"35.000\",\n    \"evidence\": \"6 Total  35.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 889,
+  "completion": 401,
+  "total": 1290,
+  "reasoning": 162
+ },
+ "seconds": 1.2453548908233643,
+ "error": null
+}

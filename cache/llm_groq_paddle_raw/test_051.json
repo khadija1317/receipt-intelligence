@@ -1,0 +1,17 @@
+{
+ "index": 51,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "N\ntrai\nCuston\n(TA) NASI ORG TERI  4  165,460\nMEDAN\n(TA) BIHUN GORENG  1  40,456\nSEAFOOD\n(TA) KWETIAW SEAFOOD  1  42,274\nSIRAM\n(TA) NASI GORENG  2  55,456\nITEMS:8  303,646\nPh1 10%  30,365\nle Rounding  334,011\nRounding  11\nTotal  334,000\nDEBIT BCA  334,000\nA  jungan",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"NASI ORG TERI\",\n      \"cnt\": \"4\",\n      \"price\": \"165,460\"\n    },\n    {\n      \"nm\": \"BIHUN GORENG\",\n      \"cnt\": \"1\",\n      \"price\": \"40,456\"\n    },\n    {\n      \"nm\": \"KWETIAW SEAFOOD\",\n      \"cnt\": \"1\",\n      \"price\": \"42,274\"\n    },\n    {\n      \"nm\": \"NASI GORENG\",\n      \"cnt\": \"2\",\n      \"price\": \"55,456\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"334,000\",\n    \"evidence\": \"Total  334,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 931,
+  "completion": 416,
+  "total": 1347,
+  "reasoning": 178
+ },
+ "seconds": 1.0595414638519287,
+ "error": null
+}

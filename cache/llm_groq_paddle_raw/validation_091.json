@@ -1,0 +1,17 @@
+{
+ "index": 91,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "K7  1217  39,091\nADD CHICKEN BOX  909\nSubtotal  40,000\nPB1 (10%)  4,000\nTotal  44,000\nCash  Rp.50,000\nChange  Rp.6,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"K7\",\n      \"cnt\": null,\n      \"price\": \"39,091\"\n    },\n    {\n      \"nm\": \"ADD CHICKEN BOX\",\n      \"cnt\": null,\n      \"price\": \"909\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"40,000\",\n    \"evidence\": \"Subtotal  40,000\"\n  },\n  \"tax\": {\n    \"amount\": \"4,000\",\n    \"evidence\": \"PB1 (10%)  4,000\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"44,000\",\n    \"evidence\": \"Total  44,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 844,
+  "completion": 314,
+  "total": 1158,
+  "reasoning": 127
+ },
+ "seconds": 0.7722475528717041,
+ "error": null
+}

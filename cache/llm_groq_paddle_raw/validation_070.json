@@ -1,0 +1,17 @@
+{
+ "index": 70,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "TANLEAAER\nX\ns\n1 KaraageCurryTeishoku  69,000\n1 Lemon Plate  19,000\n1 Ocha Hot  15,000\nSUBTOTAL  103,000\nService  7,725\nPB1  11,073\nTOTAL  121798\nTotal item  3  Total Qty  3",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"KaraageCurryTeishoku\",\n      \"cnt\": \"1\",\n      \"price\": \"69,000\"\n    },\n    {\n      \"nm\": \"Lemon Plate\",\n      \"cnt\": \"1\",\n      \"price\": \"19,000\"\n    },\n    {\n      \"nm\": \"Ocha Hot\",\n      \"cnt\": \"1\",\n      \"price\": \"15,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"103,000\",\n    \"evidence\": \"SUBTOTAL  103,000\"\n  },\n  \"total\": {\n    \"amount\": \"121798\",\n    \"evidence\": \"TOTAL  121798\"\n  },\n  \"tax\": {\n    \"amount\": \"11,073\",\n    \"evidence\": \"PB1  11,073\"\n  },\n  \"service\": {\n    \"amount\": \"7,725\",\n    \"evidence\": \"Service  7,725\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 866,
+  "completion": 438,
+  "total": 1304,
+  "reasoning": 209
+ },
+ "seconds": 1.0555126667022705,
+ "error": null
+}

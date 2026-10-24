@@ -1,0 +1,17 @@
+{
+ "index": 39,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PKT TELE  26,000\nTERONG  12,000\nPARU  23,000\nSBL GR ATI/AMPLA  20,000\nNESTLE 330 ML  8,000\n5.00xITEMS\nSUBTOTAL  89,000\nTAX 10%  8,900\nTOTAL  97,900\nCASH  100,000\nCHANGE  2,100\n1",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PKT TELE\",\n      \"cnt\": null,\n      \"price\": \"26,000\"\n    },\n    {\n      \"nm\": \"TERONG\",\n      \"cnt\": null,\n      \"price\": \"12,000\"\n    },\n    {\n      \"nm\": \"PARU\",\n      \"cnt\": null,\n      \"price\": \"23,000\"\n    },\n    {\n      \"nm\": \"SBL GR ATI/AMPLA\",\n      \"cnt\": null,\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"NESTLE 330 ML\",\n      \"cnt\": null,\n      \"price\": \"8,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"89,000\",\n    \"evidence\": \"SUBTOTAL  89,000\"\n  },\n  \"tax\": {\n    \"amount\": \"8,900\",\n    \"evidence\": \"TAX 10%  8,900\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"97,900\",\n    \"evidence\": \"TOTAL  97,900\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 882,
+  "completion": 463,
+  "total": 1345,
+  "reasoning": 185
+ },
+ "seconds": 1.3103256225585938,
+ "error": null
+}

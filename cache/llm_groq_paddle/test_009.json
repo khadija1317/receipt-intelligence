@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Bumbu Kaldu Ayam",
+   "cnt": "1",
+   "price": {
+    "value": "36000",
+    "raw": "36000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 9,
+ "subtotal": {
+  "value": "36000",
+  "raw": "36000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  36000"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Ice Lemon Tea",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Gyro Platter - Regular",
+   "cnt": null,
+   "price": {
+    "value": "50000",
+    "raw": "50,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 37,
+ "subtotal": {
+  "value": "63636",
+  "raw": "63,636",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  63,636"
+ },
+ "total": {
+  "value": "70000",
+  "raw": "70,000",
+  "status": "ok",
+  "conf": null,
+  "line": "For Here Total  70,000"
+ },
+ "tax": {
+  "value": "6364",
+  "raw": "6,364",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1-TAX Tax  6,364"
+ },
+ "service": null
+}

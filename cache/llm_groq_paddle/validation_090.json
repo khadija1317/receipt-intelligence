@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "REGULAR IEMAXX",
+   "cnt": "2",
+   "price": {
+    "value": "70000.00",
+    "raw": "70000.00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 90,
+ "subtotal": null,
+ "total": {
+  "value": "70000.00",
+  "raw": "70000.00",
+  "status": "ok",
+  "conf": null,
+  "line": "CINEMA  Total Due  70000.00"
+ },
+ "tax": null,
+ "service": null
+}

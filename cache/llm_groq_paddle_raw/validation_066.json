@@ -1,0 +1,17 @@
+{
+ "index": 66,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "BRON DAX\nuae\nm3  eaenr  N\nmnm\nAIR MINERAL  .7,000\nTL  ·7.000\nCASH  .7,000\nToUH KMT\nwoma  WOJURMIMN",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"AIR MINERAL\",\n      \"cnt\": null,\n      \"price\": \".7,000\"\n    },\n    {\n      \"nm\": \"TL\",\n      \"cnt\": null,\n      \"price\": \"·7.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 841,
+  "completion": 400,
+  "total": 1241,
+  "reasoning": 244
+ },
+ "seconds": 0.9741485118865967,
+ "error": null
+}

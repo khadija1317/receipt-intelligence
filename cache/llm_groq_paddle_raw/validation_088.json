@@ -1,0 +1,17 @@
+{
+ "index": 88,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PIZZA HUT\nnm\nMT\n1 PAKET BER4 UP3  154,545\n1 BREAD N CHEESE DEL\n1 TUNA DEL\n1 CRABSTICK FUSILLI DEL\n1 LEMON TEA HANGAT DEL\n1 BLACKCURRANT DEL\n1 SC/P THOUSAND IS DEL\n1 SCSC/P BBQ BEEF DEL\n1 CR/P BEEF MAYO DEL\n1 SUNRISE ITALIAN SODA\n1 SUNRISE ITALIAN SODA\nSUBTOTAL  154,545\nTAX  15,455\nTOTAL  170,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1 PAKET BER4 UP3\",\n      \"cnt\": null,\n      \"price\": \"154,545\"\n    },\n    {\n      \"nm\": \"1 BREAD N CHEESE DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 TUNA DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 CRABSTICK FUSILLI DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 LEMON TEA HANGAT DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 BLACKCURRANT DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 SC/P THOUSAND IS DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 SCSC/P BBQ BEEF DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 CR/P BEEF MAYO DEL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 SUNRISE ITALIAN SODA\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"1 SUNRISE ITALIAN SODA\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"154,545\",\n    \"evidence\": \"SUBTOTAL  154,545\"\n  },\n  \"tax\": {\n    \"amount\": \"15,455\",\n    \"evidence\": \"TAX  15,455\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"170,000\",\n    \"evidence\": \"TOTAL  170,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 917,
+  "completion": 532,
+  "total": 1449,
+  "reasoning": 71
+ },
+ "seconds": 1.2721433639526367,
+ "error": null
+}

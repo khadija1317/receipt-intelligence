@@ -1,0 +1,17 @@
+{
+ "index": 19,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "26\n4 AMBUSH DBL CHS  60000\n10 AMBUSH CHS BUR  100000\nNET SALES  160000\nTAX  16000\nAMOUNT DUE  176000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"AMBUSH DBL CHS\",\n      \"cnt\": \"4\",\n      \"price\": \"60000\"\n    },\n    {\n      \"nm\": \"AMBUSH CHS BUR\",\n      \"cnt\": \"10\",\n      \"price\": \"100000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"16000\",\n    \"evidence\": \"TAX  16000\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 832,
+  "completion": 343,
+  "total": 1175,
+  "reasoning": 173
+ },
+ "seconds": 1.0178306102752686,
+ "error": null
+}

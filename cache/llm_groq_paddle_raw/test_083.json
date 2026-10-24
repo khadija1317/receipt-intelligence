@@ -1,0 +1,17 @@
+{
+ "index": 83,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 COOKIES AND CREAM  20.909\nsubtotal  20.909\nPAJAK 10%  2.091\n1 Total  23.000\nTendered  25.000\nKembali  2.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"COOKIES AND CREAM\",\n      \"cnt\": \"1\",\n      \"price\": \"20.909\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"20.909\",\n    \"evidence\": \"subtotal  20.909\"\n  },\n  \"tax\": {\n    \"amount\": \"2.091\",\n    \"evidence\": \"PAJAK 10%  2.091\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"23.000\",\n    \"evidence\": \"1 Total  23.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 838,
+  "completion": 271,
+  "total": 1109,
+  "reasoning": 105
+ },
+ "seconds": 1.1672453880310059,
+ "error": null
+}

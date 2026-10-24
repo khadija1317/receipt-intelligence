@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "CIRENG PANDAWA",
+   "cnt": "1",
+   "price": {
+    "value": "26818",
+    "raw": "26,818",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 90,
+ "subtotal": {
+  "value": "26818",
+  "raw": "26,818",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  26,818"
+ },
+ "total": {
+  "value": "29500",
+  "raw": "29,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  29,500"
+ },
+ "tax": {
+  "value": "2681",
+  "raw": "2,681",
+  "status": "ok",
+  "conf": null,
+  "line": "Pb1  2,681"
+ },
+ "service": null
+}

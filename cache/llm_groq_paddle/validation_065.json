@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "BASO TAHU",
+   "cnt": "1",
+   "price": {
+    "value": "43636",
+    "raw": "43636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NASI PUTIH",
+   "cnt": "1",
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 65,
+ "subtotal": null,
+ "total": {
+  "value": "49636",
+  "raw": "49.636",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  49.636"
+ },
+ "tax": {
+  "value": "4964",
+  "raw": "4.964",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10.00 %  4.964"
+ },
+ "service": null
+}

@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "S-Hazelnut KOI Cafe",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 48,
+ "subtotal": {
+  "value": "22728",
+  "raw": "22,728",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal:  22,728"
+ },
+ "total": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  25,000"
+ },
+ "tax": {
+  "value": "2272",
+  "raw": "2,272",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1:  2,272"
+ },
+ "service": null
+}

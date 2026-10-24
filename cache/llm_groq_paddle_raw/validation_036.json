@@ -1,0 +1,17 @@
+{
+ "index": 36,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Dom\nSoft Ori 3 Top  17,272\nTop Oreo  0\nTop-ODreo  0\nTop Banana  0  es\nSubTotal:  17,272\nPB1:  1,727\nTotal:  18,999  D'n\ncash:  18,999\nSEEGEEEEE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Soft Ori 3 Top\",\n      \"cnt\": \"3\",\n      \"price\": \"17,272\"\n    },\n    {\n      \"nm\": \"Top Oreo\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"Top-ODreo\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"Top Banana\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"17,272\",\n    \"evidence\": \"SubTotal:  17,272\"\n  },\n  \"tax\": {\n    \"amount\": \"1,727\",\n    \"evidence\": \"PB1:  1,727\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"18,999\",\n    \"evidence\": \"Total:  18,999  D'n\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 859,
+  "completion": 450,
+  "total": 1309,
+  "reasoning": 206
+ },
+ "seconds": 2.083723545074463,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 95,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SAYAP  13,636\nPAHA BAWAH  13,636\nSubtotal  27,272\nP.Resto 10%  2,700\n2 Total  30,000\nTendered  50,000\nKembali  20,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SAYAP\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    },\n    {\n      \"nm\": \"PAHA BAWAH\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"27,272\",\n    \"evidence\": \"Subtotal  27,272\"\n  },\n  \"total\": {\n    \"amount\": \"30,000\",\n    \"evidence\": \"2 Total  30,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"2,700\",\n    \"evidence\": \"P.Resto 10%  2,700\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 333,
+  "total": 1178,
+  "reasoning": 141
+ },
+ "seconds": 1.0932366847991943,
+ "error": null
+}

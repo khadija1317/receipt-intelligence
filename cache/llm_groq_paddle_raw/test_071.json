@@ -1,0 +1,17 @@
+{
+ "index": 71,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Cuka Apel Tetes  1\n198000  198000\nSub Total  198000\nTunai  200200\nKembalian  22000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Cuka Apel Tetes\",\n      \"cnt\": \"1\",\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"198000\",\n    \"evidence\": \"Sub Total  198000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 821,
+  "completion": 330,
+  "total": 1151,
+  "reasoning": 192
+ },
+ "seconds": 1.1344325542449951,
+ "error": null
+}

@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "2 60,000",
+   "cnt": "2",
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 0,
+ "subtotal": {
+  "value": "60000",
+  "raw": "60.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  60.000"
+ },
+ "total": {
+  "value": "60000",
+  "raw": "60.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  (Qty  2.00  60.000"
+ },
+ "tax": {
+  "value": "5455",
+  "raw": "5.455",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  5.455"
+ },
+ "service": null
+}

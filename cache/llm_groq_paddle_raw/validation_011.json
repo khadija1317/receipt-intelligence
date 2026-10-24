@@ -1,0 +1,17 @@
+{
+ "index": 11,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Se'I Sapi Sambal Matah ( R )  20.000\nSe'I Sapi Lada Hitam (J)  1  35.000\nNasi Putih  2  10.000\nMilk Shake Coklat  1  16.000\nSubtotal  81.000\nPB 110%  8.100\nTotal  89.100\nKartu  89.100\nKembali  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Se'I Sapi Sambal Matah ( R )\",\n      \"cnt\": null,\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"Se'I Sapi Lada Hitam (J)\",\n      \"cnt\": \"1\",\n      \"price\": \"35.000\"\n    },\n    {\n      \"nm\": \"Nasi Putih\",\n      \"cnt\": \"2\",\n      \"price\": \"10.000\"\n    },\n    {\n      \"nm\": \"Milk Shake Coklat\",\n      \"cnt\": \"1\",\n      \"price\": \"16.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"81.000\",\n    \"evidence\": \"Subtotal  81.000\"\n  },\n  \"tax\": {\n    \"amount\": \"8.100\",\n    \"evidence\": \"PB 110%  8.100\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"89.100\",\n    \"evidence\": \"Total  89.100\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 884,
+  "completion": 474,
+  "total": 1358,
+  "reasoning": 210
+ },
+ "seconds": 1.3550846576690674,
+ "error": null
+}

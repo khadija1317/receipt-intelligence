@@ -1,0 +1,134 @@
+{
+ "menu": [
+  {
+   "nm": "1X",
+   "cnt": "1",
+   "price": {
+    "value": "5500",
+    "raw": "5500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TALAM UNGU",
+   "cnt": null,
+   "price": {
+    "value": "6500",
+    "raw": "6,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": "1",
+   "price": {
+    "value": "3000",
+    "raw": "3000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AREM - AREM",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "2X",
+   "cnt": "2",
+   "price": {
+    "value": "9000",
+    "raw": "9000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LEMPER",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1X D",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PLASTIK KECIL",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": "1",
+   "price": {
+    "value": "5000",
+    "raw": "5000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TEH KOTAK",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 61,
+ "subtotal": {
+  "value": "24500",
+  "raw": "24,500",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  24,500"
+ },
+ "total": {
+  "value": "24500",
+  "raw": "24,500",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  24,500"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 81,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1\n1\nI\n3002-Kyoto Choco Mochi\n14.000  x2  28.000\n1001-Choco Bun\n22.000  0x1  22.000\n6001-Plastic Bag Small\n0  x1  0\nTotal Item:  選\nTotal.  50.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"3002-Kyoto Choco Mochi\",\n      \"cnt\": \"2\",\n      \"price\": \"28.000\"\n    },\n    {\n      \"nm\": \"1001-Choco Bun\",\n      \"cnt\": \"1\",\n      \"price\": \"22.000\"\n    },\n    {\n      \"nm\": \"6001-Plastic Bag Small\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"50.000\",\n    \"evidence\": \"Total.  50.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 860,
+  "completion": 420,
+  "total": 1280,
+  "reasoning": 213
+ },
+ "seconds": 1.2113401889801025,
+ "error": null
+}

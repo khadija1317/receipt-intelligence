@@ -1,0 +1,17 @@
+{
+ "index": 41,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Chicken Maryland  47619.00\nCappucino (Hot/Iced)  30303.00\nNaga Lychee Juice  34632.00\nCafe Latte  30303.00\nHot Chocolate Marshmallo  30303.00\nChicken Cesar Salad  43290.00\nMineral Water  12987.00\nMineral Water  12987.00\nLychee/Peach/Lemon/Mango  25974.00\nChicken Maryland  47619.00\nSubtotal  316017.00\nService Charge 5% +  48982.68\nTOTAL  365000.00",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Chicken Maryland\",\n      \"cnt\": null,\n      \"price\": \"47619.00\"\n    },\n    {\n      \"nm\": \"Cappucino (Hot/Iced)\",\n      \"cnt\": null,\n      \"price\": \"30303.00\"\n    },\n    {\n      \"nm\": \"Naga Lychee Juice\",\n      \"cnt\": null,\n      \"price\": \"34632.00\"\n    },\n    {\n      \"nm\": \"Cafe Latte\",\n      \"cnt\": null,\n      \"price\": \"30303.00\"\n    },\n    {\n      \"nm\": \"Hot Chocolate Marshmallo\",\n      \"cnt\": null,\n      \"price\": \"30303.00\"\n    },\n    {\n      \"nm\": \"Chicken Cesar Salad\",\n      \"cnt\": null,\n      \"price\": \"43290.00\"\n    },\n    {\n      \"nm\": \"Mineral Water\",\n      \"cnt\": null,\n      \"price\": \"12987.00\"\n    },\n    {\n      \"nm\": \"Mineral Water\",\n      \"cnt\": null,\n      \"price\": \"12987.00\"\n    },\n    {\n      \"nm\": \"Lychee/Peach/Lemon/Mango\",\n      \"cnt\": null,\n      \"price\": \"25974.00\"\n    },\n    {\n      \"nm\": \"Chicken Maryland\",\n      \"cnt\": null,\n      \"price\": \"47619.00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"316017.00\",\n    \"evidence\": \"Subtotal  316017.00\"\n  },\n  \"total\": {\n    \"amount\": \"365000.00\",\n    \"evidence\": \"TOTAL  365000.00\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"48982.68\",\n    \"evidence\": \"Service Charge 5% +  48982.68\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 924,
+  "completion": 603,
+  "total": 1527,
+  "reasoning": 162
+ },
+ "seconds": 1.4058446884155273,
+ "error": null
+}

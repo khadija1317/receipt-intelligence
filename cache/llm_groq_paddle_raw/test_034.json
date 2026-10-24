@@ -1,0 +1,17 @@
+{
+ "index": 34,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Ash Chick Sambal Matah  5  75.000\nJamur Goreng  2  10.000\nSubtotal  85.000\nPajak (10%)  8.500\nTotal  93.500\nTunai  100.000\nKembali  6.500\nScarned wth\nCanSceiue",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Ash Chick Sambal Matah\",\n      \"cnt\": \"5\",\n      \"price\": \"75.000\"\n    },\n    {\n      \"nm\": \"Jamur Goreng\",\n      \"cnt\": \"2\",\n      \"price\": \"10.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"85.000\",\n    \"evidence\": \"Subtotal  85.000\"\n  },\n  \"tax\": {\n    \"amount\": \"8.500\",\n    \"evidence\": \"Pajak (10%)  8.500\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"93.500\",\n    \"evidence\": \"Total  93.500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 862,
+  "completion": 380,
+  "total": 1242,
+  "reasoning": 186
+ },
+ "seconds": 0.9313268661499023,
+ "error": null
+}

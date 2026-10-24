@@ -1,0 +1,17 @@
+{
+ "index": 98,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Pancic\nFOOD\nQuality/K\nPresentat\nTaste/Ras\nBEVERAG  11\nQuality/K\nPresentat\n79,000\nTaste/Ra  1 BLACK PEPPER MEATBALL PAS  77,000\n1 TRUFFLE CREAM  59,000\nSERVICE  1 EARL GREY MILK TEA  215,000\nSUBTTL  12,900\nFriendlin  Service Charge 6%  22,790\nPromptn  TAX 10%\nAttentiv  250,690\nTime/Wa  TOTAL\nE=mn  HITIES\nOTHERS\nCleanline\nAmbiance\nValue for I",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BEVERAG\",\n      \"cnt\": null,\n      \"price\": \"11\"\n    },\n    {\n      \"nm\": \"1 BLACK PEPPER MEATBALL PAS\",\n      \"cnt\": null,\n      \"price\": \"77,000\"\n    },\n    {\n      \"nm\": \"1 TRUFFLE CREAM\",\n      \"cnt\": null,\n      \"price\": \"59,000\"\n    },\n    {\n      \"nm\": \"SERVICE  1 EARL GREY MILK TEA\",\n      \"cnt\": null,\n      \"price\": \"215,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"12,900\",\n    \"evidence\": \"SUBTTL  12,900\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"22,790\",\n    \"evidence\": \"Friendlin  Service Charge 6%  22,790\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 929,
+  "completion": 605,
+  "total": 1534,
+  "reasoning": 351
+ },
+ "seconds": 4.23297905921936,
+ "error": null
+}

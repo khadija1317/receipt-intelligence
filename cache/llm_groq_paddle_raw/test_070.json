@@ -1,0 +1,17 @@
+{
+ "index": 70,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2  UDANG RE216,000  432,000\n2  =*LARGE*==\n-  AYM GR JUN NJAN  108,000\n=*MEDIUM*=\n  SAPO TH SEAFOOD  172,000\n=*LARGE*==\n2  POCAI  3  111,000 222,000\n2  =*MEDIUM*=\n1  GURAME FILLET M  163,000\nASAM MANIS\n1.  BIHUN GORENG JJ  116,000\n=*LARGE*==\n5  ICED TEA12,000  60,000\n7  NASI PUTIH10,000  70,000\nFOOD  1,213,000\nBEVERAGES  60,000\nOTHERS  70,000\nSUBTOTAL  1,343,000\nSERVICE CHARGE  80,580\nTax 10%  142,358\nDU  1,565,938",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"UDANG RE216,000\",\n      \"cnt\": \"2\",\n      \"price\": \"432,000\"\n    },\n    {\n      \"nm\": \"AYM GR JUN NJAN\",\n      \"cnt\": null,\n      \"price\": \"108,000\"\n    },\n    {\n      \"nm\": \"SAPO TH SEAFOOD\",\n      \"cnt\": null,\n      \"price\": \"172,000\"\n    },\n    {\n      \"nm\": \"POCAI  3  111,000\",\n      \"cnt\": \"2\",\n      \"price\": \"222,000\"\n    },\n    {\n      \"nm\": \"GURAME FILLET M\",\n      \"cnt\": \"1\",\n      \"price\": \"163,000\"\n    },\n    {\n      \"nm\": \"BIHUN GORENG JJ\",\n      \"cnt\": null,\n      \"price\": \"116,000\"\n    },\n    {\n      \"nm\": \"ICED TEA12,000\",\n      \"cnt\": \"5\",\n      \"price\": \"60,000\"\n    },\n    {\n      \"nm\": \"NASI PUTIH10,000\",\n      \"cnt\": \"7\",\n      \"price\": \"70,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"1,343,000\",\n    \"evidence\": \"SUBTOTAL  1,343,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"142,358\",\n    \"evidence\": \"Tax 10%  142,358\"\n  },\n  \"service\": {\n    \"amount\": \"80,580\",\n    \"evidence\": \"SERVICE CHARGE  80,580\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1002,
+  "completion": 882,
+  "total": 1884,
+  "reasoning": 483
+ },
+ "seconds": 2.5512683391571045,
+ "error": null
+}

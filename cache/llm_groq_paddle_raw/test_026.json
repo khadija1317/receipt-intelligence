@@ -1,0 +1,17 @@
+{
+ "index": 26,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Cap Cay\nNasi Cap Cay Porsi B\nesar\n1  65.000  65.000\nMinuman\nTeh Tawar\n2  4.000  2.000\nLain-lain\nFu Yung Hai  65.000\n65.000\nSubtotal  Rp 138.000\nTotal  Rp 138.000\nCash  Rp 138.000\nChange  Rp 0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Cap Cay Nasi Cap Cay Porsi B\",\n      \"cnt\": \"1\",\n      \"price\": \"65.000\"\n    },\n    {\n      \"nm\": \"Minuman Teh Tawar\",\n      \"cnt\": \"2\",\n      \"price\": \"2.000\"\n    },\n    {\n      \"nm\": \"Fu Yung Hai\",\n      \"cnt\": null,\n      \"price\": \"65.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"138.000\",\n    \"evidence\": \"Subtotal  Rp 138.000\"\n  },\n  \"total\": {\n    \"amount\": \"138.000\",\n    \"evidence\": \"Total  Rp 138.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 876,
+  "completion": 643,
+  "total": 1519,
+  "reasoning": 426
+ },
+ "seconds": 1.6974358558654785,
+ "error": null
+}

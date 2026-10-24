@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "BUBUR GO",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PUYUH GO",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SATEŻATI¿GO",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 97,
+ "subtotal": null,
+ "total": {
+  "value": "55000",
+  "raw": "55.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  55.000"
+ },
+ "tax": null,
+ "service": null
+}

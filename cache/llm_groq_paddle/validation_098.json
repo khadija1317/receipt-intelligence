@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Hulk Topper Package",
+   "cnt": null,
+   "price": {
+    "value": "100000",
+    "raw": "100.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 98,
+ "subtotal": null,
+ "total": {
+  "value": "100000",
+  "raw": "100.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  100.000"
+ },
+ "tax": null,
+ "service": null
+}

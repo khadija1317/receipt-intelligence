@@ -1,0 +1,17 @@
+{
+ "index": 62,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tume\nA19000009506\n1 French Fries  10,909\n2 Cheese Burger  36,364\n1 Milo  9.091\nSUBTOTAL  56.364\nPB1  5,636\nTOTAL  62.000\nCASH  100,000\nChange  38,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"French Fries\",\n      \"cnt\": \"1\",\n      \"price\": \"10,909\"\n    },\n    {\n      \"nm\": \"Cheese Burger\",\n      \"cnt\": \"2\",\n      \"price\": \"36,364\"\n    },\n    {\n      \"nm\": \"Milo\",\n      \"cnt\": \"1\",\n      \"price\": \"9.091\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"56.364\",\n    \"evidence\": \"SUBTOTAL  56.364\"\n  },\n  \"tax\": {\n    \"amount\": \"5,636\",\n    \"evidence\": \"PB1  5,636\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"62.000\",\n    \"evidence\": \"TOTAL  62.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 855,
+  "completion": 366,
+  "total": 1221,
+  "reasoning": 151
+ },
+ "seconds": 1.3057861328125,
+ "error": null
+}

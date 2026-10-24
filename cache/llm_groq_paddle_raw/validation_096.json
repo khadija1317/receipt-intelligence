@@ -1,0 +1,17 @@
+{
+ "index": 96,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "D'repes\n13,636\nChoco Cheese  -2,045\nExclusive Member Car\nSubTotal:  13,636\nDiscount:  -2,045\nPR1:  1,159\nTotal:  12,750\ncash:  12,750",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Choco Cheese\",\n      \"cnt\": null,\n      \"price\": \"-2,045\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"13,636\",\n    \"evidence\": \"SubTotal:  13,636\"\n  },\n  \"total\": {\n    \"amount\": \"12,750\",\n    \"evidence\": \"Total:  12,750\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 388,
+  "total": 1233,
+  "reasoning": 238
+ },
+ "seconds": 1.2076351642608643,
+ "error": null
+}

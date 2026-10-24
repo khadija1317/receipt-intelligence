@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "GRAINS PAN BREAD",
+   "cnt": "1",
+   "price": {
+    "value": "20500",
+    "raw": "20,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ICED HIBISCUS LYCHEE TEA",
+   "cnt": "1",
+   "price": {
+    "value": "37000",
+    "raw": "37,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 33,
+ "subtotal": null,
+ "total": {
+  "value": "57500",
+  "raw": "57,500",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  57,500"
+ },
+ "tax": null,
+ "service": null
+}

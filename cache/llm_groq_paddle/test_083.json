@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "COOKIES AND CREAM",
+   "cnt": "1",
+   "price": {
+    "value": "20909",
+    "raw": "20.909",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 83,
+ "subtotal": {
+  "value": "20909",
+  "raw": "20.909",
+  "status": "ok",
+  "conf": null,
+  "line": "subtotal  20.909"
+ },
+ "total": {
+  "value": "23000",
+  "raw": "23.000",
+  "status": "ok",
+  "conf": null,
+  "line": "1 Total  23.000"
+ },
+ "tax": {
+  "value": "2091",
+  "raw": "2.091",
+  "status": "ok",
+  "conf": null,
+  "line": "PAJAK 10%  2.091"
+ },
+ "service": null
+}

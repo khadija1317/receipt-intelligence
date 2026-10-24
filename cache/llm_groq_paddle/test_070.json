@@ -1,0 +1,110 @@
+{
+ "menu": [
+  {
+   "nm": "UDANG RE216,000",
+   "cnt": "2",
+   "price": {
+    "value": "432000",
+    "raw": "432,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AYM GR JUN NJAN",
+   "cnt": null,
+   "price": {
+    "value": "108000",
+    "raw": "108,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SAPO TH SEAFOOD",
+   "cnt": null,
+   "price": {
+    "value": "172000",
+    "raw": "172,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "POCAI 3 111,000",
+   "cnt": "2",
+   "price": {
+    "value": "222000",
+    "raw": "222,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GURAME FILLET M",
+   "cnt": "1",
+   "price": {
+    "value": "163000",
+    "raw": "163,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BIHUN GORENG JJ",
+   "cnt": null,
+   "price": {
+    "value": "116000",
+    "raw": "116,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ICED TEA12,000",
+   "cnt": "5",
+   "price": {
+    "value": "60000",
+    "raw": "60,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NASI PUTIH10,000",
+   "cnt": "7",
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 70,
+ "subtotal": {
+  "value": "1343000",
+  "raw": "1,343,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  1,343,000"
+ },
+ "total": null,
+ "tax": {
+  "value": "142358",
+  "raw": "142,358",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax 10%  142,358"
+ },
+ "service": {
+  "value": "80580",
+  "raw": "80,580",
+  "status": "ok",
+  "conf": null,
+  "line": "SERVICE CHARGE  80,580"
+ }
+}

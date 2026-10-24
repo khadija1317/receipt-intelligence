@@ -1,0 +1,17 @@
+{
+ "index": 64,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "foue Les Jour's\n1 WHOLE WHEAT PAN BREAD  20,000\nTOTAL  20,000\nCASH  100,000\nCHANGE  80,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"WHOLE WHEAT PAN BREAD\",\n      \"cnt\": \"1\",\n      \"price\": \"20,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"20,000\",\n    \"evidence\": \"TOTAL  20,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 825,
+  "completion": 216,
+  "total": 1041,
+  "reasoning": 72
+ },
+ "seconds": 0.8200585842132568,
+ "error": null
+}

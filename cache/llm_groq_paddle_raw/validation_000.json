@@ -1,0 +1,17 @@
+{
+ "index": 0,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Jmunn\n1 REAL GANACHE  16,500\n1 EGG TART  13,000\n1 PIZZA TOAST  16,000\nTOTAL  45,500\nCASH  50,000\nCHANGE  4,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"REAL GANACHE\",\n      \"cnt\": \"1\",\n      \"price\": \"16,500\"\n    },\n    {\n      \"nm\": \"EGG TART\",\n      \"cnt\": \"1\",\n      \"price\": \"13,000\"\n    },\n    {\n      \"nm\": \"PIZZA TOAST\",\n      \"cnt\": \"1\",\n      \"price\": \"16,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"45,500\",\n    \"evidence\": \"TOTAL  45,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 841,
+  "completion": 289,
+  "total": 1130,
+  "reasoning": 89
+ },
+ "seconds": 1.9120368957519531,
+ "error": null
+}

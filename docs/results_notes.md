@@ -69,3 +69,26 @@ Test Paddle total: precision 93.6%, recall 76.8%. Test Paddle items: returned 28
 - Policy: existing caches are not rerun; Paddle runs through the restart-and-resume loop; own receipts and the demo run Paddle in its own process with a detector cap of 2048 or lower; crash log goes to cache/paddle_crash.log.
 
 **For the README.** (1) Second engine tried and adopted; reversal of the Day 3 decision with these numbers. (2) Paddle crashed intermittently on large images; cause not identified; 2 of 100 test receipts were read at reduced detector size. (3) Merge and repair constants were tuned on EasyOCR output and not retuned. (4) PP-OCRv6, English, three optional steps off. (5) Not tested: the three optional steps ON, French or Arabic models, Tunisian receipts.
+
+## Day 6 addendum (Oct 24): frozen LLM arm on Paddle text
+
+Prompt v1 (hash 4aa66db7), gpt-oss-120b, unchanged. Folder cache/llm_groq_paddle (+ _raw); the frozen EasyOCR-text folder cache/llm_groq is untouched. Reuse guard added to run_llm.py: a saved reply is reused only if the prompt hash AND the input text match. Check: the stored LLM input differs from Paddle's text on 0 of 100 receipts, validation and test (5 test replies were reused from an earlier start; they were fine).
+
+Tokens: validation 124,606 (average 1,246 per call, largest 1,997); test 121,347 for 95 calls (average 1,277, largest 1,884). 0 schema failures and 0 cut-offs in both splits. The two runs used about 246K tokens in one afternoon without stopping at the free daily cap shown in the console (200K), so how the cap is counted is NOT understood.
+
+Correct / wrong / no answer, both arms reading Paddle text:
+
+| | val rules | val LLM | test rules | test LLM |
+|---|---|---|---|---|
+| total | 86/5/7 | 85/6/7 | 73/5/17 | 73/0/22 |
+| subtotal | 52/1/14 | 53/1/13 | 48/0/16 | 50/1/13 |
+| tax | 39/2/6 | 39/2/6 | 31/1/8 | 33/1/6 |
+| service | 7/1/5 | 11/1/1 | 9/1/2 | 11/1/0 |
+| items matched | 182/219 | 202/219 | 211/242 | 220/242 |
+| exact match (of 100) | 43 | 50 | 39 | 46 |
+
+LLM items: validation returned 222 with 45 unreadable prices; test returned 255 with 17 unreadable. Count agreement 73.9% (val) and 69.2% (test) vs 22% for the rules; partly structural, not an accuracy gap.
+
+Readings. (1) Total recall ties again: 73 = 73 on test; the correct total is readable on 94, so about 21 receipts are not returned by either arm. (2) The LLM was never wrong on a test total but left 5 more unanswered; 0 wrong of 73 answered still allows a true wrong rate of about 4%. (3) The LLM leads on items and exact match (+7 on both splits), small on single fields.
+
+Nine validation failures read (text only, nothing built). Amount alone on the line above a keyword-only line: 41, 92, 94, 97 (94: the LLM took the e-gift payment row instead, evidence line without a total word). Rows shifted by one: 16, 38, 23. Keyword fused into the cash line: 47. Amount refused (leading dot ".26.000"): 68, correctly sent to review. Validation 66 and 73: total not readable in the text.

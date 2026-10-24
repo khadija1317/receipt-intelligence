@@ -1,0 +1,17 @@
+{
+ "index": 7,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "su  unn sta\nChoco Devil  63,636\nCP 360 Club Card  -9,545\nSubTotal:  63,636\nDiscount:  -9,545\nPB1:  5,409\nTotal:  59,500\ncash:  100,0007\nChange:  40,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Choco Devil\",\n      \"cnt\": null,\n      \"price\": \"63,636\"\n    },\n    {\n      \"nm\": \"CP 360 Club Card\",\n      \"cnt\": null,\n      \"price\": \"-9,545\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"63,636\",\n    \"evidence\": \"SubTotal:  63,636\"\n  },\n  \"total\": {\n    \"amount\": \"59,500\",\n    \"evidence\": \"Total:  59,500\"\n  },\n  \"tax\": {\n    \"amount\": \"5,409\",\n    \"evidence\": \"PB1:  5,409\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 858,
+  "completion": 386,
+  "total": 1244,
+  "reasoning": 195
+ },
+ "seconds": 1.1250433921813965,
+ "error": null
+}

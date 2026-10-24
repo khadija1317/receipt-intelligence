@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1 POTATO SAUSAGE BREAD 19,000",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 OREO GREEN TEA SPREAD 52,000",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 WHITE CHOCO BANANA SPREAD 52,000",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 6,
+ "subtotal": null,
+ "total": {
+  "value": "123000",
+  "raw": "123,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  123,000"
+ },
+ "tax": null,
+ "service": null
+}

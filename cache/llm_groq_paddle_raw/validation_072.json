@@ -1,0 +1,17 @@
+{
+ "index": 72,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AantleAnnes\nSTIX CINNAMON  19,000\n1 ×  19,000\nTRIPPLECHEESE\n1 ×  17,000  17,000\nSUB TOTAL  36,000\nGRAND TOTAL  36,000\nMASTER  4607  36,000\nCHANGE DUE  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"STIX CINNAMON\",\n      \"cnt\": null,\n      \"price\": \"19,000\"\n    },\n    {\n      \"nm\": \"TRIPPLECHEESE\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"36,000\",\n    \"evidence\": \"SUB TOTAL  36,000\"\n  },\n  \"total\": {\n    \"amount\": \"36,000\",\n    \"evidence\": \"GRAND TOTAL  36,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 862,
+  "completion": 511,
+  "total": 1373,
+  "reasoning": 331
+ },
+ "seconds": 1.1884729862213135,
+ "error": null
+}

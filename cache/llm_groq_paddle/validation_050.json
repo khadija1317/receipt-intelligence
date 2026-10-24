@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "CHOCOLATE ECLAIR",
+   "cnt": "2",
+   "price": {
+    "value": "26000",
+    "raw": "26,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 50,
+ "subtotal": null,
+ "total": {
+  "value": "26000",
+  "raw": "26,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  26,000"
+ },
+ "tax": null,
+ "service": null
+}

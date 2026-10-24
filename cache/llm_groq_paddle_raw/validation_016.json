@@ -1,0 +1,17 @@
+{
+ "index": 16,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "0  20,000\nTT  20000\nTOTAL  100,000\nCASH  80,000\nCHANGE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"0\",\n      \"cnt\": null,\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"TT\",\n      \"cnt\": null,\n      \"price\": \"20000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"100,000\",\n    \"evidence\": \"TOTAL  100,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 812,
+  "completion": 268,
+  "total": 1080,
+  "reasoning": 107
+ },
+ "seconds": 0.7683248519897461,
+ "error": null
+}

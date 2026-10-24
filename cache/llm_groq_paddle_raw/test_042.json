@@ -1,0 +1,17 @@
+{
+ "index": 42,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Chicken HCC, 1Pcs  15.000\nSub Total  15,000\nP.Rest 10%  1,500\nTotal  16,500\nCash  50,000\nKembali  33,500\n1 Items,",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Chicken HCC, 1Pcs\",\n      \"cnt\": \"1\",\n      \"price\": \"15.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"15,000\",\n    \"evidence\": \"Sub Total  15,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"1,500\",\n    \"evidence\": \"P.Rest 10%  1,500\"\n  },\n  \"total\": {\n    \"amount\": \"16,500\",\n    \"evidence\": \"Total  16,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 841,
+  "completion": 319,
+  "total": 1160,
+  "reasoning": 152
+ },
+ "seconds": 1.5558977127075195,
+ "error": null
+}

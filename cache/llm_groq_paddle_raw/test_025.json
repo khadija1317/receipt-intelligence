@@ -1,0 +1,17 @@
+{
+ "index": 25,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tae  Les  Jaurs\nHFF\nPHTTHNT\n1 TWIST STRAWBERRY DONUT  10,000\n1 TLJ CROQUETTE  17,000\n1 POTATO PEPPER BAGEL  16,000\nTOTAL  43,000\nCASH  50,000\nCHANGE  7,000\n1  B",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TWIST STRAWBERRY DONUT\",\n      \"cnt\": \"1\",\n      \"price\": \"10,000\"\n    },\n    {\n      \"nm\": \"TLJ CROQUETTE\",\n      \"cnt\": \"1\",\n      \"price\": \"17,000\"\n    },\n    {\n      \"nm\": \"POTATO PEPPER BAGEL\",\n      \"cnt\": \"1\",\n      \"price\": \"16,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"43,000\",\n    \"evidence\": \"TOTAL  43,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 865,
+  "completion": 350,
+  "total": 1215,
+  "reasoning": 141
+ },
+ "seconds": 0.9523537158966064,
+ "error": null
+}

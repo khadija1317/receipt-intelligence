@@ -122,7 +122,13 @@ def main():
                         help="rebuild parsed files from saved raw replies; no Groq calls")
     parser.add_argument("--prompt", choices=sorted(PROMPTS), default="v1",
                         help="which prompt version to use")
+    parser.add_argument("--ocr-dir", default="cache/ocr",
+                        help="folder with the OCR pieces the LLM reads")
     args = parser.parse_args()
+    if args.ocr_dir != "cache/ocr" and args.name == "llm_groq":
+        sys.exit("a different OCR folder must not write into the frozen llm_groq folder: "
+                 "use --name llm_groq_paddle")
+    ocr_dir = Path(args.ocr_dir)
     if args.prompt == "v2" and args.name == "llm_groq":
         sys.exit("v2 must not write into the frozen v1 folder: use --name llm_groq_v2")
     SYSTEM_PROMPT = PROMPTS[args.prompt]
@@ -153,7 +159,7 @@ def main():
     try:
         for n, i in enumerate(ids, 1):
             raw_path = raw_dir / f"{split}_{i:03d}.json"
-            record = json.loads((OCR / f"{split}_{i:03d}.json").read_text(encoding="utf-8"))
+            record = json.loads((ocr_dir / f"{split}_{i:03d}.json").read_text(encoding="utf-8"))
             text = render_receipt(record["pieces"], CURRENCY)
 
             raw = None

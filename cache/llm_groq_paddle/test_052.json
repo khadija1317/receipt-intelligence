@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "THAI ICED TEA",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 52,
+ "subtotal": {
+  "value": "40000",
+  "raw": "40.000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB-TOTAL  40.000"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "@11000",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "DONAT GULA",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 3,
+ "subtotal": {
+  "value": "11000",
+  "raw": "11,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  11,000"
+ },
+ "total": {
+  "value": "11000",
+  "raw": "11,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  11,000"
+ },
+ "tax": null,
+ "service": null
+}

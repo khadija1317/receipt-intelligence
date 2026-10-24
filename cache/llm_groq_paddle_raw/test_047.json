@@ -1,0 +1,17 @@
+{
+ "index": 47,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "COPIA 1 /GB  1  45,000.00\n2100252000358  45,000.00\nPLASTIC BAG RED CENTRAL SI  1  0.00\n9100544260074  0.00\nCOPIA 1 /GB  1  18,000.00\n2100252000358  18,000.00\nTotal  63,000.00\nTotal discount  0.00\nTotal quantity  3\nCard Payment DEBIT CARD\n63,000.00",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"COPIA 1 /GB\",\n      \"cnt\": \"1\",\n      \"price\": \"45,000.00\"\n    },\n    {\n      \"nm\": \"2100252000358\",\n      \"cnt\": null,\n      \"price\": \"45,000.00\"\n    },\n    {\n      \"nm\": \"PLASTIC BAG RED CENTRAL SI\",\n      \"cnt\": \"1\",\n      \"price\": \"0.00\"\n    },\n    {\n      \"nm\": \"9100544260074\",\n      \"cnt\": null,\n      \"price\": \"0.00\"\n    },\n    {\n      \"nm\": \"COPIA 1 /GB\",\n      \"cnt\": \"1\",\n      \"price\": \"18,000.00\"\n    },\n    {\n      \"nm\": \"2100252000358\",\n      \"cnt\": null,\n      \"price\": \"18,000.00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"63,000.00\",\n    \"evidence\": \"Total  63,000.00\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 903,
+  "completion": 585,
+  "total": 1488,
+  "reasoning": 277
+ },
+ "seconds": 1.4841487407684326,
+ "error": null
+}

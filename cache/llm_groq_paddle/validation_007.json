@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Choco Devil",
+   "cnt": null,
+   "price": {
+    "value": "63636",
+    "raw": "63,636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CP 360 Club Card",
+   "cnt": null,
+   "price": {
+    "value": "-9545",
+    "raw": "-9,545",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 7,
+ "subtotal": {
+  "value": "63636",
+  "raw": "63,636",
+  "status": "ok",
+  "conf": null,
+  "line": "SubTotal:  63,636"
+ },
+ "total": {
+  "value": "59500",
+  "raw": "59,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  59,500"
+ },
+ "tax": {
+  "value": "5409",
+  "raw": "5,409",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1:  5,409"
+ },
+ "service": null
+}

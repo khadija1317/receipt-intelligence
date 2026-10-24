@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "REDBEAN BRE/D",
+   "cnt": "1",
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "FRANKFRUT S/USAGE ROLL",
+   "cnt": "1",
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 30,
+ "subtotal": null,
+ "total": {
+  "value": "21000",
+  "raw": "21,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  21,000"
+ },
+ "tax": null,
+ "service": null
+}

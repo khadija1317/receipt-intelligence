@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Populaire Cho ulate",
+   "cnt": null,
+   "price": {
+    "value": "14500",
+    "raw": "14,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Paddle Pop Ch :o Magma",
+   "cnt": "1",
+   "price": {
+    "value": "3000",
+    "raw": "3,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 61,
+ "subtotal": {
+  "value": "7500",
+  "raw": "7,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  7,500"
+ },
+ "total": {
+  "value": "8250",
+  "raw": "8,250",
+  "status": "ok",
+  "conf": null,
+  "line": "Total Bayar  8,250"
+ },
+ "tax": {
+  "value": "750",
+  "raw": "750",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak Resto (10%)  750"
+ },
+ "service": null
+}

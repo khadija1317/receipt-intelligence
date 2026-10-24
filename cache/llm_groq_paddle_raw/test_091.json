@@ -1,0 +1,17 @@
+{
+ "index": 91,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "NHALAN\naeay\nLEURK PLEAAAN\nUP 0622 3000  3000\nTTRE DUKA CAdAD\n06-06-2019  21187\nEus04\n1 BAKSO BNGKS  15.000\n6 GORENGAN  -6,000\nTL  21.000\nCASH  -30.000\nCG  -9,000\nTERINA KASIH\nCS",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BAKSO BNGKS\",\n      \"cnt\": \"1\",\n      \"price\": \"15.000\"\n    },\n    {\n      \"nm\": \"GORENGAN\",\n      \"cnt\": \"6\",\n      \"price\": \"-6,000\"\n    },\n    {\n      \"nm\": \"TL\",\n      \"cnt\": null,\n      \"price\": \"21.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 887,
+  "completion": 425,
+  "total": 1312,
+  "reasoning": 236
+ },
+ "seconds": 1.0090107917785645,
+ "error": null
+}

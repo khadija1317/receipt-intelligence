@@ -1,0 +1,17 @@
+{
+ "index": 49,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tan  W\n1×  52.000  52.000\nNasi CampurBali\n1×  22.000  22.000\nLemon\nSubTTL  74.000\nwine\nTAX  7.400\nCASH  81.400\nmint Bt\nTe",
+ "reply": "{\"menu\":[{\"cnt\":\"1\",\"nm\":\"Tan  W\",\"price\":\"52.000\"},{\"cnt\":\"1\",\"nm\":\"Nasi CampurBali\",\"price\":\"22.000\"}],\"service\":{\"amount\":null,\"evidence\":null},\"subtotal\":{\"amount\":\"74.000\",\"evidence\":\"SubTTL  74.000\"},\"tax\":{\"amount\":\"7.400\",\"evidence\":\"TAX  7.400\"},\"total\":{\"amount\":null,\"evidence\":null}}\n",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 853,
+  "completion": 619,
+  "total": 1472,
+  "reasoning": 399
+ },
+ "seconds": 1.4140009880065918,
+ "error": null
+}

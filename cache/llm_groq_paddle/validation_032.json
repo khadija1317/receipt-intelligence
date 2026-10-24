@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "1 Nasi (MLY)",
+   "cnt": "1",
+   "price": {
+    "value": "6000",
+    "raw": "6.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 32,
+ "subtotal": {
+  "value": "6000",
+  "raw": "6.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  6.000"
+ },
+ "total": {
+  "value": "6000",
+  "raw": "6.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  6.000"
+ },
+ "tax": null,
+ "service": null
+}

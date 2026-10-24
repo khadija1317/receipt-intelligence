@@ -1,0 +1,17 @@
+{
+ "index": 35,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Taie  \n2 TWIST DONUT  18,000\n1 BANANA DONUT  11,000\n1 CREAMCHEESE BREAD  13,000\n1 FRANKFRUT SAUSAGE ROLL  12,000\nTOTAL  54,000\nCASH  104,000\nCHANGE  50,000",
+ "reply": "{\"menu\":[{\"cnt\":\"2\",\"nm\":\"TWIST DONUT\",\"price\":\"18,000\"},{\"cnt\":\"1\",\"nm\":\"BANANA DONUT\",\"price\":\"11,000\"},{\"cnt\":\"1\",\"nm\":\"CREAMCHEESE BREAD\",\"price\":\"13,000\"},{\"cnt\":\"1\",\"nm\":\"FRANKFRUT SAUSAGE ROLL\",\"price\":\"12,000\"}],\"service\":{\"amount\":null,\"evidence\":null},\"subtotal\":{\"amount\":null,\"evidence\":null},\"tax\":{\"amount\":null,\"evidence\":null},\"total\":{\"amount\":\"54,000\",\"evidence\":\"TOTAL  54,000\"}}\n",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 859,
+  "completion": 382,
+  "total": 1241,
+  "reasoning": 68
+ },
+ "seconds": 1.7150259017944336,
+ "error": null
+}

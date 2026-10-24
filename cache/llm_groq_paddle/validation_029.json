@@ -1,0 +1,22 @@
+{
+ "menu": [
+  {
+   "nm": "Sabun Beras 1",
+   "cnt": "1",
+   "price": {
+    "value": "3000030000",
+    "raw": "30000  30000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 29,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

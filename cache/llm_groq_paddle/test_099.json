@@ -1,0 +1,80 @@
+{
+ "menu": [
+  {
+   "nm": "FL-Xmas 30 Off",
+   "cnt": "1",
+   "price": {
+    "value": "68180",
+    "raw": "68,180",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "» FL Cake - French",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "»FL Cake - Green",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PAKET SLICES",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "FL Cake - Belgium",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 99,
+ "subtotal": {
+  "value": "68180",
+  "raw": "68,180",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  68,180"
+ },
+ "total": {
+  "value": "75000",
+  "raw": "75,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  75,000"
+ },
+ "tax": {
+  "value": "6818",
+  "raw": "6,818",
+  "status": "ok",
+  "conf": null,
+  "line": "PAJAK PPN 10 %  6,818"
+ },
+ "service": null
+}

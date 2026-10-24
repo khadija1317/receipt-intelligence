@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "Snack Lestari All",
+   "cnt": null,
+   "price": {
+    "value": "227000",
+    "raw": "227,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bakery Aneka Sisir banana,Pizza,yoko,Mar mer,Daging,abon,keju,cokelat,dll",
+   "cnt": null,
+   "price": {
+    "value": "27000",
+    "raw": "27,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 40,
+ "subtotal": null,
+ "total": {
+  "value": "68000",
+  "raw": "68,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  68,000"
+ },
+ "tax": null,
+ "service": null
+}

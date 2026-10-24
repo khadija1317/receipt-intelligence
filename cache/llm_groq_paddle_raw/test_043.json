@@ -1,0 +1,17 @@
+{
+ "index": 43,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "6 Pcs  Cheese Tart  165000.00\nBox of  6\nPP Carrier\nSubtotal:  Rp165000.00\nTotal Tax Included:  Rp15000.00\nTotal:  Rp165000.00\nCustomer Paid Cash:  Rp200000.00\nCustomer Change:  Rp35000.00\nA\nW\nS",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"6 Pcs  Cheese Tart\",\n      \"cnt\": \"6\",\n      \"price\": \"165000.00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"Rp165000.00\",\n    \"evidence\": \"Subtotal:  Rp165000.00\"\n  },\n  \"tax\": {\n    \"amount\": \"Rp15000.00\",\n    \"evidence\": \"Total Tax Included:  Rp15000.00\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"Rp165000.00\",\n    \"evidence\": \"Total:  Rp165000.00\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 860,
+  "completion": 358,
+  "total": 1218,
+  "reasoning": 183
+ },
+ "seconds": 2.01667857170105,
+ "error": null
+}

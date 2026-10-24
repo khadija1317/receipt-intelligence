@@ -1,0 +1,130 @@
+{
+ "menu": [
+  {
+   "nm": "Chicken Maryland",
+   "cnt": null,
+   "price": {
+    "value": "47619.00",
+    "raw": "47619.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Cappucino (Hot/Iced)",
+   "cnt": null,
+   "price": {
+    "value": "30303.00",
+    "raw": "30303.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Naga Lychee Juice",
+   "cnt": null,
+   "price": {
+    "value": "34632.00",
+    "raw": "34632.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Cafe Latte",
+   "cnt": null,
+   "price": {
+    "value": "30303.00",
+    "raw": "30303.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Hot Chocolate Marshmallo",
+   "cnt": null,
+   "price": {
+    "value": "30303.00",
+    "raw": "30303.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chicken Cesar Salad",
+   "cnt": null,
+   "price": {
+    "value": "43290.00",
+    "raw": "43290.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Mineral Water",
+   "cnt": null,
+   "price": {
+    "value": "12987.00",
+    "raw": "12987.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Mineral Water",
+   "cnt": null,
+   "price": {
+    "value": "12987.00",
+    "raw": "12987.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Lychee/Peach/Lemon/Mango",
+   "cnt": null,
+   "price": {
+    "value": "25974.00",
+    "raw": "25974.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chicken Maryland",
+   "cnt": null,
+   "price": {
+    "value": "47619.00",
+    "raw": "47619.00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 41,
+ "subtotal": {
+  "value": "316017.00",
+  "raw": "316017.00",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  316017.00"
+ },
+ "total": {
+  "value": "365000.00",
+  "raw": "365000.00",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  365000.00"
+ },
+ "tax": null,
+ "service": {
+  "value": "48982.68",
+  "raw": "48982.68",
+  "status": "ok",
+  "conf": null,
+  "line": "Service Charge 5% +  48982.68"
+ }
+}

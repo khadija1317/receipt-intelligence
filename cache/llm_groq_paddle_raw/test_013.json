@@ -1,0 +1,17 @@
+{
+ "index": 13,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AFUNG\nAFUNG\nD JOURNEY\nBASD KUAH  1 43.636\nA.MINERAL GELAS  1 3,000  3,000\nTOTAL\nDFP\nTAX 10.00 %\nGRAND TOTAL:  51,300\nTUNAI  52,000\nKEMBALI  700  FUNG",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BASD KUAH\",\n      \"cnt\": \"1\",\n      \"price\": \"43.636\"\n    },\n    {\n      \"nm\": \"A.MINERAL GELAS\",\n      \"cnt\": \"1\",\n      \"price\": \"3,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 866,
+  "completion": 447,
+  "total": 1313,
+  "reasoning": 283
+ },
+ "seconds": 1.058354139328003,
+ "error": null
+}

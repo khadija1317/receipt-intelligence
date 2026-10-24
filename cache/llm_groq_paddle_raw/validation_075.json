@@ -1,0 +1,17 @@
+{
+ "index": 75,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2  KFC Winger HC  40,000\n1  Ori Bento  13,636\n1  Mango Float  5,909\n1  F.Wngr GES-HC  0\n1  CHARGE TA  909\nSub Total  60,454\nP.Rest 10 %  6,046\nTotal  66,500\nCash  100,000\nKembali  33,500\n6 Items,",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"KFC Winger HC\",\n      \"cnt\": \"2\",\n      \"price\": \"40,000\"\n    },\n    {\n      \"nm\": \"Ori Bento\",\n      \"cnt\": \"1\",\n      \"price\": \"13,636\"\n    },\n    {\n      \"nm\": \"Mango Float\",\n      \"cnt\": \"1\",\n      \"price\": \"5,909\"\n    },\n    {\n      \"nm\": \"F.Wngr GES-HC\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"60,454\",\n    \"evidence\": \"Sub Total  60,454\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"909\",\n    \"evidence\": \"1  CHARGE TA  909\"\n  },\n  \"total\": {\n    \"amount\": \"66,500\",\n    \"evidence\": \"Total  66,500\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 882,
+  "completion": 557,
+  "total": 1439,
+  "reasoning": 309
+ },
+ "seconds": 1.3012194633483887,
+ "error": null
+}

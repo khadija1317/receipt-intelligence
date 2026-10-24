@@ -1,0 +1,17 @@
+{
+ "index": 45,
+ "split": "test",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "XXI\ncafe\nWHIL\n25.000\n1  Lemon Tea (L).  28.000\n1  Mike & Ike Original  28.000\n1  Mike & Berry  7.000\n1  Roti Keju Manis.\nTOTAL  88.000\n88.000\nCASH  0\nCHANGED",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Lemon Tea (L).\",\n      \"cnt\": \"1\",\n      \"price\": \"28.000\"\n    },\n    {\n      \"nm\": \"Mike & Ike Original\",\n      \"cnt\": \"1\",\n      \"price\": \"28.000\"\n    },\n    {\n      \"nm\": \"Mike & Berry\",\n      \"cnt\": \"1\",\n      \"price\": \"7.000\"\n    },\n    {\n      \"nm\": \"Roti Keju Manis.\",\n      \"cnt\": \"1\",\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"88.000\",\n    \"evidence\": \"TOTAL  88.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 860,
+  "completion": 383,
+  "total": 1243,
+  "reasoning": 153
+ },
+ "seconds": 0.9816796779632568,
+ "error": null
+}

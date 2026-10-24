@@ -1,0 +1,17 @@
+{
+ "index": 87,
+ "split": "validation",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1X M-Passion Fruit Mac @29,000  29,000\n25%\nLess Ice\nPB1:  0\nSubtotal:  29,000\nTotal:  29,000\nCash:  30,000\nCHANGE:  1,000\nTickat:184",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"M-Passion Fruit Mac\",\n      \"cnt\": \"1\",\n      \"price\": \"29,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"29,000\",\n    \"evidence\": \"Subtotal:  29,000\"\n  },\n  \"total\": {\n    \"amount\": \"29,000\",\n    \"evidence\": \"Total:  29,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 848,
+  "completion": 274,
+  "total": 1122,
+  "reasoning": 122
+ },
+ "seconds": 0.7551357746124268,
+ "error": null
+}

@@ -1,0 +1,68 @@
+{
+ "menu": [
+  {
+   "nm": "NASI MERAH/PUTIH",
+   "cnt": "1",
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SAYUR",
+   "cnt": "2",
+   "price": {
+    "value": "8000",
+    "raw": "8.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KERUPUK/SAMBEL",
+   "cnt": "1",
+   "price": {
+    "value": "2000",
+    "raw": "2.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AYAM",
+   "cnt": "1",
+   "price": {
+    "value": "14000",
+    "raw": "14.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MINUMAN KEMASAN/REFILL",
+   "cnt": "1",
+   "price": {
+    "value": "6000",
+    "raw": "6.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 26,
+ "subtotal": null,
+ "total": {
+  "value": "35000",
+  "raw": "Rp.35.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  Rp.35.000"
+ },
+ "tax": null,
+ "service": null
+}

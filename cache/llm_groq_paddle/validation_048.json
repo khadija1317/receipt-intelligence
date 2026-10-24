@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "SB I OR",
+   "cnt": null,
+   "price": {
+    "value": "28636",
+    "raw": "28,636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chokocha Flt",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bbq Bento",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 48,
+ "subtotal": {
+  "value": "55908",
+  "raw": "55,908",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  55,908"
+ },
+ "total": {
+  "value": "61500",
+  "raw": "61,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  61,500"
+ },
+ "tax": null,
+ "service": {
+  "value": "5592",
+  "raw": "5,592",
+  "status": "ok",
+  "conf": null,
+  "line": "P.Rest 10%  5,592"
+ }
+}
