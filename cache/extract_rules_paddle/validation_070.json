@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "1 KaraageCurryTeishoku",
+   "cnt": null,
+   "price": {
+    "value": "69000",
+    "raw": "69,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Lemon Plate",
+   "cnt": null,
+   "price": {
+    "value": "19000",
+    "raw": "19,000",
+    "status": "ok",
+    "conf": 0.9797,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Ocha Hot",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "103000",
+  "raw": "103,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 103,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "121798",
+  "raw": "121798",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 121798",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "11073",
+  "raw": "11,073",
+  "status": "ok",
+  "conf": 0.9989,
+  "low_trust": false,
+  "line": "PB1 11,073",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "7725",
+  "raw": "7,725",
+  "status": "ok",
+  "conf": 0.9992,
+  "low_trust": false,
+  "line": "Service 7,725",
+  "n_candidates": 1
+ },
+ "index": 70
+}

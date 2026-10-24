@@ -1,0 +1,100 @@
+{
+ "menu": [
+  {
+   "nm": "tHe",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.4181,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TAHUGORENG",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 CAKWE",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17,000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PHO TAI CHINIR)",
+   "cnt": null,
+   "price": {
+    "value": "63000",
+    "raw": "63,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TEA",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": 0.9987,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "119000",
+  "raw": "119,000",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "Sub Total 119,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "140063",
+  "raw": "140,063",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Grand Total 140,063",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "12733",
+  "raw": "12,733",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "S PB1 10.0% 12,733 NOODLE",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "8330",
+  "raw": "8,330",
+  "status": "ok",
+  "conf": 0.9992,
+  "low_trust": false,
+  "line": "Serv. 7.0% 8,330",
+  "n_candidates": 1
+ },
+ "index": 94
+}

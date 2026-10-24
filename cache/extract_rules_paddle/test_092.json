@@ -1,0 +1,24 @@
+{
+ "menu": [
+  {
+   "nm": "-TICKET CP",
+   "cnt": null,
+   "price": {
+    "value": "901016",
+    "raw": "901016",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 92
+}

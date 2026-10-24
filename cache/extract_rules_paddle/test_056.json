@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "AIR MINERAL",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".8,181",
+    "status": "review",
+    "conf": 0.9245,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": null,
+  "raw": ".8.181",
+  "status": "review",
+  "conf": 0.8628,
+  "low_trust": false,
+  "line": "SUBTOTAL .8.181",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "818",
+  "raw": "818",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAX 818",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 56
+}

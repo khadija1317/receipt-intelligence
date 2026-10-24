@@ -238,3 +238,5 @@ data/own_receipts/*
 
 results/inspect/
 docs/results_notes.mkdocs
+
+.venv-paddle/

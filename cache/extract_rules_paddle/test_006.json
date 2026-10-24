@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "1 EGG TART",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 CHOCO CUS ARD PASTRY",
+   "cnt": null,
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 REDBEAN BREAD",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "46000",
+  "raw": "46,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 46,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 6
+}

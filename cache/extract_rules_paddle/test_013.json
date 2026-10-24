@@ -1,0 +1,46 @@
+{
+ "menu": [
+  {
+   "nm": "BASD KUAH",
+   "cnt": null,
+   "price": {
+    "value": "143636",
+    "raw": "1 43.636",
+    "status": "ok",
+    "conf": 0.9916,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "A.MINERAL GELAS",
+   "cnt": null,
+   "price": {
+    "value": "3000",
+    "raw": "3,000",
+    "status": "ok",
+    "conf": 0.9621,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total",
+   "tax"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "51300",
+  "raw": "51,300",
+  "status": "ok",
+  "conf": 0.9983,
+  "low_trust": false,
+  "line": "GRAND TOTAL: 51,300",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 13
+}

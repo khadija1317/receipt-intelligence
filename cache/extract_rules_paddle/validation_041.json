@@ -1,0 +1,149 @@
+{
+ "menu": [
+  {
+   "nm": "SOGOGI JAPCHAE",
+   "cnt": "1",
+   "price": {
+    "value": "150000",
+    "raw": "150,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GONG GIBAB",
+   "cnt": "7",
+   "price": {
+    "value": "105000",
+    "raw": "105,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHULPAN CHEESE",
+   "cnt": "1",
+   "price": {
+    "value": "230000",
+    "raw": "230,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CREAM TEOK PO KI",
+   "cnt": "1",
+   "price": {
+    "value": "95000",
+    "raw": "95,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "EL KEUN",
+   "cnt": "1",
+   "price": {
+    "value": "120000",
+    "raw": "120,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHAM KKOT SAL",
+   "cnt": "2",
+   "price": {
+    "value": "620000",
+    "raw": "620,000",
+    "status": "ok",
+    "conf": 0.9948,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "U SAM GYEOP",
+   "cnt": "2",
+   "price": {
+    "value": "290000",
+    "raw": "290,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "USLYENA",
+   "cnt": null,
+   "price": {
+    "value": "390000",
+    "raw": "390,000",
+    "status": "ok",
+    "conf": 0.9985,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ICECOFFE MIX",
+   "cnt": "3",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9581,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ICE BLACK COFFE",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9921,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "2000000",
+  "raw": "2,000,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 2,000,000",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "212460",
+  "raw": "212,460",
+  "status": "ok",
+  "conf": 0.9953,
+  "low_trust": false,
+  "line": "Tax 212,460",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "140000",
+  "raw": "140,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Service 140,000",
+  "n_candidates": 1
+ },
+ "index": 41
+}

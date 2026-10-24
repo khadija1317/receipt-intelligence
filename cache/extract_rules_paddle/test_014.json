@@ -1,0 +1,111 @@
+{
+ "menu": [
+  {
+   "nm": "1 RedVelvet Cheese Slc",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 0.9977,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Chicken Baked Rice",
+   "cnt": null,
+   "price": {
+    "value": "55000",
+    "raw": "55,000",
+    "status": "ok",
+    "conf": 0.9957,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Fish n Chips",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mushroom Soup",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "35000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chamomile",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25000",
+    "status": "ok",
+    "conf": 0.9971,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Iced Tea",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "238000",
+  "raw": "238,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUBTOTAL 238,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "281435",
+  "raw": "281,435",
+  "status": "ok",
+  "conf": 0.9801,
+  "low_trust": false,
+  "line": "TOTAL 281,435",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "25585",
+  "raw": "25,585",
+  "status": "ok",
+  "conf": 0.9986,
+  "low_trust": false,
+  "line": "PB1 25,585",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "17850",
+  "raw": "17,850",
+  "status": "ok",
+  "conf": 0.998,
+  "low_trust": false,
+  "line": "Service 17,850",
+  "n_candidates": 1
+ },
+ "index": 14
+}

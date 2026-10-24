@@ -1,0 +1,180 @@
+{
+ "menu": [
+  {
+   "nm": "UDANG RE216,000",
+   "cnt": "2",
+   "price": {
+    "value": "432000",
+    "raw": "432,000",
+    "status": "ok",
+    "conf": 0.9938,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "=*LARGE*==",
+   "cnt": null,
+   "price": {
+    "value": "2",
+    "raw": "2",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "- AYM GR JUN NJAN",
+   "cnt": null,
+   "price": {
+    "value": "108000",
+    "raw": "108,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": " SAPO TH SEAFOOD",
+   "cnt": null,
+   "price": {
+    "value": "172000",
+    "raw": "172,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "POCAI",
+   "cnt": "2",
+   "price": {
+    "value": null,
+    "raw": "111,000 222,000",
+    "status": "review",
+    "conf": 0.9752,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "=*MEDIUM*=",
+   "cnt": null,
+   "price": {
+    "value": "2",
+    "raw": "2",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GURAME FILLET M",
+   "cnt": "1",
+   "price": {
+    "value": "163000",
+    "raw": "163,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BIHUN GORENG JJ",
+   "cnt": null,
+   "price": {
+    "value": "116000",
+    "raw": "116,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ICED TEA12,000",
+   "cnt": "5",
+   "price": {
+    "value": "60000",
+    "raw": "60,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI PUTIH10,000",
+   "cnt": "7",
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": 0.9986,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "FOOD",
+   "cnt": null,
+   "price": {
+    "value": "1213000",
+    "raw": "1,213,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BEVERAGES",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "OTHERS",
+   "cnt": null,
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": 0.9818,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "1343000",
+  "raw": "1,343,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 1,343,000",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "142358",
+  "raw": "142,358",
+  "status": "ok",
+  "conf": 0.999,
+  "low_trust": false,
+  "line": "Tax 10% 142,358",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "80580",
+  "raw": "80,580",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SERVICE CHARGE 80,580",
+  "n_candidates": 1
+ },
+ "index": 70
+}

@@ -1,0 +1,147 @@
+{
+ "menu": [
+  {
+   "nm": "1 Nasi Tambah 3 Nasi Putih",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 Ayam Pop",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7.000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Samabal SP",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Sambal Gabus Asin Cb",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Kerupuk Kuah",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 IKan Bawal Besa",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": 0.9981,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Telur Dadar",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10.000",
+    "status": "ok",
+    "conf": 0.9977,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Teh Es",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7.000",
+    "status": "ok",
+    "conf": 0.9965,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Teh Manis",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9.000",
+    "status": "ok",
+    "conf": 0.9979,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Es Batu",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4.000",
+    "status": "ok",
+    "conf": 0.9984,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "179500",
+  "raw": "179.500",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Subtotal 179.500",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "197450",
+  "raw": "197.450",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "14 Total 197.450",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "17950",
+  "raw": "17.950",
+  "status": "ok",
+  "conf": 0.9971,
+  "low_trust": false,
+  "line": "Pajak Rest.10% 17.950",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 85
+}

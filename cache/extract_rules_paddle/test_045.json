@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "Lemon Tea (L).",
+   "cnt": "1",
+   "price": {
+    "value": "28000",
+    "raw": "28.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mike & Ike Original",
+   "cnt": "1",
+   "price": {
+    "value": "28000",
+    "raw": "28.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mike & Berry",
+   "cnt": "1",
+   "price": {
+    "value": "7000",
+    "raw": "7.000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Roti Keju Manis.",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9894,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "88000",
+  "raw": "88.000",
+  "status": "ok",
+  "conf": 0.9978,
+  "low_trust": false,
+  "line": "TOTAL 88.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 45
+}

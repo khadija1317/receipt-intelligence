@@ -29,7 +29,10 @@ def token_results(token):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--split", choices=["test", "validation"], default="test")
-    split = parser.parse_args().split
+    parser.add_argument("--ocr-dir", default="cache/ocr")
+    args = parser.parse_args()
+    split = args.split
+    cache = Path(args.ocr_dir)
 
     ds = load_dataset("naver-clova-ix/cord-v2", split=split)
     if split == "test":
@@ -51,7 +54,7 @@ def main():
             continue
         scored += 1
 
-        path = CACHE / f"{split}_{i:03d}.json"
+        path = cache / f"{split}_{i:03d}.json"
         if not path.exists():
             sys.exit(f"Missing {path}")
         record = json.loads(path.read_text(encoding="utf-8"))

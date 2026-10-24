@@ -1,0 +1,98 @@
+{
+ "menu": [
+  {
+   "nm": "(TA) NASI ORG TERI",
+   "cnt": "4",
+   "price": {
+    "value": "165460",
+    "raw": "165,460",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "(TA) BIHUN GORENG",
+   "cnt": "1",
+   "price": {
+    "value": "40456",
+    "raw": "40,456",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "(TA) KWETIAW SEAFOOD",
+   "cnt": "1",
+   "price": {
+    "value": "42274",
+    "raw": "42,274",
+    "status": "ok",
+    "conf": 0.9971,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "(TA) NASI GORENG",
+   "cnt": "2",
+   "price": {
+    "value": "55456",
+    "raw": "55,456",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ph1 10%",
+   "cnt": null,
+   "price": {
+    "value": "30365",
+    "raw": "30,365",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "le Rounding",
+   "cnt": null,
+   "price": {
+    "value": "334011",
+    "raw": "334,011",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Rounding",
+   "cnt": null,
+   "price": {
+    "value": "11",
+    "raw": "11",
+    "status": "ok",
+    "conf": 0.9992,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "334000",
+  "raw": "334,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 334,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 51
+}

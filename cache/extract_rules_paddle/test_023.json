@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "6 TWIST DONUT",
+   "cnt": null,
+   "price": {
+    "value": "54000",
+    "raw": "54,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 REDBEAN BREAD",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "63000",
+  "raw": "63,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 63,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 23
+}

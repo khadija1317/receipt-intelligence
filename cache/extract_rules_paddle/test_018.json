@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "Propolis Cair",
+   "cnt": "1",
+   "price": {
+    "value": "156000",
+    "raw": "156000",
+    "status": "ok",
+    "conf": 0.9969,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Sub Tofal",
+   "cnt": null,
+   "price": {
+    "value": "156000",
+    "raw": "156000",
+    "status": "ok",
+    "conf": 0.9789,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tunai",
+   "cnt": null,
+   "price": {
+    "value": "156000",
+    "raw": "156000",
+    "status": "ok",
+    "conf": 0.9636,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Kembalian",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Rp.0",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 18
+}

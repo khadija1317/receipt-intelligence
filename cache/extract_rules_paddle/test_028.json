@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "SAMGYOPSAL",
+   "cnt": "2",
+   "price": {
+    "value": "194000",
+    "raw": "194,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUL LUNG TANG",
+   "cnt": "1",
+   "price": {
+    "value": "75000",
+    "raw": "75,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MAKOLI",
+   "cnt": "1",
+   "price": {
+    "value": "100000",
+    "raw": "100,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "369000",
+  "raw": "369,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 369,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "426195",
+  "raw": "426,195",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 426,195",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "18450",
+  "raw": "18,450",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Service 18,450",
+  "n_candidates": 1
+ },
+ "index": 28
+}

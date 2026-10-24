@@ -1,0 +1,30 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "0",
+  "raw": "0",
+  "status": "ok",
+  "conf": 0.9951,
+  "low_trust": false,
+  "line": "SUB TOTAL 0",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": {
+  "value": "7280",
+  "raw": "7.280",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SERVICE 7.280",
+  "n_candidates": 1
+ },
+ "index": 94
+}

@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "ASI",
+   "cnt": null,
+   "price": {
+    "value": "36500",
+    "raw": "36,500",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "36500",
+  "raw": "36,500",
+  "status": "ok",
+  "conf": 0.9988,
+  "low_trust": false,
+  "line": "Sub Total 36,500",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "40150",
+  "raw": "40,150",
+  "status": "ok",
+  "conf": 0.9965,
+  "low_trust": false,
+  "line": "Grand Total 40,150 DLEH",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "3650",
+  "raw": "3,650",
+  "status": "ok",
+  "conf": 0.9977,
+  "low_trust": false,
+  "line": "PB1 10.0% 3,650",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 87
+}

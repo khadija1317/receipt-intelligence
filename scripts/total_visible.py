@@ -24,8 +24,10 @@ def try_parse(text):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--split", choices=["test", "validation"], default="test")
+    parser.add_argument("--ocr-dir", default="cache/ocr")
     args = parser.parse_args()
     split = args.split
+    cache = Path(args.ocr_dir)
 
     ds = load_dataset("naver-clova-ix/cord-v2", split=split)
     if split == "test":
@@ -40,7 +42,7 @@ def main():
     scored = 0
 
     for i, raw in enumerate(labels):
-        path = CACHE / f"{split}_{i:03d}.json"
+        path = cache / f"{split}_{i:03d}.json"
         if not path.exists():
             sys.exit(f"Missing {path}. Has the OCR run for '{split}' finished?")
         record = json.loads(path.read_text(encoding="utf-8"))
@@ -69,8 +71,13 @@ def main():
             loose_hits.append(i)
 
     print(f"split: {split}")
-    print(f"receipts with no total_price: {len(no_total)} -> {no_total}")
-    print(f"unparseable total labels: {len(unparseable)} -> {unparseable}")
+    if split == "validation":
+        print(f"receipts with no total_price: {len(no_total)} -> {no_total}")
+        print(f"unparseable total labels: {len(unparseable)} -> {unparseable}")
+    else:
+        print(f"receipts with no total_price: {len(no_total)}")
+        print(f"unparseable total labels: {len(unparseable)}")
+        
     print(f"scored receipts: {scored}")
     print(f"strict (whole piece):         {len(strict_hits)} of {scored}")
     print(f"HEADLINE (piece or any word): {len(loose_hits)} of {scored}"

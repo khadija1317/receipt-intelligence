@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "iur",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.266,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PAKET BER4",
+   "cnt": null,
+   "price": {
+    "value": "138182",
+    "raw": "138,182",
+    "status": "ok",
+    "conf": 0.9467,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 50% CHICKEN ROYAL",
+   "cnt": null,
+   "price": {
+    "value": "18182",
+    "raw": "18,182",
+    "status": "ok",
+    "conf": 0.984,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "156364",
+  "raw": "156,364",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUBTOTAL 156,364",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "172000",
+  "raw": "172,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 172,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "15630",
+  "raw": "15,630",
+  "status": "ok",
+  "conf": 0.8449,
+  "low_trust": false,
+  "line": "TAX 15,630",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 93
+}

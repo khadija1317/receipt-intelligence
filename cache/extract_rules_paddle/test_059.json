@@ -1,0 +1,136 @@
+{
+ "menu": [
+  {
+   "nm": "2 Tahu Isi",
+   "cnt": null,
+   "price": {
+    "value": "78000",
+    "raw": "78,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "5.Tea",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Kepiting 7-8.4ons - Chilly 0.7",
+   "cnt": null,
+   "price": {
+    "value": "297490",
+    "raw": "297,490",
+    "status": "ok",
+    "conf": 0.9914,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Udang Telur Asin - Regular",
+   "cnt": null,
+   "price": {
+    "value": "47500",
+    "raw": "47,500",
+    "status": "ok",
+    "conf": 0.9955,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Kailan 2 Rasa",
+   "cnt": null,
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 0.9863,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Mantau - 2 pcs",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 0.9763,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 Sweet Tea",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16,000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "7 Nasi Putih",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Mantau.- 3 pcs",
+   "cnt": null,
+   "price": {
+    "value": "37500",
+    "raw": "37,500",
+    "status": "ok",
+    "conf": 0.9952,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "618490",
+  "raw": "618,49Q",
+  "status": "repaired",
+  "conf": 0.9261,
+  "low_trust": true,
+  "line": "Subtotal 618,49Q",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "680500",
+  "raw": "680,500",
+  "status": "ok",
+  "conf": 0.989,
+  "low_trust": false,
+  "line": "Total 680,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "61849",
+  "raw": "61,849",
+  "status": "ok",
+  "conf": 0.9965,
+  "low_trust": false,
+  "line": "Tax 61,849",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 59
+}

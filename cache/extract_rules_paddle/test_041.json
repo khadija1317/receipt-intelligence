@@ -1,0 +1,147 @@
+{
+ "menu": [
+  {
+   "nm": "Chicken Maryland",
+   "cnt": null,
+   "price": {
+    "value": "47619.00",
+    "raw": "47619.00",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Cappucino (Hot/Iced)",
+   "cnt": null,
+   "price": {
+    "value": "30303.00",
+    "raw": "30303.00",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Naga Lychee Juice",
+   "cnt": null,
+   "price": {
+    "value": "34632.00",
+    "raw": "34632.00",
+    "status": "ok",
+    "conf": 0.9969,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Cafe Latte",
+   "cnt": null,
+   "price": {
+    "value": "30303.00",
+    "raw": "30303.00",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Hot Chocolate Marshmallo",
+   "cnt": null,
+   "price": {
+    "value": "30303.00",
+    "raw": "30303.00",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chicken Cesar Salad",
+   "cnt": null,
+   "price": {
+    "value": "43290.00",
+    "raw": "43290.00",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mineral Water",
+   "cnt": null,
+   "price": {
+    "value": "12987.00",
+    "raw": "12987.00",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mineral Water",
+   "cnt": null,
+   "price": {
+    "value": "12987.00",
+    "raw": "12987.00",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Lychee/Peach/Lemon/Mango",
+   "cnt": null,
+   "price": {
+    "value": "25974.00",
+    "raw": "25974.00",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chicken Maryland",
+   "cnt": null,
+   "price": {
+    "value": "47619.00",
+    "raw": "47619.00",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "316017.00",
+  "raw": "316017.00",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 316017.00",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "365000.00",
+  "raw": "365000.00",
+  "status": "ok",
+  "conf": 0.9538,
+  "low_trust": false,
+  "line": "TOTAL 365000.00",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "48982.68",
+  "raw": "48982.68",
+  "status": "ok",
+  "conf": 0.998,
+  "low_trust": false,
+  "line": "Service Charge 5% + 48982.68",
+  "n_candidates": 1
+ },
+ "index": 41
+}

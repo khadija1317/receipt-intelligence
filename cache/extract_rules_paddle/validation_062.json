@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "1 French Fries",
+   "cnt": null,
+   "price": {
+    "value": "10909",
+    "raw": "10,909",
+    "status": "ok",
+    "conf": 0.9984,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 Cheese Burger",
+   "cnt": null,
+   "price": {
+    "value": "36364",
+    "raw": "36,364",
+    "status": "ok",
+    "conf": 0.9963,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Milo",
+   "cnt": null,
+   "price": {
+    "value": "9091",
+    "raw": "9.091",
+    "status": "ok",
+    "conf": 0.998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "56364",
+  "raw": "56.364",
+  "status": "ok",
+  "conf": 0.9976,
+  "low_trust": false,
+  "line": "SUBTOTAL 56.364",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "62000",
+  "raw": "62.000",
+  "status": "ok",
+  "conf": 0.9892,
+  "low_trust": false,
+  "line": "TOTAL 62.000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5636",
+  "raw": "5,636",
+  "status": "ok",
+  "conf": 0.9687,
+  "low_trust": false,
+  "line": "PB1 5,636",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 62
+}

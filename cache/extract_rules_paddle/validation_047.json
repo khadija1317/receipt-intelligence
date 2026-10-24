@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "Seaweed Chicken",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9904,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "50000",
+  "raw": "50,000",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "Pay Cash 50,000 Total. Change :8,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 47
+}

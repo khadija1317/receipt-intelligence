@@ -1,0 +1,92 @@
+{
+ "menu": [
+  {
+   "nm": "8 PCS",
+   "cnt": null,
+   "price": {
+    "value": "1944000",
+    "raw": "1,944,000",
+    "status": "ok",
+    "conf": 0.9989,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DISKON:(20%)",
+   "cnt": null,
+   "price": {
+    "value": "1555200",
+    "raw": "1,555,200",
+    "status": "ok",
+    "conf": 0.9972,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "5 PCS",
+   "cnt": null,
+   "price": {
+    "value": "975000",
+    "raw": "975,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DISKON: (20%)",
+   "cnt": null,
+   "price": {
+    "value": "780000",
+    "raw": "780,000",
+    "status": "ok",
+    "conf": 0.9347,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "4 PCS",
+   "cnt": null,
+   "price": {
+    "value": "972000",
+    "raw": "972,000",
+    "status": "ok",
+    "conf": 0.9979,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DISKON: (20%)",
+   "cnt": null,
+   "price": {
+    "value": "777600",
+    "raw": "777.600",
+    "status": "ok",
+    "conf": 0.9286,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BAYAR CREDIT CARD",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "3.112,800",
+    "status": "review",
+    "conf": 0.9854,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 39
+}

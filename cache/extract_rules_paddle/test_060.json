@@ -1,0 +1,53 @@
+{
+ "menu": [
+  {
+   "nm": "1x",
+   "cnt": null,
+   "price": {
+    "value": "1250",
+    "raw": "1.250",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2x",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "26250",
+  "raw": "26.250",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 26.250",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "26250",
+  "raw": "26.250",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 26.250",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 60
+}

@@ -1,0 +1,116 @@
+{
+ "menu": [
+  {
+   "nm": "1Prs Sop Sui Jiao",
+   "cnt": null,
+   "price": {
+    "value": "33000",
+    "raw": "33,000",
+    "status": "ok",
+    "conf": 0.9923,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1Prs Ha Kaou Udng",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1Prs Sio May Kpting",
+   "cnt": null,
+   "price": {
+    "value": "23500",
+    "raw": "23,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1Prs Siomay Kmbinasi",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1Prs Leng Hong Kien",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1Prs Mie Kgkung Trsi",
+   "cnt": null,
+   "price": {
+    "value": "35500",
+    "raw": "35,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "101s Es Teh Tawar",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "180000",
+  "raw": "180,000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Subtotal 180,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "207900",
+  "raw": "207,900",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 207,900",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "9000",
+  "raw": "9,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Service Charge 9,000",
+  "n_candidates": 1
+ },
+ "index": 25
+}

@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "1 [REG] BLACK SAKURA",
+   "cnt": null,
+   "price": {
+    "value": "45455",
+    "raw": "45,455",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 COOKIE DOH SAUCES",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9928,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 NATA DE COCO",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9919,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "45455",
+  "raw": "45,455",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Sub Total 45,455",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "50000",
+  "raw": "50,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 50,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "4545",
+  "raw": "4,545",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "PB1(10%) 4,545",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 8
+}

@@ -29,3 +29,43 @@ Prompt v2 (rule 5a, pre-committed: keep only if validation total correct >= 68):
 Test (v1, run once, counts only): total 54/11/30 (prec 83.1%, recall 56.8%, 1 extra), subtotal 39/2/23, tax 17/6/17, service 9/3/0, items matched 151 of 242 label items, exact 23/100. Rules v2 on test: total 54/14/27, exact 21/100. Both arms stay 18 receipts below the readable ceiling (72).
 Day 7 notes: only 11 (LLM) and 14 (rules) wrong totals on test, so report counts, not only percentages. Add a check that the evidence line contains a total word (catches false hits like val 94).
 Day 5 CLOSED.
+## Day 6 (Oct 22-24): PaddleOCR as a second OCR engine
+
+**Reversal of the Day 3 decision (written down).** Day 3 decided not to try a second OCR engine. Reversed because Day 5 showed both extractors stop about 18 receipts below the readable ceiling, so the OCR text is the limit. Engine: PaddleOCR, chosen by me after checking its current state. Pre-committed before any number: 90-minute install cap; run on test regardless of the validation result (2a); Paddle becomes the main OCR if validation merged+repaired readable is at least 87 of 98 (EasyOCR: 84). Result: 96 of 98, so Paddle is the main OCR.
+
+**Setup.** Separate venv .venv-paddle (Python 3.12.7) so the frozen EasyOCR pipeline is untouched. paddlepaddle 3.2.2 pinned (3.3.0 had a reported CPU regression). setuptools had to be installed by hand (Paddle imports it but does not declare it). Models: PP-OCRv6 medium detector and recognizer, English. The three optional steps (page orientation, unwarping, text-line orientation) are OFF; not tested ON. Detector long side capped at 2560 (the default of 4000 crashed on validation receipt 3, 2304x4096). Cache: cache/ocr_paddle (100 validation + 100 test). Merge, repair and extractor constants were NOT retuned. Median seconds per image: validation 5.9, test 6.4 (EasyOCR about 9 from earlier notes; different runs, not a controlled comparison).
+
+**Readable = the correct total appears as a parseable number in the text. NOT accuracy.**
+
+| | EasyOCR raw | EasyOCR merged+repaired | Paddle raw | Paddle merged+repaired |
+|---|---|---|---|---|
+| validation (98) | 62.2% | 84 = 85.7% | 95 = 96.9% | 96 = 98.0% |
+| test (95) | 55.8% | 72 = 75.8% | 94 = 98.9% | 94 = 98.9% |
+
+Repair is almost idle on Paddle text (validation: 1 separator fix; test: 1 zero-like-letter fix). On EasyOCR validation it made 125 letter-to-zero fixes.
+
+**Rules arm v2 (frozen), correct / wrong / no answer.**
+
+| | val EasyOCR | val Paddle | test EasyOCR | test Paddle |
+|---|---|---|---|---|
+| total | 66/16/16 | 86/5/7 | 54/14/27 | 73/5/17 |
+| subtotal | 36/6/25 | 52/1/14 | 38/2/24 | 48/0/16 |
+| tax | 24/7/16 | 39/2/6 | 15/7/18 | 31/1/8 |
+| service | 4/1/8 | 7/1/5 | 8/2/2 | 9/1/2 |
+| items matched | 140 of 219 | 182 of 219 | 147 of 242 | 211 of 242 |
+| exact match (of 100) | 21 | 43 | 21 | 39 |
+
+Test Paddle total: precision 93.6%, recall 76.8%. Test Paddle items: returned 286, precision 73.8%, recall 87.2% (precision is lower than recall because the arm returns more items than the label has; 6 item prices unreadable).
+
+**Readings.** (1) The OCR was the bottleneck: swapping it gained 19 test totals (54 to 73); swapping the extractor never gained more than 1. (2) The bottleneck moved: the correct total is readable on 94 test receipts but returned correctly on 73, so about 21 receipts of pure extraction work (counts agreement, not a receipt-by-receipt match). (3) Validation is optimistic for the extractor, not for the OCR: readable 98.0% vs 98.9%, but total recall 87.8% (val) vs 76.8% (test). (4) Only 5 wrong totals on test: the validator's error pool is small; report counts and pool fields.
+
+**Crash notes (cause NOT identified).** Paddle's native code is intermittently unstable on this machine.
+- Validation receipt 3 (2304x4096): "RuntimeError: Unknown exception" at the detector with the default 4000 cap; passed with the 2560 cap in the full run.
+- Test: one "Unknown exception" at 2560, then two runs ended silently (10 and 20 receipts, no traceback). The crash printer was not on then. A later probe showed a Windows access violation (native crash, no Python traceback) at size 4000, so the silent stops are consistent with that but not proven.
+- Probe on validation receipt 3, one process, ascending sizes: 960-2048 ok, 2560 failed, 3000 failed, 4000 crashed hard. My probe was badly designed (size and number of earlier calls moved together).
+- Four fresh-process reruns could not reproduce it: 2560 ok twice, 2048 then 2560 ok. With oneDNN off, 2048/2560/3000/4000 all ok but 7 to 9 times slower (2048: 9.2 s vs 64.9 s), so not adopted.
+- Machine: about 6 GB RAM, about 0.85 GB free at one check. Peak memory 1.2 GB (2048), 1.5-1.6 GB (2560), 3.5 GB (4000, oneDNN off). Memory pressure is a plausible lead, not shown.
+- Test files: 98 at detector size 2560, 1 at 1600, 1 at 1280 (the two fell back after errors). Indices not looked up (test rule). A crash never writes a file; integrity check: 200 files, 0 empty, indices match, no leftover .tmp files.
+- Policy: existing caches are not rerun; Paddle runs through the restart-and-resume loop; own receipts and the demo run Paddle in its own process with a detector cap of 2048 or lower; crash log goes to cache/paddle_crash.log.
+
+**For the README.** (1) Second engine tried and adopted; reversal of the Day 3 decision with these numbers. (2) Paddle crashed intermittently on large images; cause not identified; 2 of 100 test receipts were read at reduced detector size. (3) Merge and repair constants were tuned on EasyOCR output and not retuned. (4) PP-OCRv6, English, three optional steps off. (5) Not tested: the three optional steps ON, French or Arabic models, Tunisian receipts.

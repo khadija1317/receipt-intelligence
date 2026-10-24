@@ -1,0 +1,76 @@
+{
+ "menu": [
+  {
+   "nm": "new ICE BLACKCOFFE",
+   "cnt": null,
+   "price": {
+    "value": "82000",
+    "raw": "82,000",
+    "status": "ok",
+    "conf": 0.9985,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AVOCADO COFFEE",
+   "cnt": null,
+   "price": {
+    "value": "61000",
+    "raw": "61,000",
+    "status": "ok",
+    "conf": 0.995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "elbe CHIKEN KATSU FF",
+   "cnt": null,
+   "price": {
+    "value": "51000",
+    "raw": "51,000",
+    "status": "ok",
+    "conf": 0.9763,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "9q SUB T8TAL",
+   "cnt": null,
+   "price": {
+    "value": "194000",
+    "raw": "194,000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DISCOUNT",
+   "cnt": null,
+   "price": {
+    "value": "19400",
+    "raw": "19,400",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "174600",
+  "raw": "174,600",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "lep. TOTAL 174,600",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 4
+}

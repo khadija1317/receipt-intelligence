@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "1 MINERAL 600 ML",
+   "cnt": null,
+   "price": {
+    "value": "7727",
+    "raw": "7,727",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 BULGOGI RICE R",
+   "cnt": null,
+   "price": {
+    "value": "33636",
+    "raw": "33,636",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "41364",
+  "raw": "41,364",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 41,364",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "45500",
+  "raw": "45,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 45,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "4136",
+  "raw": "4,136",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Tax 4,136",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 13
+}

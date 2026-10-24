@@ -31,22 +31,26 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--split", choices=["test", "validation"], default="validation")
     parser.add_argument("--show", type=int, nargs="*", default=[0, 19, 7])
+    parser.add_argument("--ocr-dir", default="cache/ocr")
+    parser.add_argument("--out-dir", default="cache/extract_rules")
     args = parser.parse_args()
     split = args.split
+    ocr = Path(args.ocr_dir)
+    out = Path(args.out_dir)
 
     ds = load_dataset("naver-clova-ix/cord-v2", split=split)
     if split == "test":
         check_test_set(ds)
-    OUT.mkdir(parents=True, exist_ok=True)
+    out.mkdir(parents=True, exist_ok=True)
 
     tally = Counter()
     quick_hit = quick_n = with_subs = 0
 
     for i, raw in enumerate(ds["ground_truth"]):
-        record = json.loads((OCR / f"{split}_{i:03d}.json").read_text(encoding="utf-8"))
+        record = json.loads((ocr / f"{split}_{i:03d}.json").read_text(encoding="utf-8"))
         result = extract_receipt(record["pieces"], CURRENCY)
         result["index"] = i
-        (OUT / f"{split}_{i:03d}.json").write_text(
+        (out / f"{split}_{i:03d}.json").write_text(
             json.dumps(result, ensure_ascii=False, indent=1), encoding="utf-8")
 
         tally["receipts"] += 1
@@ -74,7 +78,7 @@ def main():
         if i in args.show and split == "validation":
             show(result)
 
-    print(f"\nwrote {tally['receipts']} files to {OUT}")
+    print(f"\nwrote {tally['receipts']} files to {out}")
     for key, value in tally.items():
         print(f"  {key}: {value}")
     if split == "validation":

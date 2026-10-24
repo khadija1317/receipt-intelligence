@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "BASO TAHU AFUNG",
+   "cnt": null,
+   "price": {
+    "value": "43636",
+    "raw": "43..636",
+    "status": "repaired",
+    "conf": 0.9486,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": 0.9767,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "54600",
+  "raw": "54,600",
+  "status": "ok",
+  "conf": 0.9304,
+  "low_trust": false,
+  "line": "GRAND TOTAL 54,600",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "4964",
+  "raw": "4.964",
+  "status": "ok",
+  "conf": 0.9972,
+  "low_trust": false,
+  "line": "TAX 10.00 % 4.964",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 65
+}
