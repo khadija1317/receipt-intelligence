@@ -139,3 +139,28 @@ Passed-through pile: rules Paddle 48 receipts with 0 wrong-value records; LLM Pa
 Free catches: both LLM Paddle error records were queued by MISSING_TOTAL; only 1 of 2 by a value check. Rules Paddle: 5 of 6 by a value check (TOTAL_VS_BASE 5, TINY_TOTAL 4).
 Likely causes of the extra false alarms (NOT verified): 4 clean records per Paddle pipeline carry MISSING_TOTAL (inference: their labels have no total); ITEMS_VS_SUBTOTAL on 9 clean records (rules Paddle) vs 4 on validation, consistent with item precision 73.8% on test, but not checked.
 Plan: no change to the alarm. Day 8: break down false alarms by cause (validation first, test counts only, marked post-hoc); evaluate on own Tunisian receipts (unseen).
+
+## Day 7 addendum (Oct 25): review-queue breakdown, VALIDATION only. Decision 8c: no further change to the alarm.
+Script: scripts/queue_breakdown.py (measurement only, changes no check). Test not broken down (would be tuning on test).
+
+rules Paddle, validation, 30 receipts in the queue: 6 wrong-value records (true catches); 3 total not found; 2 label has no total (val 29, 49); 13 total CORRECT but subtotal/tax/service empty and arithmetic fired; 5 clean but items differ from the label; 1 clean unexplained (val 33, cash/change).
+LLM Paddle, validation, 27 in the queue: 7 wrong-value; 7 total not found; 1 + 1 label has no total (val 29 and val 49); 5 total correct but another field empty; 3 clean with items differing (val 7, 61, 76); 3 clean unexplained (val 8, 33, 55).
+Test (from the flag table, NOT a measured breakdown): rules Paddle queued 27 of 28 missing-field receipts but only 15 carry MISSING_TOTAL, so about 12 are probably the same kind (inference).
+
+FINDINGS
+1. Correction to my earlier claim that the missing-field receipts "need a human anyway": on validation rules/Paddle only 3 of 18 are "no total found". Thirteen have a correct total; the arithmetic check fires because an absent tax or service is treated as 0.
+2. The validator cannot tell "tax missing, total right" from "total wrong": both break the sum the same way. Relaxing the first could hide real errors (val 61, off by 5,700).
+3. Of the 6 rules/Paddle false alarms, 5 have item prices that differ from the label (my error definition ignores items, so some may be real catches). Val 7 is a known genuine false alarm (discount line). Lower bound about 1 true false alarm, upper bound about 6.
+4. Label without a total (val 29, 49) counts as clean but is queued by MISSING_TOTAL: a definition artifact, not noise.
+5. Rough estimate (NOT a result): a perfect fix for finding 1 would take rules/Paddle from 30 to about 20 on validation; a realistic test gain is smaller. Not built.
+
+FUTURE WORK (untested): treat an absent tax/service as unknown instead of 0, with a gap-size rule written before test; score items in the error definition.
+
+## Day 7 addendum (Oct 25): false-alarm breakdown, 8b rejected, Tunisian part dropped
+Breakdown of the review queue on validation (scripts/queue_breakdown.py; test counts only if ever run, post-hoc):
+- rules Paddle, 30 in queue: 6 wrong-value records, 3 extractor found no total, 2 label has no total (val 29, 49), 13 total right but subtotal/tax/service empty and arithmetic fired, 5 clean with items differing from the label (val 7 is the discount case), 1 unexplained (val 33, cash/change).
+- LLM Paddle, 27 in queue: 7 / 7 / 1 label without total (val 49) / 5 / 3 / 3.
+- CORRECTION: I called the 13 a "missing-tax artifact". Checked against label amounts it holds for 3 of 13 (val 45, 48, 25); 6 have no subtotal (base is a partial item sum, gaps up to 50%); 4 match nothing.
+8b (written first): adopt a gap-band rule only if, on validation across all four pipelines, 0 wrong-value records leave the queue and at least 3 receipts leave. Result at 3-12%: rules Paddle 4 leave / 0 lost; LLM Paddle 0 / 0; rules EasyOCR 1 / 2 lost; LLM EasyOCR 1 / 1 lost. REJECTED. A missing tax (~10% of base) and a total wrong by ~10% look identical to the validator. Paddle-only would have passed; not used, because the rule said four pipelines. No check changed. Frozen test numbers stay the headline (rules Paddle 52, LLM Paddle 46 of 100).
+What would lower the rate: extractor fixes for empty subtotal/tax/service (closed under the Day 6 stop rule), not validator rules.
+PLAN CHANGE: Tunisian rules and own-receipts evaluation DROPPED. Reason: no Tunisian receipts available, so no rule could be tested, and the VAT/matricule facts came from secondary sources. README keeps one limitation line (dinar amounts are unit-tested in the normalizer; no Tunisian receipts evaluated; CORD is Indonesian). CV line loses the Tunisia clause.
