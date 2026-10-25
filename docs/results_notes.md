@@ -121,3 +121,21 @@ Strict variant (any flag) on Paddle: 7 of 7 and 7 of 8 caught, review rate 50 an
 Misses: val 23 (rules, Paddle; only NO_ITEMS flagged it), val 63 (LLM, Paddle; every gap 0, not yet investigated).
 
 STOP RULE: Decision 6 was the last change to the alarm. The test is run ONCE, counts only; nothing is changed afterwards; whatever it shows goes in the README. Expected test error pools are tiny on Paddle (rules about 6-7 records with a wrong field, LLM about 3), so report counts.
+
+## Day 7 test result (Oct 25): generic validator, run ONCE after the freeze (commit 8d8f52c)
+Tolerance 1, queue = decision 6b. Sanity: all four total counts matched the frozen test scores. Counts only.
+
+Error records in queue / clean records in queue / missing-field receipts in queue / review rate:
+rules Paddle 6 of 6 / 19 of 66 / 27 of 28 / 52 of 100
+LLM Paddle 2 of 2 / 18 of 69 / 26 of 29 / 46 of 100
+rules EasyOCR 22 of 22 / 16 of 40 / 36 of 38 / 74 of 100
+LLM EasyOCR 16 of 19 / 13 of 42 / 36 of 39 / 65 of 100
+Strict any-flag review rate: 65 (rules Paddle), 59 (LLM Paddle), 86 and 76 (EasyOCR).
+Pooled queue: 46 of 49 error pairs, 26 distinct receipts, 23 queued in every pipeline where they are errors.
+
+Validation vs test (Paddle): review rate 30 -> 52 (rules), 27 -> 46 (LLM); clean records queued 6 of 71 -> 19 of 66 and 7 of 70 -> 18 of 69. Validation was optimistic as warned. By my own bar (half is barely acceptable) rules Paddle narrowly misses, LLM Paddle narrowly passes.
+Composition of the queue, rules Paddle: 6 wrong + 27 missing-field + 19 clean. The 27 are receipts the extractor already could not answer. The validator's own cost is the 19.
+Passed-through pile: rules Paddle 48 receipts with 0 wrong-value records; LLM Paddle 54 with 0. Error pools are 6 and 2, so 0 misses still allows a true miss rate near 40%. Items are not in the error definition.
+Free catches: both LLM Paddle error records were queued by MISSING_TOTAL; only 1 of 2 by a value check. Rules Paddle: 5 of 6 by a value check (TOTAL_VS_BASE 5, TINY_TOTAL 4).
+Likely causes of the extra false alarms (NOT verified): 4 clean records per Paddle pipeline carry MISSING_TOTAL (inference: their labels have no total); ITEMS_VS_SUBTOTAL on 9 clean records (rules Paddle) vs 4 on validation, consistent with item precision 73.8% on test, but not checked.
+Plan: no change to the alarm. Day 8: break down false alarms by cause (validation first, test counts only, marked post-hoc); evaluate on own Tunisian receipts (unseen).
