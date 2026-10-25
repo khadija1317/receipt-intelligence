@@ -1,0 +1,289 @@
+{
+ "split": "validation",
+ "tolerance": "1",
+ "pipelines": {
+  "rules_easyocr": {
+   "total_correct_wrong_noanswer": [
+    66,
+    16,
+    16
+   ],
+   "error": 22,
+   "missing": 34,
+   "ok": 44,
+   "error_flagged_any": 22,
+   "error_flagged_value": 20,
+   "false_alarms": 36,
+   "review": 90,
+   "receipts": 100,
+   "false_alarms_value": 12,
+   "review_value": 48,
+   "queue_error": 21,
+   "queue_false_alarms": 12,
+   "queue_missing": 30,
+   "queue_review": 63,
+   "missing_flagged_any": 32,
+   "missing_flagged_value": 16,
+   "codes": {
+    "REPAIRED": {
+     "ok": 23,
+     "missing": 19,
+     "error": 9
+    },
+    "NO_ITEMS": {
+     "error": 7,
+     "ok": 9,
+     "missing": 2
+    },
+    "TOTAL_VS_BASE": {
+     "error": 18,
+     "missing": 14,
+     "ok": 4
+    },
+    "MISSING_TOTAL": {
+     "missing": 16,
+     "error": 2
+    },
+    "ITEM_UNREADABLE": {
+     "missing": 1,
+     "ok": 1
+    },
+    "ITEMS_VS_SUBTOTAL": {
+     "ok": 7,
+     "error": 3,
+     "missing": 5
+    },
+    "TINY_TOTAL": {
+     "error": 7
+    },
+    "CASH_CHANGE_TOTAL": {
+     "error": 3,
+     "ok": 1
+    },
+    "ZERO_PRICE": {
+     "error": 2,
+     "missing": 5,
+     "ok": 2
+    }
+   },
+   "could_run": {
+    "total_vs_base": 75,
+    "cash_change": 11,
+    "items_vs_subtotal": 31
+   }
+  },
+  "llm_easyocr": {
+   "total_correct_wrong_noanswer": [
+    65,
+    13,
+    20
+   ],
+   "error": 23,
+   "missing": 29,
+   "ok": 48,
+   "error_flagged_any": 22,
+   "error_flagged_value": 17,
+   "false_alarms": 26,
+   "review": 74,
+   "receipts": 100,
+   "false_alarms_value": 17,
+   "review_value": 40,
+   "queue_error": 21,
+   "queue_false_alarms": 18,
+   "queue_missing": 24,
+   "queue_review": 63,
+   "missing_flagged_any": 26,
+   "missing_flagged_value": 6,
+   "codes": {
+    "TOTAL_WORD_MISSING": {
+     "ok": 6,
+     "error": 4,
+     "missing": 3
+    },
+    "TOTAL_VS_BASE": {
+     "ok": 8,
+     "error": 15,
+     "missing": 4
+    },
+    "NO_ITEMS": {
+     "error": 4,
+     "missing": 1,
+     "ok": 1
+    },
+    "MISSING_TOTAL": {
+     "missing": 18,
+     "error": 3,
+     "ok": 1
+    },
+    "ITEM_UNREADABLE": {
+     "missing": 13,
+     "ok": 10,
+     "error": 8
+    },
+    "TINY_TOTAL": {
+     "error": 3
+    },
+    "ITEMS_VS_SUBTOTAL": {
+     "ok": 4,
+     "error": 3,
+     "missing": 2
+    },
+    "CASH_CHANGE_TOTAL": {
+     "error": 2,
+     "ok": 2
+    },
+    "FIELD_REVIEW": {
+     "error": 1,
+     "missing": 2
+    },
+    "ZERO_PRICE": {
+     "ok": 2,
+     "missing": 3
+    },
+    "NUMBER_NOT_IN_TEXT": {
+     "error": 1
+    }
+   },
+   "could_run": {
+    "total_vs_base": 68,
+    "cash_change": 11,
+    "grounding": 100,
+    "items_vs_subtotal": 27
+   }
+  },
+  "rules_paddle": {
+   "total_correct_wrong_noanswer": [
+    90,
+    5,
+    3
+   ],
+   "error": 7,
+   "missing": 22,
+   "ok": 71,
+   "error_flagged_any": 7,
+   "error_flagged_value": 6,
+   "false_alarms": 23,
+   "review": 50,
+   "receipts": 100,
+   "false_alarms_value": 6,
+   "review_value": 25,
+   "queue_error": 6,
+   "queue_false_alarms": 6,
+   "queue_missing": 18,
+   "queue_review": 30,
+   "missing_flagged_any": 20,
+   "missing_flagged_value": 13,
+   "codes": {
+    "NO_ITEMS": {
+     "ok": 10,
+     "error": 3
+    },
+    "ZERO_PRICE": {
+     "missing": 3,
+     "ok": 6,
+     "error": 1
+    },
+    "TOTAL_VS_BASE": {
+     "missing": 13,
+     "ok": 2,
+     "error": 6
+    },
+    "ITEMS_VS_SUBTOTAL": {
+     "ok": 4,
+     "missing": 3
+    },
+    "MISSING_TOTAL": {
+     "missing": 5
+    },
+    "CASH_CHANGE_TOTAL": {
+     "ok": 1
+    },
+    "ITEM_UNREADABLE": {
+     "ok": 1,
+     "missing": 2
+    },
+    "REPAIRED": {
+     "missing": 1
+    }
+   },
+   "could_run": {
+    "total_vs_base": 89,
+    "cash_change": 33,
+    "items_vs_subtotal": 45
+   }
+  },
+  "llm_paddle": {
+   "total_correct_wrong_noanswer": [
+    85,
+    6,
+    7
+   ],
+   "error": 8,
+   "missing": 22,
+   "ok": 70,
+   "error_flagged_any": 7,
+   "error_flagged_value": 7,
+   "false_alarms": 23,
+   "review": 45,
+   "receipts": 100,
+   "false_alarms_value": 6,
+   "review_value": 18,
+   "queue_error": 7,
+   "queue_false_alarms": 7,
+   "queue_missing": 13,
+   "queue_review": 27,
+   "missing_flagged_any": 15,
+   "missing_flagged_value": 5,
+   "codes": {
+    "ITEM_UNREADABLE": {
+     "ok": 10,
+     "missing": 4,
+     "error": 1
+    },
+    "TOTAL_VS_BASE": {
+     "missing": 5,
+     "ok": 3,
+     "error": 6
+    },
+    "ITEMS_VS_SUBTOTAL": {
+     "ok": 3,
+     "missing": 2,
+     "error": 1
+    },
+    "ZERO_PRICE": {
+     "ok": 6,
+     "missing": 3
+    },
+    "MISSING_TOTAL": {
+     "missing": 8,
+     "ok": 1
+    },
+    "CASH_CHANGE_TOTAL": {
+     "ok": 1,
+     "error": 1
+    },
+    "FIELD_REVIEW": {
+     "missing": 1
+    },
+    "NO_ITEMS": {
+     "ok": 1
+    },
+    "TOTAL_WORD_MISSING": {
+     "error": 1
+    }
+   },
+   "could_run": {
+    "total_vs_base": 85,
+    "cash_change": 31,
+    "grounding": 100,
+    "items_vs_subtotal": 46
+   }
+  }
+ },
+ "pooled": {
+  "pairs": 60,
+  "pairs_flagged": 55,
+  "distinct_receipts": 31,
+  "flagged_in_every_pipeline": 27
+ }
+}
