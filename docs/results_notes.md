@@ -103,3 +103,21 @@ Validation total (correct/wrong/no answer): v2 86/5/7 -> v3 above 90/5/3 and v3 
 Test total: v2 73/5/17 -> v3 both 74/5/16; every other field and exact match (39) unchanged. How the total was found: validation 93 normal rule, 4 above, 0 below, 0 ambiguous, 3 none; test 80 normal, 1 above, 0 below, 0 ambiguous, 19 none.
 
 Readings. (1) The rule was written from the four validation receipts it fixes, so 4 of 4 is built in; on test it fired once (and was right): validation is optimistic, as with the Day 4 fuzzy fix (+9 val, +3 test). (2) The "below" lookup and the "ambiguous -> review" branch never fired on real data; they exist only in unit tests. (3) Wrong totals are untouched by v3: the wrong-row receipts (16, 38, 23, 47) have an amount on the TOTAL line, so the rule does not run; they are for the validator. (4) Remaining gap on test: correct total readable on 94, returned correctly on 74.
+
+## Day 7 (Oct 25): generic validator, FROZEN before the test run
+What it is: src/validate.py takes one extraction record (and the OCR text for the LLM arm) and returns flags, each with a code and a plain reason. It never sees the image. A check that cannot run (no items, no subtotal) is "not evaluable", never a pass.
+
+Decisions (all written before any test number):
+- 1c tolerance = 1 rupiah, chosen from a validation table. From 1 to 1000 the result moves by at most one error record and one false alarm; only 0 -> 1 matters (it spares 3 rounding cases like val 2). The dinar tolerance is a Day 8 question.
+- 2a/6b: every flag carries a reason. The REVIEW QUEUE (decision 6b) = value-based flags (TOTAL_VS_BASE, ITEMS_VS_SUBTOTAL, CASH_CHANGE_TOTAL, TINY_TOTAL, NUMBER_NOT_IN_TEXT, EVIDENCE_NOT_IN_TEXT, TOTAL_WORD_MISSING) plus MISSING_TOTAL and FIELD_REVIEW. NO_ITEMS, ZERO_PRICE, ITEM_UNREADABLE and REPAIRED stay on the record as notes but do not queue a receipt. REASON FOR THE CHANGE: with any-flag the review rate on Paddle text was 45-50 of 100, which I judged not useful. This was changed in writing after seeing validation numbers, so validation is optimistic.
+- 3c cash/change finder (same-line only), scored against CORD cashprice/changeprice on validation. Paddle text: cash 47 correct, 3 wrong, 14 not found (of 64); change 50 correct, 0 wrong, 13 not found (of 63). EasyOCR text much weaker (cash 27/10/27). It works as a confirmation (cash - change = total on 32 of the 33 receipts it could run on, rules/Paddle), not as a catcher.
+- CASH_SHORT (cash < total) was DROPPED by the 3-receipt rule: sole catch on 1 receipt, 3 false alarms per Paddle pipeline.
+- 4a grounding on the LLM arm: EVIDENCE_NOT_IN_TEXT fired on 0 records; TOTAL_WORD_MISSING is the check that does work (val 94).
+- 5a headline = records with a WRONG value in total/subtotal/tax/service; missing fields reported separately; false alarms and review rate always next to it. Items are not part of the error group, so some false alarms may be real item errors (not measured).
+
+Validation, queue, tolerance 1 (error records in queue / clean records in queue / review rate):
+rules Paddle 6 of 7 / 6 of 71 / 30 of 100; LLM Paddle 7 of 8 / 7 of 70 / 27 of 100; rules EasyOCR 21 of 22 / 12 of 44 / 63; LLM EasyOCR 21 of 23 / 18 of 48 / 63.
+Strict variant (any flag) on Paddle: 7 of 7 and 7 of 8 caught, review rate 50 and 45.
+Misses: val 23 (rules, Paddle; only NO_ITEMS flagged it), val 63 (LLM, Paddle; every gap 0, not yet investigated).
+
+STOP RULE: Decision 6 was the last change to the alarm. The test is run ONCE, counts only; nothing is changed afterwards; whatever it shows goes in the README. Expected test error pools are tiny on Paddle (rules about 6-7 records with a wrong field, LLM about 3), so report counts.
