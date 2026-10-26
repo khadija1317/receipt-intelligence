@@ -1,0 +1,17 @@
+{
+ "index": 76,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 TAKOYAKI 12PCS\n30,000\n1QT\nSubtotal  30,000\nTax  3,000\nTOTAL  33.000\nCASH  40,000\nChange  7,000\nTMM  ",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"TAKOYAKI 12PCS\",\n      \"cnt\": \"1\",\n      \"price\": \"30,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"30,000\",\n    \"evidence\": \"Subtotal  30,000\"\n  },\n  \"tax\": {\n    \"amount\": \"3,000\",\n    \"evidence\": \"Tax  3,000\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"33.000\",\n    \"evidence\": \"TOTAL  33.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 838,
+  "completion": 313,
+  "total": 1151,
+  "reasoning": 151
+ },
+ "seconds": 1.0062873363494873,
+ "error": null
+}

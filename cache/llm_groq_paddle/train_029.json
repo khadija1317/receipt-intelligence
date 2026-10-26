@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "AMBUSH DBL CHS BURG",
+   "cnt": "11",
+   "price": {
+    "value": "181500.00",
+    "raw": "181,500.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AMBUSH CHS BURGER",
+   "cnt": null,
+   "price": {
+    "value": "44000.00",
+    "raw": "44,000.00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TAKE AWAY CHARGE",
+   "cnt": null,
+   "price": {
+    "value": "1000.00",
+    "raw": "1,000.00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 29,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "KFC Winger HC",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Rice",
+   "cnt": null,
+   "price": {
+    "value": "6364",
+    "raw": "6,364",
+    "status": "ok",
+    "conf": 0.9988,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "26364",
+  "raw": "26,364",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 26,364",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "29000",
+  "raw": "29,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "29,000 | Total",
+  "adjacent": "above",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 54
+}

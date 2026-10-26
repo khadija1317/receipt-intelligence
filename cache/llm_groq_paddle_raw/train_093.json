@@ -1,0 +1,17 @@
+{
+ "index": 93,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tous\n1 NUMER CANDLE NO.1  10,000\n1 NUMER CANDLE NO.2  10,000\n2 GANACHE MOUSSE PIECE  65,000\nTOTAL  85,000\nCASH  100,000\nCHANGE  15,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"NUMER CANDLE NO.1\",\n      \"cnt\": \"1\",\n      \"price\": \"10,000\"\n    },\n    {\n      \"nm\": \"NUMER CANDLE NO.2\",\n      \"cnt\": \"1\",\n      \"price\": \"10,000\"\n    },\n    {\n      \"nm\": \"GANACHE MOUSSE PIECE\",\n      \"cnt\": \"2\",\n      \"price\": \"65,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"85,000\",\n    \"evidence\": \"TOTAL  85,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 848,
+  "completion": 345,
+  "total": 1193,
+  "reasoning": 136
+ },
+ "seconds": 1.0450692176818848,
+ "error": null
+}

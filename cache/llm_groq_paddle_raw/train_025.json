@@ -1,0 +1,17 @@
+{
+ "index": 25,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "n  n\nTMA  WEN  WH\n1  WRE\nH  \nWIH\nCRISPY CHOCO  14,000\nTL  14.000\nCASH  ·20,000\nCG  6,000\nTaee Te  t  DmT\nEMnA  Tme  WRN",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"CRISPY CHOCO\",\n      \"cnt\": null,\n      \"price\": \"14,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 858,
+  "completion": 235,
+  "total": 1093,
+  "reasoning": 103
+ },
+ "seconds": 0.9711720943450928,
+ "error": null
+}

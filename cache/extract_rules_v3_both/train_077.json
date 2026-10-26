@@ -1,0 +1,84 @@
+{
+ "menu": [
+  {
+   "nm": "KP BRANDING L",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.8696,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Disc.",
+   "cnt": null,
+   "price": {
+    "value": "-1",
+    "raw": "-1",
+    "status": "ok",
+    "conf": 0.9329,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "M/POKO STD XXL5",
+   "cnt": null,
+   "price": {
+    "value": "17100",
+    "raw": "17,10u",
+    "status": "repaired",
+    "conf": 0.963,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "HANSPLSI FOOT",
+   "cnt": "6",
+   "price": {
+    "value": "22400",
+    "raw": "22,400",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CTPAIN PATCH 4S",
+   "cnt": null,
+   "price": {
+    "value": "78600",
+    "raw": "78,600",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "118100",
+  "raw": "118,100",
+  "status": "ok",
+  "conf": 0.9993,
+  "low_trust": false,
+  "line": "Total Belanja 118,100",
+  "n_candidates": 3
+ },
+ "tax": {
+  "value": "10736",
+  "raw": "10,736",
+  "status": "ok",
+  "conf": 0.9799,
+  "low_trust": false,
+  "line": "PPN 10,736",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 77
+}

@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Coke (L)",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Extra Jelly Lychee",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Popcorn Salt (M)",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "70000",
+  "raw": "70.000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "TOTAL 70.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 211
+}

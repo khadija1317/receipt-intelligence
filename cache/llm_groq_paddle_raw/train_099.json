@@ -1,0 +1,17 @@
+{
+ "index": 99,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "The\n1X S-Ovaltine Macchiat @22,000  22,000\n50%\nNo Ice\n1X S-Hazelnut Milk Tea @20,000  23,000\nBubbles  3,000\n50%\nNo Ice\nPB1:  4,090\nSubtotal:  40,910\nTotal:  45,000\nCash:  105,000\nCHANGE:  60,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"S-Ovaltine Macchiat\",\n      \"cnt\": \"1\",\n      \"price\": \"22,000\"\n    },\n    {\n      \"nm\": \"S-Hazelnut Milk Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"23,000\"\n    },\n    {\n      \"nm\": \"Bubbles\",\n      \"cnt\": null,\n      \"price\": \"3,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"40,910\",\n    \"evidence\": \"Subtotal:  40,910\"\n  },\n  \"total\": {\n    \"amount\": \"45,000\",\n    \"evidence\": \"Total:  45,000\"\n  },\n  \"tax\": {\n    \"amount\": \"4,090\",\n    \"evidence\": \"PB1:  4,090\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 881,
+  "completion": 473,
+  "total": 1354,
+  "reasoning": 248
+ },
+ "seconds": 1.1416308879852295,
+ "error": null
+}

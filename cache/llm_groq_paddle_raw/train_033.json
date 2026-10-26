@@ -1,0 +1,17 @@
+{
+ "index": 33,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1X  @8000\nAREM - AREM  8,000\nDISC ITEM  -40.000%\nAMOUNT  -3,200\n1X  @9000\nLEMPER  9,000\nDISC ITEM  -40.000%\nAMOUNT  -3,600\n1X  @0\nPLASTIK KECIL  0\n3.00xITEMs\nSUBTOTAL  10,200\nTOTAL  10,200\nCASH  20,000\nCHANGE  9,800",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"AREM - AREM\",\n      \"cnt\": null,\n      \"price\": \"8,000\"\n    },\n    {\n      \"nm\": \"LEMPER\",\n      \"cnt\": null,\n      \"price\": \"9,000\"\n    },\n    {\n      \"nm\": \"PLASTIK KECIL\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"10,200\",\n    \"evidence\": \"SUBTOTAL  10,200\"\n  },\n  \"total\": {\n    \"amount\": \"10,200\",\n    \"evidence\": \"TOTAL  10,200\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 901,
+  "completion": 410,
+  "total": 1311,
+  "reasoning": 203
+ },
+ "seconds": 1.286158561706543,
+ "error": null
+}

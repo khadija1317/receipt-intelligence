@@ -1,0 +1,22 @@
+{
+ "menu": [
+  {
+   "nm": "Sweet Plum Potato",
+   "cnt": null,
+   "price": {
+    "value": "29000",
+    "raw": "29,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 49,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

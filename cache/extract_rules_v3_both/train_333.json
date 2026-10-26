@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "THE ENC",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.8017,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "a",
+   "cnt": "3",
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": 0.9971,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TMP KpK",
+   "cnt": null,
+   "price": {
+    "value": "54000",
+    "raw": "54,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "54000",
+  "raw": "54,000",
+  "status": "ok",
+  "conf": 0.9238,
+  "low_trust": false,
+  "line": "TOTAL 54,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 333
+}

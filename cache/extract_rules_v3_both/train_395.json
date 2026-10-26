@@ -1,0 +1,73 @@
+{
+ "menu": [
+  {
+   "nm": "3 Bakmi Ayam Spc Ng",
+   "cnt": null,
+   "price": {
+    "value": "73635",
+    "raw": "73.635",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3 Box Bakmie (M)",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Bakmi Ultah",
+   "cnt": null,
+   "price": {
+    "value": "68182",
+    "raw": "68.182",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Box Yi Fu Mie (L)",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "141817",
+  "raw": "141.817",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 141.817",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "155999",
+  "raw": "155.999",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "8 Total 155.999",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 395
+}

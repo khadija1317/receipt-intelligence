@@ -1,0 +1,53 @@
+{
+ "menu": [
+  {
+   "nm": "VANDOOLEN",
+   "cnt": null,
+   "price": {
+    "value": "8102",
+    "raw": "8,102",
+    "status": "ok",
+    "conf": 0.8836,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLASTIK S",
+   "cnt": null,
+   "price": {
+    "value": "25",
+    "raw": "25",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "8182",
+  "raw": "8.182",
+  "status": "ok",
+  "conf": 0.9024,
+  "low_trust": false,
+  "line": "SUBTOTAL 8.182",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "9000",
+  "raw": "9,000",
+  "status": "ok",
+  "conf": 0.9434,
+  "low_trust": false,
+  "line": "TOTAL 9,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 30
+}

@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "2D11-Whole wheat Katamari",
+   "cnt": "1",
+   "price": {
+    "value": "28000",
+    "raw": "28.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "6DO1-Plastic Bag Small",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 72,
+ "subtotal": null,
+ "total": {
+  "value": "28000",
+  "raw": "28.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  M  28.000"
+ },
+ "tax": null,
+ "service": null
+}

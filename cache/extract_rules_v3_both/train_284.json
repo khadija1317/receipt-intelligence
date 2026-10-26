@@ -1,0 +1,67 @@
+{
+ "menu": [
+  {
+   "nm": "1 DOUBLE CHICK BREAST",
+   "cnt": null,
+   "price": {
+    "value": "89000",
+    "raw": "89,000",
+    "status": "ok",
+    "conf": 0.9989,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "I ICED MANDARIN",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 0.999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "114300",
+  "raw": "114,300",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUBTOTAL 114,300",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "137478",
+  "raw": "137,478",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TOTAL 137,478",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "13653",
+  "raw": "13,653",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "Tax 13,653",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "9525",
+  "raw": "9,525",
+  "status": "ok",
+  "conf": 0.999,
+  "low_trust": false,
+  "line": "Service Charge 9,525",
+  "n_candidates": 1
+ },
+ "index": 284
+}

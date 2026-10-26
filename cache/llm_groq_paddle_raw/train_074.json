@@ -1,0 +1,17 @@
+{
+ "index": 74,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2 APPLE CREAMCHEESE PASTRY  26,000\nTOTAL  26,000\nCASH  100,000\nCHANGE  74,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"APPLE CREAMCHEESE PASTRY\",\n      \"cnt\": \"2\",\n      \"price\": \"26,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"26,000\",\n    \"evidence\": \"TOTAL  26,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 821,
+  "completion": 216,
+  "total": 1037,
+  "reasoning": 71
+ },
+ "seconds": 0.7164490222930908,
+ "error": null
+}

@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "BASO TAHU",
+   "cnt": "1",
+   "price": {
+    "value": "43181",
+    "raw": "43,181",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ES JERUK",
+   "cnt": null,
+   "price": {
+    "value": "56181",
+    "raw": "56,181",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 6,
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "61799",
+  "raw": "61,799",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10.00 %  61,799"
+ },
+ "service": null
+}

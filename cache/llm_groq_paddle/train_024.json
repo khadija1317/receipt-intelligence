@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1001-Choco Bun",
+   "cnt": "1",
+   "price": {
+    "value": "22000",
+    "raw": "22.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1032-Double Cheddar",
+   "cnt": "1",
+   "price": {
+    "value": "26000",
+    "raw": "26.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "6002-Plastic Bag Medium",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 24,
+ "subtotal": null,
+ "total": {
+  "value": "48000",
+  "raw": "48.000",
+  "status": "ok",
+  "conf": null,
+  "line": "48.000"
+ },
+ "tax": null,
+ "service": null
+}

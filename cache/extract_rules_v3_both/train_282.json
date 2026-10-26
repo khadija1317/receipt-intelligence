@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "2 SINGLE Cane",
+   "cnt": null,
+   "price": {
+    "value": "76364",
+    "raw": "76,364",
+    "status": "ok",
+    "conf": 0.9923,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "76364",
+  "raw": "76,364",
+  "status": "ok",
+  "conf": 0.9991,
+  "low_trust": false,
+  "line": "SUBTOTAL 76,364",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "88620",
+  "raw": "88,620",
+  "status": "ok",
+  "conf": 0.9983,
+  "low_trust": false,
+  "line": "TOTAL 88,620",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "8056",
+  "raw": "8,056",
+  "status": "ok",
+  "conf": 0.9935,
+  "low_trust": false,
+  "line": "PB1 8,056",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 282
+}

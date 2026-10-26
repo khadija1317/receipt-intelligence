@@ -1,0 +1,64 @@
+{
+ "menu": [
+  {
+   "nm": "NASI + AYAM KATSU TER...",
+   "cnt": "1",
+   "price": {
+    "value": "31819",
+    "raw": "31,819",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TEH PANAS",
+   "cnt": "1",
+   "price": {
+    "value": "5455",
+    "raw": "5,455",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ES TEH MANIS",
+   "cnt": "1",
+   "price": {
+    "value": "7273",
+    "raw": "7,273",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CH CORDON BLEU NASI",
+   "cnt": "1",
+   "price": {
+    "value": "42728",
+    "raw": "42,728",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 12,
+ "subtotal": null,
+ "total": {
+  "value": "96000",
+  "raw": "96,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  96,000"
+ },
+ "tax": {
+  "value": "8728",
+  "raw": "8,728",
+  "status": "ok",
+  "conf": null,
+  "line": "VAT 10%  8,728"
+ },
+ "service": null
+}

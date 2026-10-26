@@ -1,0 +1,29 @@
+{
+ "menu": [],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 71,
+ "subtotal": {
+  "value": "16363",
+  "raw": "16,363",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  16,363"
+ },
+ "total": {
+  "value": "17999",
+  "raw": "17,999",
+  "status": "ok",
+  "conf": null,
+  "line": "Grand Total  17,999"
+ },
+ "tax": {
+  "value": "1636",
+  "raw": "1,636",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak Resto  1,636"
+ },
+ "service": null
+}

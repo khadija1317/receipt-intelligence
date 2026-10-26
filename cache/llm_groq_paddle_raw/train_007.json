@@ -1,0 +1,17 @@
+{
+ "index": 7,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PKT AYAM  33,000\n1.00xITEMS\nSUBTOTAL  33,000\nTAX 10%  3,300\nTOTAL  36,300\nCASH  50,000\nCHANGE  13,700",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PKT AYAM\",\n      \"cnt\": null,\n      \"price\": \"33,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"33,000\",\n    \"evidence\": \"SUBTOTAL  33,000\"\n  },\n  \"tax\": {\n    \"amount\": \"3,300\",\n    \"evidence\": \"TAX 10%  3,300\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"36,300\",\n    \"evidence\": \"TOTAL  36,300\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 840,
+  "completion": 296,
+  "total": 1136,
+  "reasoning": 134
+ },
+ "seconds": 0.816328763961792,
+ "error": null
+}

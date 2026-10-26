@@ -1,0 +1,17 @@
+{
+ "index": 70,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 CAPTAIN HOOK  75,000\nIZZY PINK ZIGZAG\n1 PIRATES TREASURE  75,000\nBILLY BROWN SMALL\n** KIDS MEAL  150,000\nSUBTTL  150,000\nService Charge  12,000\nTAX  16,200\nTOTAL  178,200",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"CAPTAIN HOOK\",\n      \"cnt\": \"1\",\n      \"price\": \"75,000\"\n    },\n    {\n      \"nm\": \"IZZY PINK ZIGZAG\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"PIRATES TREASURE\",\n      \"cnt\": \"1\",\n      \"price\": \"75,000\"\n    },\n    {\n      \"nm\": \"BILLY BROWN SMALL\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"** KIDS MEAL\",\n      \"cnt\": null,\n      \"price\": \"150,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"12,000\",\n    \"evidence\": \"Service Charge  12,000\"\n  },\n  \"tax\": {\n    \"amount\": \"16,200\",\n    \"evidence\": \"TAX  16,200\"\n  },\n  \"total\": {\n    \"amount\": \"178,200\",\n    \"evidence\": \"TOTAL  178,200\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 862,
+  "completion": 585,
+  "total": 1447,
+  "reasoning": 307
+ },
+ "seconds": 1.7123067378997803,
+ "error": null
+}

@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1 BUNCIS MUDA IE",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "20000",
+  "raw": "20.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Qty: 1 Subtotal 20.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "22660",
+  "raw": "22.660",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Grand Total 22.660",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "2060",
+  "raw": "2.060",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Tax Total 2.060",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 86
+}

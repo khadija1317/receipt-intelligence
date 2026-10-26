@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "1 NEW BEEF SPAGHETTI",
+   "cnt": null,
+   "price": {
+    "value": "38182",
+    "raw": "38,182",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 P/P AMERICAN FAV",
+   "cnt": null,
+   "price": {
+    "value": "29091",
+    "raw": "29,091",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PAKET HAPPY HOUR",
+   "cnt": null,
+   "price": {
+    "value": "27273",
+    "raw": "27,273",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "94546",
+  "raw": "94,546",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 94,546",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "104000",
+  "raw": "104,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TOTAL 104,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "9454",
+  "raw": "9,454",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TAX 9,454",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 255
+}

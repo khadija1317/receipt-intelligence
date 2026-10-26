@@ -1,0 +1,144 @@
+{
+ "menu": [
+  {
+   "nm": "PAKET DOSIRAK",
+   "cnt": "3",
+   "price": {
+    "value": "25975",
+    "raw": "25,975",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PAKET DOSIRAK",
+   "cnt": null,
+   "price": {
+    "value": "3",
+    "raw": "3",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PAKET CHICKEN",
+   "cnt": "3",
+   "price": {
+    "value": null,
+    "raw": "35,000 105,000",
+    "status": "review",
+    "conf": 0.9955,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "JAPCHE",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": "25,000 25,000",
+    "status": "review",
+    "conf": 0.9777,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KOREAN LEMONADE",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KOREAN COLD TEA",
+   "cnt": "1",
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PAKET BULGOGI yuy",
+   "cnt": "3",
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BANANA MLK+MATCHA PU",
+   "cnt": "2",
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KRN FRIED CHICKN HNY",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "291975",
+  "raw": "291,975",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "Subtotal 291,975",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "337230",
+  "raw": "337,230",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 337,230",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "30657",
+  "raw": "30,657",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Tax 30,657",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "14598",
+  "raw": "14,598",
+  "status": "ok",
+  "conf": 0.9982,
+  "low_trust": false,
+  "line": "Services 14,598",
+  "n_candidates": 1
+ },
+ "index": 75
+}

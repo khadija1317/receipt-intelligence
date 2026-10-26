@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "1x",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1x",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "27000",
+  "raw": "Rp 27.000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Subtotal Rp 27.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "29700",
+  "raw": "Rp 29.700",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Total Rp 29.700",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "2700",
+  "raw": "Rp 2.700",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Tax (10.0%) Rp 2.700",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 233
+}

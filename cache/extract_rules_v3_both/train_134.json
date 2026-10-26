@@ -1,0 +1,45 @@
+{
+ "menu": [
+  {
+   "nm": "1 Viet Milk Caffee",
+   "cnt": null,
+   "price": {
+    "value": "29000",
+    "raw": "29.000",
+    "status": "ok",
+    "conf": 0.9989,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Viet Nilk Coffee",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "54000",
+  "raw": "54.000",
+  "status": "ok",
+  "conf": 0.9992,
+  "low_trust": false,
+  "line": "Total 54.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 134
+}

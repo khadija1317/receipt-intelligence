@@ -1,0 +1,100 @@
+{
+ "menu": [
+  {
+   "nm": "YANG YUM GUI T-",
+   "cnt": null,
+   "price": {
+    "value": "97000",
+    "raw": "97,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SOONDUBU CHIGE",
+   "cnt": "1",
+   "price": {
+    "value": "75000",
+    "raw": "75,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "JAP CHAE",
+   "cnt": "1",
+   "price": {
+    "value": "105000",
+    "raw": "105,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MAKOLI",
+   "cnt": "1",
+   "price": {
+    "value": "120000",
+    "raw": "120,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GOCHUJANG",
+   "cnt": "1",
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "482000",
+  "raw": "482,000",
+  "status": "ok",
+  "conf": 0.9994,
+  "low_trust": false,
+  "line": "Sub Total 482,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "564425",
+  "raw": "564,425",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 564,425",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "48685",
+  "raw": "48,685",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Tax 48,685",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "33740",
+  "raw": "33,740",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Service 33,740",
+  "n_candidates": 1
+ },
+ "index": 146
+}

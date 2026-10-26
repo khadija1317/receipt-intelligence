@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "NESTLE 600 M1",
+   "cnt": null,
+   "price": {
+    "value": "9500",
+    "raw": "9,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "9500",
+  "raw": "9,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 9,500",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "10450",
+  "raw": "10,450",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 10,450",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "10450",
+  "raw": "10,450",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAX 10% 10,450",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 281
+}

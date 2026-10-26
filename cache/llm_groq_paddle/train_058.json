@@ -1,0 +1,58 @@
+{
+ "menu": [
+  {
+   "nm": "1069-ROTI KEJU COKLAT",
+   "cnt": "1",
+   "price": {
+    "value": "8500.00",
+    "raw": "8.500,00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1037-ROTI MAHKOTA/RING",
+   "cnt": "1",
+   "price": {
+    "value": "10500.00",
+    "raw": "10.500,00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1022-ROTI KACANG MERAH",
+   "cnt": "1",
+   "price": {
+    "value": "8000.00",
+    "raw": "8.000,00",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1001-ROTI COKLAT",
+   "cnt": "1",
+   "price": {
+    "value": "8000.00",
+    "raw": "8.000,00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 58,
+ "subtotal": null,
+ "total": {
+  "value": "35000.00",
+  "raw": "35.000,00",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  35.000,00"
+ },
+ "tax": null,
+ "service": null
+}

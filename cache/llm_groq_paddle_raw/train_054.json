@@ -1,0 +1,17 @@
+{
+ "index": 54,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "KFC Winger HC  20,000\nRice  6,364\nSub Total  26,364\nF.Rest 10 %  2,636\n29,000\nTotal\nCash  30,000\nKembali  1,000\n2 Items,",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"KFC Winger HC\",\n      \"cnt\": null,\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"Rice\",\n      \"cnt\": null,\n      \"price\": \"6,364\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"26,364\",\n    \"evidence\": \"Sub Total  26,364\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"2,636\",\n    \"evidence\": \"F.Rest 10 %  2,636\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 844,
+  "completion": 314,
+  "total": 1158,
+  "reasoning": 134
+ },
+ "seconds": 1.0242273807525635,
+ "error": null
+}

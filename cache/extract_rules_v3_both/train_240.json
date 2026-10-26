@@ -1,0 +1,35 @@
+{
+ "menu": [
+  {
+   "nm": "HOME MADE BH",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.7177,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Se ",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.2325,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 240
+}

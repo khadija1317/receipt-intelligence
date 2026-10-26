@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "DEPT04",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".24,000",
+    "status": "review",
+    "conf": 0.9314,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DEPTO1",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22,000",
+    "status": "ok",
+    "conf": 0.9774,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "46000",
+  "raw": "46.000",
+  "status": "ok",
+  "conf": 0.9743,
+  "low_trust": false,
+  "line": "TOTAL 46.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 159
+}

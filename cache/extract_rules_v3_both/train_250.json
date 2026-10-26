@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "RTD Madu Aloevera",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "15000",
+  "raw": "15000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 15000",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 250
+}

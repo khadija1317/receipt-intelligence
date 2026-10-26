@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "RTD Kunyit 1",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tepung Jagung",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "30000",
+  "raw": "30000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 30000",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 52
+}

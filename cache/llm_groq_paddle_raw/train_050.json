@@ -1,0 +1,17 @@
+{
+ "index": 50,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "CHO MOUSSE  .20,000\nGRAPE JELLY  13,000\nSUBTOIAL  ·30,000\nTAX 10%  .3,000\nTL  33.000\nCASH  .50,000\nCG  -17.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"CHO MOUSSE\",\n      \"cnt\": null,\n      \"price\": \".20,000\"\n    },\n    {\n      \"nm\": \"GRAPE JELLY\",\n      \"cnt\": null,\n      \"price\": \"13,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"·30,000\",\n    \"evidence\": \"SUBTOIAL  ·30,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \".3,000\",\n    \"evidence\": \"TAX 10%  .3,000\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 845,
+  "completion": 323,
+  "total": 1168,
+  "reasoning": 138
+ },
+ "seconds": 0.8956828117370605,
+ "error": null
+}

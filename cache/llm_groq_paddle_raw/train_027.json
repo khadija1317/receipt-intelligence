@@ -1,0 +1,17 @@
+{
+ "index": 27,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "MEGA  Rp30,000\nCUP MEGA\nBBQ\nTL  Rp30.000\nCASH  100,000\nCG  Rp70,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"MEGA\",\n      \"cnt\": null,\n      \"price\": \"Rp30,000\"\n    },\n    {\n      \"nm\": \"CUP MEGA\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"BBQ\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"TL\",\n      \"cnt\": null,\n      \"price\": \"Rp30.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 820,
+  "completion": 318,
+  "total": 1138,
+  "reasoning": 112
+ },
+ "seconds": 1.5554471015930176,
+ "error": null
+}

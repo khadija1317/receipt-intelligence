@@ -1,0 +1,17 @@
+{
+ "index": 11,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2 Ayam Bakar  55,000\n2 Nasi Putih  20.000\n1 Nila Bakar/Goreng  27,500\n1 Sop Gurame  87.000\n1 Teh Poci  25.000\nSUBTOTAL  214,500\nService  12,870\nPajak Restoran  22.737\nTOTAL  250,107\nSEEEEEEEEEECFEEEEFFECCGECCEFECECEEFEEERE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Ayam Bakar\",\n      \"cnt\": \"2\",\n      \"price\": \"55,000\"\n    },\n    {\n      \"nm\": \"Nasi Putih\",\n      \"cnt\": \"2\",\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"Nila Bakar/Goreng\",\n      \"cnt\": \"1\",\n      \"price\": \"27,500\"\n    },\n    {\n      \"nm\": \"Sop Gurame\",\n      \"cnt\": \"1\",\n      \"price\": \"87.000\"\n    },\n    {\n      \"nm\": \"Teh Poci\",\n      \"cnt\": \"1\",\n      \"price\": \"25.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"214,500\",\n    \"evidence\": \"SUBTOTAL  214,500\"\n  },\n  \"total\": {\n    \"amount\": \"250,107\",\n    \"evidence\": \"TOTAL  250,107\"\n  },\n  \"tax\": {\n    \"amount\": \"22.737\",\n    \"evidence\": \"Pajak Restoran  22.737\"\n  },\n  \"service\": {\n    \"amount\": \"12,870\",\n    \"evidence\": \"Service  12,870\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 888,
+  "completion": 548,
+  "total": 1436,
+  "reasoning": 254
+ },
+ "seconds": 1.4242539405822754,
+ "error": null
+}

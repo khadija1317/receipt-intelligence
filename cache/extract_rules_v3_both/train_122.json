@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "LEURNA パン",
+   "cnt": null,
+   "price": {
+    "value": "2000",
+    "raw": "2000",
+    "status": "ok",
+    "conf": 0.8167,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Common Law",
+   "cnt": null,
+   "price": {
+    "value": "9900",
+    "raw": "9,900",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Tigger Roll",
+   "cnt": null,
+   "price": {
+    "value": "14900",
+    "raw": "14,900",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "24800",
+  "raw": "24,800",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUBTOTAL 24,800",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 122
+}

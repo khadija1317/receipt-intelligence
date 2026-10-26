@@ -1,0 +1,17 @@
+{
+ "index": 56,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "JNG\nA FUNG\n眼\nAFUNG\nBASO TAHU  1 43.636  43636  AFUNG\nNASI PUTIH  1 6.000  6.000\nTOTAL  49.636\nDPP  49.636\nTAX 10.00 %  4.964\nGRAND TOTAL  54.600\nTUNAI  60.100\nKEMBALI  5.500\nAFUNG",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BASO TAHU\",\n      \"cnt\": \"1\",\n      \"price\": \"43.636\"\n    },\n    {\n      \"nm\": \"NASI PUTIH\",\n      \"cnt\": \"1\",\n      \"price\": \"6.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"4.964\",\n    \"evidence\": \"TAX 10.00 %  4.964\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"49.636\",\n    \"evidence\": \"TOTAL  49.636\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 891,
+  "completion": 388,
+  "total": 1279,
+  "reasoning": 201
+ },
+ "seconds": 1.9877972602844238,
+ "error": null
+}

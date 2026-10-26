@@ -1,0 +1,35 @@
+{
+ "menu": [
+  {
+   "nm": "FOREST/RM0003)",
+   "cnt": null,
+   "price": {
+    "value": "1000600098",
+    "raw": "1000600098",
+    "status": "ok",
+    "conf": 0.997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "JOIE KUBBIE(BABY BOX)",
+   "cnt": null,
+   "price": {
+    "value": "901800109",
+    "raw": "901800109",
+    "status": "ok",
+    "conf": 0.9849,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 10
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 193
+}

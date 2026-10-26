@@ -1,0 +1,22 @@
+{
+ "menu": [
+  {
+   "nm": "CRISPY CHOCO",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 25,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

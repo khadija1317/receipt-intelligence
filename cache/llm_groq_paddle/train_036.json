@@ -1,0 +1,106 @@
+{
+ "menu": [
+  {
+   "nm": "GONG GIBAB",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BO SSAM",
+   "cnt": "1",
+   "price": {
+    "value": "320000",
+    "raw": "320,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "HAEMUL",
+   "cnt": "1",
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "DENJANG",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "JJIGAE",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MULNAENGMYO",
+   "cnt": "1",
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "N",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 36,
+ "subtotal": {
+  "value": "510000",
+  "raw": "510,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  510,000"
+ },
+ "total": {
+  "value": "599955",
+  "raw": "599,955",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  599,955"
+ },
+ "tax": {
+  "value": "54255",
+  "raw": "54,255",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  54,255"
+ },
+ "service": {
+  "value": "35700",
+  "raw": "35,700",
+  "status": "ok",
+  "conf": null,
+  "line": "Service  35,700"
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "menu": [
+  {
+   "nm": "Mineral Water (S)",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Pocky Chocolate",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nerds Strw Grape",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nerds Trop Punch",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nerds Watermelon",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 60,
+ "subtotal": null,
+ "total": {
+  "value": "161000",
+  "raw": "161.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  161.000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "DPHB9169",
+   "cnt": null,
+   "price": {
+    "value": "164700.00",
+    "raw": "164700.00",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AVSC0312",
+   "cnt": null,
+   "price": {
+    "value": "74700.00",
+    "raw": "74700.00",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AVSC2769",
+   "cnt": "1",
+   "price": {
+    "value": "74700.00",
+    "raw": "74700.00",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "314100.00",
+  "raw": "314100.00",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "NETTOTAL 314100.00",
+  "n_candidates": 2
+ },
+ "tax": null,
+ "service": null,
+ "index": 199
+}

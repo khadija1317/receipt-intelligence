@@ -1,0 +1,22 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "36000",
+  "raw": "36,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TOTAL 36,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 32
+}

@@ -1,0 +1,17 @@
+{
+ "index": 60,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "B\nMineral Water (S)  15.000\nPocky Chocolate  20.000\nNerds Strw Grape  42.000\nNerds Trop Punch  42.000\nNerds Watermelon  42.000\nTOTAL  161.000\n161.000\nCASH  0\nCHANGED",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Mineral Water (S)\",\n      \"cnt\": null,\n      \"price\": \"15.000\"\n    },\n    {\n      \"nm\": \"Pocky Chocolate\",\n      \"cnt\": null,\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"Nerds Strw Grape\",\n      \"cnt\": null,\n      \"price\": \"42.000\"\n    },\n    {\n      \"nm\": \"Nerds Trop Punch\",\n      \"cnt\": null,\n      \"price\": \"42.000\"\n    },\n    {\n      \"nm\": \"Nerds Watermelon\",\n      \"cnt\": null,\n      \"price\": \"42.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"161.000\",\n    \"evidence\": \"TOTAL  161.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 861,
+  "completion": 326,
+  "total": 1187,
+  "reasoning": 65
+ },
+ "seconds": 1.0165834426879883,
+ "error": null
+}

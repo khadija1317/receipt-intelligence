@@ -1,0 +1,30 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal"
+  ],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": null,
+ "total": {
+  "value": "11500",
+  "raw": "11,500",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Total: 11,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "1046",
+  "raw": "1,046",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PB1: 1,046",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 307
+}

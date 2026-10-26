@@ -1,0 +1,103 @@
+{
+ "menu": [
+  {
+   "nm": "escargot florentine",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "0001",
+    "status": "ok",
+    "conf": 0.9906,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Zurich Geschnitzel",
+   "cnt": null,
+   "price": {
+    "value": "45",
+    "raw": "0045",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Valdostana",
+   "cnt": null,
+   "price": {
+    "value": "50",
+    "raw": "0050",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chicken Herb Crust",
+   "cnt": null,
+   "price": {
+    "value": "56",
+    "raw": "0056",
+    "status": "ok",
+    "conf": 0.9777,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Lasagna Di Carne",
+   "cnt": null,
+   "price": {
+    "value": "79",
+    "raw": "0079",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Lemon Jc",
+   "cnt": null,
+   "price": {
+    "value": "134",
+    "raw": "0134",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 9
+ },
+ "subtotal": {
+  "value": "481000",
+  "raw": "481,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 481,000",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "48100",
+  "raw": "48,100",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Tax 48,100",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "24050",
+  "raw": "24.050",
+  "status": "ok",
+  "conf": 0.9919,
+  "low_trust": false,
+  "line": "Services 24.050",
+  "n_candidates": 1
+ },
+ "index": 388
+}

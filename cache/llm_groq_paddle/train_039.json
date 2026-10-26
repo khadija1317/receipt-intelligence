@@ -1,0 +1,22 @@
+{
+ "menu": [
+  {
+   "nm": "COUPLE SEA",
+   "cnt": null,
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 39,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

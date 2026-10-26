@@ -1,0 +1,46 @@
+{
+ "menu": [
+  {
+   "nm": "RALPH BREAKS THE INTERNET : WR",
+   "cnt": null,
+   "price": {
+    "value": "3600000",
+    "raw": "3.600.000",
+    "status": "ok",
+    "conf": 0.9934,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TIKET CGVCINEMA",
+   "cnt": null,
+   "price": {
+    "value": "60",
+    "raw": "60",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BCA(EDC) VISA **-6468) CINEMAS",
+   "cnt": null,
+   "price": {
+    "value": "3600000",
+    "raw": "3.600.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 62
+}

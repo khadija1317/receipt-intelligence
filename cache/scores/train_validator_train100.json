@@ -1,0 +1,143 @@
+{
+ "split": "train",
+ "tolerance": "1",
+ "pipelines": {
+  "rules_paddle": {
+   "total_correct_wrong_noanswer": [
+    76,
+    2,
+    20
+   ],
+   "error": 4,
+   "missing": 37,
+   "ok": 59,
+   "error_flagged_any": 3,
+   "error_flagged_value": 2,
+   "false_alarms": 37,
+   "review": 73,
+   "receipts": 100,
+   "false_alarms_value": 11,
+   "review_value": 28,
+   "queue_error": 3,
+   "queue_false_alarms": 12,
+   "queue_missing": 31,
+   "queue_review": 46,
+   "missing_flagged_any": 33,
+   "missing_flagged_value": 15,
+   "codes": {
+    "ITEM_UNREADABLE": {
+     "ok": 4,
+     "missing": 1
+    },
+    "TOTAL_VS_BASE": {
+     "ok": 3,
+     "error": 1,
+     "missing": 12
+    },
+    "ZERO_PRICE": {
+     "ok": 11
+    },
+    "MISSING_TOTAL": {
+     "error": 2,
+     "missing": 19,
+     "ok": 1
+    },
+    "ITEMS_VS_SUBTOTAL": {
+     "ok": 7,
+     "missing": 4,
+     "error": 1
+    },
+    "NO_ITEMS": {
+     "ok": 13,
+     "missing": 3
+    },
+    "FIELD_REVIEW": {
+     "missing": 1
+    },
+    "REPAIRED": {
+     "ok": 1,
+     "missing": 1
+    },
+    "CASH_CHANGE_TOTAL": {
+     "ok": 1
+    }
+   },
+   "could_run": {
+    "total_vs_base": 73,
+    "items_vs_subtotal": 39,
+    "cash_change": 35
+   }
+  },
+  "llm_paddle": {
+   "total_correct_wrong_noanswer": [
+    69,
+    6,
+    23
+   ],
+   "error": 8,
+   "missing": 32,
+   "ok": 60,
+   "error_flagged_any": 5,
+   "error_flagged_value": 3,
+   "false_alarms": 26,
+   "review": 58,
+   "receipts": 100,
+   "false_alarms_value": 8,
+   "review_value": 16,
+   "queue_error": 5,
+   "queue_false_alarms": 10,
+   "queue_missing": 25,
+   "queue_review": 40,
+   "missing_flagged_any": 27,
+   "missing_flagged_value": 5,
+   "codes": {
+    "ITEM_UNREADABLE": {
+     "missing": 6,
+     "ok": 6
+    },
+    "MISSING_TOTAL": {
+     "missing": 21,
+     "error": 2,
+     "ok": 2
+    },
+    "ZERO_PRICE": {
+     "missing": 1,
+     "ok": 10
+    },
+    "TOTAL_VS_BASE": {
+     "ok": 2,
+     "missing": 4
+    },
+    "ITEMS_VS_SUBTOTAL": {
+     "ok": 4,
+     "missing": 1
+    },
+    "TOTAL_WORD_MISSING": {
+     "ok": 1
+    },
+    "FIELD_REVIEW": {
+     "missing": 2
+    },
+    "CASH_CHANGE_TOTAL": {
+     "error": 3,
+     "ok": 1
+    },
+    "NO_ITEMS": {
+     "ok": 4
+    }
+   },
+   "could_run": {
+    "grounding": 100,
+    "items_vs_subtotal": 43,
+    "total_vs_base": 71,
+    "cash_change": 32
+   }
+  }
+ },
+ "pooled": {
+  "pairs": 12,
+  "pairs_flagged": 8,
+  "distinct_receipts": 9,
+  "flagged_in_every_pipeline": 6
+ }
+}

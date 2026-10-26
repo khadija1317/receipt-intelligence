@@ -1,0 +1,17 @@
+{
+ "index": 13,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "一\n  I\n1\nN  81191  an\n1  n\nW11R  win  WE\n1  BLACK PEPPER MEATBALL  76,500\n1  GREEN TEA WITH CRUMBLE  56,000\n1  EARL GREY MILK TEA  57,000\nORIGINAL BREWED TEA  23,000\nSUBTTL  212,500\nSVC CHG 6%  12,750\nPB1 10%  22,525\nTOTAL  247.775",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BLACK PEPPER MEATBALL\",\n      \"cnt\": \"1\",\n      \"price\": \"76,500\"\n    },\n    {\n      \"nm\": \"GREEN TEA WITH CRUMBLE\",\n      \"cnt\": \"1\",\n      \"price\": \"56,000\"\n    },\n    {\n      \"nm\": \"EARL GREY MILK TEA\",\n      \"cnt\": \"1\",\n      \"price\": \"57,000\"\n    },\n    {\n      \"nm\": \"ORIGINAL BREWED TEA\",\n      \"cnt\": null,\n      \"price\": \"23,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"22,525\",\n    \"evidence\": \"PB1 10%  22,525\"\n  },\n  \"service\": {\n    \"amount\": \"12,750\",\n    \"evidence\": \"SVC CHG 6%  12,750\"\n  },\n  \"total\": {\n    \"amount\": \"247.775\",\n    \"evidence\": \"TOTAL  247.775\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 906,
+  "completion": 489,
+  "total": 1395,
+  "reasoning": 220
+ },
+ "seconds": 1.6378984451293945,
+ "error": null
+}

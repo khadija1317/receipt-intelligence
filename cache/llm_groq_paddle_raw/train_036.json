@@ -1,0 +1,17 @@
+{
+ "index": 36,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "GONG GIBAB  1  20,000\nBO SSAM  1  320,000\nHAEMUL  1  85,000\nDENJANG\nJJIGAE\nMULNAENGMYO  1  85,000\nN\nSub Total  510,000\nService  35,700\nTax  54,255\nDiscount  0\nTOTAL  599,955\nmillos  Fannall",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"GONG GIBAB\",\n      \"cnt\": \"1\",\n      \"price\": \"20,000\"\n    },\n    {\n      \"nm\": \"BO SSAM\",\n      \"cnt\": \"1\",\n      \"price\": \"320,000\"\n    },\n    {\n      \"nm\": \"HAEMUL\",\n      \"cnt\": \"1\",\n      \"price\": \"85,000\"\n    },\n    {\n      \"nm\": \"DENJANG\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"JJIGAE\",\n      \"cnt\": null,\n      \"price\": null\n    },\n    {\n      \"nm\": \"MULNAENGMYO\",\n      \"cnt\": \"1\",\n      \"price\": \"85,000\"\n    },\n    {\n      \"nm\": \"N\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"510,000\",\n    \"evidence\": \"Sub Total  510,000\"\n  },\n  \"service\": {\n    \"amount\": \"35,700\",\n    \"evidence\": \"Service  35,700\"\n  },\n  \"tax\": {\n    \"amount\": \"54,255\",\n    \"evidence\": \"Tax  54,255\"\n  },\n  \"total\": {\n    \"amount\": \"599,955\",\n    \"evidence\": \"TOTAL  599,955\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 886,
+  "completion": 710,
+  "total": 1596,
+  "reasoning": 378
+ },
+ "seconds": 2.3238883018493652,
+ "error": null
+}

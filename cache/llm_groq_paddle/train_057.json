@@ -1,0 +1,58 @@
+{
+ "menu": [
+  {
+   "nm": "1 PL. MUFFIN BLUEBERRY",
+   "cnt": "1",
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 RB. ABON AYAM",
+   "cnt": "1",
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 RB. COKLAT COFFEE",
+   "cnt": "1",
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1 RB. RED BEAN",
+   "cnt": "1",
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 57,
+ "subtotal": {
+  "value": "39000",
+  "raw": "39,000",
+  "status": "ok",
+  "conf": null,
+  "line": "ITEM:4  SUBTOTAL.  39,000"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

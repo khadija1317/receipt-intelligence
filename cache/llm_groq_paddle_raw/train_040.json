@@ -1,0 +1,17 @@
+{
+ "index": 40,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 BURGER CHIC DECKER  68,000\n1 Home Made Lemonade  40,000\nSUBTOTAL  108,000\n5.5% Service  5,940\n10% PB1  11,394\nTOTAL  125,334\nBCA DEBIT.  125,334",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BURGER CHIC DECKER\",\n      \"cnt\": \"1\",\n      \"price\": \"68,000\"\n    },\n    {\n      \"nm\": \"Home Made Lemonade\",\n      \"cnt\": \"1\",\n      \"price\": \"40,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"108,000\",\n    \"evidence\": \"SUBTOTAL  108,000\"\n  },\n  \"service\": {\n    \"amount\": \"5,940\",\n    \"evidence\": \"5.5% Service  5,940\"\n  },\n  \"tax\": {\n    \"amount\": \"11,394\",\n    \"evidence\": \"10% PB1  11,394\"\n  },\n  \"total\": {\n    \"amount\": \"125,334\",\n    \"evidence\": \"TOTAL  125,334\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 853,
+  "completion": 410,
+  "total": 1263,
+  "reasoning": 203
+ },
+ "seconds": 1.434596061706543,
+ "error": null
+}

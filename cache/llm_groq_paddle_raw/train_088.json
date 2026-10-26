@@ -1,0 +1,17 @@
+{
+ "index": 88,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "KUE PILUS ASIN\n210.00 x  80  16,800\nKACANG MEDAN\n302.00 x  96  28,690\nTOTAL:  45,490\nDisk.Member:  0\nDiskon:  0\nPPN:  4,549\nNetto :  50,039\nDEBIT BCA:  50,039\nKEMBALIAN:  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"KUE PILUS ASIN\",\n      \"cnt\": \"80\",\n      \"price\": \"16,800\"\n    },\n    {\n      \"nm\": \"KACANG MEDAN\",\n      \"cnt\": \"96\",\n      \"price\": \"28,690\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"45,490\",\n    \"evidence\": \"TOTAL:  45,490\"\n  },\n  \"tax\": {\n    \"amount\": \"4,549\",\n    \"evidence\": \"PPN:  4,549\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 881,
+  "completion": 486,
+  "total": 1367,
+  "reasoning": 301
+ },
+ "seconds": 1.5418095588684082,
+ "error": null
+}

@@ -1,0 +1,114 @@
+{
+ "menu": [
+  {
+   "nm": "1 [RICHE] WHITE SKIMM",
+   "cnt": null,
+   "price": {
+    "value": "52727",
+    "raw": "52,727",
+    "status": "ok",
+    "conf": 0.9986,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PEACH",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.7622,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 LYCHEE",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9194,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 LONGAN",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.448,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 ROASTED ALMOND",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.5053,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 YELLOW VELVET",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.7516,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 YELLOW VELVET",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9921,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "52727",
+  "raw": "52,727",
+  "status": "ok",
+  "conf": 0.9974,
+  "low_trust": false,
+  "line": "Sub Total 52,727",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "58000",
+  "raw": "58,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Total 58,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5273",
+  "raw": "5,273",
+  "status": "ok",
+  "conf": 0.9992,
+  "low_trust": false,
+  "line": "PB1 (10%) 5,273",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 185
+}

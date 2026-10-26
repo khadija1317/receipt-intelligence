@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1 TARO",
+   "cnt": null,
+   "price": {
+    "value": "18182",
+    "raw": "18.182",
+    "status": "ok",
+    "conf": 0.9888,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "18182",
+  "raw": "18.182",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Subtotal 18.182",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "20000",
+  "raw": "20.000",
+  "status": "ok",
+  "conf": 0.9207,
+  "low_trust": false,
+  "line": "1 Total 20.000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "1818",
+  "raw": "1.818",
+  "status": "ok",
+  "conf": 0.9978,
+  "low_trust": false,
+  "line": "PAJAK 10% 1.818",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 198
+}

@@ -1,0 +1,73 @@
+{
+ "menu": [
+  {
+   "nm": "2X",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "09.000",
+    "status": "ok",
+    "conf": 0.8076,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "RISOL ROGUT",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": 0.9175,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AMOUNT",
+   "cnt": null,
+   "price": {
+    "value": "-5400",
+    "raw": "-5,400",
+    "status": "ok",
+    "conf": 0.9952,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLASTIK",
+   "cnt": null,
+   "price": {
+    "value": "25",
+    "raw": "25",
+    "status": "ok",
+    "conf": 0.9918,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "12600",
+  "raw": "12,600",
+  "status": "ok",
+  "conf": 0.999,
+  "low_trust": false,
+  "line": "SUBTOTAL 12,600",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "12600",
+  "raw": "12,600",
+  "status": "ok",
+  "conf": 0.9639,
+  "low_trust": false,
+  "line": "TOTAL 12,600",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 167
+}

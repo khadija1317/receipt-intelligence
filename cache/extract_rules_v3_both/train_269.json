@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "O1110O0O TUNA & CHEDDAR",
+   "cnt": null,
+   "price": {
+    "value": "55000",
+    "raw": "55,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "0410000D ONION RINGS",
+   "cnt": null,
+   "price": {
+    "value": "19800",
+    "raw": "19,800",
+    "status": "ok",
+    "conf": 0.9943,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "13100000 AQUA BTL",
+   "cnt": null,
+   "price": {
+    "value": "6600",
+    "raw": "6,600",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "81400",
+  "raw": "81,400",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "Total 81,400",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 269
+}

@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "Nutella Cheese",
+   "cnt": null,
+   "price": {
+    "value": "27272",
+    "raw": "27,272",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Toblerone BanCheese",
+   "cnt": "1",
+   "price": {
+    "value": "28182",
+    "raw": "28,182",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "55454",
+  "raw": "55,454",
+  "status": "ok",
+  "conf": 0.9981,
+  "low_trust": false,
+  "line": "SubTotal: 55,454",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "60999",
+  "raw": "60,999",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "Total: 60,999",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5545",
+  "raw": "5,545",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "PB1: 5,545",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 43
+}

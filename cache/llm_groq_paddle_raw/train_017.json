@@ -1,0 +1,17 @@
+{
+ "index": 17,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "HOME  WICE  WHG\n1 RB. COKLAT BAR  8,000\n1 RB. CREPES TUNA  9,000\n1 RB. SISIR PANDAN  7,500\nITEM:3  SUBTOTAL.  24,500\nPCS  3  DUE  24,500\nCASH  50,000\nCHANGE  25,500",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RB. COKLAT BAR\",\n      \"cnt\": \"1\",\n      \"price\": \"8,000\"\n    },\n    {\n      \"nm\": \"RB. CREPES TUNA\",\n      \"cnt\": \"1\",\n      \"price\": \"9,000\"\n    },\n    {\n      \"nm\": \"RB. SISIR PANDAN\",\n      \"cnt\": \"1\",\n      \"price\": \"7,500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"24,500\",\n    \"evidence\": \"ITEM:3  SUBTOTAL.  24,500\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 872,
+  "completion": 339,
+  "total": 1211,
+  "reasoning": 125
+ },
+ "seconds": 0.9513070583343506,
+ "error": null
+}

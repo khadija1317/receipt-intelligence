@@ -1,0 +1,114 @@
+{
+ "menu": [
+  {
+   "nm": "SAMGYOPSAL",
+   "cnt": null,
+   "price": {
+    "value": "97000",
+    "raw": "97,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "OGYOPSAL",
+   "cnt": null,
+   "price": {
+    "value": "97000",
+    "raw": "97,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "YUKHWE",
+   "cnt": null,
+   "price": {
+    "value": "150000",
+    "raw": "150,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "RICE",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "JABCHAE BEEF",
+   "cnt": null,
+   "price": {
+    "value": "95000",
+    "raw": "95,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "OCHA DINGIN",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUNDUBU",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.8793,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "469000",
+  "raw": "469,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 469,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "541620",
+  "raw": "541,620",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 541,620",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "23450",
+  "raw": "23,450",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Service 23,450",
+  "n_candidates": 1
+ },
+ "index": 230
+}

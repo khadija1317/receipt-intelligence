@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "KING DEAL CHEESE BURGER R",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 0.9963,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PC BIC",
+   "cnt": null,
+   "price": {
+    "value": "15909",
+    "raw": "15,909",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "40909",
+  "raw": "40,909",
+  "status": "ok",
+  "conf": 0.9986,
+  "low_trust": false,
+  "line": "Subtotal 40,909",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "45000",
+  "raw": "45,000",
+  "status": "ok",
+  "conf": 0.9994,
+  "low_trust": false,
+  "line": "Dine In Total 45,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "4091",
+  "raw": "4,091",
+  "status": "ok",
+  "conf": 0.9954,
+  "low_trust": false,
+  "line": "PB1 (10%) 4,091",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 220
+}

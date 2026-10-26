@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "CHO MOUSSE",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".20,000",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GRAPE JELLY",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 50,
+ "subtotal": {
+  "value": null,
+  "raw": "·30,000",
+  "status": "review",
+  "conf": null,
+  "line": "SUBTOIAL  ·30,000"
+ },
+ "total": null,
+ "tax": {
+  "value": null,
+  "raw": ".3,000",
+  "status": "review",
+  "conf": null,
+  "line": "TAX 10%  .3,000"
+ },
+ "service": null
+}

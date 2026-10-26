@@ -1,0 +1,92 @@
+{
+ "menu": [
+  {
+   "nm": "T SWEEAT ICE TEA",
+   "cnt": null,
+   "price": {
+    "value": "16800",
+    "raw": "16,800",
+    "status": "ok",
+    "conf": 0.967,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "age DRED MILK BLEND",
+   "cnt": null,
+   "price": {
+    "value": "29800",
+    "raw": "29,800",
+    "status": "ok",
+    "conf": 0.8791,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "yd FRIED RC SFOOD",
+   "cnt": null,
+   "price": {
+    "value": "39900",
+    "raw": "39,900",
+    "status": "ok",
+    "conf": 0.982,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CUTCUA",
+   "cnt": "74",
+   "price": {
+    "value": "17000",
+    "raw": "17,000",
+    "status": "ok",
+    "conf": 0.9372,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MASHED POTOTO",
+   "cnt": "41",
+   "price": {
+    "value": "23900",
+    "raw": "23,900",
+    "status": "ok",
+    "conf": 0.9221,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "156200",
+  "raw": "156,200",
+  "status": "ok",
+  "conf": 0.9988,
+  "low_trust": false,
+  "line": "SUBTOTAL 156,200",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "16180",
+  "raw": "16,180",
+  "status": "ok",
+  "conf": 0.8991,
+  "low_trust": false,
+  "line": "TAX 16,180",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "8591",
+  "raw": "8,591",
+  "status": "ok",
+  "conf": 0.924,
+  "low_trust": false,
+  "line": "S CHARGE 5.50M waww 8,591",
+  "n_candidates": 1
+ },
+ "index": 376
+}

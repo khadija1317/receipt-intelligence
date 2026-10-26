@@ -1,0 +1,17 @@
+{
+ "index": 22,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tim\nRie\nwmn  N\n0000n\n1×  22.000  22.000\nIce t grentea\nITEMS  10\n***TOTAL  T  22.000\nCASH  100.000\nCHANGE  78.000\nThunn  w\nEED",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1×  22.000  22.000\",\n      \"cnt\": null,\n      \"price\": \"22.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"22.000\",\n    \"evidence\": \"***TOTAL  T  22.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 854,
+  "completion": 423,
+  "total": 1277,
+  "reasoning": 274
+ },
+ "seconds": 1.3341214656829834,
+ "error": null
+}

@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "AUI4",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "36 ,000",
+    "status": "ok",
+    "conf": 0.9746,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "44",
+  "raw": "44",
+  "status": "ok",
+  "conf": 0.9594,
+  "low_trust": false,
+  "line": "44 SUBTOTAL 4 PCS",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 53
+}

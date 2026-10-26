@@ -1,0 +1,194 @@
+{
+ "menu": [
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": 0.9912,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "#PKTPOLSBTSPON2S",
+   "cnt": null,
+   "price": {
+    "value": "4",
+    "raw": "4",
+    "status": "ok",
+    "conf": 0.4768,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.9925,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BENECOL LYCHEE 2S 本",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "12200",
+    "raw": "12,200",
+    "status": "ok",
+    "conf": 0.9946,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "REGAL MARIE 125 GR",
+   "cnt": null,
+   "price": {
+    "value": "12200",
+    "raw": "12,200",
+    "status": "ok",
+    "conf": 0.9991,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": 0.9226,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "7 UP CAN 330 ML",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "6400",
+    "raw": "6,400",
+    "status": "ok",
+    "conf": 0.9622,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SAKATONIK LVR 10S",
+   "cnt": null,
+   "price": {
+    "value": "6400",
+    "raw": "6,400",
+    "status": "ok",
+    "conf": 0.9984,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MEGA Discount",
+   "cnt": null,
+   "price": {
+    "value": "640",
+    "raw": "640",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "9300",
+    "raw": "9,300",
+    "status": "ok",
+    "conf": 0.986,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DUA BELIBIS SBL135 米",
+   "cnt": null,
+   "price": {
+    "value": "9300",
+    "raw": "9,300",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "0.292X",
+   "cnt": null,
+   "price": {
+    "value": "19900",
+    "raw": "19,900",
+    "status": "ok",
+    "conf": 0.9872,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DAUN SEREH",
+   "cnt": null,
+   "price": {
+    "value": "5811",
+    "raw": "5,811",
+    "status": "ok",
+    "conf": 0.9938,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "53020",
+  "raw": "53,020",
+  "status": "ok",
+  "conf": 0.9919,
+  "low_trust": false,
+  "line": "SUBTOTAL: 53,020",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "53020",
+  "raw": "53.020",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL: 53.020",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 149
+}

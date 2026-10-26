@@ -1,0 +1,17 @@
+{
+ "index": 94,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "4002-Chocolate  Drange Peel\n19.000  x2  38.000\n60D1-Plastic Bag Small\n0  x1  0\nTotal Item:\nTotal.  38.000\nCash\nTendered:  50.000\nChange:  12.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"4002-Chocolate  Drange Peel\",\n      \"cnt\": \"2\",\n      \"price\": \"38.000\"\n    },\n    {\n      \"nm\": \"60D1-Plastic Bag Small\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"38.000\",\n    \"evidence\": \"Total.  38.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 849,
+  "completion": 364,
+  "total": 1213,
+  "reasoning": 188
+ },
+ "seconds": 1.65659499168396,
+ "error": null
+}

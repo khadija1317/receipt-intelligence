@@ -1,0 +1,17 @@
+{
+ "index": 87,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "水水水水水水水水\nDEPT02  .24,000\nTOTAL  24.000\nCASH  .50,000\nCHANGE  ·26,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"DEPT02\",\n      \"cnt\": null,\n      \"price\": \".24,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"24.000\",\n    \"evidence\": \"TOTAL  24.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 822,
+  "completion": 259,
+  "total": 1081,
+  "reasoning": 121
+ },
+ "seconds": 0.6737205982208252,
+ "error": null
+}

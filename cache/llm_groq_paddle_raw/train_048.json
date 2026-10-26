@@ -1,0 +1,17 @@
+{
+ "index": 48,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Jamur Crispy\n2  13.500  27,000\nNasi Putih\n2  7.000  14.000\nSambel Kecap\n2  4.500  9.000\nEs Teh\n2  7.500  15,000\nSubtotal  Rp 65.000\nPB1(10%)  Rp 6.500\nSC(3%)  Rp 1.950\nTotal  Rp 73.450\nCash  Rp 100.000\nChange  Rp 26.550",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Jamur Crispy\",\n      \"cnt\": \"2\",\n      \"price\": \"27,000\"\n    },\n    {\n      \"nm\": \"Nasi Putih\",\n      \"cnt\": \"2\",\n      \"price\": \"14.000\"\n    },\n    {\n      \"nm\": \"Sambel Kecap\",\n      \"cnt\": \"2\",\n      \"price\": \"9.000\"\n    },\n    {\n      \"nm\": \"Es Teh\",\n      \"cnt\": \"2\",\n      \"price\": \"15,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"65.000\",\n    \"evidence\": \"Subtotal  Rp 65.000\"\n  },\n  \"tax\": {\n    \"amount\": \"6.500\",\n    \"evidence\": \"PB1(10%)  Rp 6.500\"\n  },\n  \"service\": {\n    \"amount\": \"1.950\",\n    \"evidence\": \"SC(3%)  Rp 1.950\"\n  },\n  \"total\": {\n    \"amount\": \"73.450\",\n    \"evidence\": \"Total  Rp 73.450\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 906,
+  "completion": 582,
+  "total": 1488,
+  "reasoning": 313
+ },
+ "seconds": 1.361055612564087,
+ "error": null
+}

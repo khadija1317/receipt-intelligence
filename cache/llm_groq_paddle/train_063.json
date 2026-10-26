@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "PIS COK KEJU",
+   "cnt": null,
+   "price": {
+    "value": "11500",
+    "raw": "11,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "COKLAT KEJU",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BANANA KISMIS",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 63,
+ "subtotal": {
+  "value": "23600",
+  "raw": "23,600",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  23,600"
+ },
+ "total": {
+  "value": "23600",
+  "raw": "23,600",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  23,600"
+ },
+ "tax": null,
+ "service": null
+}

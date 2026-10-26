@@ -1,0 +1,50 @@
+{
+ "menu": [
+  {
+   "nm": "Kopi Susu Sudirman",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Chocolate Twist",
+   "cnt": "1",
+   "price": {
+    "value": "12000",
+    "raw": "12.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 51,
+ "subtotal": {
+  "value": "30000",
+  "raw": "30.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  30.000"
+ },
+ "total": {
+  "value": "33000",
+  "raw": "33.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  ρ  33.000"
+ },
+ "tax": {
+  "value": "3000",
+  "raw": "3.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax (10.0%)  3.000"
+ },
+ "service": null
+}

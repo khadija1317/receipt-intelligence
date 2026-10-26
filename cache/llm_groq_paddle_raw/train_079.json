@@ -1,0 +1,17 @@
+{
+ "index": 79,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SILKY DESSETS\nPUYO\nEST  2015\nSilky Green Tea  1×12,500  12,500\nSilky Hazeinut  1×  12,500  12,500\nSub Total  25,000\nGRAND TOTAL  25,000\nBALANCE PUYO CARD  6519  25,000\nRECEIVED\nCHANGE",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Silky Green Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"12,500\"\n    },\n    {\n      \"nm\": \"Silky Hazeinut\",\n      \"cnt\": \"1\",\n      \"price\": \"12,500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"25,000\",\n    \"evidence\": \"Sub Total  25,000\"\n  },\n  \"total\": {\n    \"amount\": \"25,000\",\n    \"evidence\": \"GRAND TOTAL  25,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 872,
+  "completion": 365,
+  "total": 1237,
+  "reasoning": 182
+ },
+ "seconds": 1.3028991222381592,
+ "error": null
+}

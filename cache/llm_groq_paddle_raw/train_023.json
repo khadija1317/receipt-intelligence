@@ -1,0 +1,17 @@
+{
+ "index": 23,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1X S-Lemon Macchiato  @21,000  21,000\nLess Ice\n50%\nPB1:  0\nSubtotal:  21,000\nTotal:  21,000\nCash:  21,000\nCHANGE:  0\nThokat1037",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"S-Lemon Macchiato\",\n      \"cnt\": \"1\",\n      \"price\": \"21,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"21,000\",\n    \"evidence\": \"Subtotal:  21,000\"\n  },\n  \"total\": {\n    \"amount\": \"21,000\",\n    \"evidence\": \"Total:  21,000\"\n  },\n  \"tax\": {\n    \"amount\": \"0\",\n    \"evidence\": \"PB1:  0\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 848,
+  "completion": 309,
+  "total": 1157,
+  "reasoning": 149
+ },
+ "seconds": 1.173046350479126,
+ "error": null
+}

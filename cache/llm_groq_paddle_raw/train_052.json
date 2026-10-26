@@ -1,0 +1,17 @@
+{
+ "index": 52,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "RTD Kunyit 1  15000  15000\nTepung Jagung  1  15000\n15000\nSub Total  30000\nTunai  30000\nKembalian  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RTD Kunyit\",\n      \"cnt\": \"1\",\n      \"price\": \"15000\"\n    },\n    {\n      \"nm\": \"Tepung Jagung\",\n      \"cnt\": \"1\",\n      \"price\": \"15000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"30000\",\n    \"evidence\": \"Sub Total  30000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 835,
+  "completion": 391,
+  "total": 1226,
+  "reasoning": 222
+ },
+ "seconds": 1.1677522659301758,
+ "error": null
+}

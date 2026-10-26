@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "2 TWIST ORANGE CHOCO DONUT",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.9924,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 CHOCOLATE TWIST",
+   "cnt": null,
+   "price": {
+    "value": "32000",
+    "raw": "32,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 REAL CHOCOLATE ROLL",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 CHOCOLATE SOBORO",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "96000",
+  "raw": "96,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 96,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 360
+}

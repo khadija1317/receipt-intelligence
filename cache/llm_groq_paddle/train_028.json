@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "A.MINERAL BOTOL",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 28,
+ "subtotal": null,
+ "total": {
+  "value": "8000",
+  "raw": "8.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  8.000"
+ },
+ "tax": {
+  "value": "800",
+  "raw": "800",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10.00 %  800"
+ },
+ "service": null
+}

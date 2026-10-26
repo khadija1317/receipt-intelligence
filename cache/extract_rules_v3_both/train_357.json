@@ -1,0 +1,122 @@
+{
+ "menu": [
+  {
+   "nm": "Nats Bitter Choco cake",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Es Kopi Susu Pandan",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "35.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Extra Whipping Cream",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Iced Coffee Latte",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": 0.9919,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Iced Sugar Cane",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28.000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Sparkling Mango Mojito",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Iced Coffee",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "246000",
+  "raw": "246.000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUB-TOTAL 246.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "245201",
+  "raw": "245.201",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 245.201",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "25646",
+  "raw": "25.646",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PB1 25.646",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "10455",
+  "raw": "10.455",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Service Charge 10.455",
+  "n_candidates": 1
+ },
+ "index": 357
+}

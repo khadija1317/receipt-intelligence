@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "4005-Maple glazed",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "6001-Plastic Bag Small",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 14,
+ "subtotal": null,
+ "total": {
+  "value": "25000",
+  "raw": "25.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  25.000"
+ },
+ "tax": null,
+ "service": null
+}

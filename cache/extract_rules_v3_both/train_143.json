@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1 Iced Mochaccino",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "38000",
+  "raw": "38.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 38.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "41800",
+  "raw": "41.800",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 41.800",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "3800",
+  "raw": "3.800",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Pajak 3.800",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 143
+}

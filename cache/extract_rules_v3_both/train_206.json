@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "BASD KUAH",
+   "cnt": null,
+   "price": {
+    "value": "43636",
+    "raw": "43,636",
+    "status": "ok",
+    "conf": 0.9986,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI PUTIH AFUNG",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": 0.9764,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "A.MINERAL BOTOL",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": 0.9461,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "63400",
+  "raw": "63,400",
+  "status": "ok",
+  "conf": 0.9646,
+  "low_trust": false,
+  "line": "GRAND TOTAL 63,400",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "5764",
+  "raw": "5,764",
+  "status": "ok",
+  "conf": 0.9856,
+  "low_trust": false,
+  "line": "TAX 10.00 % 5,764",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 206
+}

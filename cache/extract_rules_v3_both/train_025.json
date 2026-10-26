@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "WRE",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.1655,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CRISPY CHOCO",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.9846,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TL",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14.000",
+    "status": "ok",
+    "conf": 0.9937,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CG",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6,000",
+    "status": "ok",
+    "conf": 0.984,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 25
+}

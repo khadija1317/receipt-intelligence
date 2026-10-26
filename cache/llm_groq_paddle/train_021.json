@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1001-Choco Bun",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "2001-Hokkaido Milk Toast",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "6002-Plastic Bag Medium",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 21,
+ "subtotal": null,
+ "total": {
+  "value": "44000",
+  "raw": "44.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  44.000"
+ },
+ "tax": null,
+ "service": null
+}

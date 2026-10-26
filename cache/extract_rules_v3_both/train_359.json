@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "YANG YUM GUI",
+   "cnt": "1",
+   "price": {
+    "value": "97000",
+    "raw": "97,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GALBI TANG",
+   "cnt": "1",
+   "price": {
+    "value": "92000",
+    "raw": "92,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI(GONGGI BAB)",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "204000",
+  "raw": "204,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Sub Total 204,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "239165",
+  "raw": "239,165",
+  "status": "ok",
+  "conf": 0.9974,
+  "low_trust": false,
+  "line": "TOTAL 239,165",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "20885",
+  "raw": "20,885",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "Tax 20,885",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "14280",
+  "raw": "14,280",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Service 14,280",
+  "n_candidates": 1
+ },
+ "index": 359
+}

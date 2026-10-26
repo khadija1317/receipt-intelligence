@@ -1,0 +1,89 @@
+{
+ "menu": [
+  {
+   "nm": "1 AOP Seafood",
+   "cnt": null,
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Omurice Katsu Curry",
+   "cnt": null,
+   "price": {
+    "value": "95000",
+    "raw": "95,000",
+    "status": "ok",
+    "conf": 0.9408,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Earl Gray Tea",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "35,000",
+    "status": "ok",
+    "conf": 0.9989,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Hot Tea",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "240000",
+  "raw": "240,000",
+  "status": "ok",
+  "conf": 0.9977,
+  "low_trust": false,
+  "line": "SUBTOTAL 240,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "287760",
+  "raw": "287,760",
+  "status": "ok",
+  "conf": 0.9952,
+  "low_trust": false,
+  "line": "TOTAL 287,760",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "26160",
+  "raw": "26,160",
+  "status": "ok",
+  "conf": 0.9974,
+  "low_trust": false,
+  "line": "PB1 26,160",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "21600",
+  "raw": "21.600",
+  "status": "ok",
+  "conf": 0.8978,
+  "low_trust": false,
+  "line": "Service 21.600",
+  "n_candidates": 1
+ },
+ "index": 325
+}

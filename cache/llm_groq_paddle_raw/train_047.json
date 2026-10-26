@@ -1,0 +1,17 @@
+{
+ "index": 47,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "ICED TT  .20,000\nTOTAL  20,000\nCASH\nCHANGE  .50.000\n.30.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ICED TT\",\n      \"cnt\": null,\n      \"price\": \".20,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"20,000\",\n    \"evidence\": \"TOTAL  20,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 813,
+  "completion": 218,
+  "total": 1031,
+  "reasoning": 80
+ },
+ "seconds": 1.6673378944396973,
+ "error": null
+}

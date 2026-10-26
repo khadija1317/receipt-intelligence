@@ -1,0 +1,52 @@
+{
+ "menu": [
+  {
+   "nm": "MEGA",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "Rp30,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CUP MEGA",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BBQ",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TL",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "Rp30.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 27,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

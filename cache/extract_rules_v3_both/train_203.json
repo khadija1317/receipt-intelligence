@@ -1,0 +1,174 @@
+{
+ "menu": [
+  {
+   "nm": "AYAM",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DONAT AYAM",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ROTI SISIR",
+   "cnt": null,
+   "price": {
+    "value": "17727",
+    "raw": "17,727",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BANANA SPLIT",
+   "cnt": null,
+   "price": {
+    "value": "28635",
+    "raw": "28,635",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DONATCOKLAT",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TIGER ROLL PTG",
+   "cnt": null,
+   "price": {
+    "value": "8636",
+    "raw": "8,636",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MARMER CAKE PTG",
+   "cnt": null,
+   "price": {
+    "value": "6818",
+    "raw": "6,818",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BOLU HAWAI PTNG",
+   "cnt": null,
+   "price": {
+    "value": "5909",
+    "raw": "5,909",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BANANA CAKE PTG",
+   "cnt": null,
+   "price": {
+    "value": "6818",
+    "raw": "6,818",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MANDARIN CAKE PTG",
+   "cnt": null,
+   "price": {
+    "value": "16364",
+    "raw": "16,364",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LAPIS SURABAYA PTG",
+   "cnt": null,
+   "price": {
+    "value": "33636",
+    "raw": "33,636",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CAKE PITA",
+   "cnt": null,
+   "price": {
+    "value": "11818",
+    "raw": "11,818",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLASTIK TENTENG KECIL",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "216361",
+  "raw": "216,361",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 216,361",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "237997",
+  "raw": "237,997",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 237,997",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 203
+}

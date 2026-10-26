@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "Seafood Tempura BBQ",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "- Pedas sedikit",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9798,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Sweet Plum Potato*",
+   "cnt": null,
+   "price": {
+    "value": "29000",
+    "raw": "29,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "69000",
+  "raw": "69,000",
+  "status": "ok",
+  "conf": 0.9983,
+  "low_trust": false,
+  "line": "Total. 69,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 140
+}

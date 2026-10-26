@@ -1,0 +1,109 @@
+{
+ "menu": [
+  {
+   "nm": "BACON SHIMEJI SPAGHE 1.0O",
+   "cnt": null,
+   "price": {
+    "value": "48000",
+    "raw": "48000",
+    "status": "ok",
+    "conf": 0.9972,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "EHICKEN KATSUDON",
+   "cnt": null,
+   "price": {
+    "value": "48000",
+    "raw": "48000",
+    "status": "ok",
+    "conf": 0.9984,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "WELL TORI KARAAGE MU 1.00.",
+   "cnt": null,
+   "price": {
+    "value": "58000",
+    "raw": "58000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "WELL CHICKEN KATSU C 1.OD",
+   "cnt": null,
+   "price": {
+    "value": "58000",
+    "raw": "58000",
+    "status": "ok",
+    "conf": 0.9876,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CLASSIC TOMATO",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".48000",
+    "status": "review",
+    "conf": 0.8992,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "RENDANG OMURICE",
+   "cnt": null,
+   "price": {
+    "value": "48000",
+    "raw": "48000",
+    "status": "ok",
+    "conf": 0.9976,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MELL CREAM HAMBURG O 1.0O 580DO:",
+   "cnt": null,
+   "price": {
+    "value": "58000",
+    "raw": "58000",
+    "status": "ok",
+    "conf": 0.9991,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "422730",
+  "raw": "422.730",
+  "status": "ok",
+  "conf": 0.9991,
+  "low_trust": false,
+  "line": "422.730 | Total Rupiah",
+  "adjacent": "above",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "18300",
+  "raw": "18.300",
+  "status": "ok",
+  "conf": 0.9982,
+  "low_trust": false,
+  "line": "Serv. Charge 18.300",
+  "n_candidates": 1
+ },
+ "index": 138
+}

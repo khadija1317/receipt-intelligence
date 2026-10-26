@@ -1,0 +1,36 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "16363",
+  "raw": "16,363",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "Sub Total 16,363",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "17999",
+  "raw": "17,999",
+  "status": "ok",
+  "conf": 0.9228,
+  "low_trust": false,
+  "line": "Grand Total 17,999",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "1636",
+  "raw": "1,636",
+  "status": "ok",
+  "conf": 0.9975,
+  "low_trust": false,
+  "line": "Pajak Resto 1,636",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 80
+}

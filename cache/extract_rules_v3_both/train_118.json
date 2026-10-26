@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "1 Pdg Madness",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 BCT",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "28000",
+  "raw": "28,000",
+  "status": "ok",
+  "conf": 0.9376,
+  "low_trust": false,
+  "line": "SUBTOTAL 28,000",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 118
+}

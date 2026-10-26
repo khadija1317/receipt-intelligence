@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "PAKET SUPER MANTAP 2A RAACHA",
+   "cnt": null,
+   "price": {
+    "value": "59091",
+    "raw": "59.091",
+    "status": "ok",
+    "conf": 0.9891,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "RICE",
+   "cnt": null,
+   "price": {
+    "value": "6364",
+    "raw": "6.364",
+    "status": "ok",
+    "conf": 0.9916,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "65455",
+  "raw": "65.455",
+  "status": "ok",
+  "conf": 0.9986,
+  "low_trust": false,
+  "line": "Sub Total 65.455",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "72001",
+  "raw": "72.001",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Total 72.001",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "6546",
+  "raw": "6.546",
+  "status": "ok",
+  "conf": 0.9972,
+  "low_trust": false,
+  "line": "PB1 10% 6.546",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 300
+}

@@ -1,0 +1,74 @@
+{
+ "menu": [
+  {
+   "nm": "HAKAU UDANG",
+   "cnt": "4",
+   "price": {
+    "value": "92000",
+    "raw": "92,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SIAO MAI BABI",
+   "cnt": "4",
+   "price": {
+    "value": "80000",
+    "raw": "80,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CEKER AYAM",
+   "cnt": "3",
+   "price": {
+    "value": "60000",
+    "raw": "60,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BAKPAO BKR C",
+   "cnt": "2",
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TAHU GORENG",
+   "cnt": "3",
+   "price": {
+    "value": "60000",
+    "raw": "60,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 2,
+ "subtotal": {
+  "value": "334000",
+  "raw": "334,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  334,000"
+ },
+ "total": {
+  "value": "334000",
+  "raw": "334,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  334,000"
+ },
+ "tax": null,
+ "service": null
+}

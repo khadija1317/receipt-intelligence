@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "4 REDBEAN BREAD",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "36000",
+  "raw": "36,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 36,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 81
+}

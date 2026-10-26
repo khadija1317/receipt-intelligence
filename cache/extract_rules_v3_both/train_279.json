@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "HE De-0e-201a",
+   "cnt": null,
+   "price": {
+    "value": "9",
+    "raw": "9",
+    "status": "ok",
+    "conf": 0.3651,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SOP AYM BNG",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7,000",
+    "status": "ok",
+    "conf": 0.9861,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SOP AYM BNG",
+   "cnt": null,
+   "price": {
+    "value": "-7000",
+    "raw": "-7,000",
+    "status": "ok",
+    "conf": 0.9868,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TEH TARIK P",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "15000",
+  "raw": "15.000",
+  "status": "ok",
+  "conf": 0.9726,
+  "low_trust": false,
+  "line": "TOTAL 15.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 279
+}

@@ -1,0 +1,17 @@
+{
+ "index": 89,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 Mineral Water  5.000\nSubtotal  Rp 5.000\nTotal  Rp 5.000\nCASH  Rp 5.000\nKembalian  Rp 9",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Mineral Water\",\n      \"cnt\": \"1\",\n      \"price\": \"5.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"5.000\",\n    \"evidence\": \"Subtotal  Rp 5.000\"\n  },\n  \"total\": {\n    \"amount\": \"5.000\",\n    \"evidence\": \"Total  Rp 5.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 824,
+  "completion": 269,
+  "total": 1093,
+  "reasoning": 119
+ },
+ "seconds": 1.1372253894805908,
+ "error": null
+}

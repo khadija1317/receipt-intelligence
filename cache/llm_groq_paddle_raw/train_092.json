@@ -1,0 +1,17 @@
+{
+ "index": 92,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "mn  Unmmmon\nTos  WHER  TILH\n1  3\n160  8 5 E\nFE\nORIGINAL  12,000\nAPPLE CINN  13,000\nTL  25.000\nCASH  .25,000\nThann  WaL  T  DIMOTE\n1ntom  1mh  WRLEIA",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ORIGINAL\",\n      \"cnt\": null,\n      \"price\": \"12,000\"\n    },\n    {\n      \"nm\": \"APPLE CINN\",\n      \"cnt\": null,\n      \"price\": \"13,000\"\n    },\n    {\n      \"nm\": \"TL\",\n      \"cnt\": null,\n      \"price\": \"25.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 868,
+  "completion": 334,
+  "total": 1202,
+  "reasoning": 152
+ },
+ "seconds": 1.478487253189087,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 39,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "WE\nH COUPLE SEA  70,000\nTL  70.000\nCASH  70,000\nNITMA  MIN",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"COUPLE SEA\",\n      \"cnt\": null,\n      \"price\": \"70,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1328,
+  "completion": 219,
+  "total": 1547,
+  "reasoning": 89
+ },
+ "seconds": 0.715017557144165,
+ "error": null
+}

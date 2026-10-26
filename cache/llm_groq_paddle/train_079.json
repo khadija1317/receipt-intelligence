@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "Silky Green Tea",
+   "cnt": "1",
+   "price": {
+    "value": "12500",
+    "raw": "12,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Silky Hazeinut",
+   "cnt": "1",
+   "price": {
+    "value": "12500",
+    "raw": "12,500",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 79,
+ "subtotal": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  25,000"
+ },
+ "total": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": null,
+  "line": "GRAND TOTAL  25,000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,87 @@
+{
+ "menu": [
+  {
+   "nm": "I",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.4515,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 TWIST DONUT",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 BROWNIE",
+   "cnt": null,
+   "price": {
+    "value": "21000",
+    "raw": "21,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 REAL GANACHE",
+   "cnt": null,
+   "price": {
+    "value": "16500",
+    "raw": "16,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 REAL CHOCOLATE ROLL",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 REDBEAN BREAD",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "80500",
+  "raw": "80,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 80,500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 367
+}

@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "1 1GA+2CK+RW+RB12",
+   "cnt": null,
+   "price": {
+    "value": "30500",
+    "raw": "30.500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Extra RB",
+   "cnt": "16",
+   "price": {
+    "value": "4000",
+    "raw": "4.000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 UP Orange",
+   "cnt": "16",
+   "price": {
+    "value": "1500",
+    "raw": "1.500",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "36000",
+  "raw": "36.000",
+  "status": "ok",
+  "conf": 0.9992,
+  "low_trust": false,
+  "line": "3 Total 36.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 271
+}

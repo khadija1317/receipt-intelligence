@@ -29,13 +29,16 @@ def show(result):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--split", choices=["test", "validation"], default="validation")
+    parser.add_argument("--split", choices=["test", "validation", "train"], default="validation")
+    parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--show", type=int, nargs="*", default=[0, 19, 7])
     parser.add_argument("--ocr-dir", default="cache/ocr")
     parser.add_argument("--out-dir", default="cache/extract_rules")
     parser.add_argument("--adjacent", choices=["off", "above", "both"], default="off")
     args = parser.parse_args()
     split = args.split
+    if split == "train" and args.limit is None:
+        parser.error("--limit is required for train")
     ocr = Path(args.ocr_dir)
     out = Path(args.out_dir)
 
@@ -47,7 +50,7 @@ def main():
     tally = Counter()
     quick_hit = quick_n = with_subs = 0
 
-    for i, raw in enumerate(ds["ground_truth"]):
+    for i, raw in enumerate(list(ds["ground_truth"])[:args.limit]):
         record = json.loads((ocr / f"{split}_{i:03d}.json").read_text(encoding="utf-8"))
         result = extract_receipt(record["pieces"], CURRENCY, adjacent=args.adjacent)
         result["index"] = i

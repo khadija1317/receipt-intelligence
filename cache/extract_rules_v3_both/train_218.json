@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "1 Grilled Dorry Fish",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Set Menu Family",
+   "cnt": null,
+   "price": {
+    "value": "318000",
+    "raw": "318,000",
+    "status": "ok",
+    "conf": 0.9974,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Teppan Seafood Udon",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "398000",
+  "raw": "398,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUBTOTAL 398,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "421641",
+  "raw": "421,641",
+  "status": "ok",
+  "conf": 0.9933,
+  "low_trust": false,
+  "line": "TOTAL 421,641",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "41949",
+  "raw": "41,949",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "PB1 10% 41,949",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 218
+}

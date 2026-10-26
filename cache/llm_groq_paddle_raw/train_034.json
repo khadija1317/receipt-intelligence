@@ -1,0 +1,17 @@
+{
+ "index": 34,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "OMA NASI KUNING CAKALANG MANI\n1  30.000  30.000\nTotal Belanja  30.000\nTunai  100.000\nKembali  70.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"OMA NASI KUNING CAKALANG MANI\",\n      \"cnt\": \"1\",\n      \"price\": \"30.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"30.000\",\n    \"evidence\": \"Total Belanja  30.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 832,
+  "completion": 346,
+  "total": 1178,
+  "reasoning": 196
+ },
+ "seconds": 1.1123204231262207,
+ "error": null
+}

@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "Chicken HCC, 1Pcs",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Colonel Burger",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 31,
+ "subtotal": {
+  "value": "28636",
+  "raw": "28,636",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Tatal  28,636"
+ },
+ "total": {
+  "value": "31500",
+  "raw": "31,500",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  31,500"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "AMBUSH DBL CHS BURG",
+   "cnt": null,
+   "price": {
+    "value": "181500.00",
+    "raw": "181,500.00",
+    "status": "ok",
+    "conf": 0.9958,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "4 AMBUSH CHS BURGER",
+   "cnt": null,
+   "price": {
+    "value": "44000.00",
+    "raw": "44,000.00",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "226500.00",
+  "raw": "226,500.00",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUB-TOTAL 226,500.00",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": {
+  "value": "1000.00",
+  "raw": "1,000.00",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAKE AWAY CHARGE 1,000.00",
+  "n_candidates": 1
+ },
+ "index": 256
+}

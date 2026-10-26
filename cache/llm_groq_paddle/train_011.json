@@ -1,0 +1,86 @@
+{
+ "menu": [
+  {
+   "nm": "Ayam Bakar",
+   "cnt": "2",
+   "price": {
+    "value": "55000",
+    "raw": "55,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nasi Putih",
+   "cnt": "2",
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nila Bakar/Goreng",
+   "cnt": "1",
+   "price": {
+    "value": "27500",
+    "raw": "27,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Sop Gurame",
+   "cnt": "1",
+   "price": {
+    "value": "87000",
+    "raw": "87.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Teh Poci",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 11,
+ "subtotal": {
+  "value": "214500",
+  "raw": "214,500",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  214,500"
+ },
+ "total": {
+  "value": "250107",
+  "raw": "250,107",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  250,107"
+ },
+ "tax": {
+  "value": "22737",
+  "raw": "22.737",
+  "status": "ok",
+  "conf": null,
+  "line": "Pajak Restoran  22.737"
+ },
+ "service": {
+  "value": "12870",
+  "raw": "12,870",
+  "status": "ok",
+  "conf": null,
+  "line": "Service  12,870"
+ }
+}

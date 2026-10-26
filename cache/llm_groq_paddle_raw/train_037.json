@@ -1,0 +1,17 @@
+{
+ "index": 37,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Tmmes  n\nmE\nH\nMINI CHOCO  13,500\nSUBTOTAL  12,273\nTAX 10%  1,227\nTL  13,500\nCASH  14,000\nCG  .500\nm ",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"MINI CHOCO\",\n      \"cnt\": null,\n      \"price\": \"13,500\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"12,273\",\n    \"evidence\": \"SUBTOTAL  12,273\"\n  },\n  \"tax\": {\n    \"amount\": \"1,227\",\n    \"evidence\": \"TAX 10%  1,227\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 846,
+  "completion": 270,
+  "total": 1116,
+  "reasoning": 116
+ },
+ "seconds": 1.3722221851348877,
+ "error": null
+}

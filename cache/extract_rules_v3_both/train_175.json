@@ -1,0 +1,79 @@
+{
+ "menu": [
+  {
+   "nm": "HAZELNUT ALM",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 0.993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CAPPUCINO CI",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.9958,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TIRAMISU CIN",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.9847,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SODEXO",
+   "cnt": null,
+   "price": {
+    "value": "-25000",
+    "raw": "-25,000",
+    "status": "ok",
+    "conf": 0.999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TL",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": 0.9754,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CG",
+   "cnt": null,
+   "price": {
+    "value": "32000",
+    "raw": "32,000",
+    "status": "ok",
+    "conf": 0.9685,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 175
+}

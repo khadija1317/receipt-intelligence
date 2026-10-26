@@ -1,0 +1,37 @@
+{
+ "menu": [
+  {
+   "nm": "3X",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30.000",
+    "status": "ok",
+    "conf": 0.987,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": "0",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9968,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 392
+}

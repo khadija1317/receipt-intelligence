@@ -1,0 +1,17 @@
+{
+ "index": 49,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Sweet Plum Potato  29,000\nITEMS:1  29,000  29:000\nTotal\nPay Cash  29.000  Change :0\n招国电新待书E理",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Sweet Plum Potato\",\n      \"cnt\": null,\n      \"price\": \"29,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 829,
+  "completion": 333,
+  "total": 1162,
+  "reasoning": 204
+ },
+ "seconds": 0.9266059398651123,
+ "error": null
+}

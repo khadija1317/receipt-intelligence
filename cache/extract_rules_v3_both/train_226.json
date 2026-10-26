@@ -1,0 +1,92 @@
+{
+ "menu": [
+  {
+   "nm": "PKT TELOR/PERKEDEL",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26,000",
+    "status": "ok",
+    "conf": 0.9991,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DENDENG",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SBL GR TERI",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2X",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NESTLE 330 ML",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "82000",
+  "raw": "82,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 82,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "90200",
+  "raw": "90,200",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 90,200",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "8200",
+  "raw": "8,200",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAX 10% 8,200",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 226
+}

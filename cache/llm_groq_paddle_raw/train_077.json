@@ -1,0 +1,17 @@
+{
+ "index": 77,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "KP BRANDING L  1\nDisc.  -1\nM/POKO STD XXL5  1 17,100  17100\nHANSPLSI FOOT  6  2 11,200  22,400\nCTPAIN PATCH 4S  3 26,200  78,600\nTotal Iter  4  118,101\nTotal Disc.  1\nTotal Belanja  118,100\nTunai  120,000\nKenbalian  1,900\nPPN  10,736\nKritik&Saran:1500959, SMS:  0817111234",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"M/POKO STD XXL5\",\n      \"cnt\": \"1\",\n      \"price\": \"17100\"\n    },\n    {\n      \"nm\": \"HANSPLSI FOOT\",\n      \"cnt\": \"2\",\n      \"price\": \"22,400\"\n    },\n    {\n      \"nm\": \"CTPAIN PATCH 4S\",\n      \"cnt\": \"3\",\n      \"price\": \"78,600\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"118,100\",\n    \"evidence\": \"Total Belanja  118,100\"\n  },\n  \"tax\": {\n    \"amount\": \"10,736\",\n    \"evidence\": \"PPN  10,736\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 927,
+  "completion": 501,
+  "total": 1428,
+  "reasoning": 283
+ },
+ "seconds": 1.5452096462249756,
+ "error": null
+}

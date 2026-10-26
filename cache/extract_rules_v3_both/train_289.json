@@ -1,0 +1,81 @@
+{
+ "menu": [
+  {
+   "nm": "NASI GORENG",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TEH BTL ES",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TEH TELOR",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SATE PADANG",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI GÖRENG",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTL",
+   "cnt": null,
+   "price": {
+    "value": "169000",
+    "raw": "169.000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 289
+}

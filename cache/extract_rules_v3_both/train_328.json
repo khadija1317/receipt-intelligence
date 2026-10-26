@@ -1,0 +1,98 @@
+{
+ "menu": [
+  {
+   "nm": "Coke (L)",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Fanta Strwbry (L)",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "XXI Java Tea Spc",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Extra Jelly Lychee",
+   "cnt": "1",
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Caramel Medium",
+   "cnt": "1",
+   "price": {
+    "value": "50000",
+    "raw": "50.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Butter Milk Popcorn",
+   "cnt": "1",
+   "price": {
+    "value": "38000",
+    "raw": "38.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tahu Ikan Oma Giok",
+   "cnt": "3",
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "228000",
+  "raw": "228.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 228.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 328
+}

@@ -1,0 +1,46 @@
+{
+ "menu": [
+  {
+   "nm": "BUNCIS MUDA IE",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 86,
+ "subtotal": {
+  "value": "20000",
+  "raw": "20.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Qty:  1  Subtotal  20.000"
+ },
+ "total": {
+  "value": "22660",
+  "raw": "22.660",
+  "status": "ok",
+  "conf": null,
+  "line": "Grand Total  22.660"
+ },
+ "tax": {
+  "value": "2060",
+  "raw": "2.060",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax Total  2.060"
+ },
+ "service": {
+  "value": "600",
+  "raw": "600",
+  "status": "ok",
+  "conf": null,
+  "line": "SC  600"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "index": 5,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 Spaghetti ChickPesto  1  Lasagna  58  000000\n1 BangBang Chick Wings  49,000\n1 Iced Cappuccino  33  000000\nGypsy Gelato Ice Tea  39\nSUBTOTAL  221,000\nService  16,575\nPB1  23,758\nTOTAL  261,333\nCoupon  100,000\nBCA Card  161,333",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Spaghetti ChickPesto  1  Lasagna  58  000000\",\n      \"cnt\": \"1\",\n      \"price\": null\n    },\n    {\n      \"nm\": \"BangBang Chick Wings\",\n      \"cnt\": \"1\",\n      \"price\": \"49,000\"\n    },\n    {\n      \"nm\": \"Iced Cappuccino\",\n      \"cnt\": \"1\",\n      \"price\": \"33\"\n    },\n    {\n      \"nm\": \"Gypsy Gelato Ice Tea\",\n      \"cnt\": null,\n      \"price\": \"39\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"221,000\",\n    \"evidence\": \"SUBTOTAL  221,000\"\n  },\n  \"total\": {\n    \"amount\": \"261,333\",\n    \"evidence\": \"TOTAL  261,333\"\n  },\n  \"tax\": {\n    \"amount\": \"23,758\",\n    \"evidence\": \"PB1  23,758\"\n  },\n  \"service\": {\n    \"amount\": \"16,575\",\n    \"evidence\": \"Service  16,575\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 882,
+  "completion": 806,
+  "total": 1688,
+  "reasoning": 539
+ },
+ "seconds": 2.1716794967651367,
+ "error": null
+}

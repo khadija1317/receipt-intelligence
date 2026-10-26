@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "DumDum Thai Iced Green Tea",
+   "cnt": null,
+   "price": {
+    "value": "24000",
+    "raw": "24.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 38,
+ "subtotal": null,
+ "total": {
+  "value": "24000",
+  "raw": "24.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  24.000"
+ },
+ "tax": null,
+ "service": null
+}

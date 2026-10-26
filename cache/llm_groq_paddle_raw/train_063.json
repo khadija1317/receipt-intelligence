@@ -1,0 +1,17 @@
+{
+ "index": 63,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Dyramic\nN\nPIS COK KEJU  11,500\nDISC ITEM  -20.000%\nAMOUNT  -2,300\nCOKLAT KEJU  11,000\nDISC ITEM  -20.000%\nAMOUNT  -2,200\nBANANA KISMIS  8,000\nDISC ITEM  -30.000%\nAMOUNT  -2,400\nSUBTOTAL  23,600\nTOTAL  23,600\nCASH  50,000\nCHANGE  26,400",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PIS COK KEJU\",\n      \"cnt\": null,\n      \"price\": \"11,500\"\n    },\n    {\n      \"nm\": \"COKLAT KEJU\",\n      \"cnt\": null,\n      \"price\": \"11,000\"\n    },\n    {\n      \"nm\": \"BANANA KISMIS\",\n      \"cnt\": null,\n      \"price\": \"8,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"23,600\",\n    \"evidence\": \"SUBTOTAL  23,600\"\n  },\n  \"total\": {\n    \"amount\": \"23,600\",\n    \"evidence\": \"TOTAL  23,600\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 900,
+  "completion": 321,
+  "total": 1221,
+  "reasoning": 110
+ },
+ "seconds": 3.0306594371795654,
+ "error": null
+}

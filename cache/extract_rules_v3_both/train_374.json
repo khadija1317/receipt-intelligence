@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "14.000x4",
+   "cnt": null,
+   "price": {
+    "value": "56000",
+    "raw": "56.000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "14.000x1",
+   "cnt": "1",
+   "price": {
+    "value": "14000",
+    "raw": "14.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "0 x1",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9985,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "70000",
+  "raw": "70.000",
+  "status": "ok",
+  "conf": 0.9986,
+  "low_trust": false,
+  "line": "Total. 1 70.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 374
+}

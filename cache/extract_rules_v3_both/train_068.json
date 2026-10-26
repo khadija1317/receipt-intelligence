@@ -1,0 +1,73 @@
+{
+ "menu": [
+  {
+   "nm": "Berry Many-Low (P)",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9908,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "500 days of summer",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9125,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "sun kissed (P)",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9735,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLASTIC BAG",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 4
+ },
+ "subtotal": {
+  "value": "113000.00",
+  "raw": "113,000.00",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SubTotal 113,000.00",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "113000.00",
+  "raw": "113,000.00",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 113,000.00",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 68
+}

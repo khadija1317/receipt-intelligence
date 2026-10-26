@@ -1,0 +1,17 @@
+{
+ "index": 64,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "BMBY\nmm\nBOTOL(MOMOGI BOTOL KACA ASI)\n804700027\n44,000\nSPECTRA DISPOSABLE BREAST PADS\n(IRIS)/BP-0001(BREASTPADS) SP200031\n58,000\nMUSTELA BABY OIL 100ML MU240036\n160,000\nQty: 3 Amount:  262,000\nPlumn",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BOTOL(MOMOGI BOTOL KACA ASI)\",\n      \"cnt\": null,\n      \"price\": \"44,000\"\n    },\n    {\n      \"nm\": \"SPECTRA DISPOSABLE BREAST PADS (IRIS)/BP-0001(BREASTPADS) SP200031\",\n      \"cnt\": null,\n      \"price\": \"58,000\"\n    },\n    {\n      \"nm\": \"MUSTELA BABY OIL 100ML MU240036\",\n      \"cnt\": null,\n      \"price\": \"160,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 874,
+  "completion": 530,
+  "total": 1404,
+  "reasoning": 302
+ },
+ "seconds": 1.3614861965179443,
+ "error": null
+}

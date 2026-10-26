@@ -1,0 +1,139 @@
+{
+ "menu": [
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5,000",
+    "status": "ok",
+    "conf": 0.9867,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CF NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5,000",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5,000",
+    "status": "ok",
+    "conf": 0.9665,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CF NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5,000",
+    "status": "ok",
+    "conf": 0.998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 0.9901,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CF BBQ CHKN WING",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 0.9986,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "0.354X",
+   "cnt": null,
+   "price": {
+    "value": "73500",
+    "raw": "73,500",
+    "status": "ok",
+    "conf": 0.9989,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "FILLET DORI",
+   "cnt": null,
+   "price": {
+    "value": "26019",
+    "raw": "26,019",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "11900",
+    "raw": "11,900",
+    "status": "ok",
+    "conf": 0.9702,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KERUPUK KERING",
+   "cnt": null,
+   "price": {
+    "value": "11900",
+    "raw": "11,900",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "60523",
+  "raw": "60,523",
+  "status": "ok",
+  "conf": 0.9419,
+  "low_trust": false,
+  "line": "SUBTOTAL: 60,523",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "60523",
+  "raw": "60.523",
+  "status": "ok",
+  "conf": 0.9517,
+  "low_trust": false,
+  "line": "TOTAL: 60.523",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 332
+}

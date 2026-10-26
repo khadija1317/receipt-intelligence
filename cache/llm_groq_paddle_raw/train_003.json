@@ -1,0 +1,17 @@
+{
+ "index": 3,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Bintang Bremer  1  59,000\nChicken H-H  T-  190,000\nAdes  1  10,000\nSub Total  259,000\nService  9,600\nTax  52,416\nDiscount  19,000\nTOTAL  302,016\nmitor  fianttal",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Bintang Bremer\",\n      \"cnt\": \"1\",\n      \"price\": \"59,000\"\n    },\n    {\n      \"nm\": \"Chicken H-H  T-\",\n      \"cnt\": null,\n      \"price\": \"190,000\"\n    },\n    {\n      \"nm\": \"Ades\",\n      \"cnt\": \"1\",\n      \"price\": \"10,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"259,000\",\n    \"evidence\": \"Sub Total  259,000\"\n  },\n  \"service\": {\n    \"amount\": \"9,600\",\n    \"evidence\": \"Service  9,600\"\n  },\n  \"tax\": {\n    \"amount\": \"52,416\",\n    \"evidence\": \"Tax  52,416\"\n  },\n  \"total\": {\n    \"amount\": \"302,016\",\n    \"evidence\": \"TOTAL  302,016\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 861,
+  "completion": 398,
+  "total": 1259,
+  "reasoning": 171
+ },
+ "seconds": 1.185959815979004,
+ "error": null
+}

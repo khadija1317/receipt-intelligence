@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "ORIGINAL",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "APPLE CINN",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TL",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 92,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

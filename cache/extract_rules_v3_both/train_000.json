@@ -1,0 +1,290 @@
+{
+ "menu": [
+  {
+   "nm": "1 x Nasi Campur Bali",
+   "cnt": null,
+   "price": {
+    "value": "75000",
+    "raw": "75,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 x Bbk Bengil Nasi",
+   "cnt": null,
+   "price": {
+    "value": "125000",
+    "raw": "125,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 x MilkShake Starwb",
+   "cnt": null,
+   "price": {
+    "value": "37000",
+    "raw": "37,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "X Ice Lemon Tea",
+   "cnt": "1",
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "X Nasi Ayam Dewata",
+   "cnt": "1",
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Free Ice Tea",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9391,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "X Organic Green Sa",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ice Tea",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ice Orange",
+   "cnt": null,
+   "price": {
+    "value": "29000",
+    "raw": "29,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 x Ayam Suir Bali",
+   "cnt": null,
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2x Tahu Goreng",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2× Tempe Goreng",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 x Tahu Telor Asin",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "40,000.",
+    "status": "review",
+    "conf": 0.9989,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 x Nasi Goreng Samb",
+   "cnt": null,
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3 x Bbk Panggang Sam",
+   "cnt": null,
+   "price": {
+    "value": "366000",
+    "raw": "366,000",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 X Ayam Sambal Hija",
+   "cnt": null,
+   "price": {
+    "value": "92000",
+    "raw": "92,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2x Hot Tea",
+   "cnt": null,
+   "price": {
+    "value": "44000",
+    "raw": "44,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 X Ice Kopi",
+   "cnt": null,
+   "price": {
+    "value": "32000",
+    "raw": "32,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 X Tahu Telor Asin",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 X Free Ice Tea",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9666,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 × Bebek Street",
+   "cnt": null,
+   "price": {
+    "value": "44000",
+    "raw": "44,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1.X Ice Tea Tawar",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "1346000",
+  "raw": "1,346,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub-Total 1,346,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "1591600",
+  "raw": "1,591,600",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "1,591,600 | Grand Total",
+  "adjacent": "above",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "144695",
+  "raw": "144,695",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "PB1 144,695",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "100950",
+  "raw": "100,950",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Service 100,950",
+  "n_candidates": 1
+ },
+ "index": 0
+}

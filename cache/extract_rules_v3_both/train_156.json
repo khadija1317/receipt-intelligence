@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "BOLU KUKUS PX",
+   "cnt": null,
+   "price": {
+    "value": "39000",
+    "raw": "39,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLASTIK SEDANG",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "27300",
+  "raw": "27,300",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 27,300",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "27300",
+  "raw": "27,300",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 27,300",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 156
+}

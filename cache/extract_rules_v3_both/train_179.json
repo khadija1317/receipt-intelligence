@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "1 IO9.NG NANAS",
+   "cnt": null,
+   "price": {
+    "value": "49800",
+    "raw": "49,800",
+    "status": "ok",
+    "conf": 0.9962,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 DE13.PSANG IJO MDM",
+   "cnt": null,
+   "price": {
+    "value": "29800",
+    "raw": "29,800",
+    "status": "ok",
+    "conf": 0.9978,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 CT12.BLK JELY KPI IC",
+   "cnt": null,
+   "price": {
+    "value": "29800",
+    "raw": "29,800",
+    "status": "ok",
+    "conf": 0.9988,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "128764",
+  "raw": "128.764",
+  "status": "ok",
+  "conf": 0.9395,
+  "low_trust": false,
+  "line": "TOTAL 128.764",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "11706",
+  "raw": "11,706",
+  "status": "ok",
+  "conf": 0.9993,
+  "low_trust": false,
+  "line": "TAX 10% 11,706",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 179
+}

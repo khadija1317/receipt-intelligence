@@ -1,0 +1,17 @@
+{
+ "index": 57,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "WIDE  WICL\n1 PL. MUFFIN BLUEBERRY  14,000\n1 RB. ABON AYAM  9,000\n1 RB. COKLAT COFFEE  8,000\n1 RB. RED BEAN  8,000\nITEM:4  SUBTOTAL.  39,000\nPCS  4  DUE  39,000\nCASH  39,000\nE  18",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1 PL. MUFFIN BLUEBERRY\",\n      \"cnt\": \"1\",\n      \"price\": \"14,000\"\n    },\n    {\n      \"nm\": \"1 RB. ABON AYAM\",\n      \"cnt\": \"1\",\n      \"price\": \"9,000\"\n    },\n    {\n      \"nm\": \"1 RB. COKLAT COFFEE\",\n      \"cnt\": \"1\",\n      \"price\": \"8,000\"\n    },\n    {\n      \"nm\": \"1 RB. RED BEAN\",\n      \"cnt\": \"1\",\n      \"price\": \"8,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"39,000\",\n    \"evidence\": \"ITEM:4  SUBTOTAL.  39,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 883,
+  "completion": 330,
+  "total": 1213,
+  "reasoning": 79
+ },
+ "seconds": 1.3196687698364258,
+ "error": null
+}

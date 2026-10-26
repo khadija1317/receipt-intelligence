@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "N NTW/NT",
+   "cnt": null,
+   "price": {
+    "value": "6",
+    "raw": "6",
+    "status": "ok",
+    "conf": 0.1356,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Limn",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "00000",
+    "status": "ok",
+    "conf": 0.5436,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "36000",
+  "raw": "36.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "***TOTAL FHr: 36.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 8
+}

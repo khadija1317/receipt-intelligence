@@ -1,0 +1,114 @@
+{
+ "menu": [
+  {
+   "nm": "1 [RICHE] BLACK SAKURA",
+   "cnt": null,
+   "price": {
+    "value": "57273",
+    "raw": "57,273",
+    "status": "ok",
+    "conf": 0.9863,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 DRAGON FRUIT",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9946,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 KIWI",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9984,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 MANGGO",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9984,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 ROASTED ALMOND",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 YELLOW VELVET",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 YELLOW VELVET",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9991,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "57273",
+  "raw": "57,273",
+  "status": "ok",
+  "conf": 0.9994,
+  "low_trust": false,
+  "line": "Sub Total 57,273",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "63000",
+  "raw": "63,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 63,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5727",
+  "raw": "5,727",
+  "status": "ok",
+  "conf": 0.9983,
+  "low_trust": false,
+  "line": "PB1(10%) 5,727",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 298
+}

@@ -1,0 +1,17 @@
+{
+ "index": 45,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "mmEm\n米米  建旺目\n2 Large  1  22.000\n1 *Plastik kcl  0\n3 Total  22.000\nBayar  52.000\nKembali  30.000\nLEEI\nI\nBEBEEBEEREEEEEREEBEFEER\n  mn",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"2 Large\",\n      \"cnt\": \"1\",\n      \"price\": \"22.000\"\n    },\n    {\n      \"nm\": \"1 *Plastik kcl\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"22.000\",\n    \"evidence\": \"3 Total  22.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 857,
+  "completion": 290,
+  "total": 1147,
+  "reasoning": 121
+ },
+ "seconds": 0.8349072933197021,
+ "error": null
+}

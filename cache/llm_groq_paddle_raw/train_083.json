@@ -1,0 +1,17 @@
+{
+ "index": 83,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "GORDI\n1 ICED White  43.000\n1 Mexican Baked Rice  58.000\nSubtotal  101.000\nTotal  101.000\nDEBIT  101.000\nChange  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ICED White\",\n      \"cnt\": \"1\",\n      \"price\": \"43.000\"\n    },\n    {\n      \"nm\": \"Mexican Baked Rice\",\n      \"cnt\": \"1\",\n      \"price\": \"58.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"101.000\",\n    \"evidence\": \"Subtotal  101.000\"\n  },\n  \"total\": {\n    \"amount\": \"101.000\",\n    \"evidence\": \"Total  101.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 834,
+  "completion": 320,
+  "total": 1154,
+  "reasoning": 141
+ },
+ "seconds": 1.1938657760620117,
+ "error": null
+}

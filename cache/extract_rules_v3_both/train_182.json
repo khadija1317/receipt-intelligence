@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "1 ROASTED MT (R)",
+   "cnt": null,
+   "price": {
+    "value": "21000",
+    "raw": "21,000",
+    "status": "ok",
+    "conf": 0.9686,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GRASS JELLY (R)",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": 0.9905,
+  "low_trust": false,
+  "line": "SUB TOTAL 25,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "22500",
+  "raw": "22,500",
+  "status": "ok",
+  "conf": 0.9984,
+  "low_trust": false,
+  "line": "TOTAL SALES 22,500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 182
+}

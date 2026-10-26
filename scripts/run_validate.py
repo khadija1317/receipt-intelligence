@@ -75,18 +75,24 @@ def score_cash_change(labels, texts, split):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--split", choices=["validation", "test"], required=True)
+    ap.add_argument("--split", choices=["validation", "test", "train"], required=True)
+    ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--pipes", nargs="*", default=None)
+    ap.add_argument("--tag", default="")
     args = ap.parse_args()
     split = args.split
+    if split == "train" and args.limit is None:
+        ap.error("--limit is required for train")
+    pipes = [p for p in PIPES if args.pipes is None or p[0] in args.pipes]
     show_idx = split == "validation"  # indices are printed on validation only
 
     ds = load_dataset("naver-clova-ix/cord-v2", split=split)
     if split == "test":
         check_test_set(ds)
-    labels = ds["ground_truth"]
+    labels = list(ds["ground_truth"])[:args.limit]
 
     texts = {}
-    for ocr in ("cache/ocr", "cache/ocr_paddle"):
+    for ocr in sorted({p[2] for p in pipes}):
         texts[ocr] = []
         for i in range(len(labels)):
             pieces = json.loads(Path(ocr, f"{split}_{i:03d}.json").read_text(encoding="utf-8"))["pieces"]
@@ -95,7 +101,7 @@ def main():
     summary = {"split": split, "tolerance": str(TOLERANCE), "pipelines": {}}
     error_by_receipt = defaultdict(dict)  # receipt -> {pipeline: flagged?}
 
-    for name, folder, ocr, grounding, expect in PIPES:
+    for name, folder, ocr, grounding, expect in pipes:
         rows = []
         for i, raw in enumerate(labels):
             rec = json.loads(Path(folder, f"{split}_{i:03d}.json").read_text(encoding="utf-8"))
@@ -111,8 +117,12 @@ def main():
         print(f"{name}   ({split}, tolerance {TOLERANCE})")
         tc = Counter(outcome(r["res"], "total") for r in rows)
         got = (tc["correct"], tc["wrong"], tc["no_answer"])
-        print(f"  sanity: total correct/wrong/no_answer = {got}  expected {expect[split]}  "
-              f"{'MATCH' if got == expect[split] else 'MISMATCH  <-- STOP, do not use these numbers'}")
+        if split in expect:
+            print(f"  sanity: total correct/wrong/no_answer = {got}  expected {expect[split]}  "
+                  f"{'MATCH' if got == expect[split] else 'MISMATCH  <-- STOP, do not use these numbers'}")
+        else:
+            print(f"  scorer counts (no frozen expectation for {split}): "
+                  f"total correct/wrong/no_answer = {got}")
 
         members = {g: [r for r in rows if r["g"] == g] for g in ("error", "missing", "ok")}
         err, mis, ok = members["error"], members["missing"], members["ok"]
@@ -206,9 +216,9 @@ def main():
 
     out_dir = Path("cache/scores")
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / f"{split}_validator.json").write_text(
+    (out_dir / f"{split}_validator{args.tag}.json").write_text(
         json.dumps(summary, indent=1, default=str), encoding="utf-8")
-    print(f"\nsummary (counts only) saved to cache/scores/{split}_validator.json")
+    print(f"\nsummary (counts only) saved to cache/scores/{split}_validator{args.tag}.json")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,17 @@
+{
+ "index": 95,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AuntleAnne's\nW\nEEER  I  ne\nORIGINAL NO SALT\n12,000\nSUB TOTAL  12,000\nGRANDTOTAL  12,000\nCASHIDR  52,000\nCHANGE DUE  40.000\nmmoman",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"ORIGINAL NO SALT\",\n      \"cnt\": null,\n      \"price\": \"12,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"12,000\",\n    \"evidence\": \"SUB TOTAL  12,000\"\n  },\n  \"total\": {\n    \"amount\": \"12,000\",\n    \"evidence\": \"GRANDTOTAL  12,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 846,
+  "completion": 302,
+  "total": 1148,
+  "reasoning": 150
+ },
+ "seconds": 1.0836827754974365,
+ "error": null
+}

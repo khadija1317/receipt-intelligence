@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "Chicken HCC, 1Pcs",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Colonel Burger",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Sub Tatal",
+   "cnt": null,
+   "price": {
+    "value": "28636",
+    "raw": "28,636",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "P.Rest",
+   "cnt": "10",
+   "price": {
+    "value": "2864",
+    "raw": "2,864",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "31500",
+  "raw": "31,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 31,500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 31
+}

@@ -1,0 +1,116 @@
+{
+ "menu": [
+  {
+   "nm": "PAKET DOSIRAK 3 1 25,975 25,975",
+   "cnt": null,
+   "price": {
+    "value": "25975",
+    "raw": "25,975",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PAKET CHICKEN 3 3 35,000 105,000",
+   "cnt": null,
+   "price": {
+    "value": "105000",
+    "raw": "105,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "JAPCHE 1 25,000 25,000",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KOREAN LEMONADE 1 15,000 15,000",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KOREAN COLD TEA 1 9,000 9,000",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PAKET BULGOGI 3 yuy 45,000 45,000",
+   "cnt": null,
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BANANA MLK+MATCHA PU 2 21,000 42,000",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KRN FRIED CHICKN HNY 1 25,000 25,000",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 75,
+ "subtotal": {
+  "value": "291975",
+  "raw": "291,975",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  291,975"
+ },
+ "total": {
+  "value": "337230",
+  "raw": "337,230",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  337,230"
+ },
+ "tax": {
+  "value": "30657",
+  "raw": "30,657",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  30,657"
+ },
+ "service": {
+  "value": "14598",
+  "raw": "14,598",
+  "status": "ok",
+  "conf": null,
+  "line": "Services  14,598"
+ }
+}

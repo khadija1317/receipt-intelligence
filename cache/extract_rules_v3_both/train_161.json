@@ -1,0 +1,89 @@
+{
+ "menu": [
+  {
+   "nm": "1 PR ORIGINAL-150gr",
+   "cnt": null,
+   "price": {
+    "value": "75000",
+    "raw": "75,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 F.FRIES (M)",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9969,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 ES TEH MANIS",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 MUSHROOM SAUCE",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9951,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "85000",
+  "raw": "85,000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Subtotal 85,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "98175",
+  "raw": "98,175",
+  "status": "ok",
+  "conf": 0.9993,
+  "low_trust": false,
+  "line": "Total 98,175",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "8925",
+  "raw": "8,925",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "PB1 10.00 % 8,925",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "4250",
+  "raw": "4,250",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Serv.Charge: 4,250",
+  "n_candidates": 1
+ },
+ "index": 161
+}

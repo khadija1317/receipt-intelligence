@@ -1,0 +1,17 @@
+{
+ "index": 31,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Chicken HCC, 1Pcs  15,000\nColonel Burger  13,636\nSub Tatal  28,636\nP.Rest  10  2,864\nTotal  31,500\nCash  40,000\nKembali  8,500\n2 Items,",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Chicken HCC, 1Pcs\",\n      \"cnt\": \"1\",\n      \"price\": \"15,000\"\n    },\n    {\n      \"nm\": \"Colonel Burger\",\n      \"cnt\": null,\n      \"price\": \"13,636\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"28,636\",\n    \"evidence\": \"Sub Tatal  28,636\"\n  },\n  \"total\": {\n    \"amount\": \"31,500\",\n    \"evidence\": \"Total  31,500\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 851,
+  "completion": 368,
+  "total": 1219,
+  "reasoning": 185
+ },
+ "seconds": 1.20369291305542,
+ "error": null
+}

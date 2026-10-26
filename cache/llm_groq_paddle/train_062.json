@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "RALPH BREAKS THE INTERNET : WR",
+   "cnt": null,
+   "price": {
+    "value": "3600000",
+    "raw": "3.600.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TIKET",
+   "cnt": "60",
+   "price": {
+    "value": "60000",
+    "raw": "60.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 62,
+ "subtotal": null,
+ "total": {
+  "value": "3600000",
+  "raw": "3.600.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total(Qty=60  CGV  CINEMAS  3.600.000"
+ },
+ "tax": null,
+ "service": null
+}

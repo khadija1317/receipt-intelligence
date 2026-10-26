@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "2005-CHEESE JOHN",
+   "cnt": "1",
+   "price": {
+    "value": "9500.00",
+    "raw": "9.500,00",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 73,
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "9,500,00",
+  "status": "review",
+  "conf": null,
+  "line": "Total.  9,500,00"
+ },
+ "tax": null,
+ "service": null
+}

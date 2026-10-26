@@ -1,0 +1,230 @@
+{
+ "menu": [
+  {
+   "nm": "NASI PUTIH",
+   "cnt": "6",
+   "price": {
+    "value": "54000",
+    "raw": "54,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SATE PADANG",
+   "cnt": "1",
+   "price": {
+    "value": "35000",
+    "raw": "35.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GULAI CUMI",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "DENDENG BALADO",
+   "cnt": "4",
+   "price": {
+    "value": "80000",
+    "raw": "80.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KERUPUK KULIT",
+   "cnt": "3",
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "RENDANG DAGING",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GULAI HATI",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MUJAIR BAKAR",
+   "cnt": "1",
+   "price": {
+    "value": "23000",
+    "raw": "23.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GULAI OTAK",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AYAM BAKAR",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SAMBAL TRI BELAH",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LALAP SEGAR",
+   "cnt": "3",
+   "price": {
+    "value": "24000",
+    "raw": "24.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AYAM PENYET",
+   "cnt": "1",
+   "price": {
+    "value": "21000",
+    "raw": "21,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AYAM GORENG",
+   "cnt": "2",
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AYAM POP",
+   "cnt": "2",
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GULAI TUNJANG",
+   "cnt": "2",
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TEH",
+   "cnt": "6",
+   "price": {
+    "value": "30000",
+    "raw": "30.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TERONG BELANDA",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TEH TELUR",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PUDING",
+   "cnt": "2",
+   "price": {
+    "value": "16000",
+    "raw": "16.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 65,
+ "subtotal": {
+  "value": "591000",
+  "raw": "591.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  591.000"
+ },
+ "total": {
+  "value": "650100",
+  "raw": "650.100",
+  "status": "ok",
+  "conf": null,
+  "line": "41 Total  650.100"
+ },
+ "tax": null,
+ "service": {
+  "value": "59100",
+  "raw": "59,100",
+  "status": "ok",
+  "conf": null,
+  "line": "P.Resto 10%  59,100"
+ }
+}

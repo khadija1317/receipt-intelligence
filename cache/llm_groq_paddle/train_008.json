@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "1×",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "36.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "1×0.000",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "Rp0.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 8,
+ "subtotal": null,
+ "total": {
+  "value": "36000",
+  "raw": "36.000",
+  "status": "ok",
+  "conf": null,
+  "line": "***TOTAL  FHr:  36.000"
+ },
+ "tax": null,
+ "service": null
+}

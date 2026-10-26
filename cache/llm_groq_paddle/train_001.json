@@ -1,0 +1,84 @@
+{
+ "menu": [
+  {
+   "nm": "SPGTHY BOLOGNASE",
+   "cnt": null,
+   "price": {
+    "value": "58000",
+    "raw": "58,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PEPPER AUS",
+   "cnt": "1",
+   "price": {
+    "value": "165000",
+    "raw": "165,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "WAGYU RIBEYE",
+   "cnt": null,
+   "price": {
+    "value": "195000",
+    "raw": "195,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ICED LEMON TEA",
+   "cnt": "1",
+   "price": {
+    "value": "22000",
+    "raw": "22,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "FUSION·TEA LYCHE",
+   "cnt": "1",
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NUTTELA BROWNIES",
+   "cnt": "1",
+   "price": {
+    "value": "35000",
+    "raw": "35,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 1,
+ "subtotal": {
+  "value": "503000",
+  "raw": "503,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  503,000"
+ },
+ "total": null,
+ "tax": {
+  "value": "25150",
+  "raw": "25,150",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1  25,150"
+ },
+ "service": null
+}

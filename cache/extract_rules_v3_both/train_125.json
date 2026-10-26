@@ -1,0 +1,36 @@
+{
+ "menu": [
+  {
+   "nm": "TRIPPLE CHEESE",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17.000",
+    "status": "ok",
+    "conf": 0.9901,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal",
+   "total"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "",
+  "status": "review",
+  "conf": null,
+  "low_trust": false,
+  "line": "17,000 | GRAND TOTAL | 18,000",
+  "n_candidates": 2,
+  "adjacent": "ambiguous"
+ },
+ "tax": null,
+ "service": null,
+ "index": 125
+}

@@ -1,0 +1,106 @@
+{
+ "menu": [
+  {
+   "nm": "LAY'S NORI SEAWD 55G",
+   "cnt": "1",
+   "price": {
+    "value": "6900",
+    "raw": "6.900",
+    "status": "ok",
+    "conf": 0.9771,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "QTELA KRP/TMPE ORI55",
+   "cnt": "1",
+   "price": {
+    "value": "7000",
+    "raw": "7,000",
+    "status": "ok",
+    "conf": 0.9273,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SOSRO TEH BOTOL",
+   "cnt": null,
+   "price": {
+    "value": "3600",
+    "raw": "3.600",
+    "status": "ok",
+    "conf": 0.9274,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PUCUK/H TEH L/SGR350",
+   "cnt": "1",
+   "price": {
+    "value": "7000",
+    "raw": "7,000",
+    "status": "ok",
+    "conf": 0.908,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AQUA AIR MINERAL",
+   "cnt": null,
+   "price": {
+    "value": "200",
+    "raw": "200",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PEDULI DISABILITAS",
+   "cnt": "1",
+   "price": {
+    "value": "200",
+    "raw": "200",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "HARGA JUAL",
+   "cnt": null,
+   "price": {
+    "value": "33500",
+    "raw": "33,500",
+    "status": "ok",
+    "conf": 0.9969,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "33500",
+  "raw": "33,500",
+  "status": "ok",
+  "conf": 0.997,
+  "low_trust": false,
+  "line": "TOTAL 33,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "3027",
+  "raw": "3.027",
+  "status": "ok",
+  "conf": 0.9586,
+  "low_trust": false,
+  "line": "DPP= 30.273 PPN= 3.027",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 191
+}

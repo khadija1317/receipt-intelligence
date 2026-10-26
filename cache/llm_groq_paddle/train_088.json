@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "KUE PILUS ASIN",
+   "cnt": "80",
+   "price": {
+    "value": "16800",
+    "raw": "16,800",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "KACANG MEDAN",
+   "cnt": "96",
+   "price": {
+    "value": "28690",
+    "raw": "28,690",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 88,
+ "subtotal": null,
+ "total": {
+  "value": "45490",
+  "raw": "45,490",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL:  45,490"
+ },
+ "tax": {
+  "value": "4549",
+  "raw": "4,549",
+  "status": "ok",
+  "conf": null,
+  "line": "PPN:  4,549"
+ },
+ "service": null
+}

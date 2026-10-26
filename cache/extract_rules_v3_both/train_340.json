@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "1 PKT LELEH AYM GEPRK",
+   "cnt": null,
+   "price": {
+    "value": "24999",
+    "raw": "24,999",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PKT MIE LELEH",
+   "cnt": null,
+   "price": {
+    "value": "27273",
+    "raw": "27,273",
+    "status": "ok",
+    "conf": 0.9991,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "52272",
+  "raw": "52,272",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "SUBTOTAL 52,272",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "57500",
+  "raw": "57,500",
+  "status": "ok",
+  "conf": 0.9911,
+  "low_trust": false,
+  "line": "TOTAL 57,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5227",
+  "raw": "5,227",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "PB1 10% 5,227",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 340
+}

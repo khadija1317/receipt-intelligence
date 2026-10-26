@@ -1,0 +1,17 @@
+{
+ "index": 1,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "10\nsped  SPGTHY BOLOGNASE  58,000\n1  PEPPER AUS  165,000\nWELL DONE\nou  WAGYU RIBEYE  195,000\nMEDIUM WELL\n1  ICED LEMON TEA  22,000\n1  FUSION·TEA LYCHE  28,000\n1  NUTTELA BROWNIES  35,000\nSUBTOTAL  503,000\n52,815\nPB1  25,150\nSVC CHRG\nDUE  580,965",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SPGTHY BOLOGNASE\",\n      \"cnt\": null,\n      \"price\": \"58,000\"\n    },\n    {\n      \"nm\": \"PEPPER AUS\",\n      \"cnt\": \"1\",\n      \"price\": \"165,000\"\n    },\n    {\n      \"nm\": \"WAGYU RIBEYE\",\n      \"cnt\": null,\n      \"price\": \"195,000\"\n    },\n    {\n      \"nm\": \"ICED LEMON TEA\",\n      \"cnt\": \"1\",\n      \"price\": \"22,000\"\n    },\n    {\n      \"nm\": \"FUSION·TEA LYCHE\",\n      \"cnt\": \"1\",\n      \"price\": \"28,000\"\n    },\n    {\n      \"nm\": \"NUTTELA BROWNIES\",\n      \"cnt\": \"1\",\n      \"price\": \"35,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"503,000\",\n    \"evidence\": \"SUBTOTAL  503,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"25,150\",\n    \"evidence\": \"PB1  25,150\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 912,
+  "completion": 718,
+  "total": 1630,
+  "reasoning": 404
+ },
+ "seconds": 1.9872756004333496,
+ "error": null
+}

@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "EEER I",
+   "cnt": null,
+   "price": {
+    "value": "6",
+    "raw": "6",
+    "status": "ok",
+    "conf": 0.5527,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "12000",
+  "raw": "12,000",
+  "status": "ok",
+  "conf": 0.9977,
+  "low_trust": false,
+  "line": "SUB TOTAL 12,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "12000",
+  "raw": "12,000",
+  "status": "ok",
+  "conf": 0.9964,
+  "low_trust": false,
+  "line": "GRAND TOTAL 12,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 97
+}

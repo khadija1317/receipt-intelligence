@@ -1,0 +1,17 @@
+{
+ "index": 51,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Kopi Susu Sudirman\nIce\n1x  18.000  18.000\nChocolate Twist\n1x  12.000  12.000\nSubtotal  30.000\nTax (10.0%)  3.000\nTotal  ρ  33.000\nCash  Rp  50.000\nChange  17.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Kopi Susu Sudirman\",\n      \"cnt\": \"1\",\n      \"price\": \"18.000\"\n    },\n    {\n      \"nm\": \"Chocolate Twist\",\n      \"cnt\": \"1\",\n      \"price\": \"12.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"30.000\",\n    \"evidence\": \"Subtotal  30.000\"\n  },\n  \"tax\": {\n    \"amount\": \"3.000\",\n    \"evidence\": \"Tax (10.0%)  3.000\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"33.000\",\n    \"evidence\": \"Total  ρ  33.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 865,
+  "completion": 654,
+  "total": 1519,
+  "reasoning": 458
+ },
+ "seconds": 1.6172404289245605,
+ "error": null
+}

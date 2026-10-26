@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "Salad Deluxe",
+   "cnt": "2",
+   "price": {
+    "value": "17272",
+    "raw": "17,272",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Perkedel",
+   "cnt": "2",
+   "price": {
+    "value": "11818",
+    "raw": "11,818",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chicken HCC, 1Pcs",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "44999",
+  "raw": "44,999",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 44,999",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "49500",
+  "raw": "49,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 49,500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "909",
+  "raw": "909",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "1 CHARGE TA 909",
+  "n_candidates": 1
+ },
+ "index": 241
+}

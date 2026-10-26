@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "ISI CAMPUR",
+   "cnt": "1",
+   "price": {
+    "value": "43636",
+    "raw": "43.636",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "AQUA BOTOL",
+   "cnt": "1",
+   "price": {
+    "value": "9000",
+    "raw": "9.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 66,
+ "subtotal": null,
+ "total": {
+  "value": "52636",
+  "raw": "52.636",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  52.636"
+ },
+ "tax": {
+  "value": "5264",
+  "raw": "5.264",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10.00 %  5.264  A FUNG"
+ },
+ "service": null
+}

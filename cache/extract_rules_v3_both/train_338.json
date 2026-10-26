@@ -1,0 +1,35 @@
+{
+ "menu": [
+  {
+   "nm": "DUs",
+   "cnt": null,
+   "price": {
+    "value": "161",
+    "raw": "161",
+    "status": "ok",
+    "conf": 0.3985,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "THAI TEA",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".22,000",
+    "status": "review",
+    "conf": 0.9123,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 338
+}

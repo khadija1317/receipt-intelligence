@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "BLACK PEPPER MEATBALL",
+   "cnt": "1",
+   "price": {
+    "value": "76500",
+    "raw": "76,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GREEN TEA WITH CRUMBLE",
+   "cnt": "1",
+   "price": {
+    "value": "56000",
+    "raw": "56,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "EARL GREY MILK TEA",
+   "cnt": "1",
+   "price": {
+    "value": "57000",
+    "raw": "57,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "ORIGINAL BREWED TEA",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 13,
+ "subtotal": null,
+ "total": {
+  "value": "247775",
+  "raw": "247.775",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  247.775"
+ },
+ "tax": {
+  "value": "22525",
+  "raw": "22,525",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1 10%  22,525"
+ },
+ "service": {
+  "value": "12750",
+  "raw": "12,750",
+  "status": "ok",
+  "conf": null,
+  "line": "SVC CHG 6%  12,750"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "menu": [
+  {
+   "nm": "1 HOT OCHA",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3 OCHA",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BEVERAGE",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 JYO HARAMI 30%",
+   "cnt": null,
+   "price": {
+    "value": "99000",
+    "raw": "99,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 WAKI SALAD",
+   "cnt": null,
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 MARBLED SIRLOIN STEAK 200gr",
+   "cnt": null,
+   "price": {
+    "value": "378000",
+    "raw": "378,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "FOOD",
+   "cnt": null,
+   "price": {
+    "value": "522000",
+    "raw": "522,000",
+    "status": "ok",
+    "conf": 0.9977,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "562000",
+    "raw": "562,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "655292",
+  "raw": "655.292",
+  "status": "ok",
+  "conf": 0.978,
+  "low_trust": false,
+  "line": "TOTAL 655.292",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "59572",
+  "raw": "59,572",
+  "status": "ok",
+  "conf": 0.9889,
+  "low_trust": false,
+  "line": "PB1 59,572",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "33720",
+  "raw": "33,720",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Service Charge 33,720",
+  "n_candidates": 1
+ },
+ "index": 232
+}

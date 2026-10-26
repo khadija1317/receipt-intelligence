@@ -1,0 +1,17 @@
+{
+ "index": 84,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 Large  11.000\n1 *Rhum  0\n1 Pastry Keju  20.000\n1 *Plastik kcl  0\n4 Total  31.000\nBayar  40.000\nKembali  9.000\n米",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Large\",\n      \"cnt\": \"1\",\n      \"price\": \"11.000\"\n    },\n    {\n      \"nm\": \"*Rhum\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"Pastry Keju\",\n      \"cnt\": \"1\",\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"*Plastik kcl\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"31.000\",\n    \"evidence\": \"4 Total  31.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 846,
+  "completion": 436,
+  "total": 1282,
+  "reasoning": 213
+ },
+ "seconds": 1.4413280487060547,
+ "error": null
+}

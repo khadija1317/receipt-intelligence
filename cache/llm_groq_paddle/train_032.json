@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "1 Ketoprak",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 32,
+ "subtotal": null,
+ "total": {
+  "value": "36000",
+  "raw": "36,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  36,000"
+ },
+ "tax": null,
+ "service": null
+}

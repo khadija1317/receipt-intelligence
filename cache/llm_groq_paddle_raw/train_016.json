@@ -1,0 +1,17 @@
+{
+ "index": 16,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "n\n901016  -TICKET CP  30,000\nSubtotal  30,000\nTOTAL  (Qty  1.00)30,000\nWIF\nEDC BCA  wm  30,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"901016  -TICKET CP\",\n      \"cnt\": null,\n      \"price\": \"30,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"30,000\",\n    \"evidence\": \"Subtotal  30,000\"\n  },\n  \"total\": {\n    \"amount\": \"30,000\",\n    \"evidence\": \"TOTAL  (Qty  1.00)30,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 833,
+  "completion": 314,
+  "total": 1147,
+  "reasoning": 156
+ },
+ "seconds": 1.016934871673584,
+ "error": null
+}

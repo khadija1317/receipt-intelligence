@@ -1,0 +1,28 @@
+{
+ "menu": [],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "117999.00",
+  "raw": "117,999.00",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TOTAL BAYAR 117,999.00",
+  "n_candidates": 3
+ },
+ "tax": {
+  "value": "10727.00",
+  "raw": "10,727.00",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TAX 10,727.00",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 132
+}

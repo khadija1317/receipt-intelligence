@@ -1,0 +1,17 @@
+{
+ "index": 72,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "2D11-Whole wheat Katamari\n28.000  x1  28.000\n6DO1-Plastic Bag Small\n0  xi  0\nTotal Item:  E3\nTotal.  M  28.000\nCash\nTendered:  50.000\nChange:  22.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"2D11-Whole wheat Katamari\",\n      \"cnt\": \"1\",\n      \"price\": \"28.000\"\n    },\n    {\n      \"nm\": \"6DO1-Plastic Bag Small\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"28.000\",\n    \"evidence\": \"Total.  M  28.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 855,
+  "completion": 463,
+  "total": 1318,
+  "reasoning": 285
+ },
+ "seconds": 1.8318915367126465,
+ "error": null
+}

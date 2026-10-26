@@ -1,0 +1,17 @@
+{
+ "index": 12,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SOLARIA\n1  NASI + AYAM KATSU TER...  31,819\n1  TEH PANAS  5,455\n1  ES TEH MANIS  7,273\n1  CH CORDON BLEU NASI  42,728\nITEMS:4  87,275\nVAT 10%  8,728\nRounding  96,000\nTotal  96,000\nDEBIT BCA :",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"NASI + AYAM KATSU TER...\",\n      \"cnt\": \"1\",\n      \"price\": \"31,819\"\n    },\n    {\n      \"nm\": \"TEH PANAS\",\n      \"cnt\": \"1\",\n      \"price\": \"5,455\"\n    },\n    {\n      \"nm\": \"ES TEH MANIS\",\n      \"cnt\": \"1\",\n      \"price\": \"7,273\"\n    },\n    {\n      \"nm\": \"CH CORDON BLEU NASI\",\n      \"cnt\": \"1\",\n      \"price\": \"42,728\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"8,728\",\n    \"evidence\": \"VAT 10%  8,728\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"96,000\",\n    \"evidence\": \"Total  96,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 885,
+  "completion": 383,
+  "total": 1268,
+  "reasoning": 131
+ },
+ "seconds": 1.1690270900726318,
+ "error": null
+}

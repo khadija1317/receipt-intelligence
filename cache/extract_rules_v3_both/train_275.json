@@ -1,0 +1,89 @@
+{
+ "menu": [
+  {
+   "nm": "1 Benedict Burrito",
+   "cnt": null,
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Lychee Ice Tea",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 0.9938,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Soup Of The Day",
+   "cnt": null,
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 0.9895,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Strawberry jc",
+   "cnt": null,
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 0.9988,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "215000",
+  "raw": "215,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUBTOTAL 215,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "260150",
+  "raw": "260,150",
+  "status": "ok",
+  "conf": 0.9989,
+  "low_trust": false,
+  "line": "TOTAL 260,150",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "23650",
+  "raw": "23,650",
+  "status": "ok",
+  "conf": 0.9993,
+  "low_trust": false,
+  "line": "TAX 23,650",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "21500",
+  "raw": "21,500",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "SERVICE 21,500",
+  "n_candidates": 1
+ },
+ "index": 275
+}

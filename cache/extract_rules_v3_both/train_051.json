@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "1x",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1x",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "30000",
+  "raw": "30.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 30.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "33000",
+  "raw": "33.000",
+  "status": "ok",
+  "conf": 0.9211,
+  "low_trust": false,
+  "line": "Total ρ 33.000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "3000",
+  "raw": "3.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Tax (10.0%) 3.000",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 51
+}

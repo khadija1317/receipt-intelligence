@@ -1,0 +1,17 @@
+{
+ "index": 91,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "TOUS  JOURG\n1 CHOCO CUSTARD PASTRY  12,000\n1 CARAMEL PASTRY  12,000\nTOTAL  24,000\nCASH  30,000\nCHANGE  6,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"CHOCO CUSTARD PASTRY\",\n      \"cnt\": \"1\",\n      \"price\": \"12,000\"\n    },\n    {\n      \"nm\": \"CARAMEL PASTRY\",\n      \"cnt\": \"1\",\n      \"price\": \"12,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"24,000\",\n    \"evidence\": \"TOTAL  24,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 839,
+  "completion": 302,
+  "total": 1141,
+  "reasoning": 126
+ },
+ "seconds": 1.505277395248413,
+ "error": null
+}

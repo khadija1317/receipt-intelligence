@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "1 Iced Sleepy Coffee",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Pisang Goreng",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "66000",
+  "raw": "66.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 66.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "72600",
+  "raw": "72.600",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 72.600",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "6600",
+  "raw": "6.600",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Pajak 6.600",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 337
+}

@@ -1,0 +1,17 @@
+{
+ "index": 24,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1001-Choco Bun\n22.000  x1  22.000\n1032-Double Cheddar\n26.000  x1  26.000\n6002-Plastic Bag Medium\n0 x1  0\nTotal Item:  3\nTotal.\n48.000\nDebet Card\n48.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1001-Choco Bun\",\n      \"cnt\": \"1\",\n      \"price\": \"22.000\"\n    },\n    {\n      \"nm\": \"1032-Double Cheddar\",\n      \"cnt\": \"1\",\n      \"price\": \"26.000\"\n    },\n    {\n      \"nm\": \"6002-Plastic Bag Medium\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"48.000\",\n    \"evidence\": \"48.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 854,
+  "completion": 406,
+  "total": 1260,
+  "reasoning": 206
+ },
+ "seconds": 1.224405288696289,
+ "error": null
+}

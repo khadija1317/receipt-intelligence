@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "Popcorn Salt Bucket",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 67,
+ "subtotal": null,
+ "total": {
+  "value": "65000",
+  "raw": "65.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  65.000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 35,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Cuka Apel Moringa  1\n289000  289000\nSub Total\n289000\nTunai  300000\nKembalian  11000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Cuka Apel Moringa\",\n      \"cnt\": \"1\",\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"289000\",\n    \"evidence\": \"289000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 821,
+  "completion": 514,
+  "total": 1335,
+  "reasoning": 379
+ },
+ "seconds": 1.7064614295959473,
+ "error": null
+}

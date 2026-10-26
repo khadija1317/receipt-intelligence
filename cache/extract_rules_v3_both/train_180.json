@@ -1,0 +1,131 @@
+{
+ "menu": [
+  {
+   "nm": "2X W",
+   "cnt": null,
+   "price": {
+    "value": "13000",
+    "raw": "13.000",
+    "status": "ok",
+    "conf": 0.9687,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHOCO CHIP",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".26.000",
+    "status": "review",
+    "conf": 0.888,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3X",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14.000",
+    "status": "ok",
+    "conf": 0.9964,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHOCO BANANA",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": 0.9862,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CRISPY CHOCO",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.9883,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CRISPY CHOCO",
+   "cnt": null,
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": 0.9394,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3X W",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": 0.9932,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHOCBAN CUP",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": 0.9802,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2X W",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "RED VELVET",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".32,000",
+    "status": "review",
+    "conf": 0.8674,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "164000",
+  "raw": "164.000",
+  "status": "ok",
+  "conf": 0.9563,
+  "low_trust": false,
+  "line": "SUBTOTAL 164.000",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 180
+}

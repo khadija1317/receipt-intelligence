@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "AUI4 12.000 36 ,000",
+   "cnt": null,
+   "price": {
+    "value": "36000",
+    "raw": "36 ,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MAIN RP 20 000",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20 000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 53,
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null
+}

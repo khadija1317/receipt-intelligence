@@ -114,7 +114,9 @@ def main():
     global SYSTEM_PROMPT, PROMPT_HASH
     sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser()
-    parser.add_argument("--split", choices=["test", "validation"], default="validation")
+    parser.add_argument("--split", choices=["test", "validation", "train"], default="validation")
+    parser.add_argument("--limit", type=int, default=None,
+                        help="how many receipts from the start (required for train)")
     parser.add_argument("--name", default="llm_groq",
                         help="folder name: raw replies go to cache/<name>_raw, parsed to cache/<name>")
     parser.add_argument("--only", type=int, nargs="*", help="receipt numbers (validation only)")
@@ -135,6 +137,9 @@ def main():
     PROMPT_HASH = prompt_hash(SYSTEM_PROMPT)
     split = args.split
     is_test = split == "test"
+    quiet = split != "validation"  # test and train print counts only, no receipt numbers
+    if split == "train" and (args.limit is None or args.only):
+        sys.exit("train needs --limit and does not allow --only")
 
     if is_test:
         from datasets import load_dataset
@@ -146,7 +151,7 @@ def main():
     out_dir = Path(f"cache/{args.name}")
     raw_dir.mkdir(parents=True, exist_ok=True)
     out_dir.mkdir(parents=True, exist_ok=True)
-    ids = args.only if args.only else list(range(N_RECEIPTS))
+    ids = args.only if args.only else list(range(args.limit or N_RECEIPTS))
 
     client = None
     if not args.reparse:
@@ -179,7 +184,7 @@ def main():
                 except BadRequestError as err:
                     # The model's JSON did not fit the schema. That is a real outcome of
                     # this arm, not a network problem: save it as "no answer", keep the evidence.
-                    print("  one schema failure, saved as no answer" if is_test
+                    print("  one schema failure, saved as no answer" if quiet
                           else f"  val {i:03d}: schema failure, saved as no answer")
                     reply, finish, seconds = None, "schema_error", 0.0
                     usage = {"prompt": 0, "completion": 0, "total": 0, "reasoning": None}
@@ -208,7 +213,7 @@ def main():
             stats["parse_error"] += answer is None
             stats["cut_off"] += raw["finish_reason"] == "length"
 
-            if not is_test:
+            if not quiet:
                 if args.only:
                     show_trial(i, raw["text"], raw, result)
                 else:

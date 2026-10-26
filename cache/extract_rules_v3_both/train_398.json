@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "KCS",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 0.998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "WHOP JR 15K",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "40909",
+  "raw": "40,909",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Subtotal 40,909",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "45000",
+  "raw": "45,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Take Away Total 45,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "4091",
+  "raw": "4,091",
+  "status": "ok",
+  "conf": 0.999,
+  "low_trust": false,
+  "line": "PB1 (10/) 4,091",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 398
+}

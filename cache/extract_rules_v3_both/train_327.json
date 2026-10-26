@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "1 MIE UP BSR C",
+   "cnt": "1",
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "INC(+)",
+   "cnt": null,
+   "price": {
+    "value": "3600",
+    "raw": "3,600",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "39600",
+  "raw": "39,600",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Total 39,600",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 327
+}

@@ -1,0 +1,74 @@
+{
+ "menu": [
+  {
+   "nm": "BUBUR UNGU",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "SENDOK BEBEK",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "WAJIK",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CENTIK MANIS",
+   "cnt": null,
+   "price": {
+    "value": "5500",
+    "raw": "5,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PLASTIK SEDANG",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 20,
+ "subtotal": {
+  "value": "26950",
+  "raw": "26,950",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  26,950"
+ },
+ "total": {
+  "value": "26950",
+  "raw": "26,950",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  26,950"
+ },
+ "tax": null,
+ "service": null
+}

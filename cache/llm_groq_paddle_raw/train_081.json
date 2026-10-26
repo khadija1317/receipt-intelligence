@@ -1,0 +1,17 @@
+{
+ "index": 81,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Toun  Lm  Janurs\n4 REDBEAN BREAD  36,000\nTOTAL  36,000\nCASH  36,000\nCHANGE  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"REDBEAN BREAD\",\n      \"cnt\": \"4\",\n      \"price\": \"36,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"36,000\",\n    \"evidence\": \"TOTAL  36,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 823,
+  "completion": 204,
+  "total": 1027,
+  "reasoning": 63
+ },
+ "seconds": 0.6751518249511719,
+ "error": null
+}

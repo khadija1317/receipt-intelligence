@@ -1,0 +1,191 @@
+{
+ "menu": [
+  {
+   "nm": "1 [RICHE] BLACK SAKURA",
+   "cnt": null,
+   "price": {
+    "value": "57273",
+    "raw": "57,273",
+    "status": "ok",
+    "conf": 0.9974,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 KIWI",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9958,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 STRAWBERRY",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9892,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 ROASTED ALMOND",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9781,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 YELLOW VELVET",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9886,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 YELLOW VELVET",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9964,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 NATA DE COCO",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9973,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 [RICHE] BLACK SAKURA",
+   "cnt": null,
+   "price": {
+    "value": "57273",
+    "raw": "57.273",
+    "status": "ok",
+    "conf": 0.9188,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PEACH",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 LONGAN",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9967,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1LYCHEE",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9968,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 MOCHI MIX",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9987,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 GENMATCHA",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9964,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 GENMATCHA",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9963,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "114545",
+  "raw": "114,545",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Sub Total 114,545",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "126000",
+  "raw": "126,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 126,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "11455",
+  "raw": "11,455",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "PB1(10%) 11,455",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 364
+}

@@ -1,0 +1,17 @@
+{
+ "index": 2,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "4 HAKAU UDANG  92,000\n4 SIAO MAI BABI  80,000\n3 CEKER AYAM  60,000\n2 BAKPAO BKR C  42,000\nCRISPY\n3 TAHU GORENG  60,000\nCRISPY\nSubtotal  334,000\nTotal  334,000\nCASH  350,000\nCash CHANGE  -16,000\nTotal Item  5\nTotal Qty  16",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"HAKAU UDANG\",\n      \"cnt\": \"4\",\n      \"price\": \"92,000\"\n    },\n    {\n      \"nm\": \"SIAO MAI BABI\",\n      \"cnt\": \"4\",\n      \"price\": \"80,000\"\n    },\n    {\n      \"nm\": \"CEKER AYAM\",\n      \"cnt\": \"3\",\n      \"price\": \"60,000\"\n    },\n    {\n      \"nm\": \"BAKPAO BKR C\",\n      \"cnt\": \"2\",\n      \"price\": \"42,000\"\n    },\n    {\n      \"nm\": \"TAHU GORENG\",\n      \"cnt\": \"3\",\n      \"price\": \"60,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"334,000\",\n    \"evidence\": \"Subtotal  334,000\"\n  },\n  \"total\": {\n    \"amount\": \"334,000\",\n    \"evidence\": \"Total  334,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 896,
+  "completion": 505,
+  "total": 1401,
+  "reasoning": 228
+ },
+ "seconds": 1.315821647644043,
+ "error": null
+}

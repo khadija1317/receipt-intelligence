@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "WALL'S FEAST CKLT.65",
+   "cnt": "1",
+   "price": {
+    "value": "5400",
+    "raw": "5,400",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CMPN TROPICANA.CHO75",
+   "cnt": "1",
+   "price": {
+    "value": "5500",
+    "raw": "5,500",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MAGNUM WHT ALMND",
+   "cnt": "1",
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 98,
+ "subtotal": null,
+ "total": {
+  "value": "25900",
+  "raw": "25,900",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  25,900"
+ },
+ "tax": {
+  "value": "2355",
+  "raw": "2,355",
+  "status": "ok",
+  "conf": null,
+  "line": "PPN=  2,355"
+ },
+ "service": null
+}

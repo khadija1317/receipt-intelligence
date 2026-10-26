@@ -1,0 +1,95 @@
+{
+ "menu": [
+  {
+   "nm": "BANANA RHUM RAISIN",
+   "cnt": "1",
+   "price": {
+    "value": "46500",
+    "raw": "46,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "** W. CHARCOAL",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PRAWN & SPINACH PASTA",
+   "cnt": null,
+   "price": {
+    "value": "80500",
+    "raw": "80,500",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ORIGINAL BREWED TEA",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "159000",
+    "raw": "159,000",
+    "status": "ok",
+    "conf": 0.9972,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SVC CHG 6%",
+   "cnt": null,
+   "price": {
+    "value": "9540",
+    "raw": "9,540",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "185394",
+  "raw": "185,394",
+  "status": "ok",
+  "conf": 0.9932,
+  "low_trust": false,
+  "line": "TOTAL 185,394",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "16854",
+  "raw": "16,854",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PB1 10% 16,854",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 343
+}

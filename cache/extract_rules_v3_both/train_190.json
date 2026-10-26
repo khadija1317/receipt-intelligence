@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "SOONDUBU CHIGE",
+   "cnt": null,
+   "price": {
+    "value": "75000",
+    "raw": "75,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "JAP CHAE",
+   "cnt": null,
+   "price": {
+    "value": "105000",
+    "raw": "105,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GOCHUJANG",
+   "cnt": null,
+   "price": {
+    "value": "120000",
+    "raw": "120,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "300000",
+  "raw": "300,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 300,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "351000",
+  "raw": "351,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 351,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "30000",
+  "raw": "30,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Tax 30,000",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "21000",
+  "raw": "21,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Service 21,000",
+  "n_candidates": 1
+ },
+ "index": 190
+}

@@ -1,0 +1,60 @@
+{
+ "menu": [
+  {
+   "nm": "S-Ovaltine Macchiat",
+   "cnt": "1",
+   "price": {
+    "value": "22000",
+    "raw": "22,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "S-Hazelnut Milk Tea",
+   "cnt": "1",
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bubbles",
+   "cnt": null,
+   "price": {
+    "value": "3000",
+    "raw": "3,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 99,
+ "subtotal": {
+  "value": "40910",
+  "raw": "40,910",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal:  40,910"
+ },
+ "total": {
+  "value": "45000",
+  "raw": "45,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  45,000"
+ },
+ "tax": {
+  "value": "4090",
+  "raw": "4,090",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1:  4,090"
+ },
+ "service": null
+}

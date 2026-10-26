@@ -1,0 +1,57 @@
+{
+ "menu": [
+  {
+   "nm": "wm Lara",
+   "cnt": null,
+   "price": {
+    "value": "15",
+    "raw": "15",
+    "status": "ok",
+    "conf": 0.4832,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "JERP H9 H",
+   "cnt": "1",
+   "price": {
+    "value": "24",
+    "raw": "24",
+    "status": "ok",
+    "conf": 0.5585,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GIGA",
+   "cnt": null,
+   "price": {
+    "value": "57000",
+    "raw": "Rp57,000",
+    "status": "ok",
+    "conf": 0.9992,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TL",
+   "cnt": null,
+   "price": {
+    "value": "57000",
+    "raw": "Rp57.000",
+    "status": "ok",
+    "conf": 0.9105,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 153
+}

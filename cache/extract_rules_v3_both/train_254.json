@@ -1,0 +1,122 @@
+{
+ "menu": [
+  {
+   "nm": "Ayam goreng+Sayur asem",
+   "cnt": null,
+   "price": {
+    "value": "51500",
+    "raw": "51 500",
+    "status": "ok",
+    "conf": 0.9207,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Nasi Uduk Ayam",
+   "cnt": null,
+   "price": {
+    "value": "47000",
+    "raw": "47.000",
+    "status": "ok",
+    "conf": 0.9919,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Nasi Rawon",
+   "cnt": null,
+   "price": {
+    "value": "58000",
+    "raw": "58 000",
+    "status": "ok",
+    "conf": 0.9981,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI PUTIH",
+   "cnt": "1",
+   "price": {
+    "value": "9000",
+    "raw": "9.000",
+    "status": "ok",
+    "conf": 0.9923,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mineral Water",
+   "cnt": "2",
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": 0.9793,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Teh Tawar Dingin",
+   "cnt": "2",
+   "price": {
+    "value": "22000",
+    "raw": "22.000",
+    "status": "ok",
+    "conf": 0.9964,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Sayur Asem",
+   "cnt": "1",
+   "price": {
+    "value": "19000",
+    "raw": "19 000",
+    "status": "ok",
+    "conf": 0.9728,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "224500",
+  "raw": "224.500",
+  "status": "ok",
+  "conf": 0.9838,
+  "low_trust": false,
+  "line": "Subtotal 224.500",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "259298",
+  "raw": "259.298",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "9 Total 259.298",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "23573",
+  "raw": "23.573",
+  "status": "ok",
+  "conf": 0.9713,
+  "low_trust": false,
+  "line": "Pajak Rest 104 23.573",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "11225",
+  "raw": "11 225",
+  "status": "ok",
+  "conf": 0.9558,
+  "low_trust": false,
+  "line": "Serui Charge 5/ 11 225",
+  "n_candidates": 1
+ },
+ "index": 254
+}

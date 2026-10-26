@@ -1,0 +1,139 @@
+{
+ "menu": [
+  {
+   "nm": "NASI KUNING",
+   "cnt": null,
+   "price": {
+    "value": "73000",
+    "raw": "73,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AMOUNT",
+   "cnt": null,
+   "price": {
+    "value": "-29200",
+    "raw": "-29,200",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CENTIKPLANCI",
+   "cnt": null,
+   "price": {
+    "value": "19500",
+    "raw": "19,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AMOUNT",
+   "cnt": null,
+   "price": {
+    "value": "-7800",
+    "raw": "-7,800",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MIKA KECIL",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X @0",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9017,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SENDOK MAKAN",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9965,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SENDOK MAKAN",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9532,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GARPU",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9976,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GARPU",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9988,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "55500",
+  "raw": "55,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 55,500",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "55500",
+  "raw": "55,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 55,500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 231
+}

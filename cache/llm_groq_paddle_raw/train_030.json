@@ -1,0 +1,17 @@
+{
+ "index": 30,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "VANDOOLEN  8,102\nPLASTIK  25  S\nSUBTOTAL  8.182\nPB1 10%  10.000%\nAMOUNT  818\n2.00xITEMS\nTOTAL  9,000\nCASH  100,000\nCHANGE  91,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"VANDOOLEN\",\n      \"cnt\": null,\n      \"price\": \"8,102\"\n    },\n    {\n      \"nm\": \"PLASTIK\",\n      \"cnt\": null,\n      \"price\": null\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"8.182\",\n    \"evidence\": \"SUBTOTAL  8.182\"\n  },\n  \"tax\": {\n    \"amount\": \"10.000%\",\n    \"evidence\": \"PB1 10%  10.000%\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"9,000\",\n    \"evidence\": \"TOTAL  9,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 855,
+  "completion": 372,
+  "total": 1227,
+  "reasoning": 185
+ },
+ "seconds": 1.2183153629302979,
+ "error": null
+}

@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "REDBEAN BREAD",
+   "cnt": "4",
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 81,
+ "subtotal": null,
+ "total": {
+  "value": "36000",
+  "raw": "36,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  36,000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,84 @@
+{
+ "menu": [
+  {
+   "nm": "BLACK PRAWN PASTA",
+   "cnt": "1",
+   "price": {
+    "value": "80500",
+    "raw": "80,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CARBONARA",
+   "cnt": "1",
+   "price": {
+    "value": "70500",
+    "raw": "70,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "EARL GREY MILK TEA",
+   "cnt": "1",
+   "price": {
+    "value": "57000",
+    "raw": "57,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "208000",
+    "raw": "208,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUC CHG 6%",
+   "cnt": null,
+   "price": {
+    "value": "12480",
+    "raw": "12,480",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "242528",
+  "raw": "242,528",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 242,528",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "22048",
+  "raw": "22,048",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PB1 10% 22,048",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 245
+}

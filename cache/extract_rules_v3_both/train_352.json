@@ -1,0 +1,92 @@
+{
+ "menu": [
+  {
+   "nm": "1 ES ILAT BOYO",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": 0.9983,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 SAMBEL TOMAT SEG",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 SAYAP AYAM",
+   "cnt": null,
+   "price": {
+    "value": "17000",
+    "raw": "17.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TEA TAWAR",
+   "cnt": null,
+   "price": {
+    "value": "6000",
+    "raw": "6.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "50000",
+  "raw": "50.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Qty: 5 Subtotal 50.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "56650",
+  "raw": "56.650",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Grand Total 56.650",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5150",
+  "raw": "5.150",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Tax Total 5.150",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 352
+}

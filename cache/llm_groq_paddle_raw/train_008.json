@@ -1,0 +1,17 @@
+{
+ "index": 8,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "FIC  mprn  DCN\nPEAEIES\nWTme  mats\nN  NTW/NT  6\nLimn  00000\nCW:\n1×  36.000  36.000\nKimchi p\n1×0.000  Rp0.000\nFre ice grentea\n***TOTAL  FHr:  36.000\nCASH  Rp51.000\nCHANGE  B15.000\ns\nwmn  m",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1×\",\n      \"cnt\": null,\n      \"price\": \"36.000\"\n    },\n    {\n      \"nm\": \"1×0.000\",\n      \"cnt\": null,\n      \"price\": \"Rp0.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"36.000\",\n    \"evidence\": \"***TOTAL  FHr:  36.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 888,
+  "completion": 579,
+  "total": 1467,
+  "reasoning": 407
+ },
+ "seconds": 1.7005813121795654,
+ "error": null
+}

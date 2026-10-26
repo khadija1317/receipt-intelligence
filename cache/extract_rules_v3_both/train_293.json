@@ -1,0 +1,147 @@
+{
+ "menu": [
+  {
+   "nm": "Nasi Liwet",
+   "cnt": null,
+   "price": {
+    "value": "49000",
+    "raw": "49.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Nasi Uduk Ayam",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9787,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ayam Garang Asem",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.9682,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ayam Kremes",
+   "cnt": "1",
+   "price": {
+    "value": "46000",
+    "raw": "46.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Nila Penyet + Nas i",
+   "cnt": null,
+   "price": {
+    "value": "47000",
+    "raw": "47.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Nasi Goreng Gila",
+   "cnt": "1",
+   "price": {
+    "value": "45000",
+    "raw": "45.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Nasi Goreng Rawon",
+   "cnt": "1",
+   "price": {
+    "value": "52000",
+    "raw": "52.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Mendoan",
+   "cnt": "1",
+   "price": {
+    "value": "43000",
+    "raw": "43.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Teh Tawar Dingin",
+   "cnt": "3",
+   "price": {
+    "value": "31000",
+    "raw": "31.000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Teh Tawar Panas",
+   "cnt": "1",
+   "price": {
+    "value": "11000",
+    "raw": "11.000",
+    "status": "ok",
+    "conf": 0.9982,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "404000",
+  "raw": "404.000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Servi Charge 5% Subtotal 404.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "466620",
+  "raw": "466.620",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "12 Total 466.620",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "20200",
+  "raw": "20.200",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "Pajak Rest 10% 42.420 20.200",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 293
+}

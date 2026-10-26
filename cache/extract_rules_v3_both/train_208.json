@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "1 TROPICAL PUNCH",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 SOUP 50%",
+   "cnt": null,
+   "price": {
+    "value": "7273",
+    "raw": "7,273",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 SALAD BAR 50%",
+   "cnt": null,
+   "price": {
+    "value": "17273",
+    "raw": "17,273",
+    "status": "ok",
+    "conf": 0.9857,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "54546",
+  "raw": "54,546",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 54,546",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "60000",
+  "raw": "60,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 60,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "5454",
+  "raw": "5,454",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TAX 5,454",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 208
+}

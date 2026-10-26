@@ -1,0 +1,17 @@
+{
+ "index": 69,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 SAUSAGE DONUT  14,000\n1 CHOCO DONUT PRETZEL  9,000\nTOTAL  23,000\nCASH  23,000\nCHANGE  0",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"SAUSAGE DONUT\",\n      \"cnt\": \"1\",\n      \"price\": \"14,000\"\n    },\n    {\n      \"nm\": \"CHOCO DONUT PRETZEL\",\n      \"cnt\": \"1\",\n      \"price\": \"9,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"23,000\",\n    \"evidence\": \"TOTAL  23,000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 829,
+  "completion": 256,
+  "total": 1085,
+  "reasoning": 82
+ },
+ "seconds": 0.9543170928955078,
+ "error": null
+}

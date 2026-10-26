@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "Nutella Cheese",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": "27,2720",
+    "status": "review",
+    "conf": 0.9141,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "27272",
+  "raw": "27,272",
+  "status": "ok",
+  "conf": 0.9775,
+  "low_trust": false,
+  "line": "SubTotal: 27,272",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "29999",
+  "raw": "29,999",
+  "status": "ok",
+  "conf": 0.9994,
+  "low_trust": false,
+  "line": "Total: 29,999",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "2727",
+  "raw": "2,727",
+  "status": "ok",
+  "conf": 0.9416,
+  "low_trust": false,
+  "line": "PB1: 2,727",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 110
+}

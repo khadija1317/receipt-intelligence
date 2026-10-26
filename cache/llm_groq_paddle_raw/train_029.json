@@ -1,0 +1,17 @@
+{
+ "index": 29,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "11  AMBUSH DBL CHS BURG  181,500.00\nAMBUSH CHS BURGER  44,000.00\nTAKE AWAY CHARGE  1,000.00\nSUB-TOTAL  226,500.00\nAMOUNT DUE  226,500.00\nCASH  250,000.00\nCHANGE  23,500.00",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"AMBUSH DBL CHS BURG\",\n      \"cnt\": \"11\",\n      \"price\": \"181,500.00\"\n    },\n    {\n      \"nm\": \"AMBUSH CHS BURGER\",\n      \"cnt\": null,\n      \"price\": \"44,000.00\"\n    },\n    {\n      \"nm\": \"TAKE AWAY CHARGE\",\n      \"cnt\": null,\n      \"price\": \"1,000.00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 871,
+  "completion": 438,
+  "total": 1309,
+  "reasoning": 235
+ },
+ "seconds": 1.4343876838684082,
+ "error": null
+}

@@ -1,0 +1,76 @@
+{
+ "menu": [
+  {
+   "nm": "Spaghetti ChickPesto 1 Lasagna 58 000000",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": null,
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "BangBang Chick Wings",
+   "cnt": "1",
+   "price": {
+    "value": "49000",
+    "raw": "49,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Iced Cappuccino",
+   "cnt": "1",
+   "price": {
+    "value": "33",
+    "raw": "33",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Gypsy Gelato Ice Tea",
+   "cnt": null,
+   "price": {
+    "value": "39",
+    "raw": "39",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 5,
+ "subtotal": {
+  "value": "221000",
+  "raw": "221,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  221,000"
+ },
+ "total": {
+  "value": "261333",
+  "raw": "261,333",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  261,333"
+ },
+ "tax": {
+  "value": "23758",
+  "raw": "23,758",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1  23,758"
+ },
+ "service": {
+  "value": "16575",
+  "raw": "16,575",
+  "status": "ok",
+  "conf": null,
+  "line": "Service  16,575"
+ }
+}

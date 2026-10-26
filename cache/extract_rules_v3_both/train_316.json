@@ -1,0 +1,117 @@
+{
+ "menu": [
+  {
+   "nm": "3 Peach Tea",
+   "cnt": null,
+   "price": {
+    "value": "44400",
+    "raw": "44,400",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "4 Lemon Tea",
+   "cnt": null,
+   "price": {
+    "value": "59200",
+    "raw": "59,200",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Chicken Kazan Curry",
+   "cnt": null,
+   "price": {
+    "value": "69800",
+    "raw": "69,800",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Chicken Karamiso Special",
+   "cnt": null,
+   "price": {
+    "value": "54800",
+    "raw": "54,800",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 Chicken Shio Special",
+   "cnt": null,
+   "price": {
+    "value": "109600",
+    "raw": "109,600",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Beef Set A",
+   "cnt": null,
+   "price": {
+    "value": "99800",
+    "raw": "99,800",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "437600",
+    "raw": "437,600",
+    "status": "ok",
+    "conf": 0.9992,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SVC 5%",
+   "cnt": null,
+   "price": {
+    "value": "21880",
+    "raw": "21,880",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "505428",
+  "raw": "505,428",
+  "status": "ok",
+  "conf": 0.997,
+  "low_trust": false,
+  "line": "TOTAL 505,428",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "45948",
+  "raw": "45,948",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PB1 10% 45,948",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 316
+}

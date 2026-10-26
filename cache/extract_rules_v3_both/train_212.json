@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "x1",
+   "cnt": null,
+   "price": {
+    "value": "9500.00",
+    "raw": "9.500,00",
+    "status": "ok",
+    "conf": 0.9984,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "9500.00",
+  "raw": "9.500,00",
+  "status": "ok",
+  "conf": 0.9908,
+  "low_trust": false,
+  "line": "Total. 9.500,00",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 212
+}

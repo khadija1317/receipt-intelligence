@@ -1,0 +1,59 @@
+{
+ "menu": [
+  {
+   "nm": "Dom Cha Vire Sls 1x",
+   "cnt": null,
+   "price": {
+    "value": "155000",
+    "raw": "155.000",
+    "status": "ok",
+    "conf": 0.9449,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "P J Cotes du 2x",
+   "cnt": null,
+   "price": {
+    "value": "210000",
+    "raw": "210.000",
+    "status": "ok",
+    "conf": 0.9845,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "365000",
+  "raw": "365.000",
+  "status": "ok",
+  "conf": 0.973,
+  "low_trust": false,
+  "line": "Subtatal 365.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "353320",
+  "raw": "353,320",
+  "status": "ok",
+  "conf": 0.9993,
+  "low_trust": false,
+  "line": "Total 353,320",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": {
+  "value": "29200",
+  "raw": "29,200",
+  "status": "ok",
+  "conf": 0.9921,
+  "low_trust": false,
+  "line": "Service 29,200",
+  "n_candidates": 1
+ },
+ "index": 302
+}

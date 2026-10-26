@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "Soto Daging",
+   "cnt": null,
+   "price": {
+    "value": "36364",
+    "raw": "36.364",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Nasi Putih",
+   "cnt": null,
+   "price": {
+    "value": "6363",
+    "raw": "6.363",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Teh Tawar Hangat",
+   "cnt": null,
+   "price": {
+    "value": "3636",
+    "raw": "3.636",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "46363",
+  "raw": "46.363",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Subtotal 46.363",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "51000",
+  "raw": "51.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 51.000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "4636",
+  "raw": "4.636",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Pb1 (10%) 4.636",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 299
+}

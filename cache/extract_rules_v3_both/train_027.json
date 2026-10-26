@@ -1,0 +1,46 @@
+{
+ "menu": [
+  {
+   "nm": "MEGA",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "Rp30,000",
+    "status": "ok",
+    "conf": 0.9941,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TL",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "Rp30.000",
+    "status": "ok",
+    "conf": 0.9434,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CG",
+   "cnt": null,
+   "price": {
+    "value": "70000",
+    "raw": "Rp70,000",
+    "status": "ok",
+    "conf": 0.9966,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 27
+}

@@ -1,0 +1,250 @@
+{
+ "menu": [
+  {
+   "nm": "Nasi Campur Bali",
+   "cnt": "1",
+   "price": {
+    "value": "75000",
+    "raw": "75,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bbk Bengil Nasi",
+   "cnt": "1",
+   "price": {
+    "value": "125000",
+    "raw": "125,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "MilkShake Starwb",
+   "cnt": "1",
+   "price": {
+    "value": "37000",
+    "raw": "37,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ice Lemon Tea",
+   "cnt": "1",
+   "price": {
+    "value": "24000",
+    "raw": "24,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nasi Ayam Dewata",
+   "cnt": "1",
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Free Ice Tea",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Organic Green Sa",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ice Tea",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ice Orange",
+   "cnt": null,
+   "price": {
+    "value": "29000",
+    "raw": "29,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ayam Suir Bali",
+   "cnt": "1",
+   "price": {
+    "value": "85000",
+    "raw": "85,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Tahu Goreng",
+   "cnt": "2",
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Tempe Goreng",
+   "cnt": "2",
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Tahu Telor Asin",
+   "cnt": "1",
+   "price": {
+    "value": null,
+    "raw": "40,000.",
+    "status": "review",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Nasi Goreng Samb",
+   "cnt": "1",
+   "price": {
+    "value": "70000",
+    "raw": "70,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bbk Panggang Sam",
+   "cnt": "3",
+   "price": {
+    "value": "366000",
+    "raw": "366,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ayam Sambal Hija",
+   "cnt": "1",
+   "price": {
+    "value": "92000",
+    "raw": "92,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Hot Tea",
+   "cnt": "2",
+   "price": {
+    "value": "44000",
+    "raw": "44,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ice Kopi",
+   "cnt": "1",
+   "price": {
+    "value": "32000",
+    "raw": "32,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Tahu Telor Asin",
+   "cnt": "1",
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Free Ice Tea",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Bebek Street",
+   "cnt": "1",
+   "price": {
+    "value": "44000",
+    "raw": "44,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Ice Tea Tawar",
+   "cnt": "1",
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 0,
+ "subtotal": {
+  "value": "1346000",
+  "raw": "1,346,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub-Total  1,346,000"
+ },
+ "total": null,
+ "tax": {
+  "value": "144695",
+  "raw": "144,695",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1  144,695"
+ },
+ "service": {
+  "value": "100950",
+  "raw": "100,950",
+  "status": "ok",
+  "conf": null,
+  "line": "Service  100,950"
+ }
+}

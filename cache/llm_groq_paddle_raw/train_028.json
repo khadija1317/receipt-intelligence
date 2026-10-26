@@ -1,0 +1,17 @@
+{
+ "index": 28,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AFUNG\nAFUNG\nAFUNG\nWH\nA.MINERAL BOTOL  8,000\nTOTAL  8.000\nTAX 10.00 %  800\nGRAND TOTAL  8,800\nA\n10,000\nTUNAI  1,200\nKEMBALI  FUNG",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"A.MINERAL BOTOL\",\n      \"cnt\": null,\n      \"price\": \"8,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"800\",\n    \"evidence\": \"TAX 10.00 %  800\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"8.000\",\n    \"evidence\": \"TOTAL  8.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 854,
+  "completion": 247,
+  "total": 1101,
+  "reasoning": 96
+ },
+ "seconds": 1.2017326354980469,
+ "error": null
+}

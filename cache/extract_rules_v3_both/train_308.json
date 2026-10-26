@@ -1,0 +1,68 @@
+{
+ "menu": [
+  {
+   "nm": "Mineral Nater (S)",
+   "cnt": null,
+   "price": {
+    "value": "5000",
+    "raw": "5.000",
+    "status": "ok",
+    "conf": 0.9966,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Bland GT (M) Extra Jelly Lychee",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15.000",
+    "status": "ok",
+    "conf": 0.9672,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Extra Ice Crean",
+   "cnt": null,
+   "price": {
+    "value": "50000",
+    "raw": "50.000",
+    "status": "ok",
+    "conf": 0.9942,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "French Fries + FF",
+   "cnt": null,
+   "price": {
+    "value": "140000",
+    "raw": "140.000",
+    "status": "ok",
+    "conf": 0.9848,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "150000",
+  "raw": "150.000",
+  "status": "ok",
+  "conf": 0.9751,
+  "low_trust": false,
+  "line": "TOTAL | 150.000",
+  "adjacent": "below",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 308
+}

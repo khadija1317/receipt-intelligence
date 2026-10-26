@@ -1,0 +1,17 @@
+{
+ "index": 78,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "hmuir.he'\nALMOND CREAMCHEESE\n2 ×  28,000  56,000\nSUB TOTAL  56,000\nGRAND TOTAL  56,000\nCASHIDR  100,000\nCHANGEDUE  44,000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"hmuir.he' ALMOND CREAMCHEESE\",\n      \"cnt\": \"2\",\n      \"price\": \"56,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"56,000\",\n    \"evidence\": \"SUB TOTAL  56,000\"\n  },\n  \"total\": {\n    \"amount\": \"56,000\",\n    \"evidence\": \"GRAND TOTAL  56,000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 844,
+  "completion": 312,
+  "total": 1156,
+  "reasoning": 152
+ },
+ "seconds": 0.7637462615966797,
+ "error": null
+}

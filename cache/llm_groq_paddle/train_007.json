@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "PKT AYAM",
+   "cnt": null,
+   "price": {
+    "value": "33000",
+    "raw": "33,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 7,
+ "subtotal": {
+  "value": "33000",
+  "raw": "33,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  33,000"
+ },
+ "total": {
+  "value": "36300",
+  "raw": "36,300",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  36,300"
+ },
+ "tax": {
+  "value": "3300",
+  "raw": "3,300",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX 10%  3,300"
+ },
+ "service": null
+}

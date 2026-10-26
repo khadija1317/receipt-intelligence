@@ -1,0 +1,17 @@
+{
+ "index": 53,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AUI4  12.000  36 ,000\nSHOPPING BAG ROTI'O' 370/M\n44  SUBTOTAL  4 PCS\nRP  36.000\nDISCOUNT  RP  0\nROUNDED RP  0\nMAIN  RP  20 000\nPAD  JULU\nDEBIT  RP  36.000\nCHANGE RP",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"AUI4  12.000  36 ,000\",\n      \"cnt\": null,\n      \"price\": \"36 ,000\"\n    },\n    {\n      \"nm\": \"MAIN  RP  20 000\",\n      \"cnt\": null,\n      \"price\": \"20 000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": \"44  SUBTOTAL  4 PCS\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 866,
+  "completion": 390,
+  "total": 1256,
+  "reasoning": 210
+ },
+ "seconds": 1.0732543468475342,
+ "error": null
+}

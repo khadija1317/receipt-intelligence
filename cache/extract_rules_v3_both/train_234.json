@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": " m",
+   "cnt": "1",
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.4365,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 REDBEAN BRE/D",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 FRANKFRUT S/USAGE ROLL",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": null,
+ "total": {
+  "value": "21000",
+  "raw": "21,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 21,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 234
+}

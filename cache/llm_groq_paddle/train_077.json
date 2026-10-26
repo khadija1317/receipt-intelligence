@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "M/POKO STD XXL5",
+   "cnt": "1",
+   "price": {
+    "value": "17100",
+    "raw": "17100",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "HANSPLSI FOOT",
+   "cnt": "2",
+   "price": {
+    "value": "22400",
+    "raw": "22,400",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CTPAIN PATCH 4S",
+   "cnt": "3",
+   "price": {
+    "value": "78600",
+    "raw": "78,600",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 77,
+ "subtotal": null,
+ "total": {
+  "value": "118100",
+  "raw": "118,100",
+  "status": "ok",
+  "conf": null,
+  "line": "Total Belanja  118,100"
+ },
+ "tax": {
+  "value": "10736",
+  "raw": "10,736",
+  "status": "ok",
+  "conf": null,
+  "line": "PPN  10,736"
+ },
+ "service": null
+}

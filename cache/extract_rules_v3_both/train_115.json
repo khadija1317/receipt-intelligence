@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "Kupen",
+   "cnt": "9",
+   "price": {
+    "value": "8182",
+    "raw": "8,182",
+    "status": "ok",
+    "conf": 0.996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Kupon",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LARGE ICED LEMON TEA",
+   "cnt": null,
+   "price": {
+    "value": "12273",
+    "raw": "12,273",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "40455",
+  "raw": "40,455",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Subtotal 40,455",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "44500",
+  "raw": "44,500",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Dine In Total 44,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "4046",
+  "raw": "4,046",
+  "status": "ok",
+  "conf": 0.972,
+  "low_trust": false,
+  "line": "PB1 (10%) 4,046",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 115
+}

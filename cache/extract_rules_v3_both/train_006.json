@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "BASO TAHU",
+   "cnt": null,
+   "price": {
+    "value": "43181",
+    "raw": "43,181",
+    "status": "ok",
+    "conf": 0.9987,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": null,
+ "total": {
+  "value": "62000",
+  "raw": "62,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "GRAND TOTAL 62,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "61799",
+  "raw": "61,799",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "TAX 10.00 % 61,799",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 6
+}

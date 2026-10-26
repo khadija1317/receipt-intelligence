@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "Cream [R]",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Big Pearls",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Cream [R]",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Coffee Rock salt and Cheese [R]",
+   "cnt": null,
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "92000",
+  "raw": "92,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 92,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 355
+}

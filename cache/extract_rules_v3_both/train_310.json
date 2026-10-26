@@ -1,0 +1,35 @@
+{
+ "menu": [
+  {
+   "nm": "2X",
+   "cnt": null,
+   "price": {
+    "value": "385000",
+    "raw": "385,000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MANUKA HONEY",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".770,000",
+    "status": "review",
+    "conf": 0.9277,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 310
+}

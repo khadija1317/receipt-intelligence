@@ -1,0 +1,67 @@
+{
+ "menu": [
+  {
+   "nm": "1 BURGER CHIC DECKER",
+   "cnt": null,
+   "price": {
+    "value": "68000",
+    "raw": "68,000",
+    "status": "ok",
+    "conf": 0.9906,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Home Made Lemonade",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 0.9977,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "108000",
+  "raw": "108,000",
+  "status": "ok",
+  "conf": 0.9994,
+  "low_trust": false,
+  "line": "SUBTOTAL 108,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "125334",
+  "raw": "125,334",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "TOTAL 125,334",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "11394",
+  "raw": "11,394",
+  "status": "ok",
+  "conf": 0.9978,
+  "low_trust": false,
+  "line": "10% PB1 11,394",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "5940",
+  "raw": "5,940",
+  "status": "ok",
+  "conf": 0.9976,
+  "low_trust": false,
+  "line": "5.5% Service 5,940",
+  "n_candidates": 1
+ },
+ "index": 40
+}

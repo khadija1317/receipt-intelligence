@@ -1,0 +1,17 @@
+{
+ "index": 65,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "东\n6 NASI PUTIH  54,000\n1 SATE PADANG  35.000\n1 GULAI CUMI  25,000\n4 DENDENG BALADO  80.000\n3 KERUPUK KULIT  18.000\n1 RENDANG DAGING  20.000\n1 GULAI HATI  20.000\n1 MUJAIR BAKAR  23.000\n1 GULAI OTAK  20.000\n1 AYAM BAKAR  20.000\n1 SAMBAL TRI BELAH  18.000\n3 LALAP SEGAR  24.000\n1 AYAM PENYET  21,000\n2 AYAM GORENG  40,000\n2 AYAM POP  42,000\n2 GULAI TUNJANG  40.000\n6 TEH  30.000\n1 TERONG BELANDA  20.000\n1 TEH TELUR  25.000\n2 PUDING  16.000\nSubtotal  591.000\nP.Resto 10%  59,100\n41 Total  650.100\nCASH  650.100",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"NASI PUTIH\",\n      \"cnt\": \"6\",\n      \"price\": \"54,000\"\n    },\n    {\n      \"nm\": \"SATE PADANG\",\n      \"cnt\": \"1\",\n      \"price\": \"35.000\"\n    },\n    {\n      \"nm\": \"GULAI CUMI\",\n      \"cnt\": \"1\",\n      \"price\": \"25,000\"\n    },\n    {\n      \"nm\": \"DENDENG BALADO\",\n      \"cnt\": \"4\",\n      \"price\": \"80.000\"\n    },\n    {\n      \"nm\": \"KERUPUK KULIT\",\n      \"cnt\": \"3\",\n      \"price\": \"18.000\"\n    },\n    {\n      \"nm\": \"RENDANG DAGING\",\n      \"cnt\": \"1\",\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"GULAI HATI\",\n      \"cnt\": \"1\",\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"MUJAIR BAKAR\",\n      \"cnt\": \"1\",\n      \"price\": \"23.000\"\n    },\n    {\n      \"nm\": \"GULAI OTAK\",\n      \"cnt\": \"1\",\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"AYAM BAKAR\",\n      \"cnt\": \"1\",\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"SAMBAL TRI BELAH\",\n      \"cnt\": \"1\",\n      \"price\": \"18.000\"\n    },\n    {\n      \"nm\": \"LALAP SEGAR\",\n      \"cnt\": \"3\",\n      \"price\": \"24.000\"\n    },\n    {\n      \"nm\": \"AYAM PENYET\",\n      \"cnt\": \"1\",\n      \"price\": \"21,000\"\n    },\n    {\n      \"nm\": \"AYAM GORENG\",\n      \"cnt\": \"2\",\n      \"price\": \"40,000\"\n    },\n    {\n      \"nm\": \"AYAM POP\",\n      \"cnt\": \"2\",\n      \"price\": \"42,000\"\n    },\n    {\n      \"nm\": \"GULAI TUNJANG\",\n      \"cnt\": \"2\",\n      \"price\": \"40.000\"\n    },\n    {\n      \"nm\": \"TEH\",\n      \"cnt\": \"6\",\n      \"price\": \"30.000\"\n    },\n    {\n      \"nm\": \"TERONG BELANDA\",\n      \"cnt\": \"1\",\n      \"price\": \"20.000\"\n    },\n    {\n      \"nm\": \"TEH TELUR\",\n      \"cnt\": \"1\",\n      \"price\": \"25.000\"\n    },\n    {\n      \"nm\": \"PUDING\",\n      \"cnt\": \"2\",\n      \"price\": \"16.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"591.000\",\n    \"evidence\": \"Subtotal  591.000\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": \"59,100\",\n    \"evidence\": \"P.Resto 10%  59,100\"\n  },\n  \"total\": {\n    \"amount\": \"650.100\",\n    \"evidence\": \"41 Total  650.100\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1054,
+  "completion": 842,
+  "total": 1896,
+  "reasoning": 93
+ },
+ "seconds": 2.3476240634918213,
+ "error": null
+}

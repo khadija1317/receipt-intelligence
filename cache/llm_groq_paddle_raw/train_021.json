@@ -1,0 +1,17 @@
+{
+ "index": 21,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1001-Choco Bun\n22.000  x1  22.000\n2001-Hokkaido Milk Toast\n22.000  x1  22.000\n6002-Plastic Bag Medium\n0  0\nTotal Item:  3\nTotal.  44.000\nCash\nTendered:  50.000\nChange:  6.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1001-Choco Bun\",\n      \"cnt\": null,\n      \"price\": \"22.000\"\n    },\n    {\n      \"nm\": \"2001-Hokkaido Milk Toast\",\n      \"cnt\": null,\n      \"price\": \"22.000\"\n    },\n    {\n      \"nm\": \"6002-Plastic Bag Medium\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"44.000\",\n    \"evidence\": \"Total.  44.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 866,
+  "completion": 339,
+  "total": 1205,
+  "reasoning": 137
+ },
+ "seconds": 0.9463796615600586,
+ "error": null
+}

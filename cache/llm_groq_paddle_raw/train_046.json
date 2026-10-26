@@ -1,0 +1,17 @@
+{
+ "index": 46,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "AFUNG\nAFUNG\nAFUNG\nBASO TAHU BIHUN  143.636  43,636\nTOTAL  43.636\nAFUNG\nTAX 10.00 %  4.364\nGRAND TOTAL  48,000\nTUNAI  100.000\nKEMBALI  52.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BASO TAHU BIHUN\",\n      \"cnt\": null,\n      \"price\": \"43,636\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"43.636\",\n    \"evidence\": \"TOTAL  43.636\"\n  },\n  \"tax\": {\n    \"amount\": \"4.364\",\n    \"evidence\": \"TAX 10.00 %  4.364\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 862,
+  "completion": 374,
+  "total": 1236,
+  "reasoning": 215
+ },
+ "seconds": 1.0411629676818848,
+ "error": null
+}

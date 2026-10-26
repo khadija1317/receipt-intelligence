@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "ICED White",
+   "cnt": "1",
+   "price": {
+    "value": "43000",
+    "raw": "43.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Mexican Baked Rice",
+   "cnt": "1",
+   "price": {
+    "value": "58000",
+    "raw": "58.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 83,
+ "subtotal": {
+  "value": "101000",
+  "raw": "101.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  101.000"
+ },
+ "total": {
+  "value": "101000",
+  "raw": "101.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total  101.000"
+ },
+ "tax": null,
+ "service": null
+}

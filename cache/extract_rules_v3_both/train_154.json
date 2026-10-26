@@ -1,0 +1,32 @@
+{
+ "menu": [
+  {
+   "nm": "1 4-Chunks",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 0.9942,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "20000",
+  "raw": "20.000",
+  "status": "ok",
+  "conf": 0.9295,
+  "low_trust": false,
+  "line": "1 Total 20.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 154
+}

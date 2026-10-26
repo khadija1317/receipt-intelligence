@@ -1,0 +1,191 @@
+{
+ "menu": [
+  {
+   "nm": "UDG GR TLUR ASIN",
+   "cnt": "1",
+   "price": {
+    "value": "165000",
+    "raw": "165,000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "4--1 SAPO TH SEAFOOD",
+   "cnt": null,
+   "price": {
+    "value": "129000",
+    "raw": "129,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 .CUMI GR JUNJAN",
+   "cnt": null,
+   "price": {
+    "value": "129000",
+    "raw": "129,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BIHUN GORENG JJ",
+   "cnt": "1",
+   "price": {
+    "value": "87000",
+    "raw": "87,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "OYONG 3 TELOR",
+   "cnt": "1",
+   "price": {
+    "value": "84000",
+    "raw": "84,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1GURAME FILLET M",
+   "cnt": null,
+   "price": {
+    "value": "163000",
+    "raw": "163,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHINESE TE14,000",
+   "cnt": "2",
+   "price": {
+    "value": "28000",
+    "raw": "28,000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CRYSANTNUM",
+   "cnt": null,
+   "price": {
+    "value": "2",
+    "raw": "2",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI PUTIH 10,000",
+   "cnt": "8",
+   "price": {
+    "value": "80000",
+    "raw": "80,000",
+    "status": "ok",
+    "conf": 0.985,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "HOT TEA12,000",
+   "cnt": "3",
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ICED TEA12,000",
+   "cnt": "3",
+   "price": {
+    "value": "36000",
+    "raw": "36,000",
+    "status": "ok",
+    "conf": 0.9981,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "FOOD",
+   "cnt": null,
+   "price": {
+    "value": "757000",
+    "raw": "757,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BEVERAGES",
+   "cnt": null,
+   "price": {
+    "value": "100000",
+    "raw": "100,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "OTHERS",
+   "cnt": null,
+   "price": {
+    "value": "80000",
+    "raw": "80,000",
+    "status": "ok",
+    "conf": 0.9988,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "937000",
+  "raw": "937,000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "SUBTOTAL 937,000",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "99322",
+  "raw": "99,322",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "Tax 10% 99,322",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "56220",
+  "raw": "56,220",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SERVICE CHARGE 56,220",
+  "n_candidates": 1
+ },
+ "index": 124
+}

@@ -1,0 +1,103 @@
+{
+ "menu": [
+  {
+   "nm": "LM Dmplg Chli Sc",
+   "cnt": null,
+   "price": {
+    "value": "68000",
+    "raw": "68,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "LM Poach Marble Beef",
+   "cnt": null,
+   "price": {
+    "value": "176000",
+    "raw": "176,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DIMSUM",
+   "cnt": null,
+   "price": {
+    "value": "47600",
+    "raw": "47,600",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "XLB Org Pork 6x",
+   "cnt": null,
+   "price": {
+    "value": "52000",
+    "raw": "52,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Oolong Jasmine Cup",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tea",
+   "cnt": "2",
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "441782",
+  "raw": "441,782",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total...... 441,782",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "40162",
+  "raw": "40,162",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "PB1 40,162",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "28020",
+  "raw": "28,020",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Service charge 28,020",
+  "n_candidates": 1
+ },
+ "index": 365
+}

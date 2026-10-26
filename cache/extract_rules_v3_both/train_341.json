@@ -1,0 +1,87 @@
+{
+ "menu": [
+  {
+   "nm": "ES TEH TAWAR",
+   "cnt": null,
+   "price": {
+    "value": "10910",
+    "raw": "10,910",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "FROZEN CAPUCINO Lychee Tea",
+   "cnt": "1",
+   "price": {
+    "value": "15455",
+    "raw": "15,455",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NS BISTIK AYM TP",
+   "cnt": "1",
+   "price": {
+    "value": "35455",
+    "raw": "35,455",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NS+AYAM GR RICA",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.8893,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KWETIAUW AYM SRM",
+   "cnt": "1",
+   "price": {
+    "value": "31819",
+    "raw": "31,819",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "VAT 10%",
+   "cnt": null,
+   "price": {
+    "value": "13819",
+    "raw": "13,819",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "152000",
+  "raw": "152,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total. 152,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 341
+}

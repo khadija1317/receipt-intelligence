@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "SAUSAGE DONUT",
+   "cnt": "1",
+   "price": {
+    "value": "14000",
+    "raw": "14,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "CHOCO DONUT PRETZEL",
+   "cnt": "1",
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 69,
+ "subtotal": null,
+ "total": {
+  "value": "23000",
+  "raw": "23,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  23,000"
+ },
+ "tax": null,
+ "service": null
+}

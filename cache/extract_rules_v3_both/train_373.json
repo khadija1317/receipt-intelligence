@@ -1,0 +1,65 @@
+{
+ "menu": [
+  {
+   "nm": "Bento Barbeque",
+   "cnt": "1",
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Lychee Float",
+   "cnt": "1",
+   "price": {
+    "value": "5909",
+    "raw": "5,909",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KFC Winger HC",
+   "cnt": "1",
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "39545",
+  "raw": "39,545",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 39,545",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "43500",
+  "raw": "43,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "43,500 | Total",
+  "adjacent": "above",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 373
+}

@@ -1,0 +1,24 @@
+{
+ "menu": [
+  {
+   "nm": "ICED CM",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".22.000",
+    "status": "review",
+    "conf": 0.9078,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": null,
+ "service": null,
+ "index": 113
+}

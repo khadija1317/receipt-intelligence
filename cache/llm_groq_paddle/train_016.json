@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "901016 -TICKET CP",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 16,
+ "subtotal": {
+  "value": "30000",
+  "raw": "30,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  30,000"
+ },
+ "total": {
+  "value": "30000",
+  "raw": "30,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  (Qty  1.00)30,000"
+ },
+ "tax": null,
+ "service": null
+}

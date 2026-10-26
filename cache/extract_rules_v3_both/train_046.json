@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "BASO TAHU BIHUN",
+   "cnt": null,
+   "price": {
+    "value": "43636",
+    "raw": "43,636",
+    "status": "ok",
+    "conf": 0.9433,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "48000",
+  "raw": "48,000",
+  "status": "ok",
+  "conf": 0.9886,
+  "low_trust": false,
+  "line": "GRAND TOTAL 48,000",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "4364",
+  "raw": "4.364",
+  "status": "ok",
+  "conf": 0.9399,
+  "low_trust": false,
+  "line": "TAX 10.00 % 4.364",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 46
+}

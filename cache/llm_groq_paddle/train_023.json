@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "S-Lemon Macchiato",
+   "cnt": "1",
+   "price": {
+    "value": "21000",
+    "raw": "21,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 23,
+ "subtotal": {
+  "value": "21000",
+  "raw": "21,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal:  21,000"
+ },
+ "total": {
+  "value": "21000",
+  "raw": "21,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total:  21,000"
+ },
+ "tax": {
+  "value": "0",
+  "raw": "0",
+  "status": "ok",
+  "conf": null,
+  "line": "PB1:  0"
+ },
+ "service": null
+}

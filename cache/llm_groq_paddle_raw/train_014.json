@@ -1,0 +1,17 @@
+{
+ "index": 14,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "4005-Maple glazed\n25.000  x1  25.000\n6001-Plastic Bag Small\n0  x1  0\nTotal Item:  J3\nTotal.  25.000\nCash\nTendered:  50.000\nChange:  25.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"4005-Maple glazed\",\n      \"cnt\": \"1\",\n      \"price\": \"25.000\"\n    },\n    {\n      \"nm\": \"6001-Plastic Bag Small\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"25.000\",\n    \"evidence\": \"Total.  25.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 850,
+  "completion": 437,
+  "total": 1287,
+  "reasoning": 264
+ },
+ "seconds": 1.2334463596343994,
+ "error": null
+}

@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "RB. COKLAT BAR",
+   "cnt": "1",
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "RB. CREPES TUNA",
+   "cnt": "1",
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "RB. SISIR PANDAN",
+   "cnt": "1",
+   "price": {
+    "value": "7500",
+    "raw": "7,500",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 17,
+ "subtotal": {
+  "value": "24500",
+  "raw": "24,500",
+  "status": "ok",
+  "conf": null,
+  "line": "ITEM:3  SUBTOTAL.  24,500"
+ },
+ "total": null,
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,103 @@
+{
+ "menu": [
+  {
+   "nm": "BITTERBALLEN",
+   "cnt": null,
+   "price": {
+    "value": "33000",
+    "raw": "33,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MOZZARELA STICK",
+   "cnt": null,
+   "price": {
+    "value": "55000",
+    "raw": "55,000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NOUGAT ICE CREAM",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SAUCYS BROOD",
+   "cnt": null,
+   "price": {
+    "value": "19000",
+    "raw": "19,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AMANDEL BROOD",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BOKKEPOOTJES",
+   "cnt": null,
+   "price": {
+    "value": "90000",
+    "raw": "90,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "235000",
+  "raw": "235,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 235,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "258500",
+  "raw": "258,500",
+  "status": "ok",
+  "conf": 0.9952,
+  "low_trust": false,
+  "line": "Total 258,500",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "23500",
+  "raw": "23,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Tax 23,500",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 260
+}

@@ -1,0 +1,51 @@
+{
+ "menu": [
+  {
+   "nm": "TRAD KY TOAST CARTE",
+   "cnt": null,
+   "price": {
+    "value": "28182",
+    "raw": "28.182",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "28182",
+    "raw": "28.182",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": "31000",
+  "raw": "31.000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 31.000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "2818",
+  "raw": "2.818",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PB-1 10% 2.818",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 345
+}

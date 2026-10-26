@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "VALUE MEAL",
+   "cnt": "1",
+   "price": {
+    "value": "29090",
+    "raw": "29,090",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUGAKIYA RAMEN",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "COLD OCHA",
+   "cnt": "11",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.997,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "32000",
+  "raw": "32,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total 32,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "2909",
+  "raw": "2,909",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PB1 10.00% 2,909",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 350
+}

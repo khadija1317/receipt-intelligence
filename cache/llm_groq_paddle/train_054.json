@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "KFC Winger HC",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "Rice",
+   "cnt": null,
+   "price": {
+    "value": "6364",
+    "raw": "6,364",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 54,
+ "subtotal": {
+  "value": "26364",
+  "raw": "26,364",
+  "status": "ok",
+  "conf": null,
+  "line": "Sub Total  26,364"
+ },
+ "total": null,
+ "tax": null,
+ "service": {
+  "value": "2636",
+  "raw": "2,636",
+  "status": "ok",
+  "conf": null,
+  "line": "F.Rest 10 %  2,636"
+ }
+}

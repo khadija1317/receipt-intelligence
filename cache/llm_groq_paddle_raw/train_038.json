@@ -1,0 +1,17 @@
+{
+ "index": 38,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "undu\nDumDum Thai Iced Green Tea  24.000\nTotal  24.000\nTunai  50.000\nKembali  26.000\n**  **",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"DumDum Thai Iced Green Tea\",\n      \"cnt\": null,\n      \"price\": \"24.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"24.000\",\n    \"evidence\": \"Total  24.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 826,
+  "completion": 228,
+  "total": 1054,
+  "reasoning": 84
+ },
+ "seconds": 1.5006213188171387,
+ "error": null
+}

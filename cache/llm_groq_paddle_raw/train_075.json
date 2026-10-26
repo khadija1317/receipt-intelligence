@@ -1,0 +1,17 @@
+{
+ "index": 75,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "PAKET DOSIRAK  3  1  25,975  25,975\nPAKET DOSIRAK  3\nICE SWEET JASMINE GREENTEA\nPAKET CHICKEN  3  3  35,000 105,000\nJAPCHE  1  25,000 25,000\nKOREAN LEMONADE  1  15,000  15,000\nKOREAN COLD TEA  1  9,000  9,000\nPAKET BULGOGI  3  yuy  45,000  45,000\nBANANA MLK+MATCHA PU  2  21,000  42,000\nKRN FRIED CHICKN HNY  1  25,000  25,000\nSubtotal  291,975\nServices  14,598\nTax  30,657\nTotal  337,230\nTunai  350,000\nKembali  12,770",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"PAKET DOSIRAK  3  1  25,975  25,975\",\n      \"cnt\": null,\n      \"price\": \"25,975\"\n    },\n    {\n      \"nm\": \"PAKET CHICKEN  3  3  35,000 105,000\",\n      \"cnt\": null,\n      \"price\": \"105,000\"\n    },\n    {\n      \"nm\": \"JAPCHE  1  25,000 25,000\",\n      \"cnt\": null,\n      \"price\": \"25,000\"\n    },\n    {\n      \"nm\": \"KOREAN LEMONADE  1  15,000  15,000\",\n      \"cnt\": null,\n      \"price\": \"15,000\"\n    },\n    {\n      \"nm\": \"KOREAN COLD TEA  1  9,000  9,000\",\n      \"cnt\": null,\n      \"price\": \"9,000\"\n    },\n    {\n      \"nm\": \"PAKET BULGOGI  3  yuy  45,000  45,000\",\n      \"cnt\": null,\n      \"price\": \"45,000\"\n    },\n    {\n      \"nm\": \"BANANA MLK+MATCHA PU  2  21,000  42,000\",\n      \"cnt\": null,\n      \"price\": \"42,000\"\n    },\n    {\n      \"nm\": \"KRN FRIED CHICKN HNY  1  25,000  25,000\",\n      \"cnt\": null,\n      \"price\": \"25,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"291,975\",\n    \"evidence\": \"Subtotal  291,975\"\n  },\n  \"service\": {\n    \"amount\": \"14,598\",\n    \"evidence\": \"Services  14,598\"\n  },\n  \"tax\": {\n    \"amount\": \"30,657\",\n    \"evidence\": \"Tax  30,657\"\n  },\n  \"total\": {\n    \"amount\": \"337,230\",\n    \"evidence\": \"Total  337,230\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1018,
+  "completion": 932,
+  "total": 1950,
+  "reasoning": 431
+ },
+ "seconds": 3.206594944000244,
+ "error": null
+}

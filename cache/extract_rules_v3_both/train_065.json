@@ -1,0 +1,249 @@
+{
+ "menu": [
+  {
+   "nm": "6 NASI PUTIH",
+   "cnt": null,
+   "price": {
+    "value": "54000",
+    "raw": "54,000",
+    "status": "ok",
+    "conf": 0.989,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 SATE PADANG",
+   "cnt": null,
+   "price": {
+    "value": "35000",
+    "raw": "35.000",
+    "status": "ok",
+    "conf": 0.9706,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 GULAI CUMI",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 0.9569,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "4 DENDENG BALADO",
+   "cnt": null,
+   "price": {
+    "value": "80000",
+    "raw": "80.000",
+    "status": "ok",
+    "conf": 0.9897,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3 KERUPUK KULIT",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": 0.9212,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 RENDANG DAGING",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 0.9315,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 GULAI HATI",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 0.9457,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 MUJAIR BAKAR",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23.000",
+    "status": "ok",
+    "conf": 0.9823,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 GULAI OTAK",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 0.9739,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 AYAM BAKAR",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 0.9371,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 SAMBAL TRI BELAH",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18.000",
+    "status": "ok",
+    "conf": 0.9617,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3 LALAP SEGAR",
+   "cnt": null,
+   "price": {
+    "value": "24000",
+    "raw": "24.000",
+    "status": "ok",
+    "conf": 0.9695,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 AYAM PENYET",
+   "cnt": null,
+   "price": {
+    "value": "21000",
+    "raw": "21,000",
+    "status": "ok",
+    "conf": 0.9592,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 AYAM GORENG",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 0.9579,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 AYAM POP",
+   "cnt": null,
+   "price": {
+    "value": "42000",
+    "raw": "42,000",
+    "status": "ok",
+    "conf": 0.9927,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 GULAI TUNJANG",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": 0.9496,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "6 TEH",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30.000",
+    "status": "ok",
+    "conf": 0.9557,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TERONG BELANDA",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20.000",
+    "status": "ok",
+    "conf": 0.9849,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TEH TELUR",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25.000",
+    "status": "ok",
+    "conf": 0.9723,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 PUDING",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16.000",
+    "status": "ok",
+    "conf": 0.9954,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "591000",
+  "raw": "591.000",
+  "status": "ok",
+  "conf": 0.989,
+  "low_trust": false,
+  "line": "Subtotal 591.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "650100",
+  "raw": "650.100",
+  "status": "ok",
+  "conf": 0.9983,
+  "low_trust": false,
+  "line": "41 Total 650.100",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 65
+}

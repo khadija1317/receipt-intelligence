@@ -1,0 +1,44 @@
+{
+ "menu": [
+  {
+   "nm": "CHICKEN KATSU",
+   "cnt": "1",
+   "price": {
+    "value": "12727",
+    "raw": "12,727",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "TORI NASU HASAMI AGE",
+   "cnt": "1",
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 59,
+ "subtotal": {
+  "value": "22727",
+  "raw": "22,727",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB.TOTAL  22,727"
+ },
+ "total": null,
+ "tax": {
+  "value": "2273",
+  "raw": "2,273",
+  "status": "ok",
+  "conf": null,
+  "line": "RESTAURANT TAX  2,273"
+ },
+ "service": null
+}

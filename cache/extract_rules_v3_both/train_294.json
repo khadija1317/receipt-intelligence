@@ -1,0 +1,73 @@
+{
+ "menu": [
+  {
+   "nm": "1 Dumpling",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Jamur Kuping",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8.000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Caisim Kecil",
+   "cnt": null,
+   "price": {
+    "value": "7000",
+    "raw": "7.000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 Bihun (MLY)",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8.000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "78000",
+  "raw": "78.000",
+  "status": "ok",
+  "conf": 0.9958,
+  "low_trust": false,
+  "line": "Subtotal 78.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "78000",
+  "raw": "78.000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TOTAL 78.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 294
+}

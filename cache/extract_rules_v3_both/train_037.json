@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "MINI CHOCO",
+   "cnt": null,
+   "price": {
+    "value": "13500",
+    "raw": "13,500",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "12273",
+  "raw": "12,273",
+  "status": "ok",
+  "conf": 0.9961,
+  "low_trust": false,
+  "line": "SUBTOTAL 12,273",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "1227",
+  "raw": "1,227",
+  "status": "ok",
+  "conf": 0.9938,
+  "low_trust": false,
+  "line": "TAX 10% 1,227",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 37
+}

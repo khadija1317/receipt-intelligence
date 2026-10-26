@@ -1,0 +1,131 @@
+{
+ "menu": [
+  {
+   "nm": "1 TWIST DONUT",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 BANANA DONUT",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 DARK CHOCOLATE MUFFIN",
+   "cnt": null,
+   "price": {
+    "value": "46000",
+    "raw": "46,000",
+    "status": "ok",
+    "conf": 0.9782,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 [MD] MINI CASTELLA CHOCOL",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PREMIUM MILK PAN BREAD",
+   "cnt": null,
+   "price": {
+    "value": "17500",
+    "raw": "17,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 APPLE PIE",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 PAIN AU CHOCOLATE",
+   "cnt": null,
+   "price": {
+    "value": "22000",
+    "raw": "22,000",
+    "status": "ok",
+    "conf": 0.999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 KAYA BUN",
+   "cnt": null,
+   "price": {
+    "value": "19000",
+    "raw": "19,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 SAUSAGE BREAD",
+   "cnt": null,
+   "price": {
+    "value": "15000",
+    "raw": "15,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TLJ HOTDOG",
+   "cnt": null,
+   "price": {
+    "value": "16000",
+    "raw": "16,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "177500",
+  "raw": "177,500",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 177,500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 239
+}

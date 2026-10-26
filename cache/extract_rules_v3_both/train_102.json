@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1 Nutelld Cheese",
+   "cnt": null,
+   "price": {
+    "value": "27272",
+    "raw": "27,272",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "27272",
+  "raw": "27,272",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "SubTutal: 27,272",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "29999",
+  "raw": "29,999",
+  "status": "ok",
+  "conf": 0.9949,
+  "low_trust": false,
+  "line": "Total: 29,999",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "2727",
+  "raw": "2,727",
+  "status": "ok",
+  "conf": 0.9975,
+  "low_trust": false,
+  "line": "PB1: 2,727",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 102
+}

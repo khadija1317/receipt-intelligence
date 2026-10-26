@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "A.MINERAL BOTOL",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": 0.9653,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "8800",
+  "raw": "8,800",
+  "status": "ok",
+  "conf": 0.9839,
+  "low_trust": false,
+  "line": "GRAND TOTAL 8,800",
+  "n_candidates": 2
+ },
+ "tax": {
+  "value": "800",
+  "raw": "800",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TAX 10.00 % 800",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 28
+}

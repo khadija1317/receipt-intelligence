@@ -1,0 +1,34 @@
+{
+ "menu": [
+  {
+   "nm": "ORIGINAL NO SALT",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 95,
+ "subtotal": {
+  "value": "12000",
+  "raw": "12,000",
+  "status": "ok",
+  "conf": null,
+  "line": "SUB TOTAL  12,000"
+ },
+ "total": {
+  "value": "12000",
+  "raw": "12,000",
+  "status": "ok",
+  "conf": null,
+  "line": "GRANDTOTAL  12,000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 0,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 x  Nasi Campur Bali  75,000\n1 x  Bbk Bengil Nasi  125,000\n1 x  MilkShake Starwb  37,000\n1  X  Ice Lemon Tea  24,000\n1  X  Nasi Ayam Dewata  70,000\nFree Ice Tea  0\nX  Organic Green Sa  65,000\n1  Ice Tea  18,000\nIce Orange  29,000\n1 x  Ayam Suir Bali  85,000\n2x  Tahu Goreng  36,000\n2×  Tempe Goreng  36,000\n1 x  Tahu Telor Asin  40,000.\n1 x  Nasi Goreng Samb  70,000\n3 x  Bbk Panggang Sam  366,000\n1 X  Ayam Sambal Hija  92,000\n2x  Hot Tea  44,000\n1 X  Ice Kopi  32,000\n1 X  Tahu Telor Asin  40,000\n1 X  Free Ice Tea  0\n1 ×  Bebek Street  44,000\n1.X  Ice Tea Tawar  18,000\nSub-Total  1,346,000\nService  100,950\nPB1  144,695\nRounding  -45\n1,591,600\nGrand Total",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Nasi Campur Bali\",\n      \"cnt\": \"1\",\n      \"price\": \"75,000\"\n    },\n    {\n      \"nm\": \"Bbk Bengil Nasi\",\n      \"cnt\": \"1\",\n      \"price\": \"125,000\"\n    },\n    {\n      \"nm\": \"MilkShake Starwb\",\n      \"cnt\": \"1\",\n      \"price\": \"37,000\"\n    },\n    {\n      \"nm\": \"Ice Lemon Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"24,000\"\n    },\n    {\n      \"nm\": \"Nasi Ayam Dewata\",\n      \"cnt\": \"1\",\n      \"price\": \"70,000\"\n    },\n    {\n      \"nm\": \"Free Ice Tea\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"Organic Green Sa\",\n      \"cnt\": null,\n      \"price\": \"65,000\"\n    },\n    {\n      \"nm\": \"Ice Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"18,000\"\n    },\n    {\n      \"nm\": \"Ice Orange\",\n      \"cnt\": null,\n      \"price\": \"29,000\"\n    },\n    {\n      \"nm\": \"Ayam Suir Bali\",\n      \"cnt\": \"1\",\n      \"price\": \"85,000\"\n    },\n    {\n      \"nm\": \"Tahu Goreng\",\n      \"cnt\": \"2\",\n      \"price\": \"36,000\"\n    },\n    {\n      \"nm\": \"Tempe Goreng\",\n      \"cnt\": \"2\",\n      \"price\": \"36,000\"\n    },\n    {\n      \"nm\": \"Tahu Telor Asin\",\n      \"cnt\": \"1\",\n      \"price\": \"40,000.\"\n    },\n    {\n      \"nm\": \"Nasi Goreng Samb\",\n      \"cnt\": \"1\",\n      \"price\": \"70,000\"\n    },\n    {\n      \"nm\": \"Bbk Panggang Sam\",\n      \"cnt\": \"3\",\n      \"price\": \"366,000\"\n    },\n    {\n      \"nm\": \"Ayam Sambal Hija\",\n      \"cnt\": \"1\",\n      \"price\": \"92,000\"\n    },\n    {\n      \"nm\": \"Hot Tea\",\n      \"cnt\": \"2\",\n      \"price\": \"44,000\"\n    },\n    {\n      \"nm\": \"Ice Kopi\",\n      \"cnt\": \"1\",\n      \"price\": \"32,000\"\n    },\n    {\n      \"nm\": \"Tahu Telor Asin\",\n      \"cnt\": \"1\",\n      \"price\": \"40,000\"\n    },\n    {\n      \"nm\": \"Free Ice Tea\",\n      \"cnt\": \"1\",\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"Bebek Street\",\n      \"cnt\": \"1\",\n      \"price\": \"44,000\"\n    },\n    {\n      \"nm\": \"Ice Tea Tawar\",\n      \"cnt\": \"1\",\n      \"price\": \"18,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"1,346,000\",\n    \"evidence\": \"Sub-Total  1,346,000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": \"144,695\",\n    \"evidence\": \"PB1  144,695\"\n  },\n  \"service\": {\n    \"amount\": \"100,950\",\n    \"evidence\": \"Service  100,950\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 1101,
+  "completion": 1015,
+  "total": 2116,
+  "reasoning": 224
+ },
+ "seconds": 3.0196433067321777,
+ "error": null
+}

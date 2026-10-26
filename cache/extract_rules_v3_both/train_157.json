@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "2X S-Matcha Macchiato @25,000",
+   "cnt": null,
+   "price": {
+    "value": "50000",
+    "raw": "50,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2X S-Ovaltine Macchiat @22,000",
+   "cnt": null,
+   "price": {
+    "value": "44000",
+    "raw": "44,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "94000",
+  "raw": "94,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Total: 94,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 157
+}

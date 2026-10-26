@@ -1,0 +1,38 @@
+{
+ "menu": [
+  {
+   "nm": "4002-Chocolate Drange Peel",
+   "cnt": "2",
+   "price": {
+    "value": "38000",
+    "raw": "38.000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "60D1-Plastic Bag Small",
+   "cnt": "1",
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 94,
+ "subtotal": null,
+ "total": {
+  "value": "38000",
+  "raw": "38.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total.  38.000"
+ },
+ "tax": null,
+ "service": null
+}

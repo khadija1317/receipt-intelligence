@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "OCHA",
+   "cnt": "1",
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHIC NAMBAN BENTO",
+   "cnt": "1",
+   "price": {
+    "value": "58000",
+    "raw": "58,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "66000",
+    "raw": "66,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "72600",
+  "raw": "72,600",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 72,600",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "6600",
+  "raw": "6,600",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Pb1 10% 6,600",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 111
+}

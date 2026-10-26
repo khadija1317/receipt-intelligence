@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "KING DEAL FISH",
+   "cnt": "1",
+   "price": {
+    "value": "25000",
+    "raw": "25000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 18,
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "2500",
+  "raw": "2500",
+  "status": "ok",
+  "conf": null,
+  "line": "TAX  2500"
+ },
+ "service": null
+}

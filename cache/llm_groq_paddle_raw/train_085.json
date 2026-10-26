@@ -1,0 +1,17 @@
+{
+ "index": 85,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "CONBLOCK\nHiM  Im\nTEN  Tate\nhe  Shee  Baltesr  8\nea  2\nTMe  1\nTH  NUTDO  Iman\nTee  narw  Tume  Tee\n118 Round Wagyu (1gr)  47.200\n1 Wagyu Rice Box  10.000\nSubtotal  57.200\nTOTAL  57.200\nBCA  57.200\nT  tats",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"118 Round Wagyu (1gr)\",\n      \"cnt\": null,\n      \"price\": \"47.200\"\n    },\n    {\n      \"nm\": \"1 Wagyu Rice Box\",\n      \"cnt\": null,\n      \"price\": \"10.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"57.200\",\n    \"evidence\": \"Subtotal  57.200\"\n  },\n  \"total\": {\n    \"amount\": \"57.200\",\n    \"evidence\": \"TOTAL  57.200\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 888,
+  "completion": 305,
+  "total": 1193,
+  "reasoning": 124
+ },
+ "seconds": 0.7958259582519531,
+ "error": null
+}

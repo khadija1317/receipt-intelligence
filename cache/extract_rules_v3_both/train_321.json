@@ -1,0 +1,179 @@
+{
+ "menu": [
+  {
+   "nm": "Angus Striploin",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".295,000",
+    "status": "review",
+    "conf": 0.9262,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chicken Steak",
+   "cnt": null,
+   "price": {
+    "value": "140000",
+    "raw": "140.000",
+    "status": "ok",
+    "conf": 0.9583,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CK Redvelvet",
+   "cnt": null,
+   "price": {
+    "value": "65000",
+    "raw": "65.000",
+    "status": "ok",
+    "conf": 0.9953,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Creamed Spinach",
+   "cnt": "20",
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 0.9322,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "pintf F Squeeze Orange",
+   "cnt": null,
+   "price": {
+    "value": "60000",
+    "raw": "60,000",
+    "status": "ok",
+    "conf": 0.9137,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "House Blend",
+   "cnt": "2",
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 0.9714,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ice Tea Peach",
+   "cnt": "40",
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 0.9863,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "L4 Ice Tea Rasp",
+   "cnt": null,
+   "price": {
+    "value": "90000",
+    "raw": "90.000",
+    "status": "ok",
+    "conf": 0.962,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": " Jasmine Tea",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40.000",
+    "status": "ok",
+    "conf": 0.9948,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Roasted Chicken",
+   "cnt": null,
+   "price": {
+    "value": "300000",
+    "raw": "300,000",
+    "status": "ok",
+    "conf": 0.9249,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Salmon",
+   "cnt": "2",
+   "price": {
+    "value": "170000",
+    "raw": "170.000",
+    "status": "ok",
+    "conf": 0.9978,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": " Sorbet",
+   "cnt": null,
+   "price": {
+    "value": "55000",
+    "raw": "55,000",
+    "status": "ok",
+    "conf": 0.9705,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "subtotal"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "120000",
+  "raw": "120,000",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "Subtotal PASTRY 120,000",
+  "n_candidates": 4
+ },
+ "total": {
+  "value": "1802900",
+  "raw": "1,802,900",
+  "status": "ok",
+  "conf": 0.9517,
+  "low_trust": false,
+  "line": "TOTAL 1,802,900",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "163900",
+  "raw": "163,900",
+  "status": "ok",
+  "conf": 0.9966,
+  "low_trust": false,
+  "line": "TAX 163,900",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "149000",
+  "raw": "149.000",
+  "status": "ok",
+  "conf": 0.9324,
+  "low_trust": false,
+  "line": "SERVICE 149.000",
+  "n_candidates": 1
+ },
+ "index": 321
+}

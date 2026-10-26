@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "OMA NASI KUNING CAKALANG MANI",
+   "cnt": "1",
+   "price": {
+    "value": "30000",
+    "raw": "30.000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 34,
+ "subtotal": null,
+ "total": {
+  "value": "30000",
+  "raw": "30.000",
+  "status": "ok",
+  "conf": null,
+  "line": "Total Belanja  30.000"
+ },
+ "tax": null,
+ "service": null
+}

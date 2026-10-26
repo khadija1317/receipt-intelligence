@@ -1,0 +1,17 @@
+{
+ "index": 71,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "16,363  16,363\nJumlah It\nSub Total  16,363\nPajak Resto  1,636\nGrand Total  17,999",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"16,363\",\n    \"evidence\": \"Sub Total  16,363\"\n  },\n  \"tax\": {\n    \"amount\": \"1,636\",\n    \"evidence\": \"Pajak Resto  1,636\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"17,999\",\n    \"evidence\": \"Grand Total  17,999\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 820,
+  "completion": 245,
+  "total": 1065,
+  "reasoning": 114
+ },
+ "seconds": 1.809709072113037,
+ "error": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 98,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "WALL'S FEAST CKLT.65  1  5400  5,400\nCMPN TROPICANA.CHO75  1  5500  5,500\nMAGNUM WHT ALMND  80  1  15000  15,000\nHARGA JUAL  25,900\nTOTAL  25,900\nTUNAI  25,900\nPPN=  2,355",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"WALL'S FEAST CKLT.65\",\n      \"cnt\": \"1\",\n      \"price\": \"5,400\"\n    },\n    {\n      \"nm\": \"CMPN TROPICANA.CHO75\",\n      \"cnt\": \"1\",\n      \"price\": \"5,500\"\n    },\n    {\n      \"nm\": \"MAGNUM WHT ALMND\",\n      \"cnt\": \"1\",\n      \"price\": \"15,000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"25,900\",\n    \"evidence\": \"TOTAL  25,900\"\n  },\n  \"tax\": {\n    \"amount\": \"2,355\",\n    \"evidence\": \"PPN=  2,355\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 885,
+  "completion": 509,
+  "total": 1394,
+  "reasoning": 285
+ },
+ "seconds": 1.556621789932251,
+ "error": null
+}

@@ -1,0 +1,95 @@
+{
+ "menu": [
+  {
+   "nm": "PIS COK KEJU",
+   "cnt": null,
+   "price": {
+    "value": "11500",
+    "raw": "11,500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AMOUNT",
+   "cnt": null,
+   "price": {
+    "value": "-2300",
+    "raw": "-2,300",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "COKLAT KEJU",
+   "cnt": null,
+   "price": {
+    "value": "11000",
+    "raw": "11,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AMOUNT",
+   "cnt": null,
+   "price": {
+    "value": "-2200",
+    "raw": "-2,200",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BANANA KISMIS",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AMOUNT",
+   "cnt": null,
+   "price": {
+    "value": "-2400",
+    "raw": "-2,400",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "23600",
+  "raw": "23,600",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 23,600",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "23600",
+  "raw": "23,600",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 23,600",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 63
+}

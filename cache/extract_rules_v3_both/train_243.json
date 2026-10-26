@@ -1,0 +1,67 @@
+{
+ "menu": [
+  {
+   "nm": "ELKEUN",
+   "cnt": null,
+   "price": {
+    "value": "130000",
+    "raw": "130,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GYERANCIM",
+   "cnt": null,
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "325000",
+  "raw": "325,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 325,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "382350",
+  "raw": "382,350",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 382,350",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "34600",
+  "raw": "34,600",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Tax 34,600",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "22750",
+  "raw": "22,750",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Service 22,750",
+  "n_candidates": 1
+ },
+ "index": 243
+}

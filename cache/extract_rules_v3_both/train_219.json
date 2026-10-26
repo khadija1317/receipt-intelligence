@@ -1,0 +1,186 @@
+{
+ "menu": [
+  {
+   "nm": "0.512X",
+   "cnt": null,
+   "price": {
+    "value": "22500",
+    "raw": "22.500",
+    "status": "ok",
+    "conf": 0.9722,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "EDAMAME",
+   "cnt": null,
+   "price": {
+    "value": "11520",
+    "raw": "11,520",
+    "status": "ok",
+    "conf": 0.9639,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "15900",
+    "raw": "15.900",
+    "status": "ok",
+    "conf": 0.985,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "df shllt by not250",
+   "cnt": null,
+   "price": {
+    "value": "15900",
+    "raw": "15,900",
+    "status": "ok",
+    "conf": 0.9373,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "20600",
+    "raw": "20,600",
+    "status": "ok",
+    "conf": 0.9583,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CF BUNCIS ORG",
+   "cnt": null,
+   "price": {
+    "value": "20600",
+    "raw": "20,600",
+    "status": "ok",
+    "conf": 0.8741,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "0.074X",
+   "cnt": null,
+   "price": {
+    "value": "44900",
+    "raw": "44,900",
+    "status": "ok",
+    "conf": 0.9706,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CABE KERITING CURA",
+   "cnt": null,
+   "price": {
+    "value": "3323",
+    "raw": "3.323",
+    "status": "ok",
+    "conf": 0.9914,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "0.198X",
+   "cnt": null,
+   "price": {
+    "value": "16500",
+    "raw": "16.500",
+    "status": "ok",
+    "conf": 0.9642,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TOMAT CURAH",
+   "cnt": null,
+   "price": {
+    "value": "3267",
+    "raw": "3.267",
+    "status": "ok",
+    "conf": 0.9205,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "0.09X",
+   "cnt": null,
+   "price": {
+    "value": "64900",
+    "raw": "64,900",
+    "status": "ok",
+    "conf": 0.9841,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "JERUK NIPIS",
+   "cnt": null,
+   "price": {
+    "value": "5841",
+    "raw": "5.841",
+    "status": "ok",
+    "conf": 0.9931,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "0.282X",
+   "cnt": null,
+   "price": {
+    "value": "101900",
+    "raw": "101.900",
+    "status": "ok",
+    "conf": 0.9741,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CUMI BANGKA",
+   "cnt": null,
+   "price": {
+    "value": "28736",
+    "raw": "28.736",
+    "status": "ok",
+    "conf": 0.9379,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "83716",
+  "raw": "83.716",
+  "status": "ok",
+  "conf": 0.9317,
+  "low_trust": false,
+  "line": "SUBTOTAL: 83.716",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "93716",
+  "raw": "93,716",
+  "status": "ok",
+  "conf": 0.9298,
+  "low_trust": false,
+  "line": "93,716 | TOTAL",
+  "adjacent": "above",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 219
+}

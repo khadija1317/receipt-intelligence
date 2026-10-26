@@ -1,0 +1,246 @@
+{
+ "menu": [
+  {
+   "nm": "P",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "1",
+    "status": "ok",
+    "conf": 0.0681,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "5 AQUA 600ML",
+   "cnt": null,
+   "price": {
+    "value": "41000",
+    "raw": "41,000",
+    "status": "ok",
+    "conf": 0.9992,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BIHUN GORENG SPECIAL",
+   "cnt": null,
+   "price": {
+    "value": "38000",
+    "raw": "38,000",
+    "status": "ok",
+    "conf": 0.9985,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 BIHUN MASAK KUAH",
+   "cnt": null,
+   "price": {
+    "value": "18000",
+    "raw": "18,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ES ALPUKAT",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": 0.992,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ES TEH MANIS",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": 0.9891,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ES THE TAWAR",
+   "cnt": null,
+   "price": {
+    "value": "43000",
+    "raw": "43,000",
+    "status": "ok",
+    "conf": 0.9891,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "IFUMIE",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.9972,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "JUICE ALPUKAT",
+   "cnt": null,
+   "price": {
+    "value": "21000",
+    "raw": "21,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KWETIAW JUICE STRAWBERRY SIRAM SAPI",
+   "cnt": null,
+   "price": {
+    "value": "43000",
+    "raw": "43,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KWETIAW SIRAM SEA",
+   "cnt": null,
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 0.9996,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KWETIAW GORENG SAPI",
+   "cnt": null,
+   "price": {
+    "value": "90000",
+    "raw": "90,000",
+    "status": "ok",
+    "conf": 0.9779,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "KWETIAW GORENG SEA",
+   "cnt": "2",
+   "price": {
+    "value": "82000",
+    "raw": "82,000",
+    "status": "ok",
+    "conf": 0.9882,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MIE GORENG SPECIAL",
+   "cnt": "2",
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.9239,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "MPEKMPEK K SELAM",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 0.9951,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NASI GORENG SPECIAL MPEKMPEK LENJER",
+   "cnt": null,
+   "price": {
+    "value": "82000",
+    "raw": "82,000",
+    "status": "ok",
+    "conf": 0.9978,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TEH MANIS PANAS",
+   "cnt": "3",
+   "price": {
+    "value": "4000",
+    "raw": "4,000",
+    "status": "ok",
+    "conf": 0.9925,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TEH TAWAR",
+   "cnt": "2",
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": 0.9968,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 YAMIN PANGSIT REBUS YAMIN BASO SAPI",
+   "cnt": null,
+   "price": {
+    "value": "31000",
+    "raw": "31,000",
+    "status": "ok",
+    "conf": 0.9994,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": {
+  "value": "760000",
+  "raw": "760,000",
+  "status": "ok",
+  "conf": 0.9974,
+  "low_trust": false,
+  "line": "SUBTOTAL 760,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "836000",
+  "raw": "836,000",
+  "status": "ok",
+  "conf": 0.9765,
+  "low_trust": false,
+  "line": "TOTAL 836,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "76000",
+  "raw": "76,000",
+  "status": "ok",
+  "conf": 0.9997,
+  "low_trust": false,
+  "line": "PB1 76,000",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 303
+}

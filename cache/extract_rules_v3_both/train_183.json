@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "1 Peanut & Cheese",
+   "cnt": null,
+   "price": {
+    "value": "13636",
+    "raw": "13,636",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "13636",
+  "raw": "13,636",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "SubTotal: 13,636",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "15000",
+  "raw": "15,000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Total: 15,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "1364",
+  "raw": "1,364",
+  "status": "ok",
+  "conf": 0.9938,
+  "low_trust": false,
+  "line": "PB1: 1,364",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 183
+}

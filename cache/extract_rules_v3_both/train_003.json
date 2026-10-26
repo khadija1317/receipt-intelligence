@@ -1,0 +1,78 @@
+{
+ "menu": [
+  {
+   "nm": "Bintang Bremer",
+   "cnt": "1",
+   "price": {
+    "value": "59000",
+    "raw": "59,000",
+    "status": "ok",
+    "conf": 0.999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Chicken H-H T-",
+   "cnt": null,
+   "price": {
+    "value": "190000",
+    "raw": "190,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Ades",
+   "cnt": "1",
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "259000",
+  "raw": "259,000",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 259,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "302016",
+  "raw": "302,016",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 302,016",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "52416",
+  "raw": "52,416",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "Tax 52,416",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "9600",
+  "raw": "9,600",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Service 9,600",
+  "n_candidates": 1
+ },
+ "index": 3
+}

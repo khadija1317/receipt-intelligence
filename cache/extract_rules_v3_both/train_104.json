@@ -1,0 +1,73 @@
+{
+ "menu": [
+  {
+   "nm": "1 KOPI SUSU",
+   "cnt": null,
+   "price": {
+    "value": "17500",
+    "raw": "17.500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 KOPI SUSU",
+   "cnt": null,
+   "price": {
+    "value": "17500",
+    "raw": "17.500",
+    "status": "ok",
+    "conf": 0.991,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 NASI GORENG",
+   "cnt": null,
+   "price": {
+    "value": "22500",
+    "raw": "22.500",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 BAKPIA KACANG H",
+   "cnt": null,
+   "price": {
+    "value": "4000",
+    "raw": "4.000",
+    "status": "ok",
+    "conf": 0.9993,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "61500",
+  "raw": "61.500",
+  "status": "ok",
+  "conf": 0.9973,
+  "low_trust": false,
+  "line": "Subtotal 61.500",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "61500",
+  "raw": "61.500",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Total 61.500",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 104
+}

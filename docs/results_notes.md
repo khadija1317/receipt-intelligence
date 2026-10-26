@@ -164,3 +164,21 @@ Breakdown of the review queue on validation (scripts/queue_breakdown.py; test co
 8b (written first): adopt a gap-band rule only if, on validation across all four pipelines, 0 wrong-value records leave the queue and at least 3 receipts leave. Result at 3-12%: rules Paddle 4 leave / 0 lost; LLM Paddle 0 / 0; rules EasyOCR 1 / 2 lost; LLM EasyOCR 1 / 1 lost. REJECTED. A missing tax (~10% of base) and a total wrong by ~10% look identical to the validator. Paddle-only would have passed; not used, because the rule said four pipelines. No check changed. Frozen test numbers stay the headline (rules Paddle 52, LLM Paddle 46 of 100).
 What would lower the rate: extractor fixes for empty subtotal/tax/service (closed under the Day 6 stop rule), not validator rules.
 PLAN CHANGE: Tunisian rules and own-receipts evaluation DROPPED. Reason: no Tunisian receipts available, so no rule could be tested, and the VAT/matricule facts came from secondary sources. README keeps one limitation line (dinar amounts are unit-tested in the normalizer; no Tunisian receipts evaluated; CORD is Indonesian). CV line loses the Tunisia clause.
+
+## Train-split confirmation run: FROZEN PLAN (written before any train number exists)
+Why: test error pools are tiny (rules Paddle 6 wrong-value records, LLM Paddle 2). Train was never used for tuning, so it is a second clean holdout for the FROZEN validator (tolerance 1, queue 6b). No check changes.
+- Receipts: train indices 0-399 in dataset order. None picked or skipped.
+- OCR: Paddle only, same settings, same restart-and-resume loop. EasyOCR is not run on train.
+- Extractors: rules v3 "both" on all 400. LLM arm (frozen prompt v1) on indices 0-99 only (about 125K tokens, under the daily cap).
+- Validator runs (both fixed now): (1) rules Paddle on 0-399; (2) rules Paddle and LLM Paddle on 0-99, so the two arms are compared on the same receipts.
+- Reporting: counts only, no receipt indices; train is not browsed to tune anything. No expected-count match line (train has no frozen scores); the scorer's correct/wrong/no-answer counts are read against test as a plausibility check.
+- Stop rule: the numbers that print go in the README, even if worse than test. Nothing is changed afterwards.
+
+## Day 7 addendum 2: train-split confirmation (plan frozen before any train number; commit of the plan: see notes above)
+Train indices 0-399, Paddle OCR only. OCR integrity: 400 files, 0 empty, 0 mismatches; detector size 393 at 2560, 6 at 1600, 1 at 1280 (7 of 400 reduced); median 17 pieces per receipt. Rules v3 "both" on all 400; LLM prompt v1 (hash 4aa66db7) on 0-99 (127,650 tokens, 0 schema failures, 0 cut-offs). Validator frozen (tolerance 1, queue 6b), counts only.
+
+Rules + Paddle, train 400: total 324 correct / 10 wrong / 57 no answer (recall 82.9% of 391 scored; validation 91.8%, test 77.9%). Queue: wrong-value records 23 of 24, clean receipts 50 of 256, missing-field receipts 93 of 120, review rate 166 of 400. Strict any-flag review rate 256 of 400; value-based only 115 of 400.
+Rules vs LLM on train 0-99: rules caught 3 of 4, 12 of 59 clean queued, review 46; LLM caught 5 of 8, 10 of 60 clean queued, review 40. LLM total 69 / 6 / 23 vs rules 76 / 2 / 20.
+Pooled unseen splits (test + train), rules Paddle: 29 of 30 wrong-value records queued; 69 of 322 clean receipts queued; review rate 218 of 500.
+READINGS: (1) catch held up on a 4x larger pool; (2) review rate 30 (val), 52 (test), 41.5 (train): validation was optimistic; (3) NOT achieved: 20-25% review rate; the rest of the queue is extractor gaps (54 of 93 missing-field receipts have no total) plus 50 false alarms, whose item-error share is unmeasured; (4) "LLM never wrong on a test total" does NOT replicate (test 0 of 73; train 6 of 75; validation 6 of 91): test was the lucky split; (5) on the LLM's 8 wrong-value records TOTAL_VS_BASE caught 0, cash/change 3, MISSING_TOTAL 2; grounding checks caught 0 of 8 on train and 0 of 2 on test (1 on validation, val 94): grounding rarely fires on errors.
+Limits: train pools are 24 (rules) and 4/8 (first 100); train was only counted, never browsed; the run header "four pipelines" is a stale label in run_validate.py.

@@ -1,0 +1,42 @@
+{
+ "menu": [
+  {
+   "nm": "Dtrepes",
+   "cnt": null,
+   "price": {
+    "value": "14091",
+    "raw": "14,091",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": {
+  "value": "14091",
+  "raw": "14,091",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SubTotals 14,091",
+  "n_candidates": 1
+ },
+ "total": null,
+ "tax": {
+  "value": "1409",
+  "raw": "1,409",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "PB1: 1,409",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 187
+}

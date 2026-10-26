@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "TAKOYAKI 12PCS",
+   "cnt": "1",
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 76,
+ "subtotal": {
+  "value": "30000",
+  "raw": "30,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Subtotal  30,000"
+ },
+ "total": {
+  "value": "33000",
+  "raw": "33.000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  33.000"
+ },
+ "tax": {
+  "value": "3000",
+  "raw": "3,000",
+  "status": "ok",
+  "conf": null,
+  "line": "Tax  3,000"
+ },
+ "service": null
+}

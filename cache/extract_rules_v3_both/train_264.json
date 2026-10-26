@@ -1,0 +1,158 @@
+{
+ "menu": [
+  {
+   "nm": "1 JASMINE",
+   "cnt": null,
+   "price": {
+    "value": "39000",
+    "raw": "39,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "**BEVERAGE",
+   "cnt": null,
+   "price": {
+    "value": "39000",
+    "raw": "39,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 P. RIBS SP (R)",
+   "cnt": null,
+   "price": {
+    "value": "73000",
+    "raw": "73,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PORK TENDER (L)",
+   "cnt": null,
+   "price": {
+    "value": "72000",
+    "raw": "72,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 TAIL STOMACH (S)",
+   "cnt": null,
+   "price": {
+    "value": "64000",
+    "raw": "64,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 P. INTESTINE (R)",
+   "cnt": null,
+   "price": {
+    "value": "32000",
+    "raw": "32,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 CAKWE (L)",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2 WHITE RICE",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 PLAIN CONGEE",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "** FOOD",
+   "cnt": null,
+   "price": {
+    "value": "293000",
+    "raw": "293,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "332000",
+    "raw": "332,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "392590",
+  "raw": "392,590",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 392,590",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "35690",
+  "raw": "35,690",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PB1 35,690",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "24900",
+  "raw": "24,900",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Service Charge 24,900",
+  "n_candidates": 1
+ },
+ "index": 264
+}

@@ -1,0 +1,17 @@
+{
+ "index": 9,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "duca  iu\nTHAI ICED TEA\n2  @20.000  40.000\nSUB-TOTAL  40.000\nGRANDTOTAL  40.000\nCASH  100.000\nCHANGED  60.000",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"THAI ICED TEA\",\n      \"cnt\": \"2\",\n      \"price\": \"40.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"40.000\",\n    \"evidence\": \"SUB-TOTAL  40.000\"\n  },\n  \"total\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 840,
+  "completion": 343,
+  "total": 1183,
+  "reasoning": 199
+ },
+ "seconds": 1.0772552490234375,
+ "error": null
+}

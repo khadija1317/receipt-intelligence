@@ -1,0 +1,108 @@
+{
+ "menu": [
+  {
+   "nm": "PILLOW COKLAT",
+   "cnt": null,
+   "price": {
+    "value": "36364",
+    "raw": "36,364",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PILLOW DURIAN",
+   "cnt": null,
+   "price": {
+    "value": "36364",
+    "raw": "36,364",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AYAM",
+   "cnt": null,
+   "price": {
+    "value": "20000",
+    "raw": "20,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "BANANA SPLIT",
+   "cnt": null,
+   "price": {
+    "value": "28635",
+    "raw": "28,635",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DONATCOKLAT",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "AYAM",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "PLASTIK TENTENG KECIL",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "188499",
+  "raw": "188,499",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "SUBTOTAL 188,499",
+  "n_candidates": 2
+ },
+ "total": {
+  "value": "188499",
+  "raw": "188,499",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "TOTAL 188,499",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 397
+}

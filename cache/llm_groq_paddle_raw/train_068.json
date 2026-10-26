@@ -1,0 +1,17 @@
+{
+ "index": 68,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "SUPER +OODS BAK\nReceipt\n1  Berry Many-Low (P)\n37,500.00\n1  500 days of summer\n(P)\n37,500.00\n1  sun kissed (P)\n37,500.00\n1  PLASTIC BAG\n500.00\nSubTotal  113,000.00\nDiscount  0.00\nTotal  113,000.00\nPayment  113,000.00\nChange  0.00\n4 item(s) closed",
+ "reply": "{\n  \"menu\": [],\n  \"subtotal\": {\n    \"amount\": \"113,000.00\",\n    \"evidence\": \"SubTotal  113,000.00\"\n  },\n  \"total\": {\n    \"amount\": \"113,000.00\",\n    \"evidence\": \"Total  113,000.00\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 893,
+  "completion": 315,
+  "total": 1208,
+  "reasoning": 189
+ },
+ "seconds": 1.3183269500732422,
+ "error": null
+}

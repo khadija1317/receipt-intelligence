@@ -1,0 +1,62 @@
+{
+ "menu": [
+  {
+   "nm": "1 × GJ ROASTED MT (R)",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25,000",
+    "status": "ok",
+    "conf": 0.9997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ICE LESS",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9991,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUGAR SLIGHT",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": 0.9928,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": 0.9998,
+  "low_trust": false,
+  "line": "SUB TOTAL 25,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "25000",
+  "raw": "25,000",
+  "status": "ok",
+  "conf": 0.9993,
+  "low_trust": false,
+  "line": "TOTAL SALES 25,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 358
+}

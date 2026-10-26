@@ -1,0 +1,17 @@
+{
+ "index": 20,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "Dmnc\nI\n_\nBUBUR UNGU  26,000\nDISC ITEM  -30.000%\nAMOUNT  -7,800\nSENDOK BEBEK  0\nWAJIK  7,000\nDISC ITEM  -30.000%\nAMOUNT  -2,100\nCENTIK MANIS  5,500\nDISC ITEM  -30.000%\nAMOUNT  -1,650\nPLASTIK SEDANG  0\nSUBTOTAL  26,950\nTOTAL  26,950\nCASH  26,950\nI",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BUBUR UNGU\",\n      \"cnt\": null,\n      \"price\": \"26,000\"\n    },\n    {\n      \"nm\": \"SENDOK BEBEK\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    },\n    {\n      \"nm\": \"WAJIK\",\n      \"cnt\": null,\n      \"price\": \"7,000\"\n    },\n    {\n      \"nm\": \"CENTIK MANIS\",\n      \"cnt\": null,\n      \"price\": \"5,500\"\n    },\n    {\n      \"nm\": \"PLASTIK SEDANG\",\n      \"cnt\": null,\n      \"price\": \"0\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"26,950\",\n    \"evidence\": \"SUBTOTAL  26,950\"\n  },\n  \"total\": {\n    \"amount\": \"26,950\",\n    \"evidence\": \"TOTAL  26,950\"\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 910,
+  "completion": 367,
+  "total": 1277,
+  "reasoning": 103
+ },
+ "seconds": 1.1874871253967285,
+ "error": null
+}

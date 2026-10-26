@@ -1,0 +1,84 @@
+{
+ "menu": [
+  {
+   "nm": "SAUSAGE AND SALAMI",
+   "cnt": null,
+   "price": {
+    "value": "62000",
+    "raw": "62,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GREEN MONSIEUR",
+   "cnt": null,
+   "price": {
+    "value": "57000",
+    "raw": "57,000",
+    "status": "ok",
+    "conf": 0.999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "ADD 1 W. ORIGINAL",
+   "cnt": null,
+   "price": {
+    "value": "12000",
+    "raw": "12,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTL",
+   "cnt": null,
+   "price": {
+    "value": "131000",
+    "raw": "131,000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SVC CHG 6%",
+   "cnt": null,
+   "price": {
+    "value": "7860",
+    "raw": "7,860",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": {
+  "value": "152746",
+  "raw": "152,746",
+  "status": "ok",
+  "conf": 0.9625,
+  "low_trust": false,
+  "line": "TOTAL 152,746",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "13886",
+  "raw": "13,886",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "PB1 10% 13,886",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 181
+}

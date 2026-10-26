@@ -1,0 +1,54 @@
+{
+ "menu": [
+  {
+   "nm": "AREM - AREM",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "LEMPER",
+   "cnt": null,
+   "price": {
+    "value": "9000",
+    "raw": "9,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "PLASTIK KECIL",
+   "cnt": null,
+   "price": {
+    "value": "0",
+    "raw": "0",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 33,
+ "subtotal": {
+  "value": "10200",
+  "raw": "10,200",
+  "status": "ok",
+  "conf": null,
+  "line": "SUBTOTAL  10,200"
+ },
+ "total": {
+  "value": "10200",
+  "raw": "10,200",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  10,200"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 43,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "m\n1\nDorepes\nNutella Cheese  27,272\n1  Toblerone BanCheese  28,182\nSubTotal:  55,454\nPB1:  5,545\nTotal:  60,999\nDebit Card:  60,999\nSEEPEEEEE  EEEEFEEEE  Dtrepy",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"Nutella Cheese\",\n      \"cnt\": null,\n      \"price\": \"27,272\"\n    },\n    {\n      \"nm\": \"Toblerone BanCheese\",\n      \"cnt\": \"1\",\n      \"price\": \"28,182\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"55,454\",\n    \"evidence\": \"SubTotal:  55,454\"\n  },\n  \"tax\": {\n    \"amount\": \"5,545\",\n    \"evidence\": \"PB1:  5,545\"\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"60,999\",\n    \"evidence\": \"Total:  60,999\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 861,
+  "completion": 517,
+  "total": 1378,
+  "reasoning": 323
+ },
+ "seconds": 1.3219366073608398,
+ "error": null
+}

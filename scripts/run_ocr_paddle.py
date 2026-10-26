@@ -19,7 +19,8 @@ faulthandler.enable(file=_crash_log)
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--split", choices=["test", "validation"], required=True)
+    parser.add_argument("--split", choices=["test", "validation", "train"], required=True)
+    parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--out", default="cache/ocr_paddle")
     parser.add_argument("--max-side", type=int, default=2560)
     args = parser.parse_args()
@@ -28,7 +29,13 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
 
     ds = load_dataset("naver-clova-ix/cord-v2", split=split)
-    assert len(ds) == 100, f"expected 100 {split} receipts, got {len(ds)}"
+    if split == "train":
+        if args.limit is None:
+            parser.error("--limit is required for train")
+        n = min(args.limit, len(ds))
+    else:
+        assert len(ds) == 100, f"expected 100 {split} receipts, got {len(ds)}"
+        n = len(ds)
     if split == "test":
         from src.dataset import check_test_set
 
@@ -52,7 +59,7 @@ def main():
     done = 0
     fallbacks = 0
     failed = 0
-    for i in range(len(ds)):
+    for i in range(n):
         path = out / f"{split}_{i:03d}.json"
         if path.exists():
             continue

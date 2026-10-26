@@ -1,0 +1,17 @@
+{
+ "index": 62,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "CGVCINEMAS  CGVCINEMAS\nOO  CGV\noO\nEMAS  OO  CGVCINEMAS\nOO  CGVCINEMAS\nCII\nCNCINEMAS\nCINEMAS  oO\nRALPH BREAKS THE INTERNET : WR  3.600.000\nTIKET  60.000  60  CGVCINEMA\nOO\nTotal(Qty=60  CGV  CINEMAS  3.600.000\nCGV  CINEMAS  CGVCIN\nCINEMAS\nBCA(EDC) VISA  **-6468)  3.600.000  CINEMAS\nAS  OO  CGV\nCGVCINEMAS\nCINEMAS\nEMAS  oO  oO\nCGV  CINEMAS  CCVCINEMAS",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"RALPH BREAKS THE INTERNET : WR\",\n      \"cnt\": null,\n      \"price\": \"3.600.000\"\n    },\n    {\n      \"nm\": \"TIKET\",\n      \"cnt\": \"60\",\n      \"price\": \"60.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"3.600.000\",\n    \"evidence\": \"Total(Qty=60  CGV  CINEMAS  3.600.000\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 974,
+  "completion": 356,
+  "total": 1330,
+  "reasoning": 167
+ },
+ "seconds": 1.0180542469024658,
+ "error": null
+}

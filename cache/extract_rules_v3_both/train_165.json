@@ -1,0 +1,40 @@
+{
+ "menu": [
+  {
+   "nm": "1 A Chicken",
+   "cnt": null,
+   "price": {
+    "value": "21000",
+    "raw": "21.000",
+    "status": "ok",
+    "conf": 0.9959,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "21000",
+  "raw": "21.000",
+  "status": "ok",
+  "conf": 0.997,
+  "low_trust": false,
+  "line": "Subtotal 21.000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "21000",
+  "raw": "21.000",
+  "status": "ok",
+  "conf": 0.9995,
+  "low_trust": false,
+  "line": "Total 21.000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 165
+}

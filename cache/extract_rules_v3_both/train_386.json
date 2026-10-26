@@ -1,0 +1,136 @@
+{
+ "menu": [
+  {
+   "nm": "1 HOT OCHA",
+   "cnt": null,
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": 0.9995,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3 OCHA",
+   "cnt": null,
+   "price": {
+    "value": "30000",
+    "raw": "30,000",
+    "status": "ok",
+    "conf": 0.99,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "** BEVERAGE",
+   "cnt": null,
+   "price": {
+    "value": "40000",
+    "raw": "40,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 WAKI PLATTER FOR 4-5",
+   "cnt": null,
+   "price": {
+    "value": "389000",
+    "raw": "389.000",
+    "status": "ok",
+    "conf": 0.9393,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 CHAPJEA",
+   "cnt": null,
+   "price": {
+    "value": "95000",
+    "raw": "95,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 KALBI PLATTER 2-3",
+   "cnt": null,
+   "price": {
+    "value": "315000",
+    "raw": "315,000",
+    "status": "ok",
+    "conf": 0.9979,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 MARBLED SIRLOIN STEAK 200gr",
+   "cnt": null,
+   "price": {
+    "value": "189000",
+    "raw": "189,000",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "** FOOD",
+   "cnt": null,
+   "price": {
+    "value": "988000",
+    "raw": "988,000",
+    "status": "ok",
+    "conf": 0.9991,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "SUBTTI",
+   "cnt": null,
+   "price": {
+    "value": "1028000",
+    "raw": "1,028,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 2
+ },
+ "subtotal": null,
+ "total": {
+  "value": null,
+  "raw": "1.198,648",
+  "status": "review",
+  "conf": 0.9734,
+  "low_trust": false,
+  "line": "TOTAL 1.198,648",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "108968",
+  "raw": "108,968",
+  "status": "ok",
+  "conf": 0.9992,
+  "low_trust": false,
+  "line": "PB1 108,968",
+  "n_candidates": 1
+ },
+ "service": {
+  "value": "61680",
+  "raw": "61,680",
+  "status": "ok",
+  "conf": 0.9996,
+  "low_trust": false,
+  "line": "Service Charge 61,680",
+  "n_candidates": 1
+ },
+ "index": 386
+}

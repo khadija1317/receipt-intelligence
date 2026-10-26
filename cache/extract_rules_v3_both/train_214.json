@@ -1,0 +1,45 @@
+{
+ "menu": [
+  {
+   "nm": "RAMES AYAM",
+   "cnt": null,
+   "price": {
+    "value": "26000",
+    "raw": "26,000",
+    "status": "ok",
+    "conf": 0.9606,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Dendeng PDS",
+   "cnt": null,
+   "price": {
+    "value": "27000",
+    "raw": "27,000",
+    "status": "ok",
+    "conf": 0.9556,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": null,
+ "total": {
+  "value": "58000",
+  "raw": "58,000",
+  "status": "ok",
+  "conf": 0.9875,
+  "low_trust": false,
+  "line": "TOTAL 58,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 214
+}

@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "*CARAMEL DIP*",
+   "cnt": null,
+   "price": {
+    "value": "23000",
+    "raw": "23,000",
+    "status": "ok",
+    "conf": 0.997,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "total"
+  ],
+  "orphan_amount_lines": 3
+ },
+ "subtotal": {
+  "value": "0",
+  "raw": "0",
+  "status": "ok",
+  "conf": 0.9123,
+  "low_trust": false,
+  "line": "SUB TOTAL 0",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": null,
+  "raw": "",
+  "status": "review",
+  "conf": null,
+  "low_trust": false,
+  "line": "23,000 | GRAND TOTAL | 23,000",
+  "n_candidates": 2,
+  "adjacent": "ambiguous"
+ },
+ "tax": null,
+ "service": null,
+ "index": 169
+}

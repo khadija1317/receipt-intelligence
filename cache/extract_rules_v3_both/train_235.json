@@ -1,0 +1,117 @@
+{
+ "menu": [
+  {
+   "nm": "2X",
+   "cnt": null,
+   "price": {
+    "value": "1200",
+    "raw": "1,200",
+    "status": "ok",
+    "conf": 0.9907,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NS MINI STICK",
+   "cnt": null,
+   "price": {
+    "value": "2400",
+    "raw": "2,400",
+    "status": "ok",
+    "conf": 0.997,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1X",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": 0.9918,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "GERRY SM CHEESE110",
+   "cnt": null,
+   "price": {
+    "value": "8000",
+    "raw": "8,000",
+    "status": "ok",
+    "conf": 0.9854,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "3X",
+   "cnt": null,
+   "price": {
+    "value": "2100",
+    "raw": "2,100",
+    "status": "ok",
+    "conf": 0.9462,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "DECOLGEN TABLET",
+   "cnt": "45",
+   "price": {
+    "value": "6300",
+    "raw": "6.300",
+    "status": "ok",
+    "conf": 0.9311,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "2X",
+   "cnt": null,
+   "price": {
+    "value": "19900",
+    "raw": "19,900",
+    "status": "ok",
+    "conf": 0.9805,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "FIXALL HK",
+   "cnt": null,
+   "price": {
+    "value": "39800",
+    "raw": "39,800",
+    "status": "ok",
+    "conf": 0.9941,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "43110",
+  "raw": "43,110",
+  "status": "ok",
+  "conf": 0.9807,
+  "low_trust": false,
+  "line": "SUBTOTAL: 43,110",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "43110",
+  "raw": "43,110",
+  "status": "ok",
+  "conf": 0.9989,
+  "low_trust": false,
+  "line": "TOTAL: 43,110",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 235
+}

@@ -1,0 +1,28 @@
+{
+ "menu": [
+  {
+   "nm": "ICED TT",
+   "cnt": null,
+   "price": {
+    "value": null,
+    "raw": ".20,000",
+    "status": "review",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 47,
+ "subtotal": null,
+ "total": {
+  "value": "20000",
+  "raw": "20,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  20,000"
+ },
+ "tax": null,
+ "service": null
+}

@@ -1,0 +1,17 @@
+{
+ "index": 58,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1069-ROTI KEJU COKLAT\n8.500,00  x1  8.500,00\n1037-ROTI MAHKOTA/RING\n10.500,00  x1  10.500,00\n1022-ROTI KACANG MERAH\n8.000,00  x1  8.000,00\n1001-ROTI COKLAT\n8.000,00  x1  8.000,00\nTotal Item:  4\nTotal.  35.000,00\nCash\nTendered:  50.000,00\nChange:  15.000,00",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"1069-ROTI KEJU COKLAT\",\n      \"cnt\": \"1\",\n      \"price\": \"8.500,00\"\n    },\n    {\n      \"nm\": \"1037-ROTI MAHKOTA/RING\",\n      \"cnt\": \"1\",\n      \"price\": \"10.500,00\"\n    },\n    {\n      \"nm\": \"1022-ROTI KACANG MERAH\",\n      \"cnt\": \"1\",\n      \"price\": \"8.000,00\"\n    },\n    {\n      \"nm\": \"1001-ROTI COKLAT\",\n      \"cnt\": \"1\",\n      \"price\": \"8.000,00\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"tax\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"service\": {\n    \"amount\": null,\n    \"evidence\": null\n  },\n  \"total\": {\n    \"amount\": \"35.000,00\",\n    \"evidence\": \"Total.  35.000,00\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 928,
+  "completion": 529,
+  "total": 1457,
+  "reasoning": 264
+ },
+ "seconds": 1.3976035118103027,
+ "error": null
+}

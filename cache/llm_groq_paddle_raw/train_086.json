@@ -1,0 +1,17 @@
+{
+ "index": 86,
+ "split": "train",
+ "model": "openai/gpt-oss-120b",
+ "prompt_hash": "4aa66db7",
+ "text": "1 BUNCIS MUDA  IE  20.000\nQty:  1  Subtotal  20.000\nSC  600\nTax Total  2.060\nGrand Total  22.660",
+ "reply": "{\n  \"menu\": [\n    {\n      \"nm\": \"BUNCIS MUDA  IE\",\n      \"cnt\": null,\n      \"price\": \"20.000\"\n    }\n  ],\n  \"subtotal\": {\n    \"amount\": \"20.000\",\n    \"evidence\": \"Qty:  1  Subtotal  20.000\"\n  },\n  \"tax\": {\n    \"amount\": \"2.060\",\n    \"evidence\": \"Tax Total  2.060\"\n  },\n  \"service\": {\n    \"amount\": \"600\",\n    \"evidence\": \"SC  600\"\n  },\n  \"total\": {\n    \"amount\": \"22.660\",\n    \"evidence\": \"Grand Total  22.660\"\n  }\n}",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt": 831,
+  "completion": 414,
+  "total": 1245,
+  "reasoning": 240
+ },
+ "seconds": 1.159426212310791,
+ "error": null
+}

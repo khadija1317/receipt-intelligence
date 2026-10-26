@@ -1,0 +1,70 @@
+{
+ "menu": [
+  {
+   "nm": "CK.MANTAP A",
+   "cnt": null,
+   "price": {
+    "value": "25455",
+    "raw": "25,455",
+    "status": "ok",
+    "conf": 0.9895,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "CHEESE B",
+   "cnt": null,
+   "price": {
+    "value": "40909",
+    "raw": "40,909",
+    "status": "ok",
+    "conf": 0.9641,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "TAKE AWAY",
+   "cnt": null,
+   "price": {
+    "value": "909",
+    "raw": "909",
+    "status": "ok",
+    "conf": 0.9998,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": {
+  "value": "67273",
+  "raw": "67,273",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "Sub Total 67,273",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "4000",
+  "raw": "4,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "Total 4,000",
+  "n_candidates": 1
+ },
+ "tax": {
+  "value": "6727",
+  "raw": "6,727",
+  "status": "ok",
+  "conf": 1.0,
+  "low_trust": false,
+  "line": "PAJAK RESTORAN 10% 6,727",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 215
+}

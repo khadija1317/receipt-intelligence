@@ -1,0 +1,48 @@
+{
+ "menu": [
+  {
+   "nm": "NUMER CANDLE NO.1",
+   "cnt": "1",
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "NUMER CANDLE NO.2",
+   "cnt": "1",
+   "price": {
+    "value": "10000",
+    "raw": "10,000",
+    "status": "ok",
+    "conf": null
+   }
+  },
+  {
+   "nm": "GANACHE MOUSSE PIECE",
+   "cnt": "2",
+   "price": {
+    "value": "65000",
+    "raw": "65,000",
+    "status": "ok",
+    "conf": null
+   }
+  }
+ ],
+ "notes": {
+  "llm_parse_error": false
+ },
+ "index": 93,
+ "subtotal": null,
+ "total": {
+  "value": "85000",
+  "raw": "85,000",
+  "status": "ok",
+  "conf": null,
+  "line": "TOTAL  85,000"
+ },
+ "tax": null,
+ "service": null
+}

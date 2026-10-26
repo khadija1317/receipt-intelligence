@@ -1,0 +1,43 @@
+{
+ "menu": [
+  {
+   "nm": "1 KING DEAL FISH",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25000",
+    "status": "ok",
+    "conf": 0.9999,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "NET SALES",
+   "cnt": null,
+   "price": {
+    "value": "25000",
+    "raw": "25000",
+    "status": "ok",
+    "conf": 0.987,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [],
+  "orphan_amount_lines": 0
+ },
+ "subtotal": null,
+ "total": null,
+ "tax": {
+  "value": "2500",
+  "raw": "2500",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "TAX 2500",
+  "n_candidates": 1
+ },
+ "service": null,
+ "index": 18
+}

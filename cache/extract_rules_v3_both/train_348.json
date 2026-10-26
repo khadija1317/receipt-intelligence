@@ -1,0 +1,75 @@
+{
+ "menu": [
+  {
+   "nm": "T0ES0NE N110051160ccm",
+   "cnt": null,
+   "price": {
+    "value": "1009",
+    "raw": "1009",
+    "status": "ok",
+    "conf": 0.4956,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "Tessons NITTEr",
+   "cnt": null,
+   "price": {
+    "value": "14801",
+    "raw": "014801",
+    "status": "ok",
+    "conf": 0.3443,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "H B0",
+   "cnt": null,
+   "price": {
+    "value": "1",
+    "raw": "01",
+    "status": "ok",
+    "conf": 0.2884,
+    "low_trust": false
+   }
+  },
+  {
+   "nm": "1 ORIGJNAL 6 PCS",
+   "cnt": null,
+   "price": {
+    "value": "45000",
+    "raw": "45,000",
+    "status": "ok",
+    "conf": 1.0,
+    "low_trust": false
+   }
+  }
+ ],
+ "notes": {
+  "keyword_without_amount": [
+   "tax"
+  ],
+  "orphan_amount_lines": 1
+ },
+ "subtotal": {
+  "value": "45000",
+  "raw": "45,000",
+  "status": "ok",
+  "conf": 0.9999,
+  "low_trust": false,
+  "line": "SUB TOTAL 45,000",
+  "n_candidates": 1
+ },
+ "total": {
+  "value": "45000",
+  "raw": "45,000",
+  "status": "ok",
+  "conf": 0.9993,
+  "low_trust": false,
+  "line": "TOTAL SALES 45,000",
+  "n_candidates": 1
+ },
+ "tax": null,
+ "service": null,
+ "index": 348
+}
