@@ -240,3 +240,6 @@ results/inspect/
 docs/results_notes.mkdocs
 
 .venv-paddle/
+
+# Demo scratch files
+cache/demo_tmp/
