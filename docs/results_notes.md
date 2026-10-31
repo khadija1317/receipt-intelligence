@@ -327,3 +327,19 @@ End-to-end timing (first live upload, validation receipt 0, one run, 6 GB machin
 Examples (validation indices, which are used up for development): 0 passes the checks (2 of 3 ran, total 45,500, label 45,500). 16 caught: the amount column sits one row below its labels, so the cash amount is read as the total (100,000 vs label 20,000; gap 80,000; confidence 0.9938). 66 total not readable: both amounts print with a leading dot (".7,000", refused by the normalizer) and the paper says TL; the TL line is also absent from the repair table, cause not traced. Probably two separate problems, not one. 7 queued although all four headline values are right: the discount line (-9,545) is taken as an item, so items vs subtotal differ by 9,545 (found-not-fixed: no discount field).
 
 Not measured: whether Gradio makes other network calls (anonymous analytics are switched off); other EXIF orientations; real phone photos; any receipt that is not from CORD.
+
+## Day 9 - CORRECTION to the Day 8 wording on who assigned the categories
+
+The Day 8 lines "categories are assigned by Claude from the text card and confirmed or overruled by the human looking at the image" (what the tally can say; README RULE) do not describe what happened. Claude proposed each category from the text card and the photo. The human opened and sent every image, wrote no per-card notes, and overruled none. The README uses this wording: "Claude proposed each category from the text card and the photo; I opened and sent every image; none was overruled."
+
+## Day 9 - README written (second commit)
+
+Layout decisions (all taken as the lean): 1a headline numbers above the fold; 2a one visible table per topic with per-split tables in details blocks; 3b walkthrough on validation 0, row-shift story (validation 16) in the demo section and as the screenshot; 4a tally and findings visible, 20 cards in details; 5a English.
+
+README.md replaced (it was a Day 1 placeholder). Sections: pitch and headline, run the demo, data and split, pipeline walkthrough, results, validator, error analysis, demo, speed and cost, what is AI, limitations, what I would do next, what I cut, credits.
+
+Screenshot: docs/img/demo_example2_review.png (validation 16, red banner). The first caption I wrote said the cash-minus-change check disagreed; the screenshot shows that check could not run and the total-vs-base check fired (gap 80,000). Caption corrected before commit.
+
+Requirements: requirements.txt regenerated from .venv (91 lines, includes groq 1.7.0 and gradio 6.31.0); requirements-paddle.txt new from .venv-paddle (77 lines, paddlepaddle 3.2.2, paddleocr 3.7.0). No local-path installs.
+
+Still open for Day 10: test the setup commands on a fresh clone and replace the "not yet tested" sentences; recompute and compare every README number against this file after the rerun; confirm the definitions of exact match and of the "+7 on items" figure; confirm the order of the Donut cut and the Paddle decision; check the demo wording for validation 66.
