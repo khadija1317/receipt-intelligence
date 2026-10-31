@@ -1,0 +1,35 @@
+{
+ "seed": 42,
+ "split": "train",
+ "pipeline": "rules_paddle",
+ "wrong_value": {
+  "missed": [
+   88
+  ],
+  "caught_sampled": [
+   1,
+   116,
+   147,
+   197,
+   215,
+   351,
+   376
+  ]
+ },
+ "no_total": [
+  27,
+  29,
+  202,
+  310,
+  381,
+  392
+ ],
+ "false_alarm": [
+  3,
+  5,
+  52,
+  122,
+  210,
+  279
+ ]
+}

@@ -50,24 +50,32 @@ def record_prices(rec):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--split", choices=["validation", "test"], required=True)
-    split = ap.parse_args().split
+    ap.add_argument("--split", choices=["validation", "test", "train"], required=True)
+    ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--pipes", nargs="*", default=None)
+    args = ap.parse_args()
+    split = args.split
+    if split == "train" and args.limit is None:
+        ap.error("--limit is required for train")
+    pipes = [p for p in PIPES if args.pipes is None or p[0] in args.pipes]
     show = split == "validation"
 
     ds = load_dataset("naver-clova-ix/cord-v2", split=split)
     if split == "test":
         check_test_set(ds)
         print("TEST SPLIT: counts only. This is a POST-HOC breakdown, not the frozen verdict.")
-    labels = ds["ground_truth"]
+    labels = list(ds["ground_truth"])[:args.limit]
+    if split == "train":
+        print("HOLDOUT B (CORD train): counts only. POST-HOC breakdown; nothing is changed afterwards.")
 
     texts = {}
-    for ocr in ("cache/ocr", "cache/ocr_paddle"):
+    for ocr in sorted({p[2] for p in pipes}):
         texts[ocr] = []
         for i in range(len(labels)):
             pieces = json.loads(Path(ocr, f"{split}_{i:03d}.json").read_text(encoding="utf-8"))["pieces"]
             texts[ocr].append(render_receipt(pieces, CURRENCY))
 
-    for name, folder, ocr, grounding, _expect in PIPES:
+    for name, folder, ocr, grounding, _expect in pipes:
         clean = {"label has no total": [], "items differ from label": [], "unexplained": []}
         miss = {"total itself unanswered": [], "total right, other field empty, arithmetic fired": [],
                 "other": []}

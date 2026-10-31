@@ -182,3 +182,130 @@ Rules vs LLM on train 0-99: rules caught 3 of 4, 12 of 59 clean queued, review 4
 Pooled unseen splits (test + train), rules Paddle: 29 of 30 wrong-value records queued; 69 of 322 clean receipts queued; review rate 218 of 500.
 READINGS: (1) catch held up on a 4x larger pool; (2) review rate 30 (val), 52 (test), 41.5 (train): validation was optimistic; (3) NOT achieved: 20-25% review rate; the rest of the queue is extractor gaps (54 of 93 missing-field receipts have no total) plus 50 false alarms, whose item-error share is unmeasured; (4) "LLM never wrong on a test total" does NOT replicate (test 0 of 73; train 6 of 75; validation 6 of 91): test was the lucky split; (5) on the LLM's 8 wrong-value records TOTAL_VS_BASE caught 0, cash/change 3, MISSING_TOTAL 2; grounding checks caught 0 of 8 on train and 0 of 2 on test (1 on validation, val 94): grounding rarely fires on errors.
 Limits: train pools are 24 (rules) and 4/8 (first 100); train was only counted, never browsed; the run header "four pipelines" is a stale label in run_validate.py.
+
+## Day 8 - Decisions 10 and 11: error-analysis sample (written BEFORE any holdout B receipt is browsed)
+
+NAMING (README, notes, demo): "holdout B" = the first 400 receipts of CORD's train split (indices 0-399). Nothing in this project is trained and nothing was tuned on it. "Development set" = CORD validation (100 receipts; used for all design and tuning). "Test" = CORD test (100 receipts; frozen verdict; counts only, never browsed). The README says once that holdout B is CORD's train split.
+
+DECISION 10 (where the failures come from): holdout B, not validation (validation was developed on and is used up for this) and not test (test stays counts-only, never browsed). Holdout B was counted first (Day 7, addendum 2, line 177) and is browsed afterwards for error analysis ONLY. Nothing in the extractor, merge, repair or validator changes afterwards. The ~20 browsed receipts are no longer unseen; the other ~380 are untouched. The 400-receipt counts were taken before any browsing and stay valid. Git order caveat: one end-of-day commit, so the order "plan, then browsing" is shown only by the order of notes lines, not by separate commits.
+
+DECISION 11c (sample design): 20 receipts = 8 wrong-value + 6 no-total + 6 false alarm. All rules v3 "both" on Paddle text, validator frozen (tolerance 1, queue 6b). Nothing is recomputed with other settings.
+
+POOLS (defined by the existing scorer and validator):
+- Wrong-value: the "error" group (a wrong value in total, subtotal, tax or service). Expected size 24 (23 queued, 1 missed by the validator).
+- No-total: record total is empty AND the label has a total. Expected size before precedence: 57 (the Day 7 total no_answer count on holdout B). Precedence: a receipt in the wrong-value pool is removed from this pool.
+- False alarm: the "ok" group (every labelled field correct) that the validator queued. Expected size 50.
+
+DRAW (fixed now, run once, no redraw): seed 42. One random.Random(42) instance. Index lists sorted ascending. Order of draws: (1) wrong-value: the one missed receipt is always included, plus 7 sampled from the 23 caught; (2) no-total: 6 sampled; (3) false alarm: 6 sampled. If the drawn 20 look unrepresentative or uncomfortable, no redraw.
+
+SAFETY CHECK before printing anything: the script prints the pool sizes (counts only). If wrong-value is not 24, or false alarm is not 50, or wrong-value + no-total (before precedence) is not 57, it stops and prints nothing else (something drifted from Day 7).
+
+AFTER THE DRAW: only the 20 drawn indices are ever printed. No other holdout B receipt is browsed. A real bug found is written down as "found, not fixed".
+
+WHAT THE SAMPLE CAN AND CANNOT SAY: it is built by category (8/6/6), so it is NOT representative. It shows which KINDS of failure exist and which stage caused them, not how often each kind happens. The false-alarm cards are a first look at whether "false alarms" hide real item errors (items sit outside the error definition; unmeasured so far).
+
+ADDENDUM (same day, before any draw): the safety check line above is worded wrongly. The correct check is: wrong-value pool = 24, false-alarm pool = 50, no-total pool BEFORE precedence = 57 (not "wrong-value + no-total = 57"). The no-total pool AFTER precedence may be smaller than 57. Nothing else changes.
+
+## Day 8 - Decision 12a, 13a and the FROZEN category list (written BEFORE any case card is shown)
+
+DRAW RESULT (holdout B, rules v3 "both" on Paddle text, validator frozen; seed 42; run once; saved in cache/scores/holdout_b_sample.json). Safety check: all seven pool lines MATCHED Day 7 (error 24, missing 120, ok 256, caught 23, missed 1, false alarm 50, total no_answer 57). No-total pool AFTER precedence = 53 (4 of the 57 also have a wrong subtotal/tax/service, so they sit in the wrong-value pool).
+- wrong-value, missed by the validator: 88
+- wrong-value, caught (7 sampled): 1, 116, 147, 197, 215, 351, 376
+- no total (6): 27, 29, 202, 310, 381, 392
+- false alarm (6): 3, 5, 52, 122, 210, 279
+
+DECISION 12a: when a receipt has two causes, the EARLIEST stage wins (OCR/merge, then repair, then extractor, then normalizer). The second cause goes in the free-text note of the card.
+DECISION 13a: a "label issue" category exists. It is used ONLY when the pipeline output matches what is printed on the paper and the label disagrees with the paper. If the pipeline is also wrong, the normal rule applies.
+
+STAGE NOTE: OCR and merge are ONE stage in the tally ("OCR/merge"), because from the text alone a wrong row or a split number cannot be assigned to one of them.
+CORRECTION: my first list had no repair category. Added before any card was shown; numbering below is the final one.
+
+FROZEN CATEGORIES, part C (the 14 wrong-value and no-total receipts; exactly one primary category each):
+- C1 OCR misread digit (recognition) - stage OCR/merge
+- C2 OCR split a number or separator - stage OCR/merge
+- C3 Row shift or wrong row association (val 16 type) - stage OCR/merge
+- C4 Lost keyword (TOTAL misread or missing) - stage OCR/merge
+- C5 Repair error (repair changed or refused a token wrongly) - stage repair
+- C6 Total/subtotal confusion - stage extractor
+- C7 Number-format error - stage normalizer
+- C8 Modifier line or stray piece taken as an item or amount - stage extractor
+- C9 Label issue - stage label
+- C10 Other - stage unknown
+
+FROZEN CATEGORIES, part V (the 6 false alarms; exactly one reason each). Precedence if more than one applies: V4, V2, V3, V1, V5, V6 (V4 first because it is the finding being looked for).
+- V1 Total right, subtotal/tax/service empty, so the arithmetic fired
+- V2 Discount line
+- V3 Rounding
+- V4 Real item error (items differ from the paper)
+- V5 Label issue
+- V6 Other or unexplained
+
+RECEIPT 88 (the one wrong-value record the validator missed): gets a part C category PLUS a one-line miss note (check could not run / all gaps zero / other). No separate category.
+
+WHAT THE TALLY CAN SAY: which kinds and which stages appear in 20 hand-picked failures (8/6/6 by design, not representative). It cannot say how often each kind happens. Categories are assigned by Claude from the text card and confirmed or overruled by the human looking at the image.
+
+## Day 8 - Decision 14a and 15 (written BEFORE any case card is shown)
+
+DECISION 14a: the fine categories (C1-C10, V1-V6) are used for ASSIGNING only. The HEADLINE of the error analysis is (a) a stage table over the 14 part-C receipts with coarse stages (OCR/merge, repair, extractor, normalizer, label, unknown) and (b) for the 6 false alarms: V4 (real item error) versus not V4. The fine list appears once, as "kinds seen", labelled "not a frequency table", counts only, no percentages. FREQUENCIES come from the counts on all 400 holdout B receipts (24 wrong-value / 120 missing-field / 256 clean; total 324/10/57; queue 23 of 24, 50 of 256, 166 of 400), NOT from the 20 cards. The cards say what kinds of failure exist and at which stage; the 400 counts say how often.
+
+DECISION 15: run scripts/queue_breakdown.py on holdout B (rules_paddle, 400 receipts), counts only, post-hoc. It changes no check and prints no index. Code change: --split train (needs --limit) and a --pipes filter.
+
+SANITY EXPECTATIONS (written before the run): receipts in the queue 166; clean records in the queue add up to 50; missing-field records in the queue add up to 93; "total itself unanswered" = 53.
+
+CORRECTION: a figure "54 of the 93 queued missing-field receipts have no total" was used earlier (handover). It is wrong: the no-total pool outside the wrong-value pool is 53 and MISSING_TOTAL always queues. The breakdown prints the real number.
+
+README RULE: the README gives "how often" from the 400-receipt counts and "what kinds" from the 20 cards. It says the 20 are drawn by category (8/6/6), are not representative, and that categories were proposed by Claude from the text card and confirmed or overruled by the human looking at the image.
+
+## Day 8 - Decision 15 result: queue breakdown on holdout B (rules_paddle, 400 receipts, counts only, post-hoc)
+
+SANITY (all matched the expectations written before the run): queue 166; clean in queue 4 + 37 + 9 = 50; missing-field in queue 53 + 38 + 2 = 93; "total itself unanswered" 53. (The earlier "54" was a miscount.)
+Queue composition: 166 = 23 wrong-value caught + 93 missing-field + 50 clean.
+CLEAN (the scorer's "ok" group) in the queue, by cause: label has no total 4; items differ from label (price multiset differs AND an arithmetic flag fired) 37; unexplained 9.
+MISSING-FIELD in the queue, by cause: total itself unanswered 53; total right, other field empty, arithmetic fired 38; other 2. Empty fields among the 38: subtotal 20, tax 18, service 12 (a receipt can have more than one).
+
+READING: the "false alarms" are false only with respect to the four headline fields. 37 of the 50 have items that differ from the label by price matching. This is NOT proven to be real item error (modifier lines, label sub-items and price-0 items can also make the lists differ). The pure upper bound for "alarm with no item difference found" is 13 of 256 clean receipts (4 label-has-no-total + 9 unexplained). Until the cards check it, the README says "false alarms by the headline-field definition (50 of 256); 37 of them differ from the label in their items; verified by eye on 6 receipts only".
+
+PREDICTION (written BEFORE any card is shown): if the 37-of-50 share holds, about 4 of the 6 false-alarm cards should show an item difference (expected 4.4 by simple proportion; 6 cards cannot confirm a rate). A card counts as V4 ONLY if the image shows an item line on the paper that the record has wrong, missing or invented. A modifier line, a sub-item or a price-0 line that the label also leaves out does NOT count. Reading rule: V4 on 4 or more of 6 -> "most queued 'clean' receipts carry a genuine item error" (small-sample caveat); V4 on 1 or fewer of 6 -> "the item-difference test mostly picks up label/modifier artifacts".
+
+## Day 8 - Batch 1 of the cards (cards 1-8: wrong-value pool), assigned from text, confirmed against the images
+- Card 1, receipt 88 (validator MISSED): C6, extractor. Paper prints TOTAL on the pre-tax line; the real total is under Netto. Gap 0 through the tax-inclusive reading; cash/change could not run. Also a quantity misread (95 read as 96), harmless. FOUND, NOT FIXED.
+- Card 2, receipt 1: C3, OCR/merge. Photo tilted; PB1 label grouped with the service amount, the tax amount alone on its row. Total missing because the paper says DUE (second cause, a keyword gap). Queued by MISSING_TOTAL only.
+- Card 3, receipt 116: C1 (borderline; digits lost under a stamp, not read as other digits). Normalizer read "29,9" as 29.9 (second cause). Caught by TINY_TOTAL, ITEMS_VS_SUBTOTAL, TOTAL_VS_BASE.
+- Card 4, receipt 147: C6, extractor. Two Subtotal lines (before and after a discount); the label keeps the first, the extractor took the second (which is consistent with the total). C9 does NOT apply (both numbers are on the paper). The validator rang because of the discount line (gap 2,727 = the discount), not because of a real error.
+- Cards 5 and 6, receipts 197 and 215: C1 (borderline; a shadow hides the leading 7 of 74,000). SAME PAPER photographed twice, so the 7 caught cards are 6 distinct papers. Pooled counts treat them as two receipts; not checked for other duplicates in the 24.
+- Card 7, receipt 351: C6 (weakest fit; a tax-base line "Dasar Pengenaan Pajak" taken as tax). The label stores the subtotal as a list, so the scorer skips it (unparseable label). Caught by TOTAL_VS_BASE because the wrong tax broke the tax-inclusive reading.
+- Card 8, receipt 376: C1, OCR/merge (blurry photo; 8 read as 9 on three prices, 47,000 as 17,000, tax 16,480 as 16,180). Total missing because the paper says DUE (second cause). Caught by MISSING_TOTAL and ITEMS_VS_SUBTOTAL.
+TALLY (8 cards, 7 distinct papers): OCR/merge 5, extractor 3. Validator on the 7 caught: 4 by a value check that sees the wrong number, 1 only by MISSING_TOTAL (card 2), 1 only through a discount line (card 4); cards 5 and 6 count once. Counts, not rates.
+
+## Day 8 - Batch 3 (cards 15-20: false-alarm pool) and the final tally. Step 6 DONE: 20 of 20 cards, assigned from the text card and confirmed against the images.
+- Card 15, receipt 3: V2. Discount line (19,000) printed before TOTAL; TOTAL_VS_BASE gap = the discount. Items and all fields right. Same mechanism as val 7 and card 4.
+- Card 16, receipt 5: V4. Paper has 5 items; record has 4 (Lasagna and Spaghetti fused with price 0, Iced Cappuccino price 0, Gypsy Gelato 39 instead of 39,000; numbers split into pieces in the text; raw pieces not inspected). Gap 171,961.
+- Card 17, receipt 52: V6. Paper has no total line (subtotal, cash, change only). Label has no total either, so V5 does NOT apply (label agrees with the paper). MISSING_TOTAL is true about the paper. The Day 7 breakdown name "label has no total" is misleading for this receipt.
+- Card 18, receipt 122: V4 (invented item). Item "LEURNA pan 2000" built from the logo/header area; no such item on the paper. Gap 2,000 = the ghost item. Paper has no total line either. The cash finder returned 377, read from another receipt visible behind this one; no effect on the flags.
+- Card 19, receipt 210: V4 (missing item). Blueberry Fuji 40,000 is absent from the record although the OCR text has the line; the reason was not looked into (item code not read). TOTAL_VS_BASE gap 40,000 = the lost item.
+- Card 20, receipt 279: V4 (invented item). Header date line read as an item with price 9; gap 9 = the ghost item. The -7,000 void line is on the paper (the label omits it); not an error. Cash/change confirmed the total (55,000 - 40,000 = 15,000).
+PREDICTION CHECK (written before any card): V4 on 4 or more of 6 -> reading 1. Result: 4 of 6. 95% interval for 4 of 6 is about 22-96% (Claude's calculation), so the README says "4 of 6 hand-checked", not "most".
+CROSS-CHECK with the breakdown buckets (from reading the code): cards 16, 19, 20 are in the "items differ from label" bucket (37) and were real item errors by eye (3 of 3, n = 3). Card 18 is in the "label has no total" bucket because the code checks that first, so 37 is probably a LOWER bound for item differences. Cards 15 and 17 (no item problem) are in the remainder of 13 (9 + 4); 1 of the 3 cards from that remainder was an item error, so 13 of 256 is an UPPER bound for alarms with no item problem.
+HEADLINE UNCHANGED: by the frozen definition (four fields) these 50 stay false alarms. The README reports that definition and, next to it, the hand-checked result.
+FINAL TALLY part C (14 receipts, 13 distinct papers): wrong-value pool: OCR/merge 5 (C1 x4, C3 x1), extractor 3 (C6 x3). No-total pool: OCR/merge 1 (C3), extractor 5 (C4b x5). All: OCR/merge 6, extractor 8. Unused as a primary: C2, C4a, C5, C7, C8, C9, C10 (C2, C7, C8 appear as second causes). Part V: V4 x4, V2 x1, V6 x1.
+PATTERN (counts, not rates; n = 8 and 6): wrong numbers came mostly from the OCR stage; missing totals mostly from the keyword rule (decision 2A).
+FOUND, NOT FIXED (README "what I would do next"): (1) total-word list (TL, AMOUNT DUE, DUE, PAID); (2) no discount field (val 7, cards 4 and 15); (3) ghost items from logo/header/date lines (cards 18, 20; also TL/CG taken as items on card 9); (4) the scorer ignores wrong fields the label does not have (card 10: service "extra"); (5) cash finder can read a neighbouring receipt in the photo (card 18); (6) receipts with no total line on the paper are queued by MISSING_TOTAL (card 17); (7) Paddle's merge constants were tuned on EasyOCR (card 11).
+
+## Day 8 - DEVIATION (written after cards 1-14 were seen) and Batch 2 (cards 9-14: no-total pool)
+DEVIATION 1: the frozen C4 ("lost keyword", stage OCR/merge) mixed two failures. Split: C4a = OCR lost or misread the keyword (stage OCR/merge, unused so far); C4b = the paper uses a total word the extractor does not look for (stage extractor; OCR read it correctly). Reason: cards 9, 10, 12, 13, 14 print TL, AMOUNT DUE, TL, DUE, PAID. Filing them as OCR/merge would blame the wrong stage; C10 would hide a known stage. Cards 15-20 (part V) are not affected.
+CLARIFICATION of 12a as applied from card 2 on: a card's category names the failure that put the receipt in its pool (wrong-value pool: the wrong field; no-total pool: why the total is missing). Other failures on the same receipt go in the note.
+- Card 9, receipt 27: C4b, extractor. Paper prints TL (big type) for the total. Second cause: TL and CG lines taken as items (3 items vs 1 in the label). Queued by MISSING_TOTAL only.
+- Card 10, receipt 29: C4b, extractor. Paper prints AMOUNT DUE. Second cause: TAKE AWAY CHARGE 1,000 (an item in the label) put into the service field; the scorer calls it "extra" (label has no service), so it is NOT counted as a wrong value. FOUND, NOT FIXED. Queued by MISSING_TOTAL and ITEMS_VS_SUBTOTAL (gap 1,000, a real record problem).
+- Card 11, receipt 202: C3, OCR/merge. Big-print 51,000 sits between GRAND TOTAL and the BCA DEBI row and was grouped into the BCA row; GRAND TOTAL line has no amount; rules v3 does not fire (the BCA row has words). The number is on the page (readable) yet not returned. Merge constants were tuned on EasyOCR.
+- Card 12, receipt 310: C4b, extractor (paper prints TL). Second causes: leading dot printed before every amount; OCR text has "TL.770.000" fused and ".770,000", which the normalizer refuses (item price unreadable, C7 note); a unit-price line "2X 385,000" taken as an item. Unknown whether TL would have worked if the dot had parsed.
+- Card 13, receipt 381: C4b, extractor (paper prints DUE; the "total" inside SUBTOTAL does not count). Rest of the record correct.
+- Card 14, receipt 392: C4b, extractor (paper prints PAID, no total word). Separate failure: subtotal amount sits on the row below "SUBTOTAL 4 PCS" (C3-type; v3 only fills totals); item names came out as the quantity lines 3X and 1X. Queued by MISSING_TOTAL and ZERO_PRICE.
+TALLY cards 1-14 (13 distinct papers; cards 5 and 6 are one paper): OCR/merge 6 (C3 x2, C1 x4), extractor 8 (C6 x3, C4b x5). Counts, not rates.
+FINDING (found, not fixed): 5 of the 6 no-total cards (drawn at random from 53) have a paper total word other than TOTAL (TL, AMOUNT DUE, DUE, PAID); cards 2 and 8 also had DUE as a second cause. n = 6, so the true share among the 53 could be about 36-100%. Decision 2A (total only from a "total" line, no fallback) costs this. Not fixed: Day 6 stop rule and today's no-change rule. The keyword list in extract_rules.py was not read.
+VALIDATOR on the 6 no-total cards: all queued, all by MISSING_TOTAL (a free catch); card 10 also had a real item gap. No arithmetic check could run on cards 9, 12, 14.
+
+## Day 8 - Step 8: speed / cost (OCR seconds read from the cache files; no new run; counts only)
+OCR seconds per receipt (median / mean / p90 / max / total): Paddle validation 5.87 / 6.62 / 11.95 / 15.20 / 11.0 min; Paddle test 6.44 / 7.87 / 14.63 / 31.10 / 13.1 min; Paddle holdout B (400) 5.92 / 7.38 / 13.39 / 24.16 / 49.2 min; EasyOCR validation 9.58 / 13.36 / 36.66 / 48.30 / 22.3 min; EasyOCR test 9.09 / 13.19 / 34.04 / 58.55 / 22.0 min. All files had a seconds field; detector-size counts matched earlier notes (test 98/1/1, holdout B 393/6/1).
+READING: Paddle about 1.4-1.6x faster at the median, 1.7-2x on the mean, 2.3-3x at p90; EasyOCR has a much slower tail.
+NOT MEASURED / CAVEATS: only OCR is timed (merge, repair, extractor, validator not timed; the Day 9 demo will time a whole upload). The two engines ran in different runs on a 6 GB machine, so the ratio is indicative only. Crashed Paddle attempts write no file, so their lost time is not in these numbers. It is not known whether the seconds include the smaller-detector retry or model loading after a restart. The slowest test file (31.10 s) is not identified (test indices are not printed).
+LLM cost: 1,276 tokens per receipt on average (largest 2,116; 127,650 over 100 train receipts); 0 schema failures; about 20 min per 100 receipts is RATE-LIMIT-BOUND (Pacer for Groq free plan), not model speed; per-call latency was never recorded. Money paid: $0 (free plan). No per-receipt price is quoted (not looked up).
