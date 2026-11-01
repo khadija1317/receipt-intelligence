@@ -460,6 +460,21 @@ The stages after the OCR (same run, one receipt): merge 1.6 ms, repair 6.2 ms, e
 
 **Nothing is trained or fine-tuned in this project.** I applied pretrained models and built the surrounding software and the evaluation. Where the numbers come from is stated in each table: what was tuned on the development set, what was run once, what was counted on holdout B. A document-understanding model (Donut) was planned and cut after PaddleOCR cleared the bar I set in advance.
 
+## Reproducing the tables
+
+The saved OCR output and extractor output are in `cache/`, so the tables can be recomputed without running OCR or calling the LLM. I did this on my own machine on Nov 1, and the extraction, validator, queue-breakdown, cash-finder and "readable" numbers matched this README. I did not do it on a fresh clone. Every command below writes a new file in `cache/scores/` (the `--tag` keeps it from overwriting the existing ones).
+
+```powershell
+python -m scripts.run_validate --split validation --tag _mine
+python -m scripts.run_validate --split test --tag _mine
+python -m scripts.run_validate --split train --limit 400 --pipes rules_paddle --tag _mine400
+python -m scripts.queue_breakdown --split train --limit 400 --pipes rules_paddle
+python -m scripts.merged_visible --split validation --ocr-dir cache/ocr_paddle
+python -m scripts.score_extract --split validation --dir cache/llm_groq_paddle --tag llm_mine
+```
+
+The speed table, the token counts and the live-upload timing cannot be recomputed this way. They come from the "seconds" fields saved with the OCR files and from one demo run.
+
 ## Limitations
 
 **Scope.** Built and measured on Indonesian CORD receipts, amounts read as rupiah. Not tested on other receipts, languages or currencies, and no Tunisian receipts were used. The OCR and the pipeline run locally.
@@ -526,7 +541,7 @@ The stages after the OCR (same run, one receipt): merge 1.6 ms, repair 6.2 ms, e
 - A live upload takes about 40 seconds on my machine, and about 20 of those are unexplained. The examples skip the OCR.
 - The EXIF rotation was tested on one synthetic file and one orientation, with no real phone photo. The Gradio page has no behaviour test.
 - I did not check whether Gradio makes other network calls.
-- The setup commands in this README were written from my two working environments and have not been tested on a fresh clone.
+- Setup on a fresh machine is untested.
 
 ## What I would do next
 

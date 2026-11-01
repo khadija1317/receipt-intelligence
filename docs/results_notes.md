@@ -343,3 +343,15 @@ Screenshot: docs/img/demo_example2_review.png (validation 16, red banner). The f
 Requirements: requirements.txt regenerated from .venv (91 lines, includes groq 1.7.0 and gradio 6.31.0); requirements-paddle.txt new from .venv-paddle (77 lines, paddlepaddle 3.2.2, paddleocr 3.7.0). No local-path installs.
 
 Still open for Day 10: test the setup commands on a fresh clone and replace the "not yet tested" sentences; recompute and compare every README number against this file after the rerun; confirm the definitions of exact match and of the "+7 on items" figure; confirm the order of the Donut cut and the Paddle decision; check the demo wording for validation 66.
+
+## Day 10 - rerun from cache, corrections
+
+Rerun on Nov 1 from the tracked cache, new tags only, scratch files deleted afterwards. Matched the notes: extractor output identical on all 600 files (100 validation, 100 test, 400 train); total field 90/5/3 validation, 74/5/16 test, 324/10/57 holdout B; validator tables for all four pipelines on validation and test, rules and LLM on holdout B 0-99, rules on 0-399 (23 of 24 / 50 of 256 / 93 of 120 / 166 of 400); cash finder (Paddle text cash 47/3/14, change 50/0/13); queue breakdown (4/37/9, 53/38/2, empty fields 20/18/12); "readable" 84/98 and 72/95 (EasyOCR), 96/98 and 94/95 (Paddle); LLM total 85/6/7 and 73/0/22, exact match 50 and 46.
+
+Corrections: (1) the README sentence "the LLM leads on items by 7" was not supported; real matched items: validation rules 182 vs LLM 202, test 211 vs 220; replaced with the numbers, plus a caution that the LLM arm has more items with a refused price (45 vs 3 validation, 17 vs 6 test). (2) scripts/demo_app.py had a BOM that broke test_demo_app_syntax; stripped and committed. (3) Predictions that were wrong this day: 157 passed (got 156 before the BOM fix); an "empty" git status twice (untracked rerun files, then the README edit).
+
+Finding: repair did real work on EasyOCR (19 of 84 readable validation totals only through a repaired token; 15 of 72 on test) and none on Paddle (0 of 96, 0 of 94). Consistent with the repair constants being tuned on EasyOCR.
+
+Not reproducible by rerun: speed table, token counts, live-upload timing. The Hugging Face Hub was unreachable (DNS) during the readable run and the scripts used the local dataset cache.
+
+DECISION: the fresh-clone test (checklist step 6) is skipped by the owner and is final. README sentences changed to say setup on a fresh machine is untested; a "Reproducing the tables" section was added.
