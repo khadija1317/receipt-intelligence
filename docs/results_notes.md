@@ -355,3 +355,19 @@ Finding: repair did real work on EasyOCR (19 of 84 readable validation totals on
 Not reproducible by rerun: speed table, token counts, live-upload timing. The Hugging Face Hub was unreachable (DNS) during the readable run and the scripts used the local dataset cache.
 
 DECISION: the fresh-clone test (checklist step 6) is skipped by the owner and is final. README sentences changed to say setup on a fresh machine is untested; a "Reproducing the tables" section was added.
+
+## Day 10 - closing
+
+Video: a silent screen recording of the demo (73.4 MB). GitHub's documentation gives 10 MB for videos in a repository owned by a user or organization on a free plan (100 MB on a paid plan), so the file was not uploaded to GitHub. ffmpeg is not installed here, so it was not compressed. Hosted as an unlisted YouTube video, linked from the README under the screenshot. The README examples table now names the page's four buttons (Example 1 to 4) next to the CORD validation receipts they load (0, 16, 66, 7).
+
+Secrets check (read-only, whole history): no commit contains the text gsk_; no history line assigns a long value to GROQ_API_KEY; no .env file was ever committed; GROQ_API_KEY appears in tracked files only in scripts/run_llm.py, where the key is read from the environment. results/.gitkeep is an empty placeholder. The gsk_ prefix is from memory, so the assignment check is the one that does not depend on it.
+
+Tests after the BOM fix: 157 passed.
+
+Disclosure: the README and the CV now say the code was written with an AI coding assistant (Claude), with the design decisions, the evaluation rules and the stop rules written by the owner before the numbers they govern. The earlier README wording ("I built") did not say this.
+
+CV: a project entry, a bullet pool and a skills list were drafted from the numbers reproduced in the cache rerun (29 of 30, 218 of 500, 120 of 218). The CV does not claim training, deployment, Tunisian receipts or French or Arabic OCR.
+
+Not done, by decision: fresh-clone test (skipped, README says setup on a fresh machine is untested); license file (none, owner's choice).
+
+Open: teach-back (owner, own words); making the repo public and checking the page logged out.
