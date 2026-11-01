@@ -6,7 +6,6 @@ A company gets receipts as photos and needs structured records, not retyping. OC
 
 On 500 CORD receipts that nothing was tuned on, the pipeline sent 29 of 30 wrong-value records to review. The price: 218 of the 500 receipts (43.6%) went to review, and this README says exactly what those 218 are made of.
 
-**What is AI here:** the OCR (PaddleOCR) and an optional LLM extractor are pretrained models. Everything else (merging, repair, rule-based extraction, the validator, the scorer) is classic software and arithmetic. Nothing is trained in this project. The honest label is "applied AI and evaluation of a pipeline built on pretrained models".
 
 **Benchmark:** CORD, a public dataset of Indonesian receipts. It is not Tunisian data, and I say so wherever it matters.
 
