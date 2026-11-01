@@ -151,7 +151,7 @@ What the table says:
 
 The LLM arm was run on 100 holdout B receipts only: its free-plan rate limit makes 100 receipts take about 20 minutes, and about 1,276 tokens each.
 
-**Exact match** (strictest score; Paddle): rules 44 on the development set and 39 on test; LLM 50 and 46.
+**Exact match** (the strictest score; Paddle): rules 44 on the development set and 39 on test; LLM 50 and 46. A receipt counts only if every one of total, subtotal, tax and service that the label has was extracted correctly (a wrong value or an empty field fails it), and the items match as a whole: every label item's price is matched, no extra item is returned, and no item price was refused by the number parser. Items are matched by price only, so a right price on the wrong line still counts. Label items without a usable price are left out of the count.
 
 **Items** are matched by price only (top-level items). Development set (219 label items): rules matched 182 (precision 85.4%, recall 83.1%), LLM matched 202 (91.0%, 92.2%). Test (242 label items): rules matched 211 (73.8%, 87.2%), LLM matched 220 (86.3%, 90.9%). The LLM is ahead on both splits, by a different margin on each. Caution: item precision ignores items whose price the number parser refused, and the LLM arm had many more of those than the rules arm (45 against 3 on the development set, 17 against 6 on test), so its precision may be flattered more.
 
@@ -372,7 +372,7 @@ Each example button loads the **saved OCR output** of a CORD validation receipt 
 |---|---|---|---|
 | Example 1: passes the checks | Validation 0 | Green, 2 of 3 checks ran | The easy path (walked through in the pipeline section). |
 | Example 2: caught (amounts one row off) | Validation 16 | Red, 1 of 3 ran | The OCR is confident about a piece on the wrong row. |
-| Example 3: total could not be read | Validation 66 | Red, 0 of 3 ran | The pipeline cannot read the total at all, and says so. |
+| Example 3: total could not be read | Validation 66 | Red, 0 of 3 ran | No total is found .
 | Example 4: queued although the total is right | Validation 7 | Red, 2 of 3 ran | A false alarm by my definition: every value is right. |
 
 **Validation 16** is a hand-held, tilted photo. The amounts sit one row below their labels, so the text the validator sees reads "TT 20000 / TOTAL 100,000 / CASH 80,000 / CHANGE". The rules took 100,000 as the total from the line "TOTAL 100,000" (OCR confidence 0.9938). The label says 20,000, and the one item is 20,000. The total is 80,000 off, so the receipt is queued. Cash minus change could not run: no change amount was found. Confidence could not catch this. Arithmetic did.
