@@ -24,7 +24,9 @@ The other side of the same numbers: 282 receipts were not queued, and 1 of them 
 
 ![The demo sending a receipt to review: the OCR was confident about a number on the wrong row, and the arithmetic caught it](docs/img/demo_example2_review.png)
 
-*The demo on a CORD validation receipt (CORD is CC-BY-4.0). The OCR took 100,000, the cash amount, for the total, with confidence 0.99, because the amount column sits one row below its labels. The only item is 20,000, so the total is 80,000 off and the receipt is sent to review. The cash-minus-change check could not run on this receipt: no change amount was found.*
+*The demo on a CORD validation receipt (CORD is CC-BY-4.0). The OCR took 100,000, the cash amount, for the total, with confidence 0.99, because the amount column sits one row below its labels. The only item is 20,000, so the total is 80,000 off and the receipt is sent to review. The cash-minus-change check could not run on this receipt:no change amount was found.*
+
+**Demo video** (silent screen recording, no narration): [watch on YouTube](https://youtu.be/2K_kYx6sVC4). It runs the page's four example buttons and shows the verdict, the checks that ran and the behind-the-scenes view for each. The examples use saved OCR output, so there is no waiting in the video.
 
 ## Run the demo
 
