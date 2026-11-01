@@ -152,7 +152,7 @@ The LLM arm was run on 100 holdout B receipts only: its free-plan rate limit mak
 
 **Exact match** (strictest score; Paddle): rules 44 on the development set and 39 on test; LLM 50 and 46.
 
-**Items** are matched by price only. The LLM leads on item matching by 7 on both the development set and test.
+**Items** are matched by price only (top-level items). Development set (219 label items): rules matched 182 (precision 85.4%, recall 83.1%), LLM matched 202 (91.0%, 92.2%). Test (242 label items): rules matched 211 (73.8%, 87.2%), LLM matched 220 (86.3%, 90.9%). The LLM is ahead on both splits, by a different margin on each. Caution: item precision ignores items whose price the number parser refused, and the LLM arm had many more of those than the rules arm (45 against 3 on the development set, 17 against 6 on test), so its precision may be flattered more.
 
 All other fields (subtotal, tax, service) are in `docs/results_notes.md`.
 
