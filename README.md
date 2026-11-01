@@ -367,12 +367,12 @@ The two numbers in the banners live as constants in `src/display.py`, and a test
 
 Each example button loads the **saved OCR output** of a CORD validation receipt and runs every later stage live. The page says so, and its timing table shows a single OCR row labelled "cached". A photo you upload runs the real OCR instead. The four are development receipts (used while I built the pipeline), and the page says so: they show how the pipeline behaves, not how well it performs.
 
-| Example | Verdict | What it shows |
-|---|---|---|
-| Validation 0 | Green, 2 of 3 checks ran | The easy path (walked through in the pipeline section). |
-| Validation 16 | Red, 1 of 3 ran | The OCR is confident about a piece on the wrong row. |
-| Validation 66 | Red, 0 of 3 ran | The pipeline cannot read the total at all, and says so. |
-| Validation 7 | Red, 2 of 3 ran | A false alarm by my definition: every value is right. |
+| Button on the page | CORD receipt | Verdict | What it shows |
+|---|---|---|---|
+| Example 1: passes the checks | Validation 0 | Green, 2 of 3 checks ran | The easy path (walked through in the pipeline section). |
+| Example 2: caught (amounts one row off) | Validation 16 | Red, 1 of 3 ran | The OCR is confident about a piece on the wrong row. |
+| Example 3: total could not be read | Validation 66 | Red, 0 of 3 ran | The pipeline cannot read the total at all, and says so. |
+| Example 4: queued although the total is right | Validation 7 | Red, 2 of 3 ran | A false alarm by my definition: every value is right. |
 
 **Validation 16** is a hand-held, tilted photo. The amounts sit one row below their labels, so the text the validator sees reads "TT 20000 / TOTAL 100,000 / CASH 80,000 / CHANGE". The rules took 100,000 as the total from the line "TOTAL 100,000" (OCR confidence 0.9938). The label says 20,000, and the one item is 20,000. The total is 80,000 off, so the receipt is queued. Cash minus change could not run: no change amount was found. Confidence could not catch this. Arithmetic did.
 
