@@ -1,4 +1,4 @@
-﻿"""Upload-and-review page for the receipt pipeline (rules arm only).
+"""Upload-and-review page for the receipt pipeline (rules arm only).
 
 Run from the repo root, in .venv:  python -m scripts.demo_app
 OCR runs in the separate paddle venv (see src/pipeline.py); everything after OCR runs here.
