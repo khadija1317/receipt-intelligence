@@ -17,7 +17,7 @@ Pipeline: PaddleOCR, rule-based extractor, validator. Pool: CORD test (100) plus
 | Question | Answer | What it does not tell you |
 |---|---|---|
 | Of the records with a wrong total, subtotal, tax or service value, how many reached the review queue? | **29 of 30** | Only 30 such records exist in the pool, so the true catch rate could be noticeably lower. One was missed (holdout B receipt 88, explained below). Items are not part of this count. |
-| How many receipts went to review? | **218 of 500 (43.6%)** | I wanted 20-25% and did not get it. The development set showed 30%; the unseen splits showed 52% (test) and 41.5% (holdout B). |
+| How many receipts went to review? | **218 of 500 (43.6%)** | The development set showed 30%; the unseen splits showed 52% (test) and 41.5% (holdout B).|
 | What are the 218 made of? | **29** wrong-value records, **120** records where the extractor left a field empty, **69** records the four-field scorer calls clean | The 69 are "false alarms" only by that four-field definition. A breakdown for holdout B is in the validator section. |
 
 The other side of the same numbers: 282 receipts were not queued, and 1 of them had a wrong value. Items are not checked by the validator's headline, and none of this was measured on non-CORD receipts.
@@ -556,7 +556,7 @@ I found these during the error analysis and the demo and did not fix them, so th
 7. **Retune the merge constants for Paddle's output** (holdout B 202).
 8. **Close the one validator miss** (holdout B 88): flag a receipt when a tax amount was extracted but the total ignores it.
 
-Beyond this project: a hosted vision-LLM arm in the demo, fine-tuning, other OCR engines, and Tunisian receipts with Tunisian rules.
+Beyond this project: a hosted vision-LLM arm in the demo, fine-tuning, other OCR engines, and Tunisian receipts with Tunisian rules. Also a step that finds and masks personal data in the OCR text (names, phone numbers, card or loyalty numbers) before anything is stored or sent to a hosted model. This matters here because the LLM arm sends OCR text to Groq. It is not built, and I could not evaluate it on this data, because CORD's labels contain no such fields.
 
 ## What I cut
 
