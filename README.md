@@ -69,12 +69,9 @@ Items are not part of this definition. That matters later: some "clean" receipts
 **Duplicates.** CORD contains the same paper photographed twice (two receipts in my error-analysis sample were one paper). I did not run a duplicate check across splits, so pooled counts treat every receipt as separate.
 
 ## The pipeline, walked through one receipt                        photo -> OCR -> merge -> repair -> extractor -> validator -> verdict
-| | | | |
-pieces rows, letters rules OR flags and a
-+ boxes joined read for an LLM review queue
-+ conf. numbers digits
 
-scorer = evaluation only: compares the record to CORD?s label      
+
+
 **1. OCR.** PaddleOCR (English PP-OCRv6, medium detector and recognizer, pretrained, running locally). It returns *pieces*, not lines: a piece of text, its box on the photo, and a confidence between 0 and 1.
 
 **2. Merge.** Groups pieces into rows by their height on the page, and joins a number that the detector cut in two (only two-piece joins). Made-up example: the pieces `45,` and `500` become `45,500`.
