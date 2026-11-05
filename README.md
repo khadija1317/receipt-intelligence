@@ -546,9 +546,4 @@ Beyond this project: a hosted vision-LLM arm in the demo, fine-tuning, other OCR
 ## What I cut
 
 - **Donut** (a document-understanding model) was planned and cut after PaddleOCR cleared the bar I set in advance.
-- **Tunisia-specific checks** were dropped because I had no Tunisian receipts to test them on. I do not claim them.
-- **Evaluation on my own receipts** was dropped for the same reason.
 
-## Credits
-
-Data: CORD (Naver Clova), CC-BY-4.0, citation in "Data and how I split it". The demo's four example photos are CORD validation receipts under the same license; `demo_examples/README.md` repeats the credit.
