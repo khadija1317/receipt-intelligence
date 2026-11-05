@@ -251,19 +251,6 @@ All 400 receipts, Paddle + rules, other queue definitions:
 
 </details>
 
-### What the 44% is made of
-
-Holdout B, Paddle + rules. The queue holds 166 receipts:
-
-| Part of the queue | Count | What it is |
-|---|---|---|
-| Wrong-value records caught | 23 | The alarm doing its job. |
-| Missing-field records | 93 | The total itself is unanswered on 53 (no total line found). On 38 the total is right but another field is empty and the arithmetic rang (empty fields among them: subtotal 20, tax 18, service 12; a receipt can have more than one). Other: 2. |
-| Clean by the four-field definition | 50 | The label has no total on 4. On 37 the items differ from the label by price matching (an upper-bound style test, not proof) and an arithmetic flag fired. Unexplained: 9. |
-
-So most of the queue (93 of 166) is gaps left by the extractor, not the validator being nervous. The 50 "false alarms" are false only by my four-field definition: of 6 that I checked by hand, 4 had a real item error that the scorer does not grade (n = 6, so this is a hint and not a rate). I did not redefine the headline to make the review rate look better.
-
-Calling a receipt "passed the checks" is not a proof. A pass means the checks that could run agreed; the rate mixes how good the validator is with how often CORD receipts have wrong values at all (30 of 500, about 6%). A messier set of receipts would do worse.
 
 ## Error analysis: what goes wrong, and where
 
